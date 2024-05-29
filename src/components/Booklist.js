@@ -9,6 +9,7 @@ import LeanImage from '../assets/images/Lean start.jpg';
 import HomoImage from '../assets/images/Homo dues.jpg';
 import SemenImage from '../assets/images/Semen.jpg';
 import CantImage from '../assets/images/Cant hurt .jpg';
+import MasteryImage from '../assets/images/mastery.jpg';
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -26,14 +27,14 @@ const books = [
     author: 'Robert Greene',
     genre: "Personal Help",
     availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
   {
     picture: AlphaImage,
     title: 'Unplugged Alpha',
     author: 'Richard Cooper',
     genre: "Masculinity",
-    availability: true,
+    availability: false,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -50,10 +51,10 @@ const books = [
     author: 'Paul Kalanithi',
     genre: "Autobiography",
     availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/When_Breath_Become.pdf')
   },
   {
-    picture: LawsImage,
+    picture: MasteryImage,
     title: 'Mastery',
     author: 'Robert Greene',
     genre: "Personal Help",
@@ -66,7 +67,7 @@ const books = [
     author: 'Eric Ries',
     genre: "Business",
     availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
     picture: HomoImage,
@@ -74,14 +75,14 @@ const books = [
     author: 'Yuval Noah Harari',
     genre: "Science/Philosophy",
     availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf')
   },
   {
     picture: SemenImage,
     title: 'Semen Retention',
     author: 'Joseph Peterson',
     genre: "Masculinity/Health",
-    availability: true,
+    availability: false,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
