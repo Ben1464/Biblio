@@ -110,7 +110,7 @@ function Booklist() {
       <div className="search">
         <input
           type="text"
-          placeholder="Search by title or author"
+          placeholder="Search..."
           value={searchQuery}
           onChange={handleSearchChange}
           className="search-input"
@@ -122,9 +122,9 @@ function Booklist() {
             <li key={index} className="book-item">
               <img src={book.picture} alt={book.title} className="book-image" />
               <div className="book-info">
-                <h3 className="book-title">{book.title}</h3>
+                <h3 className="book-title"><i>{book.title}</i></h3>
                 <p className="book-author">{book.author}</p>
-                <h4 className='genre'>Genre</h4>
+                <h4 className='genre'><i>Genre</i></h4>
                 <p className='book-genre'>{book.genre}</p>
                 <p className={`book-availability ${book.availability ? 'available' : 'unavailable'}`}>
                   {book.availability ? 'Available' : 'Unavailable'}

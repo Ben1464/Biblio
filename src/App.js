@@ -1,6 +1,7 @@
 import React from 'react';
 import Booklist from './components/Booklist'; // Adjust the path if your folder structure is different
 import './App.css'; // If you have any styles specific to App.js
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Booklist />
+        <Footer />
       </main>
     </div>
   );
