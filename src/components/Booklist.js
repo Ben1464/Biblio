@@ -10,6 +10,9 @@ import HomoImage from '../assets/images/Homo dues.jpg';
 import SemenImage from '../assets/images/Semen.jpg';
 import CantImage from '../assets/images/Cant hurt .jpg';
 import MasteryImage from '../assets/images/mastery.jpg';
+import MoneyImage from '../assets/images/pschmoney.jpg';
+import AmImage from '../assets/images/5am club.jpg';
+import RichImage from '../assets/images/Richdad.jpg'
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -86,12 +89,36 @@ const books = [
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
+    picture: MoneyImage,
+    title: 'The Psychology Of Money',
+    author: 'Morhan Housel',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
+  },
+  {
+    picture: AmImage,
+    title: 'The 5 Am Club',
+    author: 'Robin Sharma',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
+  },
+  {
+    picture: RichImage,
+    title: 'Rich Dad Poor Dad',
+    author: 'Robert Kiyosaki',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/Rich Dad Poor Dad ( PDFDrive ).pdf')
+  },
+  {
     picture: CantImage,
     title: 'Can\'t Hurt Me',
     author: 'David Goggins',
     genre: "Personal Help",
-    availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    availability: false,
+    Download: require('../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf')
   },
 ];
 
