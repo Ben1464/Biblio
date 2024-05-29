@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .book-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .book-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .book-author {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .book-availability {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .book-availability.available {
+    color: green;
+  }
+  
+  .book-availability.unavailable {
+    color: red;
+  }
+  
+  .book-link {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .book-link:hover {
+    text-decoration: underline;
+  }
+  
