@@ -37,7 +37,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     transition: transform 0.2s, box-shadow 0.2s;
   }
@@ -51,7 +51,7 @@ body {
     width: 100px;
     height: 150px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-right: 20px;
   }
   
@@ -75,6 +75,15 @@ body {
   .book-availability {
     font-size: 14px;
     margin: 5px 0;
+  }
+  .genre{
+    margin:0px;
+  }
+  .book-genre{
+    font-size: 14px;
+    color: #555;
+    margin: 0px;
+    
   }
   
   .book-availability.available {
