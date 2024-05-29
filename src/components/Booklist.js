@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Booklist.css';
 import AtomicImage from '../assets/images/atomic.jpg'; // Import the image
-import LawsImage from'../assets/images/48Laws.webp';
+import LawsImage from '../assets/images/48Laws.webp';
 import AlphaImage from '../assets/images/unplugged alpha.jpg';
 import ChemImage from '../assets/images/The ALchemist.jpg';
 import AirImage from '../assets/images/when breathbecomes.jpg';
@@ -9,87 +9,88 @@ import LeanImage from '../assets/images/Lean start.jpg';
 import HomoImage from '../assets/images/Homo dues.jpg';
 import SemenImage from '../assets/images/Semen.jpg';
 import CantImage from '../assets/images/Cant hurt .jpg';
+
+// Updated books array with correct paths to PDF files
 const books = [
   {
-    picture: AtomicImage, // Use the imported image variable
+    picture: AtomicImage,
     title: 'Atomic Habits',
     author: 'James Clear',
     genre: "Personal Help",
     availability: true,
-    Download: '../assets/pdfs/Atomic-Habits-.pdf'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: LawsImage, // Use the imported image variable
+    picture: LawsImage,
     title: '48 Laws Of Power',
     author: 'Robert Greene',
     genre: "Personal Help",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: AlphaImage, // Use the imported image variable
+    picture: AlphaImage,
     title: 'Unplugged Alpha',
-    author: 'Richard Copper',
+    author: 'Richard Cooper',
     genre: "Masculinity",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: ChemImage, // Use the imported image variable
+    picture: ChemImage,
     title: 'The Alchemist',
     author: 'Paulo Coelho',
     genre: "Fantasy/Adventure",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: AirImage, // Use the imported image variable
+    picture: AirImage,
     title: 'When Breath Becomes Air',
     author: 'Paul Kalanithi',
     genre: "Autobiography",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: LawsImage, // Use the imported image variable
+    picture: LawsImage,
     title: 'Mastery',
     author: 'Robert Greene',
     genre: "Personal Help",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: LeanImage, // Use the imported image variable
+    picture: LeanImage,
     title: 'Lean Startup',
     author: 'Eric Ries',
     genre: "Business",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: HomoImage, // Use the imported image variable
+    picture: HomoImage,
     title: 'Homo Deus',
     author: 'Yuval Noah Harari',
     genre: "Science/Philosophy",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
-
-{
-    picture:SemenImage, // Use the imported image variable
+  {
+    picture: SemenImage,
     title: 'Semen Retention',
     author: 'Joseph Peterson',
     genre: "Masculinity/Health",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
-    picture: CantImage, // Use the imported image variable
-    title: 'Cant Hurt Me',
+    picture: CantImage,
+    title: 'Can\'t Hurt Me',
     author: 'David Goggins',
     genre: "Personal Help",
     availability: true,
-    Download: 'https://www.amazon.com/Atomic-Habits-Nick-Vujic/dp/0735211299'
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
 ];
 
@@ -129,7 +130,7 @@ function Booklist() {
                 <p className={`book-availability ${book.availability ? 'available' : 'unavailable'}`}>
                   {book.availability ? 'Available' : 'Unavailable'}
                 </p>
-                <a href={book.link} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
+                <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
               </div>
             </li>
           ))}
