@@ -17,4 +17,23 @@
     background-color: #fff;
     color: #000;
   }
+  /* src/styles/ThemeToggle.css */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .theme-toggle-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    transition: transform 0.3s;
+  }
+  
+  .theme-toggle-icon:hover {
+    transform: scale(1.1);
+  }
+  
   
