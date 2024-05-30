@@ -19,7 +19,14 @@ import FaithImage from '../assets/images/faith fanances.jpg';
 import FateImage from '../assets/images/Son-of-Fate.jpg';
 import ManImage from '../assets/images/Mans-Search-for-Meaning-nuriakenya.jpg';
 import PriestImage from '../assets/images/priest.jpeg';
-import WorryImage from '../assets/images/How to stop worrying.jpg'
+import WorryImage from '../assets/images/How to stop worrying.jpg';
+import LovedImage from '../assets/images/love in the afternoon.jpg';
+import AlpaImage from '../assets/images/Alphamale.jpg';
+import BuddhiImage from '../assets/images/buddhasim.jpg';
+import ComeImage from '../assets/images/Come as you are.jpg';
+import PunImage from '../assets/images/crime and punshment.webp';
+import CrimeImage from '../assets/images/Mylife in crime.jpg';
+import WallImage from '../assets/images/the wall speaks.jpg';
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -56,12 +63,28 @@ const books = [
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
   {
+    picture: PunImage,
+    title: 'Crime And Punshment',
+    author: 'George Gibian',
+    genre: "Psychological Fiction",
+    availability: true,
+    Download: require('../assets/pdfs/Crime and Punishment ( PDFDrive ).pdf')
+  },
+  {
     picture: AlphaImage,
     title: 'Unplugged Alpha',
     author: 'Richard Cooper',
     genre: "Masculinity",
     availability: false,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+  },
+  {
+    picture: LovedImage,
+    title: 'Love In The Afternoon',
+    author: 'Cate Speck',
+    genre: "Romance",
+    availability: false,
+    Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
   },
   {
     picture: ChemImage,
@@ -80,12 +103,28 @@ const books = [
     Download: require('../assets/pdfs/When_Breath_Become.pdf')
   },
   {
+    picture: AlpaImage,
+    title: 'How To Become An Alfa Male',
+    author: 'Charles Sledge',
+    genre: "Masculinity",
+    availability: true,
+    Download: require('../assets/pdfs/John Alexander - How To Become An Alpha Male.pdf')
+  },
+  {
     picture: MasteryImage,
     title: 'Mastery',
     author: 'Robert Greene',
     genre: "Personal Help",
     availability: true,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+  },
+  {
+    picture: BuddhiImage,
+    title: 'Why Buddhisim Is True',
+    author: 'Robert Write',
+    genre: "Phylosopy",
+    availability: true,
+    Download: require('../assets/pdfs/Why_Buddhism_Is_True_The_Science_and_Philosophy_of_Meditation_and.pdf')
   },
   {
     picture: LeanImage,
@@ -128,6 +167,15 @@ const books = [
     Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
   },
   {
+    picture:ComeImage ,
+    title: 'Come As You Are',
+    author: 'Emily Nagoski',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
+  },
+
+  {
     picture: RichImage,
     title: 'Rich Dad Poor Dad',
     author: 'Robert Kiyosaki',
@@ -150,6 +198,14 @@ const books = [
     genre: "Personal Help",
     availability: true,
     Download: require('../assets/pdfs/The Law of Confession..Bill Wiston.pdf')
+  },
+  {
+    picture: CrimeImage,
+    title: 'My Life In Crime',
+    author: 'John Kiriamiti',
+    genre: "Fiction",
+    availability: true,
+    Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
     picture: FaithImage,
@@ -175,6 +231,14 @@ const books = [
     genre: "Self-Help",
     availability: true,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
+  },
+  {
+    picture: WallImage,
+    title: 'The Wall Speaks',
+    author: 'Jarr Rejj',
+    genre: "Masculinity",
+    availability: true,
+    Download: require('../assets/pdfs/The wall speaks.pdf')
   },
 ];
 
