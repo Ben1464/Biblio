@@ -12,7 +12,13 @@ import CantImage from '../assets/images/Cant hurt .jpg';
 import MasteryImage from '../assets/images/mastery.jpg';
 import MoneyImage from '../assets/images/pschmoney.jpg';
 import AmImage from '../assets/images/5am club.jpg';
-import RichImage from '../assets/images/Richdad.jpg'
+import RichImage from '../assets/images/Richdad.jpg';
+import ConImage from '../assets/images/THe law of confession.jpg';
+import FaithImage from '../assets/images/faith fanances.jpg';
+import FateImage from '../assets/images/Son-of-Fate.jpg';
+import ManImage from '../assets/images/Mans-Search-for-Meaning-nuriakenya.jpg';
+import PriestImage from '../assets/images/priest.jpeg';
+import WorryImage from '../assets/images/How to stop worrying.jpg'
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -23,6 +29,22 @@ const books = [
     genre: "Personal Help",
     availability: true,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+  },
+  {
+    picture: FateImage,
+    title: 'Son Of Fate',
+    author: 'John Kiriamiti',
+    genre: "Fiction",
+    availability: true,
+    Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
+  },
+  {
+    picture: PriestImage,
+    title: 'Priest',
+    author: 'Sierra Simone',
+    genre: "Erotic Romance",
+    availability: true,
+    Download: require('../assets/pdfs/Priest.pdf')
   },
   {
     picture: LawsImage,
@@ -117,8 +139,41 @@ const books = [
     title: 'Can\'t Hurt Me',
     author: 'David Goggins',
     genre: "Personal Help",
-    availability: false,
+    availability: true,
     Download: require('../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf')
+  },
+  {
+    picture: ConImage,
+    title: 'The Law Of Confession',
+    author: 'Bill Winston',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/The Law of Confession..Bill Wiston.pdf')
+  },
+  {
+    picture: FaithImage,
+    title: 'Faith For Finances',
+    author: 'Thomas E Zordani',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/Faith for Finances Kenyon & Don Gossett.pdf')
+  },
+  
+  {
+    picture: ManImage,
+    title: 'Man Search For Meaning',
+    author: 'Victor E Frankl',
+    genre: "Personal Help",
+    availability: true,
+    Download: require('../assets/pdfs/Man\'s Search For Meaning.pdf')
+  },
+  {
+    picture: WorryImage,
+    title: 'How To Stop Worrying And Start Living',
+    author: 'Dale Carnegie',
+    genre: "Self-Help",
+    availability: true,
+    Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
 ];
 
