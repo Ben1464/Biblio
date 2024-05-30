@@ -1,0 +1,20 @@
+/* src/styles/ThemeToggle.css */
+.theme-toggle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .theme-toggle.light {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .theme-toggle.dark {
+    background-color: #fff;
+    color: #000;
+  }
+  

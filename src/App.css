@@ -12,3 +12,13 @@ body{
   margin: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/* src/App.css */
+body.light {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
