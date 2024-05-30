@@ -13,6 +13,12 @@ const ThemeProvider = ({ children }) => {
     }
   }, []);
 
+  useEffect(() => {
+    document.body.className = theme;
+    document.documentElement.style.setProperty('--background-color', theme === 'light' ? '#f5f5f5' : '#333');
+    document.documentElement.style.setProperty('--text-color', theme === 'light' ? 'black' : 'white');
+  }, [theme]);
+
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);

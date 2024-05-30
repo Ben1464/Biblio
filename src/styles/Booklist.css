@@ -107,3 +107,30 @@ body {
     text-decoration: underline;
   }
   
+
+  /* src/styles/Booklist.css */
+.book-title {
+  color: black;
+  /* Other styles for the book title */
+}
+
+/* Additional CSS for the rest of your styles */
+body.light {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
+/* Additional styles to ensure proper theme application */
+.book-item {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.book-item.dark-mode .book-info {
+  color: white;
+}

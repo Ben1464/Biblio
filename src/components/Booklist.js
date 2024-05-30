@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext,useState } from 'react';
 import '../styles/Booklist.css';
+import { ThemeContext } from '../context/ThemeContext';
 import AtomicImage from '../assets/images/atomic.jpg'; // Import the image
 import LawsImage from '../assets/images/48Laws.webp';
 import AlphaImage from '../assets/images/unplugged alpha.jpg';
@@ -178,6 +179,7 @@ const books = [
 ];
 
 function Booklist() {
+  const { theme } = useContext(ThemeContext);
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearchChange = (event) => {
@@ -201,9 +203,9 @@ function Booklist() {
         />
       </div>
       <div>
-        <ol className="book-list">
+        <ol className={`book-list ${theme}`}>
           {filteredBooks.map((book, index) => (
-            <li key={index} className="book-item">
+            <li key={index} className={`book-item ${theme}`}>
               <img src={book.picture} alt={book.title} className="book-image" />
               <div className="book-info">
                 <h3 className="book-title"><i>{book.title}</i></h3>
