@@ -139,7 +139,7 @@ function Booklist() {
       <div className="search">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search books..."
           value={searchQuery}
           onChange={handleSearchChange}
           className="search-input"
