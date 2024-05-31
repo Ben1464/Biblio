@@ -34,7 +34,7 @@ const books = [
     picture: AtomicImage,
     title: 'Atomic Habits',
     author: 'James Clear',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
@@ -58,7 +58,7 @@ const books = [
     picture: LawsImage,
     title: '48 Laws Of Power',
     author: 'Robert Greene',
-    genre: "Personal Help",
+    genre: 'Self Help',
     availability: true,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
@@ -67,15 +67,15 @@ const books = [
     title: 'Crime And Punshment',
     author: 'George Gibian',
     genre: "Psychological Fiction",
-    availability: true,
-    Download: require('../assets/pdfs/Crime and Punishment ( PDFDrive ).pdf')
+    availability: false,
+    Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
     picture: AlphaImage,
     title: 'Unplugged Alpha',
     author: 'Richard Cooper',
     genre: "Masculinity",
-    availability: false,
+    availability: true,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -83,7 +83,7 @@ const books = [
     title: 'Love In The Afternoon',
     author: 'Cate Speck',
     genre: "Romance",
-    availability: false,
+    availability: true,
     Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
   },
   {
@@ -114,7 +114,7 @@ const books = [
     picture: MasteryImage,
     title: 'Mastery',
     author: 'Robert Greene',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
@@ -154,7 +154,7 @@ const books = [
     picture: MoneyImage,
     title: 'The Psychology Of Money',
     author: 'Morhan Housel',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
   },
@@ -162,7 +162,7 @@ const books = [
     picture: AmImage,
     title: 'The 5 Am Club',
     author: 'Robin Sharma',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
   },
@@ -170,7 +170,7 @@ const books = [
     picture:ComeImage ,
     title: 'Come As You Are',
     author: 'Emily Nagoski',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
   },
@@ -179,7 +179,7 @@ const books = [
     picture: RichImage,
     title: 'Rich Dad Poor Dad',
     author: 'Robert Kiyosaki',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Rich Dad Poor Dad ( PDFDrive ).pdf')
   },
@@ -187,7 +187,7 @@ const books = [
     picture: CantImage,
     title: 'Can\'t Hurt Me',
     author: 'David Goggins',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf')
   },
@@ -195,7 +195,7 @@ const books = [
     picture: ConImage,
     title: 'The Law Of Confession',
     author: 'Bill Winston',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/The Law of Confession..Bill Wiston.pdf')
   },
@@ -211,7 +211,7 @@ const books = [
     picture: FaithImage,
     title: 'Faith For Finances',
     author: 'Thomas E Zordani',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Faith for Finances Kenyon & Don Gossett.pdf')
   },
@@ -220,7 +220,7 @@ const books = [
     picture: ManImage,
     title: 'Man Search For Meaning',
     author: 'Victor E Frankl',
-    genre: "Personal Help",
+    genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Man\'s Search For Meaning.pdf')
   },
