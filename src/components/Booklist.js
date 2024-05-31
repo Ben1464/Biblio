@@ -27,6 +27,11 @@ import ComeImage from '../assets/images/Come as you are.jpg';
 import PunImage from '../assets/images/crime and punshment.webp';
 import CrimeImage from '../assets/images/Mylife in crime.jpg';
 import WallImage from '../assets/images/the wall speaks.jpg';
+import MammthImage from '../assets/images/mamoth.jpg';
+import SubtleImage from '../assets/images/subttle art.jpg';
+import BabaImage from '../assets/images/wifes baba.jpg';
+import ThornsImage from '../assets/images/THornes and roses.jpg';
+import BlackImage from '../assets/images/black-girls-must-die-exhausted-2.jpg';
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -47,6 +52,15 @@ const books = [
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
   },
   {
+    picture: SubtleImage,
+    title: 'The Subtle Art Of Not Giving A F*ck',
+    author: 'Mark Manson',
+    genre: "Self help",
+    availability: true,
+    Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
+  },
+  
+  {
     picture: PriestImage,
     title: 'Priest',
     author: 'Sierra Simone',
@@ -63,12 +77,28 @@ const books = [
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
   {
+    picture: MammthImage,
+    title: 'The Mammoth Book Of Cover Ups',
+    author: 'Jon Lewis',
+    genre: 'Consirancies',
+    availability: true,
+    Download: require('../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf')
+  },
+  {
     picture: PunImage,
     title: 'Crime And Punshment',
     author: 'George Gibian',
     genre: "Psychological Fiction",
     availability: false,
     Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
+  },
+  {
+    picture: BlackImage,
+    title: 'Black Girls Must Die Exhausted',
+    author: 'Jayne Allen',
+    genre: "Fiction",
+    availability: false,
+    Download: require('../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf')
   },
   {
     picture: AlphaImage,
@@ -159,6 +189,15 @@ const books = [
     Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
   },
   {
+    picture: BabaImage,
+    title: 'The Secrets of the Baba Segi\'s Wives',
+    author: 'Lola Shoneyin',
+    genre: "Fiction",
+    availability: true,
+    Download: require('../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDFDrive ).pdf')
+  },
+
+  {
     picture: AmImage,
     title: 'The 5 Am Club',
     author: 'Robin Sharma',
@@ -229,6 +268,14 @@ const books = [
     title: 'How To Stop Worrying And Start Living',
     author: 'Dale Carnegie',
     genre: "Self-Help",
+    availability: true,
+    Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
+  },
+  {
+    picture: ThornsImage,
+    title: 'Court Thorns Roses',
+    author: 'Sarah Maas',
+    genre: "Romance",
     availability: true,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
