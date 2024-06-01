@@ -111,7 +111,7 @@ const books = [
     title: 'Black Girls Must Die Exhausted',
     author: 'Jayne Allen',
     genre: "Fiction",
-    availability: false,
+    availability: true,
     Download: require('../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf')
   },
   {
