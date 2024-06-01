@@ -32,6 +32,13 @@ import SubtleImage from '../assets/images/subttle art.jpg';
 import BabaImage from '../assets/images/wifes baba.jpg';
 import ThornsImage from '../assets/images/THornes and roses.jpg';
 import BlackImage from '../assets/images/black-girls-must-die-exhausted-2.jpg';
+import RatImage from '../assets/images/Rational male1.webp';
+import JobsImage from '../assets/images/Steve jobs.jpg';
+import FreedomImage from '../assets/images/Longwalk to freedom.jpg';
+// import DecoImage from '../assets/images/DECOLONIZINGTHEMINDnew.webp';
+// import ApartImage from '../assets/images/THings fall apart.jpg';
+import LightImage from '../assets/images/Warrior of the light.jpeg';
+
 
 // Updated books array with correct paths to PDF files
 const books = [
@@ -59,7 +66,14 @@ const books = [
     availability: true,
     Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
   },
-  
+  {
+    picture: FreedomImage,
+    title: 'Long Walk To Freedom',
+    author: 'Nelson Mandela',
+    genre: "Autobiography",
+    availability: true,
+    Download: require('../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf')
+  },
   {
     picture: PriestImage,
     title: 'Priest',
@@ -80,7 +94,7 @@ const books = [
     picture: MammthImage,
     title: 'The Mammoth Book Of Cover Ups',
     author: 'Jon Lewis',
-    genre: 'Consirancies',
+    genre: 'Conspirancies',
     availability: true,
     Download: require('../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf')
   },
@@ -165,6 +179,14 @@ const books = [
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
+    picture: RatImage,
+    title: 'Rational Male',
+    author: 'Rollo Tomassi',
+    genre: "Masculinity",
+    availability: true,
+    Download: require('../assets/pdfs/The Rational Male by Rollo Tomassi.pdf')
+  },
+  {
     picture: HomoImage,
     title: 'Homo Deus',
     author: 'Yuval Noah Harari',
@@ -195,6 +217,14 @@ const books = [
     genre: "Fiction",
     availability: true,
     Download: require('../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDFDrive ).pdf')
+  },
+  {
+    picture: JobsImage,
+    title: 'Steve Jobs',
+    author: 'Isaacson Walter',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Steve Jobs by Isaacson, Walter.pdf')
   },
 
   {
@@ -279,6 +309,16 @@ const books = [
     availability: true,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
+
+  {
+    picture: LightImage,
+    title: 'Warrior Of The Light',
+    author: 'Paulo Coelho',
+    genre: "Self Help",
+    availability: false,
+    Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
+  },
+
   {
     picture: WallImage,
     title: 'The Wall Speaks',
