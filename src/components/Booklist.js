@@ -38,6 +38,16 @@ import FreedomImage from '../assets/images/Longwalk to freedom.jpg';
 // import DecoImage from '../assets/images/DECOLONIZINGTHEMINDnew.webp';
 // import ApartImage from '../assets/images/THings fall apart.jpg';
 import LightImage from '../assets/images/Warrior of the light.jpeg';
+import StraImage from '../assets/images/33 startegies of war.jpg';
+import SuperiorImage from '../assets/images/the way of the superior men.jpg';
+import WordsImage from '../assets/images/the power of your words_.jpg';
+import SilenceImage from '../assets/images/learning to silence the mind.jpg';
+import EmotImage from '../assets/images/emotional intelligence for dummies.jpg';
+import HapImage from '../assets/images/StumblingOnHappiness-by-DanielGilbert.jpg';
+import AgainImage from '../assets/images/THink reason.jpg';
+import ProfitImage from '../assets/images/profit first.jpg';
+import FackedupImage from '../assets/images/everything is fucked up.jpg';
+import EmotionImage from '../assets/images/emotional intelligence for dummies.jpg';
 
 
 // Updated books array with correct paths to PDF files
@@ -131,6 +141,14 @@ const books = [
     Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
   },
   {
+    picture: EmotionImage,
+    title: 'Emotional Intelligence For Dummies',
+    author: 'Steven J. Stein',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf')
+  },
+  {
     picture: ChemImage,
     title: 'The Alchemist',
     author: 'Paulo Coelho',
@@ -139,12 +157,28 @@ const books = [
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
+    picture: StraImage,
+    title: 'The 33 Strateies Of War',
+    author: 'Robert Greene',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/The_33_Strategies_of_War.pdf')
+  },
+  {
     picture: AirImage,
     title: 'When Breath Becomes Air',
     author: 'Paul Kalanithi',
     genre: "Autobiography",
     availability: true,
     Download: require('../assets/pdfs/When_Breath_Become.pdf')
+  },
+  {
+    picture: FackedupImage,
+    title: 'Everything Is Fucked Up',
+    author: 'Mark Mansion',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf')
   },
   {
     picture: AlpaImage,
@@ -177,6 +211,14 @@ const books = [
     genre: "Business",
     availability: true,
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
+  },
+  {
+    picture: SuperiorImage,
+    title: 'The Way Of The Superior Man',
+    author: 'David Deida',
+    genre: "Masculinity",
+    availability: true,
+    Download: require('../assets/pdfs/The Way Of The Superior Man.pdf')
   },
   {
     picture: RatImage,
@@ -234,6 +276,14 @@ const books = [
     genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
+  },
+  {
+    picture: WordsImage,
+    title: 'The Power Of Words',
+    author: 'Don Gossett',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/The power of your Words..E W. Kenyon & Don Gossett.pdf')
   },
   {
     picture:ComeImage ,
@@ -326,6 +376,47 @@ const books = [
     genre: "Masculinity",
     availability: true,
     Download: require('../assets/pdfs/The wall speaks.pdf')
+  },
+  {
+    picture: SilenceImage,
+    title: 'Learb To Silence The Mind',
+    author: 'Osho',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/toaz_info_learning_to_silence_the_mind_wellness_through_meditation.pdf')
+  },
+  {
+    picture: EmotImage,
+    title: 'Master Your Emotions',
+    author: 'Thibaut Neurisse',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf')
+
+  },
+  {
+    picture: ProfitImage,
+    title: 'Profit First',
+    author: 'Mike Michalowicz',
+    genre: "Business",
+    availability: true,
+    Download: require('../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf')
+  },
+  {
+    picture: HapImage,
+    title: 'Stubbling On Happiness',
+    author: 'Daniel Gilbert',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Stumbling_on_Happiness_Stumbling_on_Happiness_Stumbling_on_Happiness.pdf')
+  },
+  {
+    picture: AgainImage,
+    title: 'Think Again',
+    author: 'Walter Sinnott',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Think Again  How to ... by Walter Sinnott-Armst... (z-lib.or.pdf')
   },
 ];
 
