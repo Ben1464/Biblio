@@ -76,6 +76,20 @@ import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper 
 import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
 import EmoPdf from '../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf';
 import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
+import WarPdf from '../assets/pdfs/The_33_Strategies_of_War.pdf';
+import ZigPdf from '../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf';
+import BreathPdf from '../assets/pdfs/When_Breath_Become.pdf';
+import FuckedPdf from '../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf';
+import MalePdf from '../assets/pdfs/John Alexander - How To Become An Alpha Male.pdf';
+import MasterPdf from '../assets/pdfs/Atomic-Habits-.pdf'
+import BudhPdf from '../assets/pdfs/Why_Buddhism_Is_True_The_Science_and_Philosophy_of_Meditation_and.pdf'
+import AnyonePdf from '../assets/pdfs/How to Talk to Anyone ( PDFDrive.com ).pdf';
+import LeanPdf from '../assets/pdfs/The-Lean-Startup-.pdf';
+import ArtPdf from '../assets/pdfs/The_Art_of_War_Complete_Texts_and_Commentaries_Sun_Tzu,_Thomas_Cleary.pdf';
+import ManPdf from '../assets/pdfs/The Way Of The Superior Man.pdf';
+import BloomsPdf from '../assets/pdfs/blooms guide.pdf';
+import RationalPdf from '../assets/pdfs/The Rational Male by Rollo Tomassi.pdf';
+import HomoPdf from '../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf';
 
 
 // Updated books array with correct paths to PDF files
@@ -221,6 +235,7 @@ const books = [
     author: 'Robert Greene',
     genre: "Self Help",
     availability: true,
+    read: WarPdf,
     Download: require('../assets/pdfs/The_33_Strategies_of_War.pdf')
   },
   {
@@ -229,6 +244,7 @@ const books = [
     author: 'Zig Ziglar',
     genre: "Business",
     availability: true,
+    raed:ZigPdf,
     Download: require('../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf')
   },
   {
@@ -237,6 +253,7 @@ const books = [
     author: 'Paul Kalanithi',
     genre: "Autobiography",
     availability: true,
+    read:BreathPdf,
     Download: require('../assets/pdfs/When_Breath_Become.pdf')
   },
   {
@@ -245,6 +262,7 @@ const books = [
     author: 'Mark Mansion',
     genre: "Self Help",
     availability: true,
+    raed:FuckedPdf,
     Download: require('../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf')
   },
   {
@@ -253,6 +271,7 @@ const books = [
     author: 'Charles Sledge',
     genre: "Masculinity",
     availability: true,
+    read:MalePdf,
     Download: require('../assets/pdfs/John Alexander - How To Become An Alpha Male.pdf')
   },
   {
@@ -261,6 +280,7 @@ const books = [
     author: 'Robert Greene',
     genre: "Self Help",
     availability: true,
+    read:MasterPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -269,6 +289,7 @@ const books = [
     author: 'Robert Write',
     genre: "Phylosopy",
     availability: true,
+    read:BudhPdf,
     Download: require('../assets/pdfs/Why_Buddhism_Is_True_The_Science_and_Philosophy_of_Meditation_and.pdf')
   },
   {
@@ -277,6 +298,7 @@ const books = [
     author: 'Lell Lownders',
     genre: "Self Help",
     availability: true,
+    read:AnyonePdf,
     Download: require('../assets/pdfs/How to Talk to Anyone ( PDFDrive.com ).pdf')
   },
   {
@@ -285,6 +307,7 @@ const books = [
     author: 'Eric Ries',
     genre: "Business",
     availability: true,
+    raed:LeanPdf,
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
@@ -293,6 +316,7 @@ const books = [
     author: 'Sun Tzu',
     genre: "Self Help",
     availability: true,
+    raed:ArtPdf,
     Download: require('../assets/pdfs/The_Art_of_War_Complete_Texts_and_Commentaries_Sun_Tzu,_Thomas_Cleary.pdf')
   },
   {
@@ -301,6 +325,7 @@ const books = [
     author: 'David Deida',
     genre: "Masculinity",
     availability: true,
+    read:ManPdf,
     Download: require('../assets/pdfs/The Way Of The Superior Man.pdf')
   },
   {
@@ -309,6 +334,7 @@ const books = [
     author: 'Oedipus Rex',
     genre: "Fiction THirller",
     availability: true,
+    raed:BloomsPdf,
     Download: require('../assets/pdfs/blooms guide.pdf')
   },
   {
@@ -317,6 +343,7 @@ const books = [
     author: 'Rollo Tomassi',
     genre: "Masculinity",
     availability: true,
+    read:RationalPdf,
     Download: require('../assets/pdfs/The Rational Male by Rollo Tomassi.pdf')
   },
   {
@@ -325,6 +352,7 @@ const books = [
     author: 'Yuval Noah Harari',
     genre: "Science/Philosophy",
     availability: true,
+    raed:HomoPdf,
     Download: require('../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf')
   },
   {
