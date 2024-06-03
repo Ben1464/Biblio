@@ -90,6 +90,14 @@ import ManPdf from '../assets/pdfs/The Way Of The Superior Man.pdf';
 import BloomsPdf from '../assets/pdfs/blooms guide.pdf';
 import RationalPdf from '../assets/pdfs/The Rational Male by Rollo Tomassi.pdf';
 import HomoPdf from '../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf';
+import RoadPdf from '../assets/pdfs/The_Road_Less_Traveled_A_New_Psychology_of_Love,_Traditional_Values.pdf';
+import SemenPdf from '../assets/pdfs/Atomic-Habits-.pdf'
+import MoneyPdf from '../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf';
+import BabaPdf from '../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDFDrive ).pdf';
+import JobPdf from '../assets/pdfs/Steve Jobs by Isaacson, Walter.pdf';
+import AmPdf from '../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf';
+import WordsPdf from '../assets/pdfs/The power of your Words..E W. Kenyon & Don Gossett.pdf';
+
 
 
 // Updated books array with correct paths to PDF files
@@ -361,6 +369,7 @@ const books = [
     author: 'M. Scott Peck',
     genre: "Self Help",
     availability: true,
+    read:RoadPdf,
     Download: require('../assets/pdfs/The_Road_Less_Traveled_A_New_Psychology_of_Love,_Traditional_Values.pdf')
   },
   {
@@ -369,6 +378,7 @@ const books = [
     author: 'Joseph Peterson',
     genre: "Masculinity/Health",
     availability: false,
+    read:SemenPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -377,6 +387,7 @@ const books = [
     author: 'Morhan Housel',
     genre: "Self Help",
     availability: true,
+    read:MoneyPdf,
     Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
   },
   {
@@ -385,6 +396,7 @@ const books = [
     author: 'Lola Shoneyin',
     genre: "Fiction",
     availability: true,
+    raed:BabaPdf,
     Download: require('../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDFDrive ).pdf')
   },
   {
@@ -393,6 +405,7 @@ const books = [
     author: 'Isaacson Walter',
     genre: "Self Help",
     availability: true,
+    read: JobPdf,
     Download: require('../assets/pdfs/Steve Jobs by Isaacson, Walter.pdf')
   },
 
@@ -402,6 +415,7 @@ const books = [
     author: 'Robin Sharma',
     genre: "Self Help",
     availability: true,
+    read:AmPdf,
     Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
   },
   {
@@ -410,6 +424,7 @@ const books = [
     author: 'Don Gossett',
     genre: "Self Help",
     availability: true,
+    read:WordsPdf,
     Download: require('../assets/pdfs/The power of your Words..E W. Kenyon & Don Gossett.pdf')
   },
   {
