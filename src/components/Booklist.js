@@ -1,6 +1,10 @@
-import React, { useContext,useState } from 'react';
+import React, { useContext,useState,useEffect } from 'react';
 import '../styles/Booklist.css';
 import { ThemeContext } from '../context/ThemeContext';
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import AtomicImage from '../assets/images/atomic.jpg'; // Import the image
 import LawsImage from '../assets/images/48Laws.webp';
 import AlphaImage from '../assets/images/unplugged alpha.jpg';
@@ -57,6 +61,21 @@ import FortyImage from '../assets/images/40 rules of love.jpg';
 import AfricanImage from '../assets/images/African hidden stories.webp';
 import Youimage from '../assets/images/Why-You-Act-the-Way-You-Do.jpg';
 import UnbornImage from '../assets/images/Rules for my unborn son.jpg';
+import AtomicPdf from '../assets/pdfs/Atomic-Habits-.pdf';
+import FatePdf from '../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf';
+import SubbtlePdf from '../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf';
+import YouPdf from '../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf';
+import FreedomPdf from '../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf';
+import PriestPdf from '../assets/pdfs/Priest.pdf';
+import FortyPdf from '../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf';
+import LawPdf from '../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf';
+import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
+import PunPdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
+import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf';
+import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
+import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
+import EmoPdf from '../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf';
+import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
 
 
 // Updated books array with correct paths to PDF files
@@ -67,7 +86,8 @@ const books = [
     author: 'James Clear',
     genre: "Self Help",
     availability: true,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    read:AtomicPdf,
+    Download: '../assets/pdfs/Atomic-Habits-.pdf'
   },
   {
     picture: FateImage,
@@ -75,6 +95,7 @@ const books = [
     author: 'John Kiriamiti',
     genre: "Fiction",
     availability: true,
+    read:FatePdf,
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
   },
   {
@@ -83,6 +104,7 @@ const books = [
     author: 'Mark Manson',
     genre: "Self help",
     availability: true,
+    read:SubbtlePdf,
     Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
   },
   {
@@ -91,6 +113,7 @@ const books = [
     author: 'Tim LaHaye',
     genre: "Self Help",
     availability: true,
+    read: YouPdf,
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
   {
@@ -99,6 +122,7 @@ const books = [
     author: 'Nelson Mandela',
     genre: "Autobiography",
     availability: true,
+    read:FreedomPdf,
     Download: require('../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf')
   },
   {
@@ -107,6 +131,7 @@ const books = [
     author: 'Sierra Simone',
     genre: "Erotic Romance",
     availability: true,
+    read:PriestPdf,
     Download: require('../assets/pdfs/Priest.pdf')
   },
   {
@@ -115,6 +140,7 @@ const books = [
     author: 'Elif Shafak',
     genre: "Love",
     availability: true,
+    read:FortyPdf,
     Download: require('../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf')
   },
   {
@@ -123,6 +149,7 @@ const books = [
     author: 'Robert Greene',
     genre: 'Self Help',
     availability: true,
+    raed:LawPdf,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
   {
@@ -131,6 +158,7 @@ const books = [
     author: 'Jon Lewis',
     genre: 'Conspirancies',
     availability: true,
+    read:MammothPdf,
     Download: require('../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf')
   },
   {
@@ -139,6 +167,7 @@ const books = [
     author: 'George Gibian',
     genre: "Psychological Fiction",
     availability: false,
+    read:PunPdf,
     Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
@@ -147,6 +176,7 @@ const books = [
     author: 'Jayne Allen',
     genre: "Fiction",
     availability: true,
+    read:BlackPdf,
     Download: require('../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf')
   },
   {
@@ -155,6 +185,7 @@ const books = [
     author: 'Richard Cooper',
     genre: "Masculinity",
     availability: true,
+    read:AlphaPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -163,6 +194,7 @@ const books = [
     author: 'Cate Speck',
     genre: "Romance",
     availability: true,
+    read:LovePdf,
     Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
   },
   {
@@ -171,6 +203,7 @@ const books = [
     author: 'Steven J. Stein',
     genre: "Self Help",
     availability: true,
+    raed:EmoPdf,
     Download: require('../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf')
   },
   {
@@ -178,7 +211,8 @@ const books = [
     title: 'The Alchemist',
     author: 'Paulo Coelho',
     genre: "Fantasy/Adventure",
-    availability: true,
+    availability: false,
+    raed:AlchemistPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
@@ -503,9 +537,34 @@ const books = [
 function Booklist() {
   const { theme } = useContext(ThemeContext);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedBook, setSelectedBook] = useState(null);
+  const [currentPage, setCurrentPage] = useState(0);
+  const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
+  useEffect(() => {
+    if (selectedBook) {
+      const savedPage = localStorage.getItem(`bookmark-${selectedBook.title}`);
+      if (savedPage) {
+        setCurrentPage(parseInt(savedPage, 10));
+      }
+    }
+  }, [selectedBook]);
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
+  };
+
+  const handleBookClick = (book, event) => {
+    event.stopPropagation();
+    setSelectedBook(book);
+  };
+
+  const handlePageChange = (e) => {
+    const { currentPage } = e;
+    setCurrentPage(currentPage);
+    if (selectedBook) {
+      localStorage.setItem(`bookmark-${selectedBook.title}`, currentPage);
+    }
   };
 
   const filteredBooks = books.filter(book =>
@@ -524,25 +583,40 @@ function Booklist() {
           className="search-input"
         />
       </div>
-      <div>
-        <ol className={`book-list ${theme}`}>
-          {filteredBooks.map((book, index) => (
-            <li key={index} className={`book-item ${theme}`}>
-              <img src={book.picture} alt={book.title} className="book-image" />
-              <div className="book-info">
-                <h3 className="book-title"><i>{book.title}</i></h3>
-                <p className="book-author">{book.author}</p>
-                <h4 className='genre'><i>Genre</i></h4>
-                <p className='book-genre'>{book.genre}</p>
-                <p className={`book-availability ${book.availability ? 'available' : 'unavailable'}`}>
-                  {book.availability ? 'Available' : 'Unavailable'}
-                </p>
-                <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
-              </div>
-            </li>
-          ))}
-        </ol>
-      </div>
+      {selectedBook ? (
+        <div className="pdf-viewer">
+          <button onClick={() => setSelectedBook(null)}>Back to List</button>
+          <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.6.172/build/pdf.worker.min.js`}>
+            <Viewer
+              fileUrl={selectedBook.read}
+              plugins={[defaultLayoutPluginInstance]}
+              initialPage={currentPage}
+              onPageChange={handlePageChange}
+            />
+          </Worker>
+        </div>
+      ) : (
+        <div>
+          <ol className={`book-list ${theme}`}>
+            {filteredBooks.map((book, index) => (
+              <li key={index} className={`book-item ${theme}`}>
+                <img src={book.picture} alt={book.title} className="book-image" />
+                <div className="book-info">
+                  <h3 className="book-title"><i>{book.title}</i></h3>
+                  <p className="book-author">{book.author}</p>
+                  <h4 className='genre'><i>Genre</i></h4>
+                  <p className='book-genre'>{book.genre}</p>
+                  <p className={`book-availability ${book.availability ? 'available' : 'unavailable'}`}>
+                    {book.availability ? 'Available' : 'Unavailable'}
+                  </p>
+                  <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
+                  <button onClick={(event) => handleBookClick(book, event)} className="book-link">Read</button>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
     </>
   );
 }
