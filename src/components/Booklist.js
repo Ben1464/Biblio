@@ -48,6 +48,15 @@ import AgainImage from '../assets/images/THink reason.jpg';
 import ProfitImage from '../assets/images/profit first.jpg';
 import FackedupImage from '../assets/images/everything is fucked up.jpg';
 import EmotionImage from '../assets/images/emotional intelligence for dummies.jpg';
+import ZigImae from '../assets/images/Zigla.jpg';
+import TalkImage from '../assets/images/How to talk to anyone.jpg';
+import ArtImage from '../assets/images/THe art of war.jpg';
+import BloomImage from '../assets/images/blooms guide .jpg';
+import LessImage from '../assets/images/THe road less travelled.jpg';
+import FortyImage from '../assets/images/40 rules of love.jpg';
+import AfricanImage from '../assets/images/African hidden stories.webp';
+import Youimage from '../assets/images/Why-You-Act-the-Way-You-Do.jpg';
+import UnbornImage from '../assets/images/Rules for my unborn son.jpg';
 
 
 // Updated books array with correct paths to PDF files
@@ -77,6 +86,14 @@ const books = [
     Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
   },
   {
+    picture: Youimage,
+    title: 'Why you act the way you do',
+    author: 'Tim LaHaye',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
+  },
+  {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
     author: 'Nelson Mandela',
@@ -91,6 +108,14 @@ const books = [
     genre: "Erotic Romance",
     availability: true,
     Download: require('../assets/pdfs/Priest.pdf')
+  },
+  {
+    picture: FortyImage,
+    title: 'Forty Rules Of Love',
+    author: 'Elif Shafak',
+    genre: "Love",
+    availability: true,
+    Download: require('../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf')
   },
   {
     picture: LawsImage,
@@ -165,6 +190,14 @@ const books = [
     Download: require('../assets/pdfs/The_33_Strategies_of_War.pdf')
   },
   {
+    picture: ZigImae,
+    title: 'Ziglar On Selling',
+    author: 'Zig Ziglar',
+    genre: "Business",
+    availability: true,
+    Download: require('../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf')
+  },
+  {
     picture: AirImage,
     title: 'When Breath Becomes Air',
     author: 'Paul Kalanithi',
@@ -205,6 +238,14 @@ const books = [
     Download: require('../assets/pdfs/Why_Buddhism_Is_True_The_Science_and_Philosophy_of_Meditation_and.pdf')
   },
   {
+    picture: TalkImage,
+    title: 'How To Talk To Anyone',
+    author: 'Lell Lownders',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/How to Talk to Anyone ( PDFDrive.com ).pdf')
+  },
+  {
     picture: LeanImage,
     title: 'Lean Startup',
     author: 'Eric Ries',
@@ -213,12 +254,28 @@ const books = [
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
+    picture: ArtImage,
+    title: 'The Art Of War',
+    author: 'Sun Tzu',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/The_Art_of_War_Complete_Texts_and_Commentaries_Sun_Tzu,_Thomas_Cleary.pdf')
+  },
+  {
     picture: SuperiorImage,
     title: 'The Way Of The Superior Man',
     author: 'David Deida',
     genre: "Masculinity",
     availability: true,
     Download: require('../assets/pdfs/The Way Of The Superior Man.pdf')
+  },
+  {
+    picture: BloomImage,
+    title: 'Bloom\'s Guide',
+    author: 'Oedipus Rex',
+    genre: "Fiction THirller",
+    availability: true,
+    Download: require('../assets/pdfs/blooms guide.pdf')
   },
   {
     picture: RatImage,
@@ -235,6 +292,14 @@ const books = [
     genre: "Science/Philosophy",
     availability: true,
     Download: require('../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf')
+  },
+  {
+    picture: LessImage,
+    title: 'The Road Less Travelled',
+    author: 'M. Scott Peck',
+    genre: "Self Help",
+    availability: true,
+    Download: require('../assets/pdfs/The_Road_Less_Traveled_A_New_Psychology_of_Love,_Traditional_Values.pdf')
   },
   {
     picture: SemenImage,
@@ -293,7 +358,7 @@ const books = [
     availability: true,
     Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
   },
-
+  
   {
     picture: RichImage,
     title: 'Rich Dad Poor Dad',
@@ -359,7 +424,14 @@ const books = [
     availability: true,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
-
+  {
+    picture: AfricanImage,
+    title: 'African\'s Hidden Stories',
+    author: 'Credo Mutwa',
+    genre: "Fiction",
+    availability: true,
+    Download: require('../assets/pdfs/Mutwa Credo Africa\'s Hidden History The Reptilian Agenda.pdf')
+  },
   {
     picture: LightImage,
     title: 'Warrior Of The Light',
@@ -417,6 +489,14 @@ const books = [
     genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Think Again  How to ... by Walter Sinnott-Armst... (z-lib.or.pdf')
+  },
+  {
+    picture: UnbornImage,
+    title: 'Rules For My Unborn Son',
+    author: 'Walker Lamond',
+    genre: "Traditional",
+    availability: true,
+    Download: require('../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf')
   },
 ];
 
