@@ -97,6 +97,26 @@ import BabaPdf from '../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDF
 import JobPdf from '../assets/pdfs/Steve Jobs by Isaacson, Walter.pdf';
 import AmPdf from '../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf';
 import WordsPdf from '../assets/pdfs/The power of your Words..E W. Kenyon & Don Gossett.pdf';
+// import ComePdf from '../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf';
+import DadPdf from '../assets/pdfs/Rich Dad Poor Dad ( PDFDrive ).pdf';
+import CantPdf from '../assets/pdfs/Atomic-Habits-.pdf'
+import ConfPdf from '../assets/pdfs/The Law of Confession..Bill Wiston.pdf';
+import CrimePdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
+import FaithPdf from '../assets/pdfs/Faith for Finances Kenyon & Don Gossett.pdf';
+import SearchPdf from '../assets/pdfs/Man\'s Search For Meaning.pdf';
+import WorryPdf from '../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf';
+import ThornPdf from '../assets/pdfs/A Court of Thorns and Roses By Sarah J Maas-pdfread.net.pdf'
+import AfriPdf from '../assets/pdfs/africans.pdf';
+import LightPf from '../assets/pdfs/Atomic-Habits-.pdf';
+import WallPdf from '../assets/pdfs/The wall speaks.pdf';
+import LearnPdf from '../assets/pdfs/toaz_info_learning_to_silence_the_mind_wellness_through_meditation.pdf';
+// import YourPdf from '../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf';
+import ProfitPdf from '../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf';
+import HapPdf from '../assets/pdfs/Stumbling_on_Happiness_Stumbling_on_Happiness_Stumbling_on_Happiness.pdf';
+import AgaPdf from '../assets/pdfs/Think again.pdf';
+import UnbornPdf from '../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf';
+
+
 
 
 
@@ -432,6 +452,7 @@ const books = [
     title: 'Come As You Are',
     author: 'Emily Nagoski',
     genre: "Self Help",
+    read:CantPdf,
     availability: true,
     Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
   },
@@ -441,6 +462,7 @@ const books = [
     title: 'Rich Dad Poor Dad',
     author: 'Robert Kiyosaki',
     genre: "Self Help",
+    read: DadPdf,
     availability: true,
     Download: require('../assets/pdfs/Rich Dad Poor Dad ( PDFDrive ).pdf')
   },
@@ -450,6 +472,7 @@ const books = [
     author: 'David Goggins',
     genre: "Self Help",
     availability: true,
+    read:CantPdf,
     Download: require('../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf')
   },
   {
@@ -458,6 +481,7 @@ const books = [
     author: 'Bill Winston',
     genre: "Self Help",
     availability: true,
+    read:ConfPdf,
     Download: require('../assets/pdfs/The Law of Confession..Bill Wiston.pdf')
   },
   {
@@ -466,6 +490,7 @@ const books = [
     author: 'John Kiriamiti',
     genre: "Fiction",
     availability: true,
+    read:CrimePdf,
     Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
@@ -474,6 +499,7 @@ const books = [
     author: 'Thomas E Zordani',
     genre: "Self Help",
     availability: true,
+    read:FaithPdf,
     Download: require('../assets/pdfs/Faith for Finances Kenyon & Don Gossett.pdf')
   },
   
@@ -483,6 +509,7 @@ const books = [
     author: 'Victor E Frankl',
     genre: "Self Help",
     availability: true,
+    read:SearchPdf,
     Download: require('../assets/pdfs/Man\'s Search For Meaning.pdf')
   },
   {
@@ -491,6 +518,7 @@ const books = [
     author: 'Dale Carnegie',
     genre: "Self-Help",
     availability: true,
+    read:WorryPdf,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
   {
@@ -499,15 +527,17 @@ const books = [
     author: 'Sarah Maas',
     genre: "Romance",
     availability: true,
+    read:ThornPdf,
     Download: require('../assets/pdfs/[Dale Carnegie] How To Stop Worrying And Start Living.pdf')
   },
   {
     picture: AfricanImage,
-    title: 'African\'s Hidden Stories',
+    title: 'African Hidden Stories',
     author: 'Credo Mutwa',
     genre: "Fiction",
     availability: true,
-    Download: require('../assets/pdfs/Mutwa Credo Africa\'s Hidden History The Reptilian Agenda.pdf')
+    read:AfriPdf,
+    Download: require('../assets/pdfs/africans.pdf')
   },
   {
     picture: LightImage,
@@ -515,6 +545,7 @@ const books = [
     author: 'Paulo Coelho',
     genre: "Self Help",
     availability: false,
+    raed:LightPf,
     Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
   },
 
@@ -524,14 +555,16 @@ const books = [
     author: 'Jarr Rejj',
     genre: "Masculinity",
     availability: true,
+    read:WallPdf,
     Download: require('../assets/pdfs/The wall speaks.pdf')
   },
   {
     picture: SilenceImage,
-    title: 'Learb To Silence The Mind',
+    title: 'Learn To Silence The Mind',
     author: 'Osho',
     genre: "Self Help",
     availability: true,
+    read:LearnPdf,
     Download: require('../assets/pdfs/toaz_info_learning_to_silence_the_mind_wellness_through_meditation.pdf')
   },
   {
@@ -540,6 +573,7 @@ const books = [
     author: 'Thibaut Neurisse',
     genre: "Self Help",
     availability: true,
+    read:YouPdf,
     Download: require('../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf')
 
   },
@@ -549,6 +583,7 @@ const books = [
     author: 'Mike Michalowicz',
     genre: "Business",
     availability: true,
+    read:ProfitPdf,
     Download: require('../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf')
   },
   {
@@ -557,6 +592,7 @@ const books = [
     author: 'Daniel Gilbert',
     genre: "Self Help",
     availability: true,
+    read:HapPdf,
     Download: require('../assets/pdfs/Stumbling_on_Happiness_Stumbling_on_Happiness_Stumbling_on_Happiness.pdf')
   },
   {
@@ -565,7 +601,8 @@ const books = [
     author: 'Walter Sinnott',
     genre: "Self Help",
     availability: true,
-    Download: require('../assets/pdfs/Think Again  How to ... by Walter Sinnott-Armst... (z-lib.or.pdf')
+    read:AgaPdf,
+    Download: require('../assets/pdfs/Think again.pdf')
   },
   {
     picture: UnbornImage,
@@ -573,6 +610,7 @@ const books = [
     author: 'Walker Lamond',
     genre: "Traditional",
     availability: true,
+    read:UnbornPdf,
     Download: require('../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf')
   },
 ];
