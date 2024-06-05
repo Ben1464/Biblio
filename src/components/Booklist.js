@@ -31,7 +31,7 @@ import ComeImage from '../assets/images/Come as you are.jpg';
 import PunImage from '../assets/images/crime and punshment.webp';
 import CrimeImage from '../assets/images/Mylife in crime.jpg';
 import WallImage from '../assets/images/the wall speaks.jpg';
-import MammthImage from '../assets/images/mamoth.jpg';
+// import MammthImage from '../assets/images/mamoth.jpg';
 import SubtleImage from '../assets/images/subttle art.jpg';
 import BabaImage from '../assets/images/wifes baba.jpg';
 import ThornsImage from '../assets/images/THornes and roses.jpg';
@@ -39,7 +39,26 @@ import BlackImage from '../assets/images/black-girls-must-die-exhausted-2.jpg';
 import RatImage from '../assets/images/Rational male1.webp';
 import JobsImage from '../assets/images/Steve jobs.jpg';
 import FreedomImage from '../assets/images/Longwalk to freedom.jpg';
-// import DecoImage from '../assets/images/DECOLONIZINGTHEMINDnew.webp';
+import DecoloImage from '../assets/images/DECOLONIZINGTHEMINDnew.webp';
+import DecoPdf from '../assets/pdfs/Decolonising the Mind by Wa NGUGI WA THION.pdf';
+import CapturedImage from '../assets/images/The_Captured_Mind_by_Czeslaw_Milosz.jpg';
+import CapturedPdf from '../assets/pdfs/The Captured Mind - Final Accepted Copy.pdf';
+import Ceochinaimage from '../assets/images/cHINA.jpg';
+import CeochinaPdf from '../assets/pdfs/CEO, China The Rise of Xi Jinping by Kerry Brown.pdf';
+import DeplomacyImage from '../assets/images/Hennry deplomacy.jpg';
+import DeplomacyPdf from '../assets/pdfs/Diplomacy (Henry Kissinger).pdf';
+import DoomsdayImage from '../assets/images/doomsdayconspirasheld00shel_0001.jpg';
+import DoomsdayPdf from '../assets/pdfs/Doomsday Conspiracy with Bonus Material - Sidney Sheldon.pdf';
+import MirrorImage from '../assets/images/Stranger in the mirror.jpg';
+import MirrorPdf from '../assets/pdfs/Stranger in the Mirror, A - Sidney Sheldon.pdf';
+import YourdreamsImage from '../assets/images/Tell me your dreams.jpg';
+import YourdreamsPdf from '../assets/pdfs/Tell Me Your Dreams - Sidney Sheldon.pdf';
+import NothingforeverImage from '../assets/images/Nothing_Lasts_Forever_(novel).jpg';
+import NothingforeverPdf from '../assets/pdfs/Nothing Lasts Forever - Sidney Sheldon(1).pdf';
+import NigeriaImage from '../assets/images/chinua-achebe trable in NiGERIA.jpg';
+import NigeriaPdf from '../assets/pdfs/The Trouble with Nigeria (Chinua Achebe).pdf';
+import ArrowImage from '../assets/images/Arrow of God.jpeg';
+import ArrowPdf from '../assets/pdfs/Arrow of God ( PDFDrive ).pdf';
 // import ApartImage from '../assets/images/THings fall apart.jpg';
 import LightImage from '../assets/images/Warrior of the light.jpeg';
 import StraImage from '../assets/images/33 startegies of war.jpg';
@@ -68,8 +87,8 @@ import YouPdf from '../assets/pdfs/Why you act the way you do by Tim LaHaye ( PD
 import FreedomPdf from '../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf';
 import PriestPdf from '../assets/pdfs/Priest.pdf';
 import FortyPdf from '../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf';
-import LawPdf from '../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf';
-import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
+import LawsPdf from '../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf';
+// import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
 import PunPdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
 import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf';
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
@@ -120,6 +139,7 @@ import UnbornPdf from '../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf
 
 
 
+
 // Updated books array with correct paths to PDF files
 const books = [
   {
@@ -158,6 +178,16 @@ const books = [
     read: YouPdf,
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
+
+  // {
+  //   picture: DecoImage,
+  //   title: 'Why you act the way you do',
+  //   author: 'Tim LaHaye',
+  //   genre: "Self Help",
+  //   availability: true,
+  //   read: DecoPdf,
+  //   Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
+  // },
   {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
@@ -166,6 +196,15 @@ const books = [
     availability: true,
     read:FreedomPdf,
     Download: require('../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf')
+  },
+  {
+    picture: DecoloImage,
+    title: 'Decolonize The Mind ',
+    author: 'Ngugi Wa Thiong\'o',
+    genre: "Self Help",
+    availability: true,
+    read:DecoPdf,
+    Download: require('../assets/pdfs/Decolonising the Mind by Wa NGUGI WA THION.pdf')
   },
   {
     picture: PriestImage,
@@ -191,18 +230,28 @@ const books = [
     author: 'Robert Greene',
     genre: 'Self Help',
     availability: true,
-    raed:LawPdf,
+    read:LawsPdf,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
   },
   {
-    picture: MammthImage,
-    title: 'The Mammoth Book Of Cover Ups',
-    author: 'Jon Lewis',
-    genre: 'Conspirancies',
+    picture: NothingforeverImage,
+    title: 'NOthing Last Forever',
+    author: 'Sidney Sheldon',
+    genre: "Crime",
     availability: true,
-    read:MammothPdf,
-    Download: require('../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf')
+    read:NothingforeverPdf,
+    Download: require('../assets/pdfs/Nothing Lasts Forever - Sidney Sheldon(1).pdf')
   },
+  {
+    picture: CapturedImage,
+    title: 'The Captive Mind',
+    author: 'Ian Monger',
+    genre: 'Self Help',
+    availability: true,
+    read:CapturedPdf,
+    Download: require('../assets/pdfs/The Captured Mind - Final Accepted Copy.pdf')
+  },
+  
   {
     picture: PunImage,
     title: 'Crime And Punshment',
@@ -238,6 +287,24 @@ const books = [
     availability: true,
     read:LovePdf,
     Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
+  },
+  {
+    picture: DoomsdayImage,
+    title: 'The Doomsday Conspiracy',
+    author: 'Sidney Sheldon',
+    genre: "Conspiracy",
+    availability: true,
+    read:DoomsdayPdf,
+    Download: require('../assets/pdfs/Doomsday Conspiracy with Bonus Material - Sidney Sheldon.pdf')
+  },
+  {
+    picture: Ceochinaimage,
+    title: 'CEO China: The Rise of Xi Jinping',
+    author: 'I.B Taurus',
+    genre: 'Biography',
+    availability: true,
+    read:CeochinaPdf,
+    Download: require('../assets/pdfs/CEO, China The Rise of Xi Jinping by Kerry Brown.pdf')
   },
   {
     picture: EmotionImage,
@@ -276,6 +343,15 @@ const books = [
     Download: require('../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf')
   },
   {
+    picture: DeplomacyImage,
+    title: 'Diplomacy',
+    author: 'Henry Kissinger ',
+    genre: "International Relations",
+    availability: true,
+    raed:DeplomacyPdf,
+    Download: require('../assets/pdfs/Diplomacy (Henry Kissinger).pdf')
+  },
+  {
     picture: AirImage,
     title: 'When Breath Becomes Air',
     author: 'Paul Kalanithi',
@@ -290,7 +366,7 @@ const books = [
     author: 'Mark Mansion',
     genre: "Self Help",
     availability: true,
-    raed:FuckedPdf,
+    read:FuckedPdf,
     Download: require('../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf')
   },
   {
@@ -335,8 +411,17 @@ const books = [
     author: 'Eric Ries',
     genre: "Business",
     availability: true,
-    raed:LeanPdf,
+    read:LeanPdf,
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
+  },
+  {
+    picture: MirrorImage,
+    title: 'Stranger In The Mirror ',
+    author: 'Sidney Sheldon',
+    genre: "Pschyology",
+    availability: true,
+    read:MirrorPdf,
+    Download: require('../assets/pdfs/Stranger in the Mirror, A - Sidney Sheldon.pdf')
   },
   {
     picture: ArtImage,
@@ -344,8 +429,17 @@ const books = [
     author: 'Sun Tzu',
     genre: "Self Help",
     availability: true,
-    raed:ArtPdf,
+    read:ArtPdf,
     Download: require('../assets/pdfs/The_Art_of_War_Complete_Texts_and_Commentaries_Sun_Tzu,_Thomas_Cleary.pdf')
+  },
+  {
+    picture: YourdreamsImage,
+    title: 'Tell Me Your Dreams',
+    author: 'Sidney Sheldon',
+    genre: "Pschyology",
+    availability: true,
+    read:YourdreamsPdf,
+    Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
     picture: SuperiorImage,
@@ -362,7 +456,7 @@ const books = [
     author: 'Oedipus Rex',
     genre: "Fiction THirller",
     availability: true,
-    raed:BloomsPdf,
+    read:BloomsPdf,
     Download: require('../assets/pdfs/blooms guide.pdf')
   },
   {
@@ -380,7 +474,7 @@ const books = [
     author: 'Yuval Noah Harari',
     genre: "Science/Philosophy",
     availability: true,
-    raed:HomoPdf,
+    read:HomoPdf,
     Download: require('../assets/pdfs/homo_deus_a_brief_history_of_tomorrow_pdf.pdf')
   },
   {
@@ -416,7 +510,7 @@ const books = [
     author: 'Lola Shoneyin',
     genre: "Fiction",
     availability: true,
-    raed:BabaPdf,
+    read:BabaPdf,
     Download: require('../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDFDrive ).pdf')
   },
   {
@@ -439,6 +533,15 @@ const books = [
     Download: require('../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf')
   },
   {
+    picture: NigeriaImage,
+    title: 'The Trouble With Nigeria',
+    author: 'Chinua Achebe',
+    genre: "Political Science",
+    availability: true,
+    read:NigeriaPdf,
+    Download: require('../assets/pdfs/The Trouble with Nigeria (Chinua Achebe).pdf')
+  },
+  {
     picture: WordsImage,
     title: 'The Power Of Words',
     author: 'Don Gossett',
@@ -456,7 +559,15 @@ const books = [
     availability: true,
     Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
   },
-  
+  {
+    picture: ArrowImage,
+    title: 'Arrow Of God',
+    author: 'Chinua Achebe',
+    genre: "Tragedy",
+    availability: true,
+    read:ArrowPdf,
+    Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
+  },
   {
     picture: RichImage,
     title: 'Rich Dad Poor Dad',
@@ -545,7 +656,7 @@ const books = [
     author: 'Paulo Coelho',
     genre: "Self Help",
     availability: false,
-    raed:LightPf,
+    read:LightPf,
     Download: require('../assets/pdfs/The_Psychology_of_Money_Timeless_lessons_on_wealth,_greed,_and_happiness.pdf')
   },
 
