@@ -162,15 +162,7 @@ const books = [
     read:FatePdf,
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
   },
-  {
-    picture: SubtleImage,
-    title: 'The Subtle Art Of Not Giving A F*ck',
-    author: 'Mark Manson',
-    genre: "Self help",
-    availability: true,
-    read:SubbtlePdf,
-    Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
-  },
+  
   {
     picture: Youimage,
     title: 'Why you act the way you do',
@@ -709,6 +701,15 @@ const books = [
     Download: require('../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf')
   },
   {
+    picture: SubtleImage,
+    title: 'The Subtle Art Of Not Giving A F*ck',
+    author: 'Mark Manson',
+    genre: "Self help",
+    availability: true,
+    read:SubbtlePdf,
+    Download: require('../assets/pdfs/Mark_Manson_The_Subtle_Art_of_Not_Giving_a_Fuck_Harper_2016.pdf')
+  },
+  {
     picture: ApartImage,
     title: 'Things Fall Apart',
     author: 'Chinua Achebe',
@@ -798,7 +799,7 @@ function Booklist() {
       </div>
       {selectedBook ? (
         <div className="pdf-viewer">
-          <button onClick={() => setSelectedBook(null)}>Back to List</button>
+          <button className='back' onClick={() => setSelectedBook(null)}>Back to List</button>
           <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.6.172/build/pdf.worker.min.js`}>
             <Viewer
               fileUrl={selectedBook.read}
