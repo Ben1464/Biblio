@@ -229,7 +229,7 @@ const books = [
   },
   {
     picture: NothingforeverImage,
-    title: 'NOthing Last Forever',
+    title: 'Nothing Last Forever',
     author: 'Sidney Sheldon',
     genre: "Crime",
     availability: true,
