@@ -5,7 +5,7 @@ import { Worker, Viewer } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
-import AtomicImage from '../assets/images/atomic.jpg'; // Import the image
+import AtomicImage from '../assets/images/atomic.jpg'; 
 import LawsImage from '../assets/images/48Laws.webp';
 import AlphaImage from '../assets/images/unplugged alpha.jpg';
 import ChemImage from '../assets/images/The ALchemist.jpg';
@@ -31,7 +31,7 @@ import ComeImage from '../assets/images/Come as you are.jpg';
 import PunImage from '../assets/images/crime and punshment.webp';
 import CrimeImage from '../assets/images/Mylife in crime.jpg';
 import WallImage from '../assets/images/the wall speaks.jpg';
-// import MammthImage from '../assets/images/mamoth.jpg';
+import MammthImage from '../assets/images/mamoth.jpg';
 import SubtleImage from '../assets/images/subttle art.jpg';
 import BabaImage from '../assets/images/wifes baba.jpg';
 import ThornsImage from '../assets/images/THornes and roses.jpg';
@@ -59,7 +59,8 @@ import NigeriaImage from '../assets/images/chinua-achebe trable in NiGERIA.jpg';
 import NigeriaPdf from '../assets/pdfs/The Trouble with Nigeria (Chinua Achebe).pdf';
 import ArrowImage from '../assets/images/Arrow of God.jpeg';
 import ArrowPdf from '../assets/pdfs/Arrow of God ( PDFDrive ).pdf';
-// import ApartImage from '../assets/images/THings fall apart.jpg';
+import ApartImage from '../assets/images/THings fall apart.jpg';
+import ApartPdf from '../assets/pdfs/Things Fall Apart (Achebe, Chinua) (z-lib.org).pdf';
 import LightImage from '../assets/images/Warrior of the light.jpeg';
 import StraImage from '../assets/images/33 startegies of war.jpg';
 import SuperiorImage from '../assets/images/the way of the superior men.jpg';
@@ -88,7 +89,7 @@ import FreedomPdf from '../assets/pdfs/Long Walk to Freedom_ With Connections ( 
 import PriestPdf from '../assets/pdfs/Priest.pdf';
 import FortyPdf from '../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf';
 import LawsPdf from '../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf';
-// import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
+import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
 import PunPdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
 import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf';
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
@@ -116,7 +117,7 @@ import BabaPdf from '../assets/pdfs/The Secret Lives of Baba Segi\'s Wives ( PDF
 import JobPdf from '../assets/pdfs/Steve Jobs by Isaacson, Walter.pdf';
 import AmPdf from '../assets/pdfs/The 5AM Club by Robin Sharma (z-lib.org).pdf';
 import WordsPdf from '../assets/pdfs/The power of your Words..E W. Kenyon & Don Gossett.pdf';
-// import ComePdf from '../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf';
+import ComePdf from '../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf';
 import DadPdf from '../assets/pdfs/Rich Dad Poor Dad ( PDFDrive ).pdf';
 import CantPdf from '../assets/pdfs/Atomic-Habits-.pdf'
 import ConfPdf from '../assets/pdfs/The Law of Confession..Bill Wiston.pdf';
@@ -129,7 +130,8 @@ import AfriPdf from '../assets/pdfs/africans.pdf';
 import LightPf from '../assets/pdfs/Atomic-Habits-.pdf';
 import WallPdf from '../assets/pdfs/The wall speaks.pdf';
 import LearnPdf from '../assets/pdfs/toaz_info_learning_to_silence_the_mind_wellness_through_meditation.pdf';
-// import YourPdf from '../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf';
+import YourEmoPdf from '../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf';
+import YourEmoImage from '../assets/images/mastery.jpg'
 import ProfitPdf from '../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf';
 import HapPdf from '../assets/pdfs/Stumbling_on_Happiness_Stumbling_on_Happiness_Stumbling_on_Happiness.pdf';
 import AgaPdf from '../assets/pdfs/Think again.pdf';
@@ -179,15 +181,15 @@ const books = [
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
 
-  // {
-  //   picture: DecoImage,
-  //   title: 'Why you act the way you do',
-  //   author: 'Tim LaHaye',
-  //   genre: "Self Help",
-  //   availability: true,
-  //   read: DecoPdf,
-  //   Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
-  // },
+  {
+    picture: MammthImage,
+    title: 'The Mammoth Book Of Cover-Ups',
+    author: 'John E Lewis',
+    genre: "Conspirancies",
+    availability: true,
+    read:MammothPdf,
+    Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
+  },
   {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
@@ -251,7 +253,16 @@ const books = [
     read:CapturedPdf,
     Download: require('../assets/pdfs/The Captured Mind - Final Accepted Copy.pdf')
   },
-  
+
+  {
+    picture: YourEmoImage,
+    title: 'Master Your Emotions',
+    author: 'Thibaut Meurisse',
+    genre: 'Self Help',
+    availability: true,
+    read:YourEmoPdf,
+    Download: require('../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf')
+  },
   {
     picture: PunImage,
     title: 'Crime And Punshment',
@@ -555,7 +566,7 @@ const books = [
     title: 'Come As You Are',
     author: 'Emily Nagoski',
     genre: "Self Help",
-    read:CantPdf,
+    read:ComePdf,
     availability: true,
     Download: require('../assets/pdfs/Come-as-You-Are-The-Surprising-New-Science.pdf')
   },
@@ -697,6 +708,16 @@ const books = [
     read:ProfitPdf,
     Download: require('../assets/pdfs/Profit_first_a_simple_system_to_transform_any_business_from_a.pdf')
   },
+  {
+    picture: ApartImage,
+    title: 'Things Fall Apart',
+    author: 'Chinua Achebe',
+    genre: "Tragedy",
+    availability: true,
+    read:ApartPdf,
+    Download: require('../assets/pdfs/Things Fall Apart (Achebe, Chinua) (z-lib.org).pdf')
+  },
+
   {
     picture: HapImage,
     title: 'Stubbling On Happiness',
