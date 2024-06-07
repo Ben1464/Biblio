@@ -136,6 +136,16 @@ import ProfitPdf from '../assets/pdfs/Profit_first_a_simple_system_to_transform_
 import HapPdf from '../assets/pdfs/Stumbling_on_Happiness_Stumbling_on_Happiness_Stumbling_on_Happiness.pdf';
 import AgaPdf from '../assets/pdfs/Think again.pdf';
 import UnbornPdf from '../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf';
+import DrivenImage from '../assets/images/The purpose driven life .jpg';
+import DrivenPdf from '../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf';
+import FriendsImage from '../assets/images/how-to-win-friends-and-influence-people-original-imag964nvzaxkrya.webp';
+import FriendsPdf from '../assets/pdfs/Revised_Dale_Carnegie_How_to_win_friends_and_influence_people_1981.pdf';
+import TeachImage from '../assets/images/I-Will-Teach-You-to-Be-Rich.jpg';
+import TechPdf from '../assets/pdfs/I Will Teach You To Be Rich ( PDFDrive ).pdf';
+import EuropeImage from '../assets/images/How Europe Under.jpg';
+import EuropePdf from '../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf';
+import DictImage from '../assets/images/The dictionary of body language.jpg';
+import DictPdf from '../assets/pdfs/The_Dictionary_of_Body_Language_A_Field_Guide_to_Human_Behavior.pdf';
 
 
 
@@ -210,6 +220,15 @@ const books = [
     Download: require('../assets/pdfs/Priest.pdf')
   },
   {
+    picture: DrivenImage,
+    title: 'The Purpose Driven Life',
+    author: 'Rick Warren',
+    genre: "Self Help",
+    availability: true,
+    read:DrivenPdf,
+    Download: require('../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf')
+  },
+  {
     picture: FortyImage,
     title: 'Forty Rules Of Love',
     author: 'Elif Shafak',
@@ -265,6 +284,15 @@ const books = [
     Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
+    picture: FriendsImage,
+    title: 'How To Win Friends And Influence People',
+    author: 'Dale Carnegie',
+    genre: "Self Help",
+    availability: true,
+    read:FriendsPdf,
+    Download: require('../assets/pdfs/Revised_Dale_Carnegie_How_to_win_friends_and_influence_people_1981.pdf')
+  },
+  {
     picture: BlackImage,
     title: 'Black Girls Must Die Exhausted',
     author: 'Jayne Allen',
@@ -290,6 +318,15 @@ const books = [
     availability: true,
     read:LovePdf,
     Download: require('../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf')
+  },
+  {
+    picture: TeachImage,
+    title: 'I Will Teach You To Be Rich',
+    author: 'Ramit Sethi',
+    genre: "Self Help",
+    availability: true,
+    read:TechPdf,
+    Download: require('../assets/pdfs/I Will Teach You To Be Rich ( PDFDrive ).pdf')
   },
   {
     picture: DoomsdayImage,
@@ -344,6 +381,15 @@ const books = [
     availability: true,
     raed:ZigPdf,
     Download: require('../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf')
+  },
+  {
+    picture: EuropeImage,
+    title: 'How Europe Underdeeveloped Africa',
+    author: 'Walter Rodney',
+    genre: "Classics",
+    availability: true,
+    read:EuropePdf,
+    Download: require('../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf')
   },
   {
     picture: DeplomacyImage,
@@ -416,6 +462,15 @@ const books = [
     availability: true,
     read:LeanPdf,
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
+  },
+  {
+    picture: DictImage,
+    title: 'The Dictionary Of Body Language',
+    author: 'Joe Navarro',
+    genre: "Classics",
+    availability: true,
+    read:DictPdf,
+    Download: require('../assets/pdfs/The_Dictionary_of_Body_Language_A_Field_Guide_to_Human_Behavior.pdf')
   },
   {
     picture: MirrorImage,
