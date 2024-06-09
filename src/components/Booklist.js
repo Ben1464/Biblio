@@ -99,7 +99,7 @@ import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
 import WarPdf from '../assets/pdfs/The_33_Strategies_of_War.pdf';
 import ZigPdf from '../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf';
 import BreathPdf from '../assets/pdfs/When_Breath_Become.pdf';
-import FuckedPdf from '../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf';
+// import FuckedPdf from '../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf';
 import MalePdf from '../assets/pdfs/John Alexander - How To Become An Alpha Male.pdf';
 import MasterPdf from '../assets/pdfs/Atomic-Habits-.pdf'
 import BudhPdf from '../assets/pdfs/Why_Buddhism_Is_True_The_Science_and_Philosophy_of_Meditation_and.pdf'
@@ -146,6 +146,33 @@ import EuropeImage from '../assets/images/How Europe Under.jpg';
 import EuropePdf from '../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf';
 import DictImage from '../assets/images/The dictionary of body language.jpg';
 import DictPdf from '../assets/pdfs/The_Dictionary_of_Body_Language_A_Field_Guide_to_Human_Behavior.pdf';
+import PowernImage from '../assets/images/The power of now.jpg';
+import PowernPdf from '../assets/pdfs/The power of now_eng.pdf';
+import CrisisIMage from '../assets/images/The Pschology of a crisis.png';
+import CrisisPdf from '../assets/pdfs/Psychology_of_a_Crisis.pdf';
+import BridgeImage from '../assets/images/Bridge to heaven.jpg';
+import BridgePdf from '../assets/pdfs/Bridge to Haven by Francine Rivers.pdf';
+import IdiotsImage from '../assets/images/Surrounded-by-Idiots-nuriakenya.png';
+import IdiotsPdf from '../assets/pdfs/Surrounded by Idiots .pdf';
+import BattlesImage from '../assets/images/Win your inner battles.jpg';
+import BattlesPdf from '../assets/pdfs/win-your-inner-battles-defeat-the-enemy-within-and.pdf';
+import HabitsImage from '../assets/images/The power of habits.jpg';
+import HabitsPdf from '../assets/pdfs/The_Power_of_Habit_Why_We_Do_What_We_Do_in_Life_and_Business_PDFDrive.pdf';
+import TheBuzImage from '../assets/images/The business of the 21 centry.jpeg';
+import TheBuzPdf from '../assets/pdfs/The Business of the 21st Century ( PDFDrive ).pdf';
+import CheeseImage from '../assets/images/Who moved my cheese.jpg';
+import CheesePdf from '../assets/pdfs/Who Moved My Cheese_ ( PDFDrive ).pdf';
+import FrogImage from '../assets/images/Eat that frog.jpeg';
+import FrogPdf from '../assets/pdfs/Eat_That_Frog_21_Great_Ways_to_Stop_Procrastinating_and_Get_More.pdf';
+import StartzImage from '../assets/images/start from zero.jpg';
+import StartzPdf from '../assets/pdfs/Start_From_Zero_Build_Your_Own_Business_and_Experience_True_Freedom.pdf';
+import MillionImage from '../assets/images/The millionare mindset.jpg';
+import MillionPdf from '../assets/pdfs/The Millionaire Mindset - Mission Improvement ( PDFDrive ).pdf';
+import BedImage from '../assets/images/Make your bed_.jpg';
+import BedPdf from '../assets/pdfs/Make-your-Bed-PDF.pdf';
+
+
+
 
 
 
@@ -193,6 +220,15 @@ const books = [
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
   {
+    picture: PowernImage,
+    title: 'The Power Of Now',
+    author: 'Eckhart Tolle',
+    genre: "Self help",
+    availability: true,
+    read:PowernPdf,
+    Download: require('../assets/pdfs/The power of now_eng.pdf')
+  },
+  {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
     author: 'Nelson Mandela',
@@ -209,6 +245,15 @@ const books = [
     availability: true,
     read:DecoPdf,
     Download: require('../assets/pdfs/Decolonising the Mind by Wa NGUGI WA THION.pdf')
+  },
+  {
+    picture: CrisisIMage,
+    title: 'Pschychology Of Crisis',
+    author:'CERC',
+    genre: "Self Help",
+    availability: true,
+    read:CrisisPdf,
+    Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
   },
   {
     picture: PriestImage,
@@ -302,6 +347,15 @@ const books = [
     Download: require('../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf')
   },
   {
+    picture: BridgeImage,
+    title: 'Bridge To Heaven',
+    author: 'Francine River',
+    genre: "Christian Fiction",
+    availability: true,
+    read:BridgePdf,
+    Download: require('../assets/pdfs/Bridge to Haven by Francine Rivers.pdf')
+  },
+  {
     picture: AlphaImage,
     title: 'Unplugged Alpha',
     author: 'Richard Cooper',
@@ -309,6 +363,15 @@ const books = [
     availability: true,
     read:AlphaPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+  },
+  {
+    picture: IdiotsImage,
+    title: 'Sorrounded By Idiots',
+    author: 'Thomas Erikson',
+    genre: "Self Help",
+    availability: true,
+    read:IdiotsPdf,
+    Download: require('../assets/pdfs/Surrounded by Idiots .pdf')
   },
   {
     picture: LovedImage,
@@ -336,6 +399,15 @@ const books = [
     availability: true,
     read:DoomsdayPdf,
     Download: require('../assets/pdfs/Doomsday Conspiracy with Bonus Material - Sidney Sheldon.pdf')
+  },
+  {
+    picture: BattlesImage,
+    title: 'Win Your Inner Battles',
+    author: 'Darius Foroux',
+    genre: "Self Help",
+    availability: true,
+    read:BattlesPdf,
+    Download: require('../assets/pdfs/win-your-inner-battles-defeat-the-enemy-within-and.pdf')
   },
   {
     picture: Ceochinaimage,
@@ -383,6 +455,15 @@ const books = [
     Download: require('../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf')
   },
   {
+    picture: HabitsImage,
+    title: 'The Power of Habits',
+    author: 'Charles Duhigg',
+    genre: "Self Help",
+    availability: true,
+    read:HabitsPdf,
+    Download: require('../assets/pdfs/The_Power_of_Habit_Why_We_Do_What_We_Do_in_Life_and_Business_PDFDrive.pdf')
+  },
+  {
     picture: EuropeImage,
     title: 'How Europe Underdeeveloped Africa',
     author: 'Walter Rodney',
@@ -390,6 +471,15 @@ const books = [
     availability: true,
     read:EuropePdf,
     Download: require('../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf')
+  },
+  {
+    picture: TheBuzImage,
+    title: 'The Business of the 21st Century',
+    author: 'Robert T Kiyosaki',
+    genre: "Business",
+    availability: true,
+    read:TheBuzPdf,
+    Download: require('../assets/pdfs/The Business of the 21st Century ( PDFDrive ).pdf')
   },
   {
     picture: DeplomacyImage,
@@ -410,13 +500,30 @@ const books = [
     Download: require('../assets/pdfs/When_Breath_Become.pdf')
   },
   {
+    picture: CheeseImage,
+    title: 'Who Moved My Cheese',
+    author: 'Dr. Spencer Johnson',
+    genre: "Pscyhology",
+    availability: true,
+    read:CheesePdf,
+    Download: require('../assets/pdfs/Who Moved My Cheese_ ( PDFDrive ).pdf')
+  },
+  {
     picture: FackedupImage,
     title: 'Everything Is Fucked Up',
     author: 'Mark Mansion',
     genre: "Self Help",
     availability: true,
-    read:FuckedPdf,
     Download: require('../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf')
+  },
+  {
+    picture: FrogImage,
+    title: 'Eat That Frog',
+    author: 'Brian Tracy',
+    genre: "Self Help",
+    availability: true,
+    read:FrogPdf,
+    Download: require('../assets/pdfs/Who Moved My Cheese_ ( PDFDrive ).pdf')
   },
   {
     picture: AlpaImage,
@@ -464,6 +571,15 @@ const books = [
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
   },
   {
+    picture: StartzImage,
+    title: 'Start From Zero',
+    author: 'Dane Maxwell',
+    genre: "Business",
+    availability: true,
+    read:StartzPdf,
+    Download: require('../assets/pdfs/Start_From_Zero_Build_Your_Own_Business_and_Experience_True_Freedom.pdf')
+  },
+  {
     picture: DictImage,
     title: 'The Dictionary Of Body Language',
     author: 'Joe Navarro',
@@ -471,6 +587,15 @@ const books = [
     availability: true,
     read:DictPdf,
     Download: require('../assets/pdfs/The_Dictionary_of_Body_Language_A_Field_Guide_to_Human_Behavior.pdf')
+  },
+  {
+    picture: MillionImage,
+    title: 'The Millionaire Mindset',
+    author: 'Gerry Robert',
+    genre: "Business",
+    availability: true,
+    read:MillionPdf,
+    Download: require('../assets/pdfs/The Millionaire Mindset - Mission Improvement ( PDFDrive ).pdf')
   },
   {
     picture: MirrorImage,
@@ -498,6 +623,15 @@ const books = [
     availability: true,
     read:YourdreamsPdf,
     Download: require('../assets/pdfs/The-Lean-Startup-.pdf')
+  },
+  {
+    picture: BedImage,
+    title: 'Make Your Bed',
+    author: 'Admiral William McRaven',
+    genre: "Self help",
+    availability: true,
+    read:BedPdf,
+    Download: require('../assets/pdfs/Make-your-Bed-PDF.pdf')
   },
   {
     picture: SuperiorImage,
