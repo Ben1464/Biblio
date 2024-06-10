@@ -170,6 +170,30 @@ import MillionImage from '../assets/images/The millionare mindset.jpg';
 import MillionPdf from '../assets/pdfs/The Millionaire Mindset - Mission Improvement ( PDFDrive ).pdf';
 import BedImage from '../assets/images/Make your bed_.jpg';
 import BedPdf from '../assets/pdfs/Make-your-Bed-PDF.pdf';
+import SucpeopleImage from '../assets/images/How successful people think.jpg';
+import SucpeoplePdf from '../assets/pdfs/Howsuccessfulpeoplethink.pdf';
+import MeditationImage from '../assets/images/Meditation by marcus.jpg';
+import MeditationPdf from '../assets/pdfs/Marcus Aurelius Meditations ( PDFDrive ).pdf';
+import ManipultatedImage from '../assets/images/the manipulated man.jpg';
+import ManipultatedPdf from '../assets/pdfs/The Manipulated Man ( PDFDrive ).pdf';
+import TopImage from '../assets/images/See you at the top.jpg';
+import TopPdf from '../assets/pdfs/See You At The Top ( PDFDrive ).pdf';
+import ThinkethImage from '../assets/images/The the man thinketh.jpg';
+import ThinkethPdf from '../assets/pdfs/As a Man Thinketh ( PDFDrive ).pdf';
+import ThinkrichImage from '../assets/images/THink anfd grow rich.jpg';
+import ThinkrichPdf from '../assets/pdfs/Think And Grow Rich ( PDFDrive ).pdf';
+import NoniceImage from '../assets/images/NO more mr nice guy.jpg';
+import NonicePdf from '../assets/pdfs/No More Mr. Nice Guy by Robert Glover - 7Chan ( PDFDrive ).pdf';
+import UnlimitedsucImage from '../assets/images/Unlimited sales success.jpeg';
+import UnlimitedsucPdf from '../assets/pdfs/Unlimited_Sales_Success_12_Simple_Steps_for_Selling_More_Than_You.pdf';
+import CashflowImage from '../assets/images/Rich dad cash quard.jpg';
+import CashflowPdf from '../assets/pdfs/Rich_Dad’s_CASHFLOW_Quadrant_Rich_Dad’s_Guide_to_Financial_Freedom.pdf';
+import MistakemadeImage from '../assets/images/Mistakes made.jpg';
+import MistakemadePdf from '../assets/pdfs/Mistakes Made by Marie James.pdf';
+import JustkeepImage from '../assets/images/Just keep buying\'.jpg';
+import JustkeepPdf from '../assets/pdfs/Just_Keep_Buying.pdf';
+import SapienImage from '../assets/images/sapien.jpg';
+import SapienPdf from '../assets/pdfs/Sapiens.pdf';
 
 
 
@@ -229,6 +253,24 @@ const books = [
     Download: require('../assets/pdfs/The power of now_eng.pdf')
   },
   {
+    picture: SucpeopleImage,
+    title: 'How Successful People Think',
+    author: 'John Maxwell',
+    genre: "Self help",
+    availability: true,
+    read:SucpeoplePdf,
+    Download: require('../assets/pdfs/Howsuccessfulpeoplethink.pdf')
+  },
+  {
+    picture: CashflowImage,
+    title: 'Rich Dad\'s Cash Flow Quadrant',
+    author: 'Robert Kiyosaki',
+    genre: "Business",
+    availability: true,
+    read:CashflowPdf,
+    Download: require('../assets/pdfs/Rich_Dad’s_CASHFLOW_Quadrant_Rich_Dad’s_Guide_to_Financial_Freedom.pdf')
+  },
+  {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
     author: 'Nelson Mandela',
@@ -254,6 +296,15 @@ const books = [
     availability: true,
     read:CrisisPdf,
     Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
+  },
+  {
+    picture: MeditationImage,
+    title: 'Meditation',
+    author: 'Marcus Aurelius',
+    genre: "Stoicism",
+    availability: true,
+    read:MeditationPdf,
+    Download: require('../assets/pdfs/Marcus Aurelius Meditations ( PDFDrive ).pdf')
   },
   {
     picture: PriestImage,
@@ -290,6 +341,15 @@ const books = [
     availability: true,
     read:LawsPdf,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
+  },
+  {
+    picture: ManipultatedImage,
+    title: 'The Manipulated Man',
+    author: 'Esther Vilar',
+    genre: "Masculinity",
+    availability: true,
+    read:ManipultatedPdf,
+    Download: require('../assets/pdfs/The Manipulated Man ( PDFDrive ).pdf')
   },
   {
     picture: NothingforeverImage,
@@ -329,6 +389,15 @@ const books = [
     Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
   },
   {
+    picture: TopImage,
+    title: 'See You At The Top',
+    author: 'Zig Ziglar',
+    genre: "Self help",
+    availability: true,
+    read:TopPdf,
+    Download: require('../assets/pdfs/See You At The Top ( PDFDrive ).pdf')
+  },
+  {
     picture: FriendsImage,
     title: 'How To Win Friends And Influence People',
     author: 'Dale Carnegie',
@@ -354,6 +423,15 @@ const books = [
     availability: true,
     read:BridgePdf,
     Download: require('../assets/pdfs/Bridge to Haven by Francine Rivers.pdf')
+  },
+  {
+    picture: ThinkethImage,
+    title: 'As A Man Thinketh',
+    author: 'James Allen',
+    genre: "Self help",
+    availability: true,
+    read:ThinkethPdf,
+    Download: require('../assets/pdfs/As a Man Thinketh ( PDFDrive ).pdf')
   },
   {
     picture: AlphaImage,
@@ -390,6 +468,15 @@ const books = [
     availability: true,
     read:TechPdf,
     Download: require('../assets/pdfs/I Will Teach You To Be Rich ( PDFDrive ).pdf')
+  },
+  {
+    picture: ThinkrichImage,
+    title: 'Think And Grow Rich',
+    author: 'Napoleon Hill',
+    genre: "Self help",
+    availability: true,
+    read:ThinkrichPdf,
+    Download: require('../assets/pdfs/Think And Grow Rich ( PDFDrive ).pdf')
   },
   {
     picture: DoomsdayImage,
@@ -473,6 +560,15 @@ const books = [
     Download: require('../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf')
   },
   {
+    picture: NoniceImage,
+    title: 'No More Mr Nice Guy',
+    author: 'Robert A Clover',
+    genre: "Self help",
+    availability: true,
+    read:NonicePdf,
+    Download: require('../assets/pdfs/No More Mr. Nice Guy by Robert Glover - 7Chan ( PDFDrive ).pdf')
+  },
+  {
     picture: TheBuzImage,
     title: 'The Business of the 21st Century',
     author: 'Robert T Kiyosaki',
@@ -491,6 +587,15 @@ const books = [
     Download: require('../assets/pdfs/Diplomacy (Henry Kissinger).pdf')
   },
   {
+    picture: UnlimitedsucImage,
+    title: 'Unlimited Sales Success',
+    author: 'Brian Tracy',
+    genre: "Business",
+    availability: true,
+    read:UnlimitedsucPdf,
+    Download: require('../assets/pdfs/Unlimited_Sales_Success_12_Simple_Steps_for_Selling_More_Than_You.pdf')
+  },
+  {
     picture: AirImage,
     title: 'When Breath Becomes Air',
     author: 'Paul Kalanithi',
@@ -498,6 +603,24 @@ const books = [
     availability: true,
     read:BreathPdf,
     Download: require('../assets/pdfs/When_Breath_Become.pdf')
+  },
+  {
+    picture: MistakemadeImage,
+    title: 'Mistake Made By Marie James',
+    author: 'Marie James',
+    genre: "Dark Romance ",
+    availability: true,
+    read:MistakemadePdf,
+    Download: require('../assets/pdfs/Mistakes Made by Marie James.pdf')
+  },
+  {
+    picture: JustkeepImage,
+    title: 'Just Keep Buying',
+    author: 'Nick Maggiulli',
+    genre: "Business",
+    availability: true,
+    read:JustkeepPdf,
+    Download: require('../assets/pdfs/Just_Keep_Buying.pdf')
   },
   {
     picture: CheeseImage,
@@ -542,6 +665,15 @@ const books = [
     availability: true,
     read:MasterPdf,
     Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+  },
+  {
+    picture: SapienImage,
+    title: 'Sapiens',
+    author: 'Yuval Noah Harari',
+    genre: "Non-Fiction",
+    availability: true,
+    read:SapienPdf,
+    Download: require('../assets/pdfs/Sapiens.pdf')
   },
   {
     picture: BuddhiImage,
