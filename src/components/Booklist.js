@@ -194,6 +194,21 @@ import JustkeepImage from '../assets/images/Just keep buying\'.jpg';
 import JustkeepPdf from '../assets/pdfs/Just_Keep_Buying.pdf';
 import SapienImage from '../assets/images/sapien.jpg';
 import SapienPdf from '../assets/pdfs/Sapiens.pdf';
+import Habits8Image from '../assets/images/The 8th Hanit.jpg';
+import Habits8Pdf from '../assets/pdfs/The 8th Habit From Effectiveness to Greatness.pdf';
+import RomeoIMage from '../assets/images/Romeo and Juliet.jpeg';
+import RomeoPdf from '../assets/pdfs/Romeo and Juliet .pdf';
+import LostleaderImage from '../assets/images/African lost leader.jpg';
+import LostleaderPdf from '../assets/pdfs/Patrice Lumumba_ Africa\'s Lost Leader ( PDFDrive ).pdf';
+import SpiesImage from '../assets/images/How spies works.jpg';
+import SpiesPdf from '../assets/pdfs/How-Spies-Think.pdf';
+import AperfectIMage from '../assets/images/A perfect life.jpg';
+import AperfectPdf from '../assets/pdfs/A Perfect Life by Danielle Steel.pdf';
+// import MoveImage from '../assets/images/Your next 5 moves.jpg';
+import MovePdf from '../assets/pdfs/your-next-five-moves-by-patrick-bet-david_compress.pdf';
+import FeministImage from '../assets/images/The feminist lie.jpg';
+import FeministPdf from '../assets/pdfs/The_Feminist_Lie_It_Was_Never_About_Equality_Bob_Lewis_z_lib_org.pdf';
+
 
 
 
@@ -271,6 +286,15 @@ const books = [
     Download: require('../assets/pdfs/Rich_Dad’s_CASHFLOW_Quadrant_Rich_Dad’s_Guide_to_Financial_Freedom.pdf')
   },
   {
+    picture: Habits8Image,
+    title: 'The 8th Habit From Effectiveness to Greatness',
+    author: 'Stephen R. Covey',
+    genre: "Self Help",
+    availability: true,
+    read:Habits8Pdf,
+    Download: require('../assets/pdfs/The 8th Habit From Effectiveness to Greatness.pdf')
+  },
+  {
     picture: FreedomImage,
     title: 'Long Walk To Freedom',
     author: 'Nelson Mandela',
@@ -278,6 +302,15 @@ const books = [
     availability: true,
     read:FreedomPdf,
     Download: require('../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf')
+  },
+  {
+    picture: RomeoIMage,
+    title: 'Romeo and Juliet',
+    author: 'William Shakespeare',
+    genre: "Love",
+    availability: true,
+    read:RomeoPdf,
+    Download: require('../assets/pdfs/Romeo and Juliet .pdf')
   },
   {
     picture: DecoloImage,
@@ -298,6 +331,15 @@ const books = [
     Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
   },
   {
+    picture: LostleaderImage,
+    title: 'Africa/s Lost Leader',
+    author: 'Patrice Lumumba',
+    genre: "Non-fiction",
+    availability: true,
+    read:LostleaderPdf,
+    Download: require('../assets/pdfs/Patrice Lumumba_ Africa\'s Lost Leader ( PDFDrive ).pdf')
+  },
+  {
     picture: MeditationImage,
     title: 'Meditation',
     author: 'Marcus Aurelius',
@@ -314,6 +356,15 @@ const books = [
     availability: true,
     read:PriestPdf,
     Download: require('../assets/pdfs/Priest.pdf')
+  },
+  {
+    picture: SpiesImage,
+    title: 'How Spies Work',
+    author: 'David Omand',
+    genre: "Spy-Fiction",
+    availability: true,
+    read:SpiesPdf,
+    Download: require('../assets/pdfs/How-Spies-Think.pdf')
   },
   {
     picture: DrivenImage,
@@ -334,6 +385,15 @@ const books = [
     Download: require('../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf')
   },
   {
+    picture: AperfectIMage,
+    title: 'A Perfect Life',
+    author: 'Danielle Steel',
+    genre: "Inspirational",
+    availability: true,
+    read:AperfectPdf,
+    Download: require('../assets/pdfs/A Perfect Life by Danielle Steel.pdf')
+  },
+  {
     picture: LawsImage,
     title: '48 Laws Of Power',
     author: 'Robert Greene',
@@ -350,6 +410,15 @@ const books = [
     availability: true,
     read:ManipultatedPdf,
     Download: require('../assets/pdfs/The Manipulated Man ( PDFDrive ).pdf')
+  },
+  {
+    picture: MoneyImage,
+    title: 'Your Next Five Moves',
+    author: 'Partric Bet-David',
+    genre: "Self Help",
+    availability: true,
+    read:MovePdf,
+    Download: require('../assets/pdfs/your-next-five-moves-by-patrick-bet-david_compress.pdf')
   },
   {
     picture: NothingforeverImage,
@@ -369,7 +438,15 @@ const books = [
     read:CapturedPdf,
     Download: require('../assets/pdfs/The Captured Mind - Final Accepted Copy.pdf')
   },
-
+  {
+    picture: FeministImage,
+    title: 'The Feminist Lie',
+    author: 'Bob Lewis',
+    genre: "Feminism",
+    availability: true,
+    read:FeministPdf,
+    Download: require('../assets/pdfs/The_Feminist_Lie_It_Was_Never_About_Equality_Bob_Lewis_z_lib_org.pdf')
+  },
   {
     picture: YourEmoImage,
     title: 'Master Your Emotions',
