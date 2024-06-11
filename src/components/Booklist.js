@@ -204,7 +204,7 @@ import SpiesImage from '../assets/images/How spies works.jpg';
 import SpiesPdf from '../assets/pdfs/How-Spies-Think.pdf';
 import AperfectIMage from '../assets/images/A perfect life.jpg';
 import AperfectPdf from '../assets/pdfs/A Perfect Life by Danielle Steel.pdf';
-// import MoveImage from '../assets/images/Your next 5 moves.jpg';
+import MoveImage from '../assets/images/Your next 5 moves.jpg';
 import MovePdf from '../assets/pdfs/your-next-five-moves-by-patrick-bet-david_compress.pdf';
 import FeministImage from '../assets/images/The feminist lie.jpg';
 import FeministPdf from '../assets/pdfs/The_Feminist_Lie_It_Was_Never_About_Equality_Bob_Lewis_z_lib_org.pdf';
@@ -412,7 +412,7 @@ const books = [
     Download: require('../assets/pdfs/The Manipulated Man ( PDFDrive ).pdf')
   },
   {
-    picture: MoneyImage,
+    picture: MoveImage,
     title: 'Your Next Five Moves',
     author: 'Partric Bet-David',
     genre: "Self Help",
