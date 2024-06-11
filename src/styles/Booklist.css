@@ -135,7 +135,7 @@ body.dark {
   color: white;
 }
 .back{
-background-color: rgb(208, 231, 224);
+background: linear-gradient(to right, #93A5CF   ,  #E4EfE9);
 color: black;
 border-radius: 6px;
 height: 34px;

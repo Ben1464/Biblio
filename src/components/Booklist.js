@@ -208,8 +208,32 @@ import MoveImage from '../assets/images/Your next 5 moves.jpg';
 import MovePdf from '../assets/pdfs/your-next-five-moves-by-patrick-bet-david_compress.pdf';
 import FeministImage from '../assets/images/The feminist lie.jpg';
 import FeministPdf from '../assets/pdfs/The_Feminist_Lie_It_Was_Never_About_Equality_Bob_Lewis_z_lib_org.pdf';
+import KindworthImage from '../assets/images/KInd worthy killing.jpg';
+import KindworthPdf from '../assets/pdfs/The Kind Worth Killing-Peter Swanson.pdf';
+import BiafraIMage from '../assets/images/the-biafra-story-1.jpg';
+import BiafraPdf from '../assets/pdfs/The Biafra Story ( PDFDrive ).pdf';
+import FarmishedImage from '../assets/images/the farmished road.jpg';
+import FarmishedPdf from '../assets/pdfs/The Famished Road (Ben Okri).pdf';
+import YellowImage from '../assets/images/half of a yellow.jpg';
+import YellowPdf from '../assets/pdfs/Half_of_a_Yellow_Sun_by_Chimamanda_Ngozi_Adichie_Adichie,_Chimamanda.pdf';
+import HumanImage from '../assets/pdfs/The Laws of Human Nature (Robert Greene).pdf';
+import HumanPdf from '../assets/pdfs/The Laws of Human Nature (Robert Greene).pdf';
+import CountryImage from '../assets/images/There was a country.jpeg';
+import CountryPdf from '../assets/pdfs/There_Was_a_Country_A_Personal_History_of_Biafra_by_Achebe_Chinua.pdf';
+import LaidplanImage from '../assets/images/Best laid plans.jpg';
+import LaidplanPdf from '../assets/pdfs/Sidney Sheldon - Best Laid plans.pdf';
+import WildImage from '../assets/images/The call of the wild.jpeg';
+import WildPdf from '../assets/pdfs/The-Call-of-the-Wild-by-Jack-London.pdf';
+import AnglesImage from '../assets/images/Rage of the angle .jpg';
+import AnglePdf from '../assets/pdfs/Sidney Sheldon - Rage Of Angels(1).pdf';
+import MidnightImage from '../assets/images/Memories of the night.jpg';
+import MidnightPdf from '../assets/pdfs/Sidney Sheldon - Memories Of Midnight.pdf';
+import SaidImage from '../assets/images/the worlds i wish i said.jpg';
+import SaidPdf from '../assets/pdfs/The Words I Wish I Said by caitlin kelly (z-lib.org).pdf';
+import DoveImage from '../assets/images/wings of a dove.jpeg';
+import DovePdf from '../assets/pdfs/wings_of_a_dove.pdf';
 
-
+ 
 
 
 
@@ -331,6 +355,15 @@ const books = [
     Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
   },
   {
+    picture: KindworthImage,
+    title: 'The Kind Worth Killing',
+    author:'Peter Swgnson',
+    genre: "Thriller",
+    availability: true,
+    read:KindworthPdf,
+    Download: require('../assets/pdfs/The Kind Worth Killing-Peter Swanson.pdf')
+  },
+  {
     picture: LostleaderImage,
     title: 'Africa/s Lost Leader',
     author: 'Patrice Lumumba',
@@ -376,6 +409,15 @@ const books = [
     Download: require('../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf')
   },
   {
+    picture: BiafraIMage,
+    title: 'The Biafra Story',
+    author:'Frederick Forsyth',
+    genre: "Biography",
+    availability: true,
+    read:BiafraPdf,
+    Download: require('../assets/pdfs/The Biafra Story ( PDFDrive ).pdf')
+  },
+  {
     picture: FortyImage,
     title: 'Forty Rules Of Love',
     author: 'Elif Shafak',
@@ -383,6 +425,15 @@ const books = [
     availability: true,
     read:FortyPdf,
     Download: require('../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf')
+  },
+  {
+    picture: FarmishedImage,
+    title: 'The Farmished Road',
+    author: 'Ben Onkri',
+    genre: "Fantasy Fiction",
+    availability: true,
+    read:FarmishedPdf,
+    Download: require('../assets/pdfs/The Famished Road (Ben Okri).pdf')
   },
   {
     picture: AperfectIMage,
@@ -401,6 +452,15 @@ const books = [
     availability: true,
     read:LawsPdf,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
+  },
+  {
+    picture: YellowImage,
+    title: 'Half Of A Yellow Sun',
+    author: 'Chimamanda Ngozi',
+    genre: "Historical Fiction",
+    availability: true,
+    read:YellowPdf,
+    Download: require('../assets/pdfs/Half_of_a_Yellow_Sun_by_Chimamanda_Ngozi_Adichie_Adichie,_Chimamanda.pdf')
   },
   {
     picture: ManipultatedImage,
@@ -457,6 +517,15 @@ const books = [
     Download: require('../assets/pdfs/Master Your Emotions A Practical Guid... (Z-Library).pdf')
   },
   {
+    picture: HumanImage,
+    title: 'The Laws Of Human Nature',
+    author: 'Robert Greene',
+    genre: 'Self Help',
+    availability: true,
+    read:HumanPdf,
+    Download: require('../assets/pdfs/The Laws of Human Nature (Robert Greene).pdf')
+  },
+  {
     picture: PunImage,
     title: 'Crime And Punshment',
     author: 'George Gibian',
@@ -473,6 +542,15 @@ const books = [
     availability: true,
     read:TopPdf,
     Download: require('../assets/pdfs/See You At The Top ( PDFDrive ).pdf')
+  },
+  {
+    picture: CountryImage,
+    title: 'There Was A Country',
+    author: 'Chinua Achebe',
+    genre: 'Autobiography',
+    availability: true,
+    read:CountryPdf,
+    Download: require('../assets/pdfs/There_Was_a_Country_A_Personal_History_of_Biafra_by_Achebe_Chinua.pdf')
   },
   {
     picture: FriendsImage,
@@ -511,6 +589,15 @@ const books = [
     Download: require('../assets/pdfs/As a Man Thinketh ( PDFDrive ).pdf')
   },
   {
+    picture: LaidplanImage,
+    title: 'Best Laid Plans',
+    author: 'Sidney Sheldon',
+    genre: 'Fiction',
+    availability: true,
+    read:LaidplanPdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - Best Laid plans.pdf')
+  },
+  {
     picture: AlphaImage,
     title: 'Unplugged Alpha',
     author: 'Richard Cooper',
@@ -529,6 +616,15 @@ const books = [
     Download: require('../assets/pdfs/Surrounded by Idiots .pdf')
   },
   {
+    picture: WildImage,
+    title: 'The Call Of The Wild',
+    author: 'Jack London',
+    genre: 'Adventure Fiction',
+    availability: true,
+    read:WildPdf,
+    Download: require('../assets/pdfs/The-Call-of-the-Wild-by-Jack-London.pdf')
+  },
+  {
     picture: LovedImage,
     title: 'Love In The Afternoon',
     author: 'Cate Speck',
@@ -545,6 +641,15 @@ const books = [
     availability: true,
     read:TechPdf,
     Download: require('../assets/pdfs/I Will Teach You To Be Rich ( PDFDrive ).pdf')
+  },
+  {
+    picture: AnglesImage,
+    title: 'Rage Of Angles',
+    author: 'Thibaut Meurisse',
+    genre: 'Drama',
+    availability: true,
+    read:AnglePdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - Rage Of Angels(1).pdf')
   },
   {
     picture: ThinkrichImage,
@@ -572,6 +677,15 @@ const books = [
     availability: true,
     read:BattlesPdf,
     Download: require('../assets/pdfs/win-your-inner-battles-defeat-the-enemy-within-and.pdf')
+  },
+  {
+    picture: MidnightImage,
+    title: 'Memmories Of Midnight',
+    author: 'Sidney Sheldon',
+    genre: 'Fiction',
+    availability: true,
+    read:MidnightPdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - Memories Of Midnight.pdf')
   },
   {
     picture: Ceochinaimage,
@@ -626,6 +740,15 @@ const books = [
     availability: true,
     read:HabitsPdf,
     Download: require('../assets/pdfs/The_Power_of_Habit_Why_We_Do_What_We_Do_in_Life_and_Business_PDFDrive.pdf')
+  },
+  {
+    picture: SaidImage,
+    title: 'The Words I Wish I Said',
+    author: 'Caitlin Kellz',
+    genre: 'Poetry',
+    availability: true,
+    read:SaidPdf,
+    Download: require('../assets/pdfs/The Words I Wish I Said by caitlin kelly (z-lib.org).pdf')
   },
   {
     picture: EuropeImage,
@@ -715,6 +838,15 @@ const books = [
     genre: "Self Help",
     availability: true,
     Download: require('../assets/pdfs/Mark_Manson_Everything_Is_F_cked_A_Book_About_Hope_Harper_PDFDrive.pdf')
+  },
+  {
+    picture: DoveImage,
+    title: 'The Wings Of The Dove',
+    author:'Henry James',
+    genre: 'Fiction',
+    availability: true,
+    read:DovePdf,
+    Download: require('../assets/pdfs/wings_of_a_dove.pdf')
   },
   {
     picture: FrogImage,
