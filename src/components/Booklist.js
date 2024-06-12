@@ -216,7 +216,7 @@ import FarmishedImage from '../assets/images/the farmished road.jpg';
 import FarmishedPdf from '../assets/pdfs/The Famished Road (Ben Okri).pdf';
 import YellowImage from '../assets/images/half of a yellow.jpg';
 import YellowPdf from '../assets/pdfs/Half_of_a_Yellow_Sun_by_Chimamanda_Ngozi_Adichie_Adichie,_Chimamanda.pdf';
-import HumanImage from '../assets/pdfs/The Laws of Human Nature (Robert Greene).pdf';
+import HumanImage from '../assets/images/THe law of human nature.jpeg';
 import HumanPdf from '../assets/pdfs/The Laws of Human Nature (Robert Greene).pdf';
 import CountryImage from '../assets/images/There was a country.jpeg';
 import CountryPdf from '../assets/pdfs/There_Was_a_Country_A_Personal_History_of_Biafra_by_Achebe_Chinua.pdf';
