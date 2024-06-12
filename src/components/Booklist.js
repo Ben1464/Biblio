@@ -232,8 +232,27 @@ import SaidImage from '../assets/images/the worlds i wish i said.jpg';
 import SaidPdf from '../assets/pdfs/The Words I Wish I Said by caitlin kelly (z-lib.org).pdf';
 import DoveImage from '../assets/images/wings of a dove.jpeg';
 import DovePdf from '../assets/pdfs/wings_of_a_dove.pdf';
+import FallingImage from '../assets/images/The sky is falling.jpg';
+import FallingPdf from '../assets/pdfs/Sidney Sheldon - The Sky Is Falling.pdf';
+import ComesImage from '../assets/images/If tommorow comes.jpeg';
+import ComesPdf from '../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf';
+import MartianImage from '../assets/images/The_Martian_(Weir_novel).jpg';
+import MartianPdf from '../assets/images/The_Martian_(Weir_novel).jpg';
+import WomenLoveImage from '../assets/images/women in love.jpeg';
+import WomenLovePdf from '../assets/pdfs/women-in-love.pdf';
+import NewyouImage from '../assets/images/Have a new you by friday.jpg';
+import NewyouPdf from '../assets/pdfs/Have_a_New_You_by_Friday_How_to_Accept_Yourself,_Boost_Your_Confidence.pdf';
+import SellingImage from '../assets/images/THe art of selling to the affluent.jpeg';
+import SellingPdf from '../assets/pdfs/The_Art_of_Selling_to_the_Affluent_How_to_Attract,_Service,_and.pdf';
+import HopeinfrontImage from '../assets/images/Hope infront of me.jpg';
+import HopeinfrontPdf from '../assets/images/Hope infront of me.jpg';
+import BornontuesdayImage from '../assets/images/born-tuesday.webp';
+import BornontuesdayPdf from '../assets/pdfs/Born on a Tuesday (Elnathan John) (z-lib.org).pdf';
+import DevilImage from '../assets/images/outwitting-the-devil-napoleon-hill.jpg';
+import DevilPdf from '../assets/pdfs/Outwitting_the_Devil_Napoleon_Hill_PDF_Archive_PDFDrive_1.pdf';
+import VanishedImage from '../assets/images/Vanished.jpeg';
+import VanishedPdf from '../assets/pdfs/Vanished ( PDFDrive ).pdf';
 
- 
 
 
 
@@ -272,7 +291,15 @@ const books = [
     read: YouPdf,
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
-
+  {
+    picture: FallingImage,
+    title: 'The Sky Is Falling',
+    author: 'Sidney Sheldon',
+    genre: "Fiction",
+    availability: true,
+    read: FallingPdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - The Sky Is Falling.pdf')
+  },
   {
     picture: MammthImage,
     title: 'The Mammoth Book Of Cover-Ups',
@@ -290,6 +317,15 @@ const books = [
     availability: true,
     read:PowernPdf,
     Download: require('../assets/pdfs/The power of now_eng.pdf')
+  },
+  {
+    picture: ComesImage,
+    title: 'If Tomorrow Comes',
+    author: 'Sidney Sheldon',
+    genre: "Thriller",
+    availability: true,
+    read: ComesPdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf')
   },
   {
     picture: SucpeopleImage,
@@ -344,6 +380,15 @@ const books = [
     availability: true,
     read:DecoPdf,
     Download: require('../assets/pdfs/Decolonising the Mind by Wa NGUGI WA THION.pdf')
+  },
+  {
+    picture: MartianImage,
+    title: 'The Martian',
+    author: 'Andy Weir',
+    genre: "Science Fiction",
+    availability: true,
+    read:MartianPdf,
+    Download: require('../assets/pdfs/The_Martian.pdf')
   },
   {
     picture: CrisisIMage,
@@ -409,6 +454,15 @@ const books = [
     Download: require('../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf')
   },
   {
+    picture: WomenLoveImage,
+    title: 'Women In Love',
+    author: 'D.H Lawrence',
+    genre: "Romance",
+    availability: true,
+    read:WomenLovePdf,
+    Download: require('../assets/pdfs/women-in-love.pdf')
+  },
+  {
     picture: BiafraIMage,
     title: 'The Biafra Story',
     author:'Frederick Forsyth',
@@ -416,6 +470,15 @@ const books = [
     availability: true,
     read:BiafraPdf,
     Download: require('../assets/pdfs/The Biafra Story ( PDFDrive ).pdf')
+  },
+  {
+    picture: NewyouImage,
+    title: 'Have A New You By Friday',
+    author: 'Rick Warren',
+    genre: "Self Help",
+    availability: true,
+    read:NewyouPdf,
+    Download: require('../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf')
   },
   {
     picture: FortyImage,
@@ -436,6 +499,15 @@ const books = [
     Download: require('../assets/pdfs/The Famished Road (Ben Okri).pdf')
   },
   {
+    picture: SellingImage,
+    title: 'The Art Of Selling To The Affluent',
+    author: 'Matt Oescsli',
+    genre: "Business",
+    availability: true,
+    read:SellingPdf,
+    Download: require('../assets/pdfs/The_Art_of_Selling_to_the_Affluent_How_to_Attract,_Service,_and.pdf')
+  },
+  {
     picture: AperfectIMage,
     title: 'A Perfect Life',
     author: 'Danielle Steel',
@@ -445,6 +517,15 @@ const books = [
     Download: require('../assets/pdfs/A Perfect Life by Danielle Steel.pdf')
   },
   {
+    picture: HopeinfrontImage,
+    title: 'Hope In Front Of Me',
+    author: 'Danny Gokey',
+    genre: "Self Help",
+    availability: true,
+    read:HopeinfrontPdf,
+    Download: require('../assets/pdfs/Hope in Front of Me (Danny Gokey  Ben Stroup) (z-lib.org).pdf')
+  },
+  {
     picture: LawsImage,
     title: '48 Laws Of Power',
     author: 'Robert Greene',
@@ -452,6 +533,15 @@ const books = [
     availability: true,
     read:LawsPdf,
     Download: require('../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf')
+  },
+  {
+    picture: BornontuesdayImage,
+    title: 'Born On Tuesday',
+    author: 'Elnathan John',
+    genre: "Bildungsroman",
+    availability: true,
+    read:BornontuesdayPdf,
+    Download: require('../assets/pdfs/Born on a Tuesday (Elnathan John) (z-lib.org).pdf')
   },
   {
     picture: YellowImage,
@@ -481,6 +571,15 @@ const books = [
     Download: require('../assets/pdfs/your-next-five-moves-by-patrick-bet-david_compress.pdf')
   },
   {
+    picture: DevilImage,
+    title: 'Outwitting The Devil',
+    author: 'Napoleon Hill',
+    genre: "Self Help",
+    availability: true,
+    read:DevilPdf,
+    Download: require('../assets/pdfs/Outwitting_the_Devil_Napoleon_Hill_PDF_Archive_PDFDrive_1.pdf')
+  },
+  {
     picture: NothingforeverImage,
     title: 'Nothing Last Forever',
     author: 'Sidney Sheldon',
@@ -497,6 +596,15 @@ const books = [
     availability: true,
     read:CapturedPdf,
     Download: require('../assets/pdfs/The Captured Mind - Final Accepted Copy.pdf')
+  },
+  {
+    picture: VanishedImage,
+    title: 'Vanished',
+    author: 'Danielle Steel',
+    genre: "Thriller",
+    availability: true,
+    read:VanishedPdf,
+    Download: require('../assets/pdfs/Vanished ( PDFDrive ).pdf')
   },
   {
     picture: FeministImage,
@@ -1321,7 +1429,7 @@ function Booklist() {
       <div className="search">
         <input
           type="text"
-          placeholder="Search by title or author.."
+          placeholder="Search by title or author..."
           value={searchQuery}
           onChange={handleSearchChange}
           className="search-input"
