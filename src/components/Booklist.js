@@ -252,6 +252,28 @@ import DevilImage from '../assets/images/outwitting-the-devil-napoleon-hill.jpg'
 import DevilPdf from '../assets/pdfs/Outwitting_the_Devil_Napoleon_Hill_PDF_Archive_PDFDrive_1.pdf';
 import VanishedImage from '../assets/images/Vanished.jpeg';
 import VanishedPdf from '../assets/pdfs/Vanished ( PDFDrive ).pdf';
+import AnimalImage from '../assets/images/Animal farm.jpg';
+import AnimalPdf from '../assets/pdfs/Animal Farm by George Orwellb.pdf';
+import PowerPrayerImage from '../assets/images/PowerMarriage.jpg';
+import PowerPrayerPdf from '../assets/pdfs/The_Power_Of_Prayer_To_Change_Your_Marriage_Stormie_Omartian_Christiandiet.pdf';
+import ChristBibImage from '../assets/images/Bibble hygine.jpg';
+import ChristBibPdf from '../assets/pdfs/Christian Temperance and Bible Hygiene.pdf';
+import NoraImage from '../assets/images/Searching for Nora.jpg';
+import Norapdf from '../assets/pdfs/Searching for Nora - Wendy W. Swallow.pdf';
+import SpeechesImage from '../assets/images/selected speeches.jpg';
+import SpeechesPdf from '../assets/pdfs/Selected_Writings_and_Speeches_of_Marcus_Garvey_Marcus_Garvey_1.pdf';
+import SexualImage from '../assets/images/sexual chemistry.jpg';
+import SexualPdf from '../assets/pdfs/Sexual_Chemistry_What_It_Is,_How_to_Use_It_Julius_Fast_z_lib_org.pdf';
+import UniteImage from '../assets/images/Africa must unite.jpg';
+import UnitePdf from '../assets/pdfs/Africa-Must-Unite-Kwame-Nkrumah.pdf';
+import ThelawImage from '../assets/images/The 50th law.jpg';
+import ThelawPdf from '../assets/pdfs/The 50th Law (Robert Greene, 50 Cent) (z-lib.org).pdf';
+import BabylonImage from '../assets/images/The richest man in Babylon.jpeg';
+import BabylonPdf from '../assets/pdfs/The Richest Man In Babylon (George S. Clason) (z-lib.org).pdf';
+import MoonImage from '../assets/images/Flowers in the moon.jpg';
+import MoonPdf from '../assets/pdfs/Flowers On The Moon by Billy Chapata (z-lib.org).pdf'
+import FruitrianImage from '../assets/images/Frutarian.webp';
+import FruitrianPdf from '../assets/pdfs/Fruitarians_are_The_Future_Full_Guide_to_Mono_Meals_and_Fruitarian.pdf'
 
 
 
@@ -310,6 +332,15 @@ const books = [
     Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
   {
+    picture: AnimalImage,
+    title: 'Animal Farm',
+    author: "George Orwell",
+    genre: "Satire",
+    availability: true,
+    read:AnimalPdf,
+    Download: require('../assets/pdfs/Animal Farm by George Orwellb.pdf')
+  },
+  {
     picture: PowernImage,
     title: 'The Power Of Now',
     author: 'Eckhart Tolle',
@@ -328,6 +359,15 @@ const books = [
     Download: require('../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf')
   },
   {
+    picture: PowerPrayerImage,
+    title: 'The Power Of Prayer To Change Your Marriage',
+    author: 'Stormie Omaritian',
+    genre: "Christian literature",
+    availability: true,
+    read:PowerPrayerPdf,
+    Download: require('../assets/pdfs/The_Power_Of_Prayer_To_Change_Your_Marriage_Stormie_Omartian_Christiandiet.pdf')
+  },
+  {
     picture: SucpeopleImage,
     title: 'How Successful People Think',
     author: 'John Maxwell',
@@ -335,6 +375,15 @@ const books = [
     availability: true,
     read:SucpeoplePdf,
     Download: require('../assets/pdfs/Howsuccessfulpeoplethink.pdf')
+  },
+  {
+    picture: ChristBibImage,
+    title: 'Christian Temperance And Bibble Hygine',
+    author: 'Ellen G White',
+    genre: "Christian Literature",
+    availability: true,
+    read:ChristBibPdf,
+    Download: require('../assets/pdfs/Christian Temperance and Bible Hygiene.pdf')
   },
   {
     picture: CashflowImage,
@@ -353,6 +402,15 @@ const books = [
     availability: true,
     read:Habits8Pdf,
     Download: require('../assets/pdfs/The 8th Habit From Effectiveness to Greatness.pdf')
+  },
+  {
+    picture: NoraImage,
+    title: 'Searching For Nora',
+    author: 'Wendy Swallow',
+    genre: "Historical Fiction",
+    availability: true,
+    read:Norapdf,
+    Download: require('../assets/pdfs/Searching for Nora - Wendy W. Swallow.pdf')
   },
   {
     picture: FreedomImage,
@@ -380,6 +438,15 @@ const books = [
     availability: true,
     read:DecoPdf,
     Download: require('../assets/pdfs/Decolonising the Mind by Wa NGUGI WA THION.pdf')
+  },
+  {
+    picture: SpeechesImage,
+    title: 'Selected Writting And Speeches Of Marcus Garvey',
+    author: 'Bob Blaisdell',
+    genre: "Fiction",
+    availability: true,
+    read:SpeechesPdf,
+    Download: require('../assets/pdfs/Selected_Writings_and_Speeches_of_Marcus_Garvey_Marcus_Garvey_1.pdf')
   },
   {
     picture: MartianImage,
@@ -418,6 +485,15 @@ const books = [
     Download: require('../assets/pdfs/Patrice Lumumba_ Africa\'s Lost Leader ( PDFDrive ).pdf')
   },
   {
+    picture: SexualImage,
+    title: 'Sexual Chemisrty',
+    author: 'Julius Fast',
+    genre: "Romance",
+    availability: true,
+    read:SexualPdf,
+    Download: require('../assets/pdfs/Sexual_Chemistry_What_It_Is,_How_to_Use_It_Julius_Fast_z_lib_org.pdf')
+  },
+  {
     picture: MeditationImage,
     title: 'Meditation',
     author: 'Marcus Aurelius',
@@ -434,6 +510,15 @@ const books = [
     availability: true,
     read:PriestPdf,
     Download: require('../assets/pdfs/Priest.pdf')
+  },
+  {
+    picture: UniteImage,
+    title: 'Africa Must Unite',
+    author: 'Kwame Nkrumah',
+    genre: "History",
+    availability: true,
+    read:UnitePdf,
+    Download: require('../assets/pdfs/Africa-Must-Unite-Kwame-Nkrumah.pdf')
   },
   {
     picture: SpiesImage,
@@ -463,6 +548,15 @@ const books = [
     Download: require('../assets/pdfs/women-in-love.pdf')
   },
   {
+    picture: ThelawImage,
+    title: 'The 50th Law',
+    author: '50 Cent and Robert Greene',
+    genre: "Self Help",
+    availability: true,
+    read:ThelawPdf,
+    Download: require('../assets/pdfs/The 50th Law (Robert Greene, 50 Cent) (z-lib.org).pdf')
+  },
+  {
     picture: BiafraIMage,
     title: 'The Biafra Story',
     author:'Frederick Forsyth',
@@ -480,6 +574,7 @@ const books = [
     read:NewyouPdf,
     Download: require('../assets/pdfs/The_Purpose_Driven_Life_What_on_Earth_Am_I_Here_For_PDFDrive_.pdf')
   },
+
   {
     picture: FortyImage,
     title: 'Forty Rules Of Love',
@@ -488,6 +583,15 @@ const books = [
     availability: true,
     read:FortyPdf,
     Download: require('../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf')
+  },
+  {
+    picture: BabylonImage,
+    title: 'The Richest Man In Babylon',
+    author: 'George Clason',
+    genre: "Self Help",
+    availability: true,
+    read:BabylonPdf,
+    Download: require('../assets/pdfs/The Richest Man In Babylon (George S. Clason) (z-lib.org).pdf')
   },
   {
     picture: FarmishedImage,
@@ -515,6 +619,15 @@ const books = [
     availability: true,
     read:AperfectPdf,
     Download: require('../assets/pdfs/A Perfect Life by Danielle Steel.pdf')
+  },
+  {
+    picture: MoonImage,
+    title: 'Flowers On The Moon',
+    author: 'Billy Chapata',
+    genre: "Poetry",
+    availability: true,
+    read:MoonPdf,
+    Download: require('../assets/pdfs/Patrice Lumumba_ Africa\'s Lost Leader ( PDFDrive ).pdf')
   },
   {
     picture: HopeinfrontImage,
@@ -551,6 +664,15 @@ const books = [
     availability: true,
     read:YellowPdf,
     Download: require('../assets/pdfs/Half_of_a_Yellow_Sun_by_Chimamanda_Ngozi_Adichie_Adichie,_Chimamanda.pdf')
+  },
+  {
+    picture: FruitrianImage,
+    title: 'Fruitarians Are The Future',
+    author: 'Matthew Warner',
+    genre: "Diet book",
+    availability: true,
+    read:FruitrianPdf,
+    Download: require('../assets/pdfs/Fruitarians_are_The_Future_Full_Guide_to_Mono_Meals_and_Fruitarian.pdf')
   },
   {
     picture: ManipultatedImage,
