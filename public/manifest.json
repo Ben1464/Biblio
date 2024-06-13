@@ -1,5 +1,5 @@
 {
-  "short_name": "Bibliotech",
+  "short_name": "Biblio",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "defaultlog.jpg",
+      "src": "defaultlogo2.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "defaultlog.jpg",
+      "src": "defaultlogo2.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
