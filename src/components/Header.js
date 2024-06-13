@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <h1 className="header-title">Bibliotech</h1>
+        <h1 className="header-title">Biblio</h1>
         <ThemeToggle /> {/* Add the ThemeToggle button */}
         <nav className="header-nav">
           <ul className="nav-list">
