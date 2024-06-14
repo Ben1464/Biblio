@@ -95,7 +95,7 @@ import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
 import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
 import EmoPdf from '../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf';
-import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
+import AlchemistPdf from '../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf';
 import WarPdf from '../assets/pdfs/The_33_Strategies_of_War.pdf';
 import ZigPdf from '../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf';
 import BreathPdf from '../assets/pdfs/When_Breath_Become.pdf';
@@ -942,7 +942,7 @@ const books = [
     genre: "Fantasy/Adventure",
     availability: false,
     raed:AlchemistPdf,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf')
   },
   {
     picture: StraImage,
