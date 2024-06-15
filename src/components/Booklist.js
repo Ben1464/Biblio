@@ -95,7 +95,7 @@ import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
 import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
 import EmoPdf from '../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf';
-import AlchemistPdf from '../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf';
+import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
 import WarPdf from '../assets/pdfs/The_33_Strategies_of_War.pdf';
 import ZigPdf from '../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf';
 import BreathPdf from '../assets/pdfs/When_Breath_Become.pdf';
@@ -274,6 +274,18 @@ import MoonImage from '../assets/images/Flowers in the moon.jpg';
 import MoonPdf from '../assets/pdfs/Flowers On The Moon by Billy Chapata (z-lib.org).pdf'
 import FruitrianImage from '../assets/images/Frutarian.webp';
 import FruitrianPdf from '../assets/pdfs/Fruitarians_are_The_Future_Full_Guide_to_Mono_Meals_and_Fruitarian.pdf'
+import NakedfaceImage from '../assets/images/Naked face.jpg';
+import NakedfacePdf from '../assets/pdfs/Sidney Sheldon - The Naked Face.pdf';
+import GoldfishImage from '../assets/images/Gold fish.jpg';
+import GoldfishPdf from '../assets/pdfs/Goldfish Have No Hiding Place ( PDFDrive ).pdf';
+import ThewinnerImage from '../assets/images/The winner stands alone.jpg';
+import ThewinnerPdf from '../assets/pdfs/The Winner Stands Alone.pdf';
+import ArtleaderImage from '../assets/images/The art of leadership.jpg';
+import ArtleaderPdf from '../assets/images/THe art of selling to the affluent.jpeg';
+import WorkingemoImage from '../assets/images/working with emotional intelligence.jpg';
+import WorkingemoPdf from '../assets/images/working with emotional intelligence.jpg';
+import UniversityImage from '../assets/images/University of success.jpg';
+import UniversityPdf from '../assets/pdfs/University of Success ( PDFDrive ).pdf';
 
 
 
@@ -302,6 +314,15 @@ const books = [
     availability: true,
     read:FatePdf,
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
+  },
+  {
+    picture: NakedfaceImage,
+    title: 'The Naked Face',
+    author: 'Sidney Sheldon',
+    genre: "Fiction",
+    availability: true,
+    read: NakedfacePdf,
+    Download: require('../assets/pdfs/Sidney Sheldon - The Naked Face.pdf')
   },
   
   {
@@ -368,6 +389,15 @@ const books = [
     Download: require('../assets/pdfs/The_Power_Of_Prayer_To_Change_Your_Marriage_Stormie_Omartian_Christiandiet.pdf')
   },
   {
+    picture: GoldfishImage,
+    title: 'Goldfish Have No Hiding Place',
+    author: 'James Hadley',
+    genre: "Mystery",
+    availability: true,
+    read: GoldfishPdf,
+    Download: require('../assets/pdfs/Goldfish Have No Hiding Place ( PDFDrive ).pdf')
+  },
+  {
     picture: SucpeopleImage,
     title: 'How Successful People Think',
     author: 'John Maxwell',
@@ -422,6 +452,15 @@ const books = [
     Download: require('../assets/pdfs/Long Walk to Freedom_ With Connections ( PDFDrive ).pdf')
   },
   {
+    picture: ThewinnerImage,
+    title: 'The Winner Stands Alone',
+    author: 'Paulo Coelho',
+    genre: "Self Help",
+    availability: true,
+    read: ThewinnerPdf,
+    Download: require('../assets/pdfs/The Winner Stands Alone.pdf')
+  },
+  {
     picture: RomeoIMage,
     title: 'Romeo and Juliet',
     author: 'William Shakespeare',
@@ -449,6 +488,15 @@ const books = [
     Download: require('../assets/pdfs/Selected_Writings_and_Speeches_of_Marcus_Garvey_Marcus_Garvey_1.pdf')
   },
   {
+    picture: ArtleaderImage,
+    title: 'The Art Of Leadership',
+    author: 'Heward Mills',
+    genre: "Self Help",
+    availability: true,
+    read: ArtleaderPdf,
+    Download: require('../assets/pdfs/The Art of Leadership - Dag Heward-Mills.pdf')
+  },
+  {
     picture: MartianImage,
     title: 'The Martian',
     author: 'Andy Weir',
@@ -465,6 +513,15 @@ const books = [
     availability: true,
     read:CrisisPdf,
     Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
+  },
+  {
+    picture: WorkingemoImage,
+    title: 'Working With Emotional Intelligence',
+    author: 'Daniel Goleman',
+    genre: "Self Help",
+    availability: true,
+    read: WorkingemoPdf,
+    Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
   },
   {
     picture: KindworthImage,
@@ -492,6 +549,15 @@ const books = [
     availability: true,
     read:SexualPdf,
     Download: require('../assets/pdfs/Sexual_Chemistry_What_It_Is,_How_to_Use_It_Julius_Fast_z_lib_org.pdf')
+  },
+  {
+    picture: UniversityImage,
+    title: 'University Of Success',
+    author: 'OG Mandinos',
+    genre: "Self Help",
+    availability: true,
+    read: UniversityPdf,
+    Download: require('../assets/pdfs/University of Success ( PDFDrive ).pdf')
   },
   {
     picture: MeditationImage,
@@ -942,7 +1008,7 @@ const books = [
     genre: "Fantasy/Adventure",
     availability: false,
     raed:AlchemistPdf,
-    Download: require('../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf')
+    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
     picture: StraImage,
