@@ -286,6 +286,17 @@ import WorkingemoImage from '../assets/images/working with emotional intelligenc
 import WorkingemoPdf from '../assets/images/working with emotional intelligence.jpg';
 import UniversityImage from '../assets/images/University of success.jpg';
 import UniversityPdf from '../assets/pdfs/University of Success ( PDFDrive ).pdf';
+import FinancebilImage from '../assets/images/The-Finance-Bill-Article-image.jpg';
+import FinancebilPdf from '../assets/pdfs/BDO-Kenya-The-2024-Finance-Bill-Analysis.pdf';
+import TitanImage from '../assets/images/Titans.jpg';
+import TitanPdf from '../assets/pdfs/Titan by Ron Chernow.pdf';
+import MaoImage from '../assets/images/Mao tse.jpg';
+import MaoPdf from '../assets/pdfs/Mao selected works vol 1.pdf';
+import LotusImage from '../assets/images/A lotus .jpg';
+import LotusPdf from '../assets/pdfs/A Lotus For Miss Quon.pdf';
+import WormsImage from '../assets/images/A can of worms.jpeg';
+// import WormsPdf from '../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf';
+
 
 
 
@@ -314,6 +325,15 @@ const books = [
     availability: true,
     read:FatePdf,
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
+  },
+  {
+    picture: FinancebilImage,
+    title: 'Kenya Finance Bill',
+    author: 'Kenyan Government',
+    genre: "Gorvernance",
+    availability: true,
+    read:FinancebilPdf,
+    Download: require('../assets/pdfs/BDO-Kenya-The-2024-Finance-Bill-Analysis.pdf')
   },
   {
     picture: NakedfaceImage,
@@ -362,6 +382,15 @@ const books = [
     Download: require('../assets/pdfs/Animal Farm by George Orwellb.pdf')
   },
   {
+    picture: LotusImage,
+    title: 'A Lotus Miss Quon',
+    author: "James Handley",
+    genre: "Satire",
+    availability: true,
+    read:LotusPdf,
+    Download: require('../assets/pdfs/A Lotus For Miss Quon.pdf')
+  },
+  {
     picture: PowernImage,
     title: 'The Power Of Now',
     author: 'Eckhart Tolle',
@@ -405,6 +434,15 @@ const books = [
     availability: true,
     read:SucpeoplePdf,
     Download: require('../assets/pdfs/Howsuccessfulpeoplethink.pdf')
+  },
+  {
+    picture: WormsImage,
+    title: 'Animal Farm',
+    author: "George Orwell",
+    genre: "Satire",
+    availability: true,
+    read:WordsPdf,
+    Download: require('../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf')
   },
   {
     picture: ChristBibImage,
@@ -551,6 +589,15 @@ const books = [
     Download: require('../assets/pdfs/Sexual_Chemistry_What_It_Is,_How_to_Use_It_Julius_Fast_z_lib_org.pdf')
   },
   {
+    picture: TitanImage,
+    title: 'Titan',
+    author: 'Ron Chernow',
+    genre: "Science",
+    availability: true,
+    read:TitanPdf,
+    Download: require('../assets/pdfs/Titan by Ron Chernow.pdf')
+  },
+  {
     picture: UniversityImage,
     title: 'University Of Success',
     author: 'OG Mandinos',
@@ -567,6 +614,15 @@ const books = [
     availability: true,
     read:MeditationPdf,
     Download: require('../assets/pdfs/Marcus Aurelius Meditations ( PDFDrive ).pdf')
+  },
+  {
+    picture: MaoImage,
+    title: 'Selected Works Of Mao-Tse-Tung',
+    author: 'Mao',
+    genre: "Philosopy",
+    availability: true,
+    read:MaoPdf,
+    Download: require('../assets/pdfs/Mao selected works vol 1.pdf')
   },
   {
     picture: PriestImage,

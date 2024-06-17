@@ -15,8 +15,8 @@
     {
       "src": "logo4.jpg",
       "type": "image/png",
-      "sizes": "512x512"
-     
+      "sizes": "512x512",
+      "Message":"Welcome to Biblio"
     }
   ],
   "start_url": ".",
