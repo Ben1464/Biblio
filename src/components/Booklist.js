@@ -296,6 +296,27 @@ import LotusImage from '../assets/images/A lotus .jpg';
 import LotusPdf from '../assets/pdfs/A Lotus For Miss Quon.pdf';
 import WormsImage from '../assets/images/A can of worms.jpeg';
 // import WormsPdf from '../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf';
+import MindsetImage from '../assets/images/MIndset.jpg';
+import MindsetPdf from '../assets/pdfs/Mindset, a nova psicologia_ (Z-Library).pdf';
+import SelfdiscImage from '../assets/images/Self discpline.jpg';
+import SelfdiscPdf from '../assets/pdfs/Self Discipline Why Self Di_ (Z-Library).pdf';
+import FearlessImage from '../assets/images/The art of fearless mindset.jpg';
+import FearlessPdf from '../assets/pdfs/The Art of Fearless Mindset_ (Z-Library).pdf';
+import TuesdayImage from '../assets/images/Tuesday with morie.jpg';
+import TuesdayPdf from '../assets/pdfs/Tuesdays with Morrie an old_ (Z-Library).pdf';
+import RulesoflifeImage from '../assets/images/12 Rules of life .jpg';
+import RulesoflifePdf from '../assets/pdfs/12 Rules for Life (Peterson_ (Z-Library).pdf';
+import InfluenceImage from '../assets/images/Influence and manupulation.jpg';
+import InfluencePdf from '../assets/images/Influence .jpg';
+import ManipulationImage from '../assets/images/Influence and manupulation.jpg';
+import ManipulationPdf from '../assets/pdfs/Influence et manipulation_ (Z-Library).pdf';
+import Pschology101IMage from '../assets/images/Psychology 101.jpg';
+import Pschology101Pdf from '../assets/pdfs/Psychology 101 How To Contr_ (Z-Library).pdf';
+import OccultImage  from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf';
+import OccultPdf from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf';
+import BodylanguageImage from '../assets/images/BOdy language 2.jpg';
+import BodylangauagePdf from '../assets/pdfs/Body Language How To Analyz_ (Z-Library).pdf';
+
 
 
 
@@ -344,7 +365,15 @@ const books = [
     read: NakedfacePdf,
     Download: require('../assets/pdfs/Sidney Sheldon - The Naked Face.pdf')
   },
-  
+  {
+    picture: MindsetImage,
+    title: 'Mindset',
+    author: 'Carol Dweck',
+    genre: "Self-Help",
+    availability: true,
+    read: MindsetPdf,
+    Download: require('../assets/pdfs/Mindset, a nova psicologia_ (Z-Library).pdf')
+  },
   {
     picture: Youimage,
     title: 'Why you act the way you do',
@@ -409,6 +438,15 @@ const books = [
     Download: require('../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf')
   },
   {
+    picture: SelfdiscImage,
+    title: 'Self Discipline',
+    author: 'Curtis Leone',
+    genre: "Self Help",
+    availability: true,
+    read: SelfdiscPdf,
+    Download: require('../assets/pdfs/Self Discipline Why Self Di_ (Z-Library).pdf')
+  },
+  {
     picture: PowerPrayerImage,
     title: 'The Power Of Prayer To Change Your Marriage',
     author: 'Stormie Omaritian',
@@ -445,6 +483,15 @@ const books = [
     Download: require('../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf')
   },
   {
+    picture: FearlessImage,
+    title: 'The Art Of Fearless Mindset',
+    author: 'John Ward',
+    genre: "Self Help",
+    availability: true,
+    read: FearlessPdf,
+    Download: require('../assets/pdfs/The Art of Fearless Mindset_ (Z-Library).pdf')
+  },
+  {
     picture: ChristBibImage,
     title: 'Christian Temperance And Bibble Hygine',
     author: 'Ellen G White',
@@ -470,6 +517,15 @@ const books = [
     availability: true,
     read:Habits8Pdf,
     Download: require('../assets/pdfs/The 8th Habit From Effectiveness to Greatness.pdf')
+  },
+  {
+    picture: FearlessImage,
+    title: 'The Art Of Fearless Mindset',
+    author: 'John Ward',
+    genre: "Self help",
+    availability: true,
+    read: FearlessPdf,
+    Download: require('../assets/pdfs/The Art of Fearless Mindset_ (Z-Library).pdf')
   },
   {
     picture: NoraImage,
@@ -499,6 +555,15 @@ const books = [
     Download: require('../assets/pdfs/The Winner Stands Alone.pdf')
   },
   {
+    picture: TuesdayImage,
+    title: 'Tuesday With Morrie',
+    author: 'Mitch Albom',
+    genre: "Biograpghical Fiction",
+    availability: true,
+    read: TuesdayPdf,
+    Download: require('../assets/pdfs/Tuesdays with Morrie an old_ (Z-Library).pdf')
+  },
+  {
     picture: RomeoIMage,
     title: 'Romeo and Juliet',
     author: 'William Shakespeare',
@@ -524,6 +589,15 @@ const books = [
     availability: true,
     read:SpeechesPdf,
     Download: require('../assets/pdfs/Selected_Writings_and_Speeches_of_Marcus_Garvey_Marcus_Garvey_1.pdf')
+  },
+  {
+    picture: RulesoflifeImage,
+    title: '12 Rules Of Life ',
+    author: 'Jordan Peterson',
+    genre: "Self Help",
+    availability: true,
+    read: RulesoflifePdf,
+    Download: require('../assets/pdfs/12 Rules for Life (Peterson_ (Z-Library).pdf')
   },
   {
     picture: ArtleaderImage,
@@ -553,6 +627,15 @@ const books = [
     Download: require('../assets/pdfs/Psychology_of_a_Crisis.pdf')
   },
   {
+    picture: InfluenceImage,
+    title: 'Influence',
+    author: 'Robert Cialdin',
+    genre: "Self Help",
+    availability: true,
+    read: InfluencePdf,
+    Download: require('../assets/pdfs/Influence The Psychology Of_ (Z-Library).pdf')
+  },
+  {
     picture: WorkingemoImage,
     title: 'Working With Emotional Intelligence',
     author: 'Daniel Goleman',
@@ -580,6 +663,15 @@ const books = [
     Download: require('../assets/pdfs/Patrice Lumumba_ Africa\'s Lost Leader ( PDFDrive ).pdf')
   },
   {
+    picture: ManipulationImage,
+    title: 'Influence And Manipulation',
+    author: 'Robert Cialdini',
+    genre: "Pschology",
+    availability: true,
+    read: ManipulationPdf,
+    Download: require('../assets/pdfs/Influence et manipulation_ (Z-Library).pdf')
+  },
+  {
     picture: SexualImage,
     title: 'Sexual Chemisrty',
     author: 'Julius Fast',
@@ -596,6 +688,15 @@ const books = [
     availability: true,
     read:TitanPdf,
     Download: require('../assets/pdfs/Titan by Ron Chernow.pdf')
+  },
+  {
+    picture: Pschology101IMage,
+    title: 'Psychology 101',
+    author: 'Anthony Kane ',
+    genre: "Psychology",
+    availability: true,
+    read: Pschology101Pdf,
+    Download: require('../assets/pdfs/Psychology 101 How To Contr_ (Z-Library).pdf')
   },
   {
     picture: UniversityImage,
@@ -616,6 +717,15 @@ const books = [
     Download: require('../assets/pdfs/Marcus Aurelius Meditations ( PDFDrive ).pdf')
   },
   {
+    picture: OccultImage,
+    title: 'The Occult Roots Of Nazism',
+    author: 'Nicholas Clarke',
+    genre: "Ariosophy",
+    availability: true,
+    read: OccultPdf,
+    Download: require('../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf')
+  },
+  {
     picture: MaoImage,
     title: 'Selected Works Of Mao-Tse-Tung',
     author: 'Mao',
@@ -632,6 +742,15 @@ const books = [
     availability: true,
     read:PriestPdf,
     Download: require('../assets/pdfs/Priest.pdf')
+  },
+  {
+    picture: BodylanguageImage,
+    title: 'Body Language',
+    author: 'Philip Navarro',
+    genre: "Psychology",
+    availability: true,
+    read:BodylangauagePdf,
+    Download: require('../assets/pdfs/Body Language How To Analyz_ (Z-Library).pdf')
   },
   {
     picture: UniteImage,
