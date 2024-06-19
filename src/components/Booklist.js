@@ -1,4 +1,5 @@
 import React, { useContext,useState,useEffect } from 'react';
+import { FaHeart } from 'react-icons/fa';
 import '../styles/Booklist.css';
 import { ThemeContext } from '../context/ThemeContext';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
@@ -1754,6 +1755,7 @@ function Booklist() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBook, setSelectedBook] = useState(null);
   const [currentPage, setCurrentPage] = useState(0);
+  const [likedBooks, setLikedBooks] = useState({});
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   useEffect(() => {
@@ -1782,6 +1784,13 @@ function Booklist() {
     }
   };
 
+  const handleLikeClick = (book) => {
+    setLikedBooks((prev) => ({
+      ...prev,
+      [book.title]: !prev[book.title]
+    }));
+  };
+
   const filteredBooks = books.filter(book =>
     book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
     book.author.toLowerCase().includes(searchQuery.toLowerCase())
@@ -1800,7 +1809,7 @@ function Booklist() {
       </div>
       {selectedBook ? (
         <div className="pdf-viewer">
-          <button className='back' onClick={() => setSelectedBook(null)}>Back to List</button>
+          <button className="back" onClick={() => setSelectedBook(null)}>Back to List</button>
           <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.6.172/build/pdf.worker.min.js`}>
             <Viewer
               fileUrl={selectedBook.read}
@@ -1826,6 +1835,13 @@ function Booklist() {
                   </p>
                   <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
                   <button onClick={(event) => handleBookClick(book, event)} className="book-link">Read</button>
+                  <div className="book-icons">
+                    <FaHeart
+                      className="heart-icon"
+                      onClick={() => handleLikeClick(book)}
+                      style={{ color: likedBooks[book.title] ? 'red' : 'white' }}
+                    />
+                  </div>
                 </div>
               </li>
             ))}

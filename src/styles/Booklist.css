@@ -146,3 +146,17 @@ align-items: center;
 margin: 10px;
 font-size: 16px;
 }
+
+.book-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.heart-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Add any additional styling here for different states if needed */
