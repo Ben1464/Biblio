@@ -317,7 +317,16 @@ import OccultImage  from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library)
 import OccultPdf from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf';
 import BodylanguageImage from '../assets/images/BOdy language 2.jpg';
 import BodylangauagePdf from '../assets/pdfs/Body Language How To Analyz_ (Z-Library).pdf';
-
+import DeepworkImage from '../assets/images/Deep work.jpg';
+import DeepworkPdf from '../assets/pdfs/Deep Work Rules for Focusse_ (Z-Library) (3) (copy).pdf';
+import SocialskillImage from '../assets/images/THe social skill.jpg';
+import SocialskillPdf from '../assets/pdfs/The Social Skills Guidebook_ (Z-Library) (copy).pdf'
+import BeyondorderImage from '../assets/images/Beyond order.jpg';
+import BeyondorderPdf from '../assets/pdfs/Beyond Order  12 More Rules_ (Z-Library).pdf';
+import FinishImage from '../assets/images/Finish what you start.jpg';
+import FinishPdf from '../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf';
+import CultImage from '../assets/images/How to start a cult.jpg';
+import CultPdf from '../assets/pdfs/How To Start A Cult (Jody R_ (Z-Library) (copy).pdf';
 
 
 
@@ -374,6 +383,15 @@ const books = [
     availability: true,
     read: MindsetPdf,
     Download: require('../assets/pdfs/Mindset, a nova psicologia_ (Z-Library).pdf')
+  },
+  {
+    picture: DeepworkImage,
+    title: 'Deep Work',
+    author: 'Cal Newport',
+    genre: "Self-Help",
+    availability: true,
+    read: DeepworkPdf,
+    Download: require('../assets/pdfs/Deep Work Rules for Focusse_ (Z-Library) (3) (copy).pdf')
   },
   {
     picture: Youimage,
@@ -457,6 +475,15 @@ const books = [
     Download: require('../assets/pdfs/The_Power_Of_Prayer_To_Change_Your_Marriage_Stormie_Omartian_Christiandiet.pdf')
   },
   {
+    picture: SocialskillImage,
+    title: 'The Social Skills Guide Book',
+    author: 'Chris Macleod',
+    genre: "Self-Help",
+    availability: true,
+    read: SocialskillPdf,
+    Download: require('../assets/pdfs/The Social Skills Guidebook_ (Z-Library) (copy).pdf')
+  },
+  {
     picture: GoldfishImage,
     title: 'Goldfish Have No Hiding Place',
     author: 'James Hadley',
@@ -482,6 +509,15 @@ const books = [
     availability: true,
     read:WordsPdf,
     Download: require('../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf')
+  },
+  {
+    picture: BeyondorderImage,
+    title: 'Beyond Order',
+    author: 'Jordan Peterson',
+    genre: "Self-Help",
+    availability: true,
+    read: BeyondorderPdf,
+    Download: require('../assets/pdfs/Beyond Order  12 More Rules_ (Z-Library).pdf')
   },
   {
     picture: FearlessImage,
@@ -682,6 +718,15 @@ const books = [
     Download: require('../assets/pdfs/Sexual_Chemistry_What_It_Is,_How_to_Use_It_Julius_Fast_z_lib_org.pdf')
   },
   {
+    picture: FinishImage,
+    title: 'Finish What You Start',
+    author: 'Peter Hollins',
+    genre: "Self-Help",
+    availability: true,
+    read: FinishPdf,
+    Download: require('../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf')
+  },
+  {
     picture: TitanImage,
     title: 'Titan',
     author: 'Ron Chernow',
@@ -734,6 +779,15 @@ const books = [
     availability: true,
     read:MaoPdf,
     Download: require('../assets/pdfs/Mao selected works vol 1.pdf')
+  },
+  {
+    picture: CultImage,
+    title: 'How To Start A Cult',
+    author: 'Jody Raynsford',
+    genre: "Self-Help",
+    availability: true,
+    read: CultPdf,
+    Download: require('../assets/pdfs/How To Start A Cult (Jody R_ (Z-Library) (copy).pdf')
   },
   {
     picture: PriestImage,
