@@ -157,7 +157,7 @@ font-size: 16px;
   font-size: 14px;
   cursor: pointer;
   transition: color 0.3s ease;
-  background-color: #f5f5f5;
+  color: #f5f5f5;
 }
 
 /* Add any additional styling here for different states if needed */
