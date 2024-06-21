@@ -1,5 +1,5 @@
-import React, { useContext,useState,useEffect } from 'react';
-import { FaHeart } from 'react-icons/fa';
+import React, { useContext, useState, useEffect } from 'react';
+import { FaHeart, FaComment, FaShareAlt } from 'react-icons/fa';
 import '../styles/Booklist.css';
 import { ThemeContext } from '../context/ThemeContext';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
@@ -327,7 +327,7 @@ import FinishImage from '../assets/images/Finish what you start.jpg';
 import FinishPdf from '../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf';
 import CultImage from '../assets/images/How to start a cult.jpg';
 import CultPdf from '../assets/pdfs/How To Start A Cult (Jody R_ (Z-Library) (copy).pdf';
-import FivepeopleImage from '../assets/images/The 5 people you meet in heaven.jpg '
+import FivepeopleImage from '../assets/images/The 5 people you meet in heaven.jpg'
 import FivepeoplePdf from '../assets/pdfs/Five People You Meet in Hea_ (Z-Library).pdf'
 import GiftfearImage from '../assets/images/Gift of fear.jpg'
 import GiftfearPdf from '../assets/pdfs/The Gift of Fear (Gavin de_ (Z-Library).pdf'
@@ -1855,6 +1855,10 @@ function Booklist() {
   const [selectedBook, setSelectedBook] = useState(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [likedBooks, setLikedBooks] = useState({});
+  const [reviews, setReviews] = useState({});
+  const [isReviewModalOpen, setIsReviewModalOpen] = useState(false);
+  const [currentReviewBook, setCurrentReviewBook] = useState(null);
+  const [reviewText, setReviewText] = useState('');
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   useEffect(() => {
@@ -1888,6 +1892,41 @@ function Booklist() {
       ...prev,
       [book.title]: !prev[book.title]
     }));
+  };
+
+  const handleReviewClick = (book) => {
+    setCurrentReviewBook(book);
+    setIsReviewModalOpen(true);
+    setReviewText(reviews[book.title] || '');
+  };
+
+  const handleReviewSubmit = () => {
+    setReviews((prev) => ({
+      ...prev,
+      [currentReviewBook.title]: reviewText,
+    }));
+    setIsReviewModalOpen(false);
+  };
+
+  const handleShareClick = async (book) => {
+    const shareData = {
+      title: book.title,
+      text: `Check out this book: ${book.title} by ${book.author}`,
+      url: window.location.href
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        // Fallback for browsers that do not support the Web Share API
+        const shareLink = `${window.location.href}?book=${encodeURIComponent(book.title)}`;
+        navigator.clipboard.writeText(shareLink);
+        alert('Link copied to clipboard');
+      }
+    } catch (error) {
+      console.error('Error sharing', error);
+    }
   };
 
   const filteredBooks = books.filter(book =>
@@ -1940,11 +1979,31 @@ function Booklist() {
                       onClick={() => handleLikeClick(book)}
                       style={{ color: likedBooks[book.title] ? 'red' : 'white' }}
                     />
+                    <FaComment
+                      className="comment-icon"
+                      onClick={() => handleReviewClick(book)}
+                      style={{ color: reviews[book.title] ? 'blue' : 'white' }}
+                    />
+                    <FaShareAlt
+                      className="share-icon"
+                      onClick={() => handleShareClick(book)}
+                    />
                   </div>
                 </div>
               </li>
             ))}
           </ol>
+        </div>
+      )}
+      {isReviewModalOpen && (
+        <div className="review-modal">
+          <textarea
+            value={reviewText}
+            onChange={(e) => setReviewText(e.target.value)}
+            placeholder="Leave your review here..."
+          />
+          <button onClick={handleReviewSubmit}>Submit</button>
+          <button onClick={() => setIsReviewModalOpen(false)}>Cancel</button>
         </div>
       )}
     </>
