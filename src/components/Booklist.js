@@ -327,6 +327,14 @@ import FinishImage from '../assets/images/Finish what you start.jpg';
 import FinishPdf from '../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf';
 import CultImage from '../assets/images/How to start a cult.jpg';
 import CultPdf from '../assets/pdfs/How To Start A Cult (Jody R_ (Z-Library) (copy).pdf';
+import FivepeopleImage from '../assets/images/The 5 people you meet in heaven.jpg '
+import FivepeoplePdf from '../assets/pdfs/Five People You Meet in Hea_ (Z-Library).pdf'
+import GiftfearImage from '../assets/images/Gift of fear.jpg'
+import GiftfearPdf from '../assets/pdfs/The Gift of Fear (Gavin de_ (Z-Library).pdf'
+import ToobigImage from '../assets/images/Too big to fail.jpg'
+import ToobigPdf from '../assets/pdfs/Too Big to Fail The Inside_ (Z-Library).pdf'
+import LiarImage from '../assets/images/How to spot a liar.jpg'
+import LiarPdf from '../assets/pdfs/How to Spot a Liar Why Peop_ (Z-Library).pdf'
 
 
 
@@ -339,6 +347,15 @@ import CultPdf from '../assets/pdfs/How To Start A Cult (Jody R_ (Z-Library) (co
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: FivepeopleImage,
+    title: 'The 5 people you meet in heaven',
+    author: 'Mitch Albom',
+    genre: "Religious fiction",
+    availability: true,
+    read:FivepeoplePdf,
+    Download: '../assets/pdfs/Five People You Meet in Hea_ (Z-Library).pdf'
+  },
   {
     picture: AtomicImage,
     title: 'Atomic Habits',
@@ -457,6 +474,16 @@ const books = [
     Download: require('../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf')
   },
   {
+    picture: GiftfearImage,
+    title: 'The Gift Of Fear',
+    author: 'Calvin De Becker',
+    genre: "Selp help",
+    availability: true,
+    read: GiftfearPdf,
+    Download: require('../assets/pdfs/The Gift of Fear (Gavin de_ (Z-Library).pdf')
+  },
+  
+  {
     picture: SelfdiscImage,
     title: 'Self Discipline',
     author: 'Curtis Leone',
@@ -529,12 +556,30 @@ const books = [
     Download: require('../assets/pdfs/The Art of Fearless Mindset_ (Z-Library).pdf')
   },
   {
+    picture: ToobigImage,
+    title: 'Too Big To Fail',
+    author: 'Andrew Ross',
+    genre: "Self Help",
+    availability: true,
+    read: ToobigPdf,
+    Download: require('../assets/pdfs/Too Big to Fail The Inside_ (Z-Library).pdf')
+  },
+  {
     picture: ChristBibImage,
     title: 'Christian Temperance And Bibble Hygine',
     author: 'Ellen G White',
     genre: "Christian Literature",
     availability: true,
     read:ChristBibPdf,
+    Download: require('../assets/pdfs/Christian Temperance and Bible Hygiene.pdf')
+  },
+  {
+    picture: LiarImage,
+    title: 'How To Spot A Liar',
+    author: 'Greg Hartley',
+    genre: "Self Help",
+    availability: true,
+    read:LiarPdf,
     Download: require('../assets/pdfs/Christian Temperance and Bible Hygiene.pdf')
   },
   {
