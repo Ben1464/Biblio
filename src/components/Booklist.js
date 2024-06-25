@@ -335,6 +335,16 @@ import ToobigImage from '../assets/images/Too big to fail.jpg'
 import ToobigPdf from '../assets/pdfs/Too Big to Fail The Inside_ (Z-Library).pdf'
 import LiarImage from '../assets/images/How to spot a liar.jpg'
 import LiarPdf from '../assets/pdfs/How to Spot a Liar Why Peop_ (Z-Library).pdf'
+import ExecutionImage from '../assets/images/EXecution dis.jpg';
+import ExecutionPdf from '../assets/pdfs/Execution  The Discipline o_ (Z-Library).pdf';
+import UnfibizImage from '../assets/images/My unfinished business_.jpg';
+import UnfinbizPdf from '../assets/pdfs/My Unfinished Business - Se_ (Z-Library).pdf';
+import FiveminImage from '../assets/images/The five minute writer.jpg';
+import FiveminPdf from '../assets/pdfs/The Five-Minute Writer (Mar_ (Z-Library).pdf';
+import KnotsImage from '../assets/images/Knots.avif';
+import KnotsPdf from '../assets/pdfs/Knots (Andrew Adamides) (Z-Library).pdf';
+import DukeImage from '../assets/images/The duke and i.jpg';
+import DukePdf from '../assets/pdfs/The Duke and I (Bridgertons_ (Z-Library).pdf'
 
 
 
@@ -393,6 +403,15 @@ const books = [
     Download: require('../assets/pdfs/Sidney Sheldon - The Naked Face.pdf')
   },
   {
+    picture: ExecutionImage,
+    title: 'Execution',
+    author: 'Larry Bossidy',
+    genre: "Self Help",
+    availability: true,
+    read: ExecutionPdf,
+    Download: require('../assets/pdfs/Execution  The Discipline o_ (Z-Library).pdf')
+  },
+  {
     picture: MindsetImage,
     title: 'Mindset',
     author: 'Carol Dweck',
@@ -445,6 +464,15 @@ const books = [
     availability: true,
     read:AnimalPdf,
     Download: require('../assets/pdfs/Animal Farm by George Orwellb.pdf')
+  },
+  {
+    picture: UnfibizImage,
+    title: 'My Unfinished Business',
+    author: 'Dan Kennedy',
+    genre: "Autobiography",
+    availability: true,
+    read: UnfinbizPdf,
+    Download: require('../assets/pdfs/My Unfinished Business - Se_ (Z-Library).pdf')
   },
   {
     picture: LotusImage,
@@ -538,6 +566,15 @@ const books = [
     Download: require('../assets/pdfs/james hadley a can of worms ( PDFDrive ).pdf')
   },
   {
+    picture: FiveminImage,
+    title: 'The Five Minute Writer',
+    author: 'Margret Geraghty',
+    genre: "Reference Book",
+    availability: true,
+    read: FiveminPdf,
+    Download: require('../assets/pdfs/The Five-Minute Writer (Mar_ (Z-Library).pdf')
+  },
+  {
     picture: BeyondorderImage,
     title: 'Beyond Order',
     author: 'Jordan Peterson',
@@ -574,6 +611,15 @@ const books = [
     Download: require('../assets/pdfs/Christian Temperance and Bible Hygiene.pdf')
   },
   {
+    picture: KnotsImage,
+    title: 'Knots',
+    author: 'Andrew Adamides',
+    genre: "Experimental",
+    availability: true,
+    read:KnotsPdf,
+    Download: require('../assets/pdfs/Knots (Andrew Adamides) (Z-Library).pdf')
+  },
+  {
     picture: LiarImage,
     title: 'How To Spot A Liar',
     author: 'Greg Hartley',
@@ -599,6 +645,16 @@ const books = [
     availability: true,
     read:Habits8Pdf,
     Download: require('../assets/pdfs/The 8th Habit From Effectiveness to Greatness.pdf')
+  },
+  
+  {
+    picture: DukeImage,
+    title: 'Julia Quinn The Duke And I',
+    author: 'Julia Quinn',
+    genre:"Romance",
+    availability: true,
+    read:DukePdf,
+    Download: require('../assets/pdfs/The Duke and I (Bridgertons_ (Z-Library).pdf')
   },
   {
     picture: FearlessImage,
