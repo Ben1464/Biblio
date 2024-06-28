@@ -345,6 +345,12 @@ import KnotsImage from '../assets/images/Knots.avif';
 import KnotsPdf from '../assets/pdfs/Knots (Andrew Adamides) (Z-Library).pdf';
 import DukeImage from '../assets/images/The duke and i.jpg';
 import DukePdf from '../assets/pdfs/The Duke and I (Bridgertons_ (Z-Library).pdf'
+import MemoryImage from '../assets/images/Improving memory.jpg';
+import MemoryPdf from '../assets/pdfs/Improving Your Memory (Dk E_ (Z-Library).pdf'
+import NotebookImage from '../assets/images/THe note bookjpg';
+import NotebookPdf from '../assets/pdfs/The Notebook (Nicholas Sparks) (Z-Library).pdf'
+import MillioneareImage from '../assets/images/The millionare mindset.jpg';
+import MillionearePdf from '../assets/pdfs/The Millionaire Mindset - Mission Improvement ( PDFDrive ).pdf'
 
 
 
@@ -385,6 +391,15 @@ const books = [
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
   },
   {
+    picture: MemoryImage,
+    title: 'Improving Your Memory',
+    author: 'David Thomas',
+    genre: "Self Help",
+    availability: true,
+    read:MemoryPdf,
+    Download: require('../assets/pdfs/Improving Your Memory (Dk E_ (Z-Library).pdf')
+  },
+  {
     picture: FinancebilImage,
     title: 'Kenya Finance Bill',
     author: 'Kenyan Government',
@@ -392,6 +407,15 @@ const books = [
     availability: true,
     read:FinancebilPdf,
     Download: require('../assets/pdfs/BDO-Kenya-The-2024-Finance-Bill-Analysis.pdf')
+  },
+  {
+    picture: NotebookImage,
+    title: 'The Notebook',
+    author: 'Nicholas Sparks',
+    genre: "Self Help",
+    availability: true,
+    read:NotebookPdf,
+    Download: require('../assets/pdfs/The Notebook (Nicholas Sparks) (Z-Library).pdf')
   },
   {
     picture: NakedfaceImage,
@@ -419,6 +443,15 @@ const books = [
     availability: true,
     read: MindsetPdf,
     Download: require('../assets/pdfs/Mindset, a nova psicologia_ (Z-Library).pdf')
+  },
+  {
+    picture: MillioneareImage,
+    title: 'The Millionare Next Door',
+    author: 'Thomas J Stanley',
+    genre: "Self Help",
+    availability: true,
+    read:MillionearePdf,
+    Download: require('../assets/pdfs/The Millionaire Next Door T_ (Z-Library).pdf')
   },
   {
     picture: DeepworkImage,
