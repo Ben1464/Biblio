@@ -313,7 +313,7 @@ import ManipulationImage from '../assets/images/Influence and manupulation.jpg';
 import ManipulationPdf from '../assets/pdfs/Influence et manipulation_ (Z-Library).pdf';
 import Pschology101IMage from '../assets/images/Psychology 101.jpg';
 import Pschology101Pdf from '../assets/pdfs/Psychology 101 How To Contr_ (Z-Library).pdf';
-import OccultImage  from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf';
+import OccultImage  from '../assets/images/Cult nazisim.jpg';
 import OccultPdf from '../assets/pdfs/The Occult Roots of Nazism_ (Z-Library).pdf';
 import BodylanguageImage from '../assets/images/BOdy language 2.jpg';
 import BodylangauagePdf from '../assets/pdfs/Body Language How To Analyz_ (Z-Library).pdf';
@@ -1777,7 +1777,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:CantPdf,
-    Download: require('../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf')
+    Download: require('../assets/pdfs/Cant Hurt Me (David Goggins) (Z-Library).pdf')
   },
   {
     picture: ConImage,
