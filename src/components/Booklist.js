@@ -351,6 +351,12 @@ import NotebookImage from '../assets/images/THe note bookjpg';
 import NotebookPdf from '../assets/pdfs/The Notebook (Nicholas Sparks) (Z-Library).pdf'
 import MillioneareImage from '../assets/images/The millionare mindset.jpg';
 import MillionearePdf from '../assets/pdfs/The Millionaire Mindset - Mission Improvement ( PDFDrive ).pdf'
+import BigshortImage from '../assets/images/Big short.jpg';
+import BigshortPdg from '../assets/pdfs/The Big Short (Michael Lewis) (Z-Library).pdf';
+import EgoEImage from '../assets/images/Ego is the enemy.jpg';
+import EgoEPdf from '../assets/pdfs/Ego Is the Enemy (Ryan Holi_ (Z-Library).pdf';
+import ChikaImage from '../assets/images/Finding chika.jpg';
+import ChikaPdf from '../assets/pdfs/Finding Chika (Mitch Albom) (Z-Library).pdf';
 
 
 
@@ -1401,6 +1407,7 @@ const books = [
     read:HabitsPdf,
     Download: require('../assets/pdfs/The_Power_of_Habit_Why_We_Do_What_We_Do_in_Life_and_Business_PDFDrive.pdf')
   },
+
   {
     picture: SaidImage,
     title: 'The Words I Wish I Said',
@@ -1420,6 +1427,15 @@ const books = [
     Download: require('../assets/pdfs/How_Europe_Underdeveloped_Africa_Walter_Rodney_1973_PDFDrive_.pdf')
   },
   {
+    picture: BigshortImage,
+    title: 'The Big Short',
+    author: 'Micheal Lewis',
+    genre: "Financial thriller",
+    availability: true,
+    read:BigshortPdg,
+    Download: require('../assets/pdfs/The Big Short (Michael Lewis) (Z-Library).pdf')
+  },
+  {
     picture: NoniceImage,
     title: 'No More Mr Nice Guy',
     author: 'Robert A Clover',
@@ -1427,6 +1443,15 @@ const books = [
     availability: true,
     read:NonicePdf,
     Download: require('../assets/pdfs/No More Mr. Nice Guy by Robert Glover - 7Chan ( PDFDrive ).pdf')
+  },
+  {
+    picture: EgoEImage,
+    title: 'Ego Is The Enemy',
+    author: 'Ryan Holiday',
+    genre: "Self help",
+    availability: true,
+    read:EgoEPdf,
+    Download: require('../assets/pdfs/Ego Is the Enemy (Ryan Holi_ (Z-Library).pdf')
   },
   {
     picture: TheBuzImage,
@@ -1445,6 +1470,15 @@ const books = [
     availability: true,
     raed:DeplomacyPdf,
     Download: require('../assets/pdfs/Diplomacy (Henry Kissinger).pdf')
+  },
+  {
+    picture: ChikaImage,
+    title: 'Finding Chika',
+    author: 'Mitch Albom',
+    genre: "Religious fiction",
+    availability: true,
+    read:ChikaPdf,
+    Download: require('../assets/pdfs/Finding Chika (Mitch Albom) (Z-Library).pdf')
   },
   {
     picture: UnlimitedsucImage,
