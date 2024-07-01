@@ -357,7 +357,12 @@ import EgoEImage from '../assets/images/Ego is the enemy.jpg';
 import EgoEPdf from '../assets/pdfs/Ego Is the Enemy (Ryan Holi_ (Z-Library).pdf';
 import ChikaImage from '../assets/images/Finding chika.jpg';
 import ChikaPdf from '../assets/pdfs/Finding Chika (Mitch Albom) (Z-Library).pdf';
-
+import IncreseigImage from '../assets/images/Increase your financial Iq.jpg';
+import IncreseigPdf from '../assets/pdfs/Rich Dads Increase Your Fin_ (Z-Library).pdf';
+import DadsImage from '../assets/images/Guide to investiment.jpg';
+import DasPdf from '../assets/pdfs/Rich Dads Guide to Investin_ (Z-Library).pdf'
+import NeverfinishedImage from '../assets/images/Never finished.jpg';
+import NeverfinishedPdf from '../assets/pdfs/Never Finished Unshackle Yo_ (Z-Library).pdf';
 
 
 
@@ -505,6 +510,15 @@ const books = [
     Download: require('../assets/pdfs/Animal Farm by George Orwellb.pdf')
   },
   {
+    picture: IncreseigImage,
+    title: 'Increase Your Financial Iq',
+    author: "Robert Kiyosaki",
+    genre: "Self Help",
+    availability: true,
+    read:IncreseigPdf,
+    Download: require('../assets/pdfs/Rich Dads Increase Your Fin_ (Z-Library).pdf')
+  },
+  {
     picture: UnfibizImage,
     title: 'My Unfinished Business',
     author: 'Dan Kennedy',
@@ -523,6 +537,15 @@ const books = [
     Download: require('../assets/pdfs/A Lotus For Miss Quon.pdf')
   },
   {
+    picture: DadsImage,
+    title: 'Rich Dad Guide To Investiment',
+    author: "Robert KIyosaki",
+    genre: "Self Help",
+    availability: true,
+    read:DasPdf,
+    Download: require('../assets/pdfs/Rich Dads Guide to Investin_ (Z-Library).pdf')
+  },
+  {
     picture: PowernImage,
     title: 'The Power Of Now',
     author: 'Eckhart Tolle',
@@ -539,6 +562,15 @@ const books = [
     availability: true,
     read: ComesPdf,
     Download: require('../assets/pdfs/Sidney Sheldon - If Tomorrow Comes.pdf')
+  },
+  {
+    picture: NeverfinishedImage,
+    title: 'Never Finished',
+    author: "David Goggins",
+    genre: "Self Help",
+    availability: true,
+    read:NeverfinishedPdf,
+    Download: require('../assets/pdfs/Never Finished Unshackle Yo_ (Z-Library).pdf')
   },
   {
     picture: GiftfearImage,
