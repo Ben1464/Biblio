@@ -363,6 +363,12 @@ import DadsImage from '../assets/images/Guide to investiment.jpg';
 import DasPdf from '../assets/pdfs/Rich Dads Guide to Investin_ (Z-Library).pdf'
 import NeverfinishedImage from '../assets/images/Never finished.jpg';
 import NeverfinishedPdf from '../assets/pdfs/Never Finished Unshackle Yo_ (Z-Library).pdf';
+import CodingImage from '../assets/images/Coding theory.jpg';
+import CodingPdf from '../assets/pdfs/Coding Theory Algorithms, A_ (Z-Library).pdf';
+import HownottoImage from '../assets/images/How to say what you mean.jpeg';
+import HownottoPdf from '../assets/pdfs/How Not To Say What You Mea_ (Z-Library).pdf';
+import LjavascriptImage from '../assets/images/Learning Javascript.jpeg';
+import LjavascriptPdf from '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf';
 
 
 
@@ -374,6 +380,15 @@ import NeverfinishedPdf from '../assets/pdfs/Never Finished Unshackle Yo_ (Z-Lib
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: CodingImage,
+    title: 'Coding Theory',
+    author: 'Andre Neubauer',
+    genre: "Engineering",
+    availability: true,
+    read:CodingPdf,
+    Download: '../assets/pdfs/Coding Theory Algorithms, A_ (Z-Library).pdf'
+  },
   {
     picture: FivepeopleImage,
     title: 'The 5 people you meet in heaven',
@@ -400,6 +415,15 @@ const books = [
     availability: true,
     read:FatePdf,
     Download: require('../assets/pdfs/Son of fate - Kiriamiti, John, 1950- (1).pdf')
+  },
+  {
+    picture: LjavascriptImage,
+    title: 'Learning Javascript',
+    author: 'Ethan Brown',
+    genre: "Engineering",
+    availability: true,
+    read:LjavascriptPdf,
+    Download: '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf'
   },
   {
     picture: MemoryImage,
@@ -436,6 +460,15 @@ const books = [
     availability: true,
     read: NakedfacePdf,
     Download: require('../assets/pdfs/Sidney Sheldon - The Naked Face.pdf')
+  },
+  {
+    picture: HownottoImage,
+    title: 'How To Not Say What You Mean',
+    author: 'R.W. Holder',
+    genre: "Self Help",
+    availability: true,
+    read: HownottoPdf,
+    Download: require('../assets/pdfs/How Not To Say What You Mea_ (Z-Library).pdf')
   },
   {
     picture: ExecutionImage,
