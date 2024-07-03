@@ -369,6 +369,8 @@ import HownottoImage from '../assets/images/How to say what you mean.jpeg';
 import HownottoPdf from '../assets/pdfs/How Not To Say What You Mea_ (Z-Library).pdf';
 import LjavascriptImage from '../assets/images/Learning Javascript.jpeg';
 import LjavascriptPdf from '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf';
+import LeaderlessImage from '../assets/images/The leaderless revolution.jpg';
+import LeaderlessPdf from '../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf';
 
 
 
@@ -380,6 +382,15 @@ import LjavascriptPdf from '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Librar
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: LeaderlessImage,
+    title: 'The leaderless revolution',
+    author: 'Carne Ross',
+    genre: "Governance",
+    availability: true,
+    read:LeaderlessPdf,
+    Download: '../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf'
+  },
   {
     picture: CodingImage,
     title: 'Coding Theory',
