@@ -9,7 +9,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 30s infinite; /* 8s duration for ten images, 0.8s per image */
+  animation: backgroundAnimation 30s infinite; /* 30s duration for ten images */
 }
 
 @keyframes backgroundAnimation {
@@ -52,6 +52,7 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
 }
 
 .header-title {
@@ -107,6 +108,29 @@
   width: 100%;
 }
 
+.back-to-top-button {
+  background: linear-gradient(to right, #93A5CF, #E4EfE9);
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.back-to-top-button:hover {
+  background-color: #45a049;
+}
+
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -120,22 +144,9 @@
     margin-left: 0;
     margin-top: 10px;
   }
-}
 
-.back-to-top-button {
-  background: linear-gradient(to right, #93A5CF, #E4EfE9);
-  color: black;
-  border: none;
-  padding: 5px 10px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 2px 1px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.back-to-top-button:hover {
-  background-color: #45a049;
+  .back-to-top-button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
 }
