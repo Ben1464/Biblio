@@ -105,6 +105,7 @@ body {
 
   .read {
     color:black;
+    font: bold;
     background:linear-gradient(to right,#e95a87   ,  #6fcdec);
     border-radius: 6px;
   }
