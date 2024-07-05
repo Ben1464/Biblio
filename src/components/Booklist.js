@@ -384,7 +384,7 @@ import LeaderlessPdf from '../assets/pdfs/ajol-file-journals_498_articles_86971_
 const books = [
   {
     picture: LeaderlessImage,
-    title: 'The leaderless revolution',
+    title: 'The Leaderless Revolution',
     author: 'Carne Ross',
     genre: "Governance",
     availability: true,
@@ -402,7 +402,7 @@ const books = [
   },
   {
     picture: FivepeopleImage,
-    title: 'The 5 people you meet in heaven',
+    title: 'The 5 People You Meet In Heaven',
     author: 'Mitch Albom',
     genre: "Religious fiction",
     availability: true,
