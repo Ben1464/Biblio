@@ -34,7 +34,7 @@ body {
   .book-item {
     display: flex;
     align-items: center;
-    background:linear-gradient(to right,#dce3f1   ,  #def3e7);
+    background:linear-gradient(to right,#eb7399   ,  #8cd9f3);
     margin: 15px 0;
     padding: 20px;
     border-radius: 15px;
