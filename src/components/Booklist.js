@@ -2171,7 +2171,7 @@ function Booklist() {
                     {book.availability ? 'Available' : 'Unavailable'}
                   </p>
                   <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
-                  <button onClick={(event) => handleBookClick(book, event)} className="book-link">Read</button>
+                  <button onClick={(event) => handleBookClick(book, event)} className="read">Read</button>
                   <div className="book-icons">
                     <FaHeart
                       className="heart-icon"

@@ -102,10 +102,19 @@ body {
     color: #007BFF;
     text-decoration: none;
   }
-  
-  .book-link:hover {
-    text-decoration: underline;
+
+  .read {
+    color:black;
+    background:linear-gradient(to right,#e95a87   ,  #6fcdec);
+    border-radius: 6px;
   }
+  .read :hover{
+    color:black;
+  }
+  
+  /* .book-link:hover {
+    text-decoration: underline;
+  } */
   
 
   /* src/styles/Booklist.css */
