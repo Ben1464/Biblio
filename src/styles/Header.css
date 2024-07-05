@@ -126,12 +126,12 @@
   background: linear-gradient(to right, #93A5CF, #E4EfE9);
   color: black;
   border: none;
-  padding: 10px 20px;
-  text-align: center;
+  padding: 5px 10px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 12px;
+  margin: 2px 1px;
   cursor: pointer;
   border-radius: 5px;
 }
