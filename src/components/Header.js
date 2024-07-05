@@ -1,40 +1,22 @@
-import React, { useEffect, useState } from 'react';
-import '../styles/Header.css';
-import ThemeToggle from './ThemeToggle';
-
-const images = [
-  'url("/assets/images/book reading 1.avif")',
-  'url("/assets/images/book reading 2.avif")',
-  'url("/assets/images/book reading 3.avif")',
-  'url("/assets/images/book reading 4.avif")',
-  'url("/assets/images/book reading 5.avif")',
-  // Add more image URLs here
-];
+import React from 'react';
+import '../styles/Header.css'; // Make sure to create this file for styles
+import ThemeToggle from './ThemeToggle'; // Import ThemeToggle
 
 function Header() {
-  const [backgroundImage, setBackgroundImage] = useState(images[0]);
-
-  useEffect(() => {
-    let currentIndex = 0;
-    const interval = setInterval(() => {
-      currentIndex = (currentIndex + 1) % images.length;
-      setBackgroundImage(images[currentIndex]);
-    }, 30000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
   return (
-    <header className="header" style={{ backgroundImage: backgroundImage }}>
+    <header className="header">
       <div className="header-container">
         <h1 className="header-title">Biblio</h1>
-        <ThemeToggle />
+        <ThemeToggle /> {/* Add the ThemeToggle button */}
         <nav className="header-nav">
           <ul className="nav-list">
+            {/* <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
+            <li className="nav-item"><a href="#books" className="nav-link">Books</a></li>
+            <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
+            <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li> */}
             <li className="nav-item">
               <button onClick={scrollToTop} className="nav-link back-to-top-button">Back to Top</button>
             </li>
