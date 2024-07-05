@@ -9,7 +9,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 30s infinite; /* 30s duration for ten images */
+  animation: backgroundAnimation 20s infinite; /* 30s duration for ten images */
 }
 
 @keyframes backgroundAnimation {
@@ -109,7 +109,7 @@
 }
 
 .back-to-top-button {
-  background: linear-gradient(to right, #93A5CF, #E4EfE9);
+  /* background: linear-gradient(to right, #93A5CF, #E4EfE9); */
   color: black;
   border: none;
   padding: 5px 10px;
