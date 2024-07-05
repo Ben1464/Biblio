@@ -9,35 +9,35 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 150s infinite; /* 150s duration for ten images, 15s per image */
+  animation: backgroundAnimation 30s infinite; /* 8s duration for ten images, 0.8s per image */
 }
 
 @keyframes backgroundAnimation {
-  0%, 10% {
+  0%, 10%, 10.01% {
     background-image: url('../assets/images/book\ reading\ 2.avif'); /* First image */
   }
-  10.01%, 20% {
+  10.01%, 20%, 20.01% {
     background-image: url('../assets/images/book\ reading\ 3.avif'); /* Second image */
   }
-  20.01%, 30% {
+  20.01%, 30%, 30.01% {
     background-image: url('../assets/images/book\ reading\ 4.avif'); /* Third image */
   }
-  30.01%, 40% {
+  30.01%, 40%, 40.01% {
     background-image: url('../assets/images/book\ reading\ 5.avif'); /* Fourth image */
   }
-  40.01%, 50% {
+  40.01%, 50%, 50.01% {
     background-image: url('../assets/images/book\ reading\ 6.avif'); /* Fifth image */
   }
-  50.01%, 60% {
+  50.01%, 60%, 60.01% {
     background-image: url('../assets/images/book\ reading\ 7.avif'); /* Sixth image */
   }
-  60.01%, 70% {
+  60.01%, 70%, 70.01% {
     background-image: url('../assets/images/book\ reading\ 8.avif'); /* Seventh image */
   }
-  70.01%, 80% {
+  70.01%, 80%, 80.01% {
     background-image: url('../assets/images/book\ reading\ 9.avif'); /* Eighth image */
   }
-  80.01%, 90% {
+  80.01%, 90%, 90.01% {
     background-image: url('../assets/images/book\ reading\ 10.avif'); /* Ninth image */
   }
   90.01%, 100% {
