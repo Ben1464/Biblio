@@ -1,5 +1,6 @@
 .header {
-  background:linear-gradient(to right, #f5a0aa   , #bce2f7);
+  background-image: url('../assets/images/book\ reading\ 2.avif'); /* Default background image */
+  background-size: cover;
   color: black;
   padding: 0px 0;
   position: fixed;
@@ -8,7 +9,25 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  
+  animation: backgroundAnimation 75s infinite; /* 75s duration for five images, 15s per image */
+}
+
+@keyframes backgroundAnimation {
+  0%, 20% {
+    background-image: url('../assets/images/book\ reading\ 2.avif'); /* First image */
+  }
+  20.01%, 40% {
+    background-image: url('../assets/images/book\ reading\ 3.avif'); /* Second image */
+  }
+  40.01%, 60% {
+    background-image: url('../assets/images/book\ reading\ 4.avif'); /* Third image */
+  }
+  60.01%, 80% {
+    background-image: url('../assets/images/book\ reading\ 5.avif'); /* Fourth image */
+  }
+  80.01%, 100% {
+    background-image: url('../assets/images/book\ reading\ 6.avif'); /* Fifth image */
+  }
 }
 
 .header-container {
@@ -45,7 +64,7 @@
 }
 
 .nav-link {
-  color:black;
+  color: black;
   text-decoration: none;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -87,8 +106,9 @@
     margin-top: 10px;
   }
 }
+
 .back-to-top-button {
-  background: linear-gradient(to right, #93A5CF   ,  #E4EfE9);
+  background: linear-gradient(to right, #93A5CF, #E4EfE9);
   color: black;
   border: none;
   padding: 10px 20px;
