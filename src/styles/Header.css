@@ -9,7 +9,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 20s infinite; /* 30s duration for ten images */
+  animation: backgroundAnimation 30s infinite; /* 30s duration for ten images */
 }
 
 @keyframes backgroundAnimation {
@@ -63,7 +63,7 @@
   text-transform: uppercase;
 }
 
-.header-nav {
+/* .header-nav {
   display: flex;
   align-items: center;
 }
@@ -106,7 +106,7 @@
 
 .nav-link:hover::after {
   width: 100%;
-}
+} */
 
 .back-to-top-button {
   /* background: linear-gradient(to right, #93A5CF, #E4EfE9); */
@@ -123,8 +123,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  margin-bottom: 2px;
+  margin-right: 5px;
 }
 
 .back-to-top-button:hover {
