@@ -9,7 +9,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 30s infinite; /* 30s duration for ten images */
+  animation: backgroundAnimation 150s infinite; /* 30s duration for ten images */
 }
 
 @keyframes backgroundAnimation {
