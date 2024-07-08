@@ -371,7 +371,16 @@ import LjavascriptImage from '../assets/images/Learning Javascript.jpeg';
 import LjavascriptPdf from '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf';
 import LeaderlessImage from '../assets/images/The leaderless revolution.jpg';
 import LeaderlessPdf from '../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf';
-
+import CollapseIMage from '../assets/images/Collapse .jpg';
+import CollapsePdf from '../assets/pdfs/Collapse How Societies Choo_ (Z-Library).pdf';
+import CodebookImage from '../assets/images/The code book.jpg';
+import CodebookPdf from '../assets/pdfs/The Code Book - HOW TO MAKE_ (Z-Library).pdf';
+import AthoIMage from '../assets/images/Thousands splendid suns.jpeg';
+import AthoPdf from '../assets/pdfs/A Thousand Splendid Suns (H_ (Z-Library).pdf';
+import Excel2019Image from '../assets/images/Excel 2019.jpg';
+import Excel2019Pdf from '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library) (1).pdf';
+import ThefourImage from '../assets/images/The four agreement .jpg';
+import ThefourPdf from '../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).pdf';
 
 
 
@@ -382,6 +391,51 @@ import LeaderlessPdf from '../assets/pdfs/ajol-file-journals_498_articles_86971_
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: CollapseIMage,
+    title: 'Collapse',
+    author: 'Jared Diamond',
+    genre: "Historical civilizations",
+    availability: true,
+    read:CollapsePdf,
+    Download: '../assets/pdfs/Collapse How Societies Choo_ (Z-Library).pdf'
+  },
+  {
+    picture: CodebookImage,
+    title: 'The Code Book',
+    author: 'Simon Singh',
+    genre: "Engineering",
+    availability: true,
+    read:CodebookPdf,
+    Download: '../assets/pdfs/The Code Book - HOW TO MAKE_ (Z-Library).pdf'
+  },
+  {
+    picture: AthoIMage,
+    title: 'A Thousand Splendid Suns',
+    author: 'Khaled Hosseini',
+    genre: "Fiction",
+    availability: true,
+    read:AthoPdf,
+    Download: '../assets/pdfs/A Thousand Splendid Suns (H_ (Z-Library).pdf'
+  },
+  {
+    picture: Excel2019Image,
+    title: 'Excel 2019 Bible',
+    author: 'Micheal Alexander',
+    genre: "Data",
+    availability: true,
+    read:Excel2019Pdf,
+    Download: '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library) (1).pdf'
+  },
+  {
+    picture: ThefourImage,
+    title: 'The Four Agreements',
+    author: 'Don Miguel Ruiz',
+    genre: "Psychology",
+    availability: true,
+    read:ThefourPdf,
+    Download: '../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).pdf'
+  },
   {
     picture: LeaderlessImage,
     title: 'The Leaderless Revolution',
