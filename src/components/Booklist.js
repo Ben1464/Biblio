@@ -395,7 +395,7 @@ const books = [
     picture: CollapseIMage,
     title: 'Collapse',
     author: 'Jared Diamond',
-    genre: "Historical civilizations",
+    genre: "Historical Civilizations",
     availability: true,
     read:CollapsePdf,
     Download: '../assets/pdfs/Collapse How Societies Choo_ (Z-Library).pdf'
