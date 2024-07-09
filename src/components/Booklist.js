@@ -381,7 +381,16 @@ import Excel2019Image from '../assets/images/Excel 2019.jpg';
 import Excel2019Pdf from '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library) (1).pdf';
 import ThefourImage from '../assets/images/The four agreement .jpg';
 import ThefourPdf from '../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).pdf';
-
+import MebeforeyouIMage from '../assets/images/Me before you.jpg';
+import MebeforeyouPdf from '../assets/pdfs/Me Before You (Jojo Moyes) (Z-Library).pdf';
+import StetchingenImage from '../assets/images/stretching en.jpg';
+import StetchingenPdf from '../assets/pdfs/Stretching Excercises Encyc_ (Z-Library).pdf';
+import PerksImage from '../assets/images/wallflower.jpeg';
+import PerksPdf from '../assets/pdfs/The Perks of Being a Wallfl_ (Z-Library).pdf';
+import SunflowerImage from '../assets/images/The sun and her flowers.jpg';
+import SunflowerPdf from '../assets/pdfs/The Sun and Her Flowers (Ru_ (Z-Library).pdf';
+import MythosImage from '../assets/images/mythos.jpg';
+import MythosPdf from '../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).pdf';
 
 
 
@@ -392,9 +401,56 @@ import ThefourPdf from '../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).
 // Updated books array with correct paths to PDF files
 const books = [
   {
+    picture: MebeforeyouIMage,
+    title: 'Me Before You',
+    author: 'Jojo Moyes',
+    genre: "Fiction",
+    availability: true,
+    read:MebeforeyouPdf,
+    Download: '../assets/pdfs/Me Before You (Jojo Moyes) (Z-Library).pdf'
+  },
+  {
+    picture: StetchingenImage,
+    title: 'Stretching Excercises Encyclopaedia',
+    author: 'Oscar MOran',
+    genre: "Health",
+    availability: true,
+    read:StetchingenPdf,
+    Download: '../assets/pdfs/Stretching Excercises Encyc_ (Z-Library).pdf'
+  },
+  {
+    picture: PerksImage,
+    title: 'The Perks of Being a Wallflower',
+    author: 'Stephen Chbosky',
+    genre: "Litrature",
+    availability: true,
+    read:PerksPdf,
+    Download: '../assets/pdfs/The Perks of Being a Wallfl_ (Z-Library).pdf'
+  },
+  {
+    picture: SunflowerImage,
+    title: 'The Sun and Her Flowers',
+    author: 'Rupi Kaur',
+    genre: "Fiction",
+    availability: true,
+    read:SunflowerPdf,
+    Download: '../assets/pdfs/The Sun and Her Flowers (Ru_ (Z-Library).pdf'
+  },
+  {
+    picture: MythosImage,
+    title: 'Mythos',
+    author: 'Stephen Fry',
+    genre: "Fairly Tale",
+    availability: true,
+    read:MythosPdf,
+    Download: '../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).pdf'
+  },
+
+  {
     picture: CollapseIMage,
     title: 'Collapse',
     author: 'Jared Diamond',
+
     genre: "Historical Civilizations",
     availability: true,
     read:CollapsePdf,
