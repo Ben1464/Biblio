@@ -391,6 +391,14 @@ import SunflowerImage from '../assets/images/The sun and her flowers.jpg';
 import SunflowerPdf from '../assets/pdfs/The Sun and Her Flowers (Ru_ (Z-Library).pdf';
 import MythosImage from '../assets/images/mythos.jpg';
 import MythosPdf from '../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).pdf';
+import ThegirlImage from '../assets/images/The girl you left behind.jpeg';
+import ThegirlPdf from '../assets/pdfs/The Girl You Left Behind A_ (Z-Library).pdf';
+import WomaneseImage from '../assets/images/Womanese.jpg';
+import WomanesePdf from '../assets/pdfs/Womanese 101, How to Talk a_ (Z-Library).pdf';
+import EnHumanImage from '../assets/images/Human nutriation.jpg';
+import EnHumanPdf from '../assets/pdfs/Encyclopedia of Human Nutri_ (Z-Library).pdf';
+import EconbookImage from '../assets/images/The  economic book .jpg';
+import EconbookPdf from '../assets/pdfs/The economics book (George_ (Z-Library).pdf';
 
 
 
@@ -401,6 +409,24 @@ import MythosPdf from '../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).p
 // Updated books array with correct paths to PDF files
 const books = [
   {
+    picture: ThegirlImage,
+    title: 'The Girl You Left Behind',
+    author: 'Jojo Moyes',
+    genre: "Fiction",
+    availability: true,
+    read:ThegirlPdf,
+    Download: '../assets/pdfs/The Girl You Left Behind A_ (Z-Library).pdf'
+  },
+  {
+    picture: WomaneseImage,
+    title: 'Womanese 101',
+    author: 'Cory Smith',
+    genre: "Self Help",
+    availability: true,
+    read:WomanesePdf,
+    Download: '../assets/pdfs/Womanese 101, How to Talk a_ (Z-Library).pdf'
+  },
+  {
     picture: MebeforeyouIMage,
     title: 'Me Before You',
     author: 'Jojo Moyes',
@@ -408,6 +434,24 @@ const books = [
     availability: true,
     read:MebeforeyouPdf,
     Download: '../assets/pdfs/Me Before You (Jojo Moyes) (Z-Library).pdf'
+  },
+  {
+    picture: EnHumanImage,
+    title: 'Encyclopedia of Human Nutrition',
+    author: 'Benjamin Caballero',
+    genre: "Biology",
+    availability: true,
+    read:EnHumanPdf,
+    Download: '../assets/pdfs/Encyclopedia of Human Nutri_ (Z-Library).pdf'
+  },
+  {
+    picture: EconbookImage,
+    title: 'The Economics Book',
+    author: 'George Orwells',
+    genre: "Ecobomics",
+    availability: true,
+    read:EconbookPdf,
+    Download: '../assets/pdfs/The economics book (George_ (Z-Library).pdf'
   },
   {
     picture: StetchingenImage,
