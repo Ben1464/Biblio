@@ -399,7 +399,14 @@ import EnHumanImage from '../assets/images/Human nutriation.jpg';
 import EnHumanPdf from '../assets/pdfs/Encyclopedia of Human Nutri_ (Z-Library).pdf';
 import EconbookImage from '../assets/images/The  economic book .jpg';
 import EconbookPdf from '../assets/pdfs/The economics book (George_ (Z-Library).pdf';
-
+import AmanoveImage from '../assets/images/A man called ove.jpeg';
+import AmanovePdf from '../assets/pdfs/A Man Called Ove (Fredrik B_ (Z-Library).pdf';
+import PositivethinkingImage from '../assets/images/THe power of positive thinking.jpeg';
+import PositivethinkingPdf from '../assets/pdfs/The Power of Positive Think_ (Z-Library).pdf';
+import SeductionImage from '../assets/images/The-Art-of-Seduction-NuriaKenya-1.png';
+import SeductionPdf from '../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf';
+import KillswitchImage from '../assets/images/Kill switch.jpeg';
+import KillswitchPdf from '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf';
 
 
 
@@ -408,6 +415,45 @@ import EconbookPdf from '../assets/pdfs/The economics book (George_ (Z-Library).
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: SeductionImage,
+    title: 'The Art of Seduction',
+    author: 'Robert Greene',
+    genre: "Non Fiction",
+    availability: true,
+    read:SeductionPdf,
+    Download: '../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf'
+  },
+  {
+    picture: KillswitchImage,
+    title: 'Kill Switch',
+    author: 'Penelope Douglas',
+    genre: "Romance",
+    availability: true,
+    read:KillswitchPdf,
+    Download: '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf'
+  },
+
+  {
+    picture: PositivethinkingImage,
+    title: 'The Power of Positive Thinking',
+    author: 'Norman Vincent',
+    genre: "Self Help",
+    availability: true,
+    read:PositivethinkingPdf,
+    Download: '../assets/pdfs/The Power of Positive Think_ (Z-Library).pdf'
+  },
+  {
+    picture: AmanoveImage,
+    title: 'A Man Called Ove',
+    author: 'Fredrik Backman',
+    genre: "Fiction",
+    availability: true,
+    read:AmanovePdf,
+    Download: '../assets/pdfs/A Man Called Ove (Fredrik B_ (Z-Library).pdf'
+  },
+
+
   {
     picture: ThegirlImage,
     title: 'The Girl You Left Behind',
