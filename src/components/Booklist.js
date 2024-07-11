@@ -422,7 +422,7 @@ const books = [
     genre: "Non Fiction",
     availability: true,
     read:SeductionPdf,
-    Download: '../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf')
   },
   {
     picture: KillswitchImage,
@@ -431,7 +431,7 @@ const books = [
     genre: "Romance",
     availability: true,
     read:KillswitchPdf,
-    Download: '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf'
+    Download: require('../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf')
   },
 
   {
@@ -441,7 +441,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:PositivethinkingPdf,
-    Download: '../assets/pdfs/The Power of Positive Think_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Power of Positive Think_ (Z-Library).pdf')
   },
   {
     picture: AmanoveImage,
@@ -450,7 +450,7 @@ const books = [
     genre: "Fiction",
     availability: true,
     read:AmanovePdf,
-    Download: '../assets/pdfs/A Man Called Ove (Fredrik B_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/A Man Called Ove (Fredrik B_ (Z-Library).pdf')
   },
 
 
@@ -461,7 +461,7 @@ const books = [
     genre: "Fiction",
     availability: true,
     read:ThegirlPdf,
-    Download: '../assets/pdfs/The Girl You Left Behind A_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Girl You Left Behind A_ (Z-Library).pdf')
   },
   {
     picture: WomaneseImage,
@@ -470,7 +470,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:WomanesePdf,
-    Download: '../assets/pdfs/Womanese 101, How to Talk a_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Womanese 101, How to Talk a_ (Z-Library).pdf')
   },
   {
     picture: MebeforeyouIMage,
@@ -479,7 +479,7 @@ const books = [
     genre: "Fiction",
     availability: true,
     read:MebeforeyouPdf,
-    Download: '../assets/pdfs/Me Before You (Jojo Moyes) (Z-Library).pdf'
+    Download: require('../assets/pdfs/Me Before You (Jojo Moyes) (Z-Library).pdf')
   },
   {
     picture: EnHumanImage,
@@ -488,7 +488,7 @@ const books = [
     genre: "Biology",
     availability: true,
     read:EnHumanPdf,
-    Download: '../assets/pdfs/Encyclopedia of Human Nutri_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Encyclopedia of Human Nutri_ (Z-Library).pdf')
   },
   {
     picture: EconbookImage,
@@ -497,7 +497,7 @@ const books = [
     genre: "Ecobomics",
     availability: true,
     read:EconbookPdf,
-    Download: '../assets/pdfs/The economics book (George_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The economics book (George_ (Z-Library).pdf')
   },
   {
     picture: StetchingenImage,
@@ -506,7 +506,7 @@ const books = [
     genre: "Health",
     availability: true,
     read:StetchingenPdf,
-    Download: '../assets/pdfs/Stretching Excercises Encyc_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Stretching Excercises Encyc_ (Z-Library).pdf')
   },
   {
     picture: PerksImage,
@@ -515,7 +515,7 @@ const books = [
     genre: "Litrature",
     availability: true,
     read:PerksPdf,
-    Download: '../assets/pdfs/The Perks of Being a Wallfl_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Perks of Being a Wallfl_ (Z-Library).pdf')
   },
   {
     picture: SunflowerImage,
@@ -524,7 +524,7 @@ const books = [
     genre: "Fiction",
     availability: true,
     read:SunflowerPdf,
-    Download: '../assets/pdfs/The Sun and Her Flowers (Ru_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Sun and Her Flowers (Ru_ (Z-Library).pdf')
   },
   {
     picture: MythosImage,
@@ -533,7 +533,7 @@ const books = [
     genre: "Fairly Tale",
     availability: true,
     read:MythosPdf,
-    Download: '../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Mythos A Retelling of the M_ (Z-Library).pdf')
   },
 
   {
@@ -543,7 +543,7 @@ const books = [
     genre: "Historical Civilizations",
     availability: true,
     read:CollapsePdf,
-    Download: '../assets/pdfs/Collapse How Societies Choo_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Collapse How Societies Choo_ (Z-Library).pdf')
   },
   {
     picture: CodebookImage,
@@ -552,7 +552,7 @@ const books = [
     genre: "Engineering",
     availability: true,
     read:CodebookPdf,
-    Download: '../assets/pdfs/The Code Book - HOW TO MAKE_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Code Book - HOW TO MAKE_ (Z-Library).pdf')
   },
   {
     picture: AthoIMage,
@@ -561,7 +561,7 @@ const books = [
     genre: "Fiction",
     availability: true,
     read:AthoPdf,
-    Download: '../assets/pdfs/A Thousand Splendid Suns (H_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/A Thousand Splendid Suns (H_ (Z-Library).pdf')
   },
   {
     picture: Excel2019Image,
@@ -570,7 +570,7 @@ const books = [
     genre: "Data",
     availability: true,
     read:Excel2019Pdf,
-    Download: '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library).pdf')
   },
   {
     picture: ThefourImage,
@@ -579,7 +579,7 @@ const books = [
     genre: "Psychology",
     availability: true,
     read:ThefourPdf,
-    Download: '../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/The Four Agreements (Don Mi_ (Z-Library).pdf')
   },
   {
     picture: LeaderlessImage,
@@ -588,7 +588,7 @@ const books = [
     genre: "Governance",
     availability: false,
     read:LeaderlessPdf,
-    Download: '../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf'
+    Download: require('../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf')
   },
   {
     picture: CodingImage,
@@ -597,7 +597,7 @@ const books = [
     genre: "Engineering",
     availability: true,
     read:CodingPdf,
-    Download: '../assets/pdfs/Coding Theory Algorithms, A_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Coding Theory Algorithms, A_ (Z-Library).pdf')
   },
   {
     picture: FivepeopleImage,
@@ -606,7 +606,7 @@ const books = [
     genre: "Religious fiction",
     availability: true,
     read:FivepeoplePdf,
-    Download: '../assets/pdfs/Five People You Meet in Hea_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Five People You Meet in Hea_ (Z-Library).pdf')
   },
   {
     picture: AtomicImage,
@@ -615,7 +615,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:AtomicPdf,
-    Download: '../assets/pdfs/Atomic-Habits-.pdf'
+    Download: require ('../assets/pdfs/Atomic-Habits-.pdf')
   },
   {
     picture: FateImage,
@@ -633,7 +633,7 @@ const books = [
     genre: "Engineering",
     availability: true,
     read:LjavascriptPdf,
-    Download: '../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf'
+    Download: require('../assets/pdfs/Learning JavaScript (Ethan_ (Z-Library).pdf')
   },
   {
     picture: MemoryImage,
