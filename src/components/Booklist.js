@@ -540,7 +540,6 @@ const books = [
     picture: CollapseIMage,
     title: 'Collapse',
     author: 'Jared Diamond',
-
     genre: "Historical Civilizations",
     availability: true,
     read:CollapsePdf,
@@ -571,7 +570,7 @@ const books = [
     genre: "Data",
     availability: true,
     read:Excel2019Pdf,
-    Download: '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library) (1).pdf'
+    Download: '../assets/pdfs/Excel 2019 Bible (Michael A_ (Z-Library).pdf'
   },
   {
     picture: ThefourImage,
@@ -587,7 +586,7 @@ const books = [
     title: 'The Leaderless Revolution',
     author: 'Carne Ross',
     genre: "Governance",
-    availability: true,
+    availability: false,
     read:LeaderlessPdf,
     Download: '../assets/pdfs/ajol-file-journals_498_articles_86971_submission_proof_86971-5881-214842-1-10-20130329.pdf'
   },
