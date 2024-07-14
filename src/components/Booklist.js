@@ -407,6 +407,9 @@ import SeductionImage from '../assets/images/The-Art-of-Seduction-NuriaKenya-1.p
 import SeductionPdf from '../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf';
 import KillswitchImage from '../assets/images/Kill switch.jpeg';
 import KillswitchPdf from '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf';
+import CorruptImage from '../assets/images/Corrupt.jpg';
+import CorruptPdf from '../assets/pdfs/Corrupt (Devils Night 1) (P_ (Z-Library).pdf';
+
 
 
 
@@ -416,6 +419,15 @@ import KillswitchPdf from '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Libr
 // Updated books array with correct paths to PDF files
 const books = [
   {
+    picture: CorruptImage,
+    title: 'Corrupt',
+    author: 'Penelepse Douglas',
+    genre: "Horror Fiction",
+    availability: true,
+    read:CorruptPdf,
+    Download: require('../assets/pdfs/Corrupt (Devils Night 1) (P_ (Z-Library).pdf')
+  },
+  {
     picture: SeductionImage,
     title: 'The Art of Seduction',
     author: 'Robert Greene',
@@ -424,6 +436,7 @@ const books = [
     read:SeductionPdf,
     Download: require('../assets/pdfs/The Art of Seduction (Rober_ (Z-Library).pdf')
   },
+
   {
     picture: KillswitchImage,
     title: 'Kill Switch',
