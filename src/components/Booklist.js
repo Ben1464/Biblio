@@ -409,6 +409,12 @@ import KillswitchImage from '../assets/images/Kill switch.jpeg';
 import KillswitchPdf from '../assets/pdfs/Kill Switch (Penelope Douglas) (Z-Library).pdf';
 import CorruptImage from '../assets/images/Corrupt.jpg';
 import CorruptPdf from '../assets/pdfs/Corrupt (Devils Night 1) (P_ (Z-Library).pdf';
+import StayaliveImage from '../assets/images/Stay alive all your life.jpg';
+import StayalivePdf from '../assets/pdfs/Stay Alive All Your Life (N_ (Z-Library).pdf';
+import NaturalexpImage from '../assets/images/Natural experiements.jpg';
+import NaturalexPdf from '../assets/pdfs/Natural experiments of hist_ (Z-Library).pdf';
+import OneofusImage from '../assets/images/One of us is lying.jpg';
+import OneofusPdf from '../assets/pdfs/One of Us is Lying Satu Pem_ (Z-Library).pdf'
 
 
 
@@ -418,6 +424,33 @@ import CorruptPdf from '../assets/pdfs/Corrupt (Devils Night 1) (P_ (Z-Library).
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: StayaliveImage,
+    title: 'Stay Alive All Your Life',
+    author: 'Norman Vincent',
+    genre: "Self Help",
+    availability: true,
+    read:StayalivePdf,
+    Download: require('../assets/pdfs/Stay Alive All Your Life (N_ (Z-Library).pdf')
+  },
+  {
+    picture: NaturalexpImage,
+    title: 'Natural experiments of history',
+    author: 'Jared Diamond',
+    genre:"History",
+    availability: true,
+    read:NaturalexPdf,
+    Download: require('../assets/pdfs/Natural experiments of hist_ (Z-Library).pdf')
+  },
+  {
+    picture: OneofusImage,
+    title: 'One Of Us Is Lying',
+    author: 'Satu Pemira',
+    genre: "Mistery",
+    availability: true,
+    read:OneofusPdf,
+    Download: require('../assets/pdfs/One of Us is Lying Satu Pem_ (Z-Library).pdf')
+  },
   {
     picture: CorruptImage,
     title: 'Corrupt',
