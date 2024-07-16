@@ -414,7 +414,14 @@ import StayalivePdf from '../assets/pdfs/Stay Alive All Your Life (N_ (Z-Library
 import NaturalexpImage from '../assets/images/Natural experiements.jpg';
 import NaturalexPdf from '../assets/pdfs/Natural experiments of hist_ (Z-Library).pdf';
 import OneofusImage from '../assets/images/One of us is lying.jpg';
-import OneofusPdf from '../assets/pdfs/One of Us is Lying Satu Pem_ (Z-Library).pdf'
+import OneofusPdf from '../assets/pdfs/One of Us is Lying Satu Pem_ (Z-Library).pdf';
+import ThedealImage from '../assets/images/The deal.jpeg';
+import ThedealPdf from '../assets/pdfs/The Deal (Elle Kennedy) (Z-Library).pdf';
+import ShattermeImage from '../assets/images/Shatter me.jpg';
+import ShattermePdf from '../assets/pdfs/Shatter Me (Tahereh Mafi) (Z-Library).pdf';
+import ThereaperImage from '../assets/images/The reaper.jpg';
+import ThereaperPdf from '../assets/pdfs/The Reaper (RuNyx) (Z-Library).pdf';
+
 
 
 
@@ -424,6 +431,34 @@ import OneofusPdf from '../assets/pdfs/One of Us is Lying Satu Pem_ (Z-Library).
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThereaperImage,
+    title: 'The Reaper',
+    author: 'RuNyx',
+    genre: "Mistery",
+    availability: true,
+    read:ThereaperPdf,
+    Download: require('../assets/pdfs/The Reaper (RuNyx) (Z-Library).pdf')
+  },
+  {
+    picture: ShattermeImage,
+    title: 'Shatter Me',
+    author: 'Tahereh Mafi',
+    genre: "Romance",
+    availability: true,
+    read:ShattermePdf,
+    Download: require('../assets/pdfs/Shatter Me (Tahereh Mafi) (Z-Library).pdf')
+  },
+  {
+    picture: ThedealImage,
+    title: 'The Deal',
+    author: 'Elle Kennedy',
+    genre: "Romance",
+    availability: true,
+    read:ThedealPdf,
+    Download: require('../assets/pdfs/The Deal (Elle Kennedy) (Z-Library).pdf')
+  },
+
   {
     picture: StayaliveImage,
     title: 'Stay Alive All Your Life',
