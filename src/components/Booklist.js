@@ -431,7 +431,7 @@ import PrideandImage from '../assets/images/Pride and Prejudice.jpg';
 import PrideandPdf from '../assets/pdfs/Pride and Prejudice (Jane A_ (Z-Library).pdf';
 import FixherImage from '../assets/images/Fix her up.jpg';
 import FixherPdf from '../assets/pdfs/Fix Her Up (Tessa Bailey) (Z-Library).pdf';
-import ThepoopyImage from '../assets/pdfs/The Poppy War (R. F. Kuang) (Z-Library).pdf';
+import ThepoopyImage from '../assets/images/THe poopy war.jpeg';
 import THepoopyPdf from '../assets/pdfs/The Poppy War (R. F. Kuang) (Z-Library).pdf';
 import LookbackinImage from '../assets/images/Look back in anger .jpg';
 import LookbackinPdf from '../assets/pdfs/Look Back in Anger (John Os_ (Z-Library).pdf';
