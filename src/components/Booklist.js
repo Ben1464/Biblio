@@ -419,8 +419,24 @@ import ThedealImage from '../assets/images/The deal.jpeg';
 import ThedealPdf from '../assets/pdfs/The Deal (Elle Kennedy) (Z-Library).pdf';
 import ShattermeImage from '../assets/images/Shatter me.jpg';
 import ShattermePdf from '../assets/pdfs/Shatter Me (Tahereh Mafi) (Z-Library).pdf';
+import TheonethingImage from '../assets/images/The one thing.jpg';
+import TheonethingPdf from '../assets/pdfs/The ONE Thing (Gary Keller) (Z-Library).pdf';
 import ThereaperImage from '../assets/images/The reaper.jpg';
 import ThereaperPdf from '../assets/pdfs/The Reaper (RuNyx) (Z-Library).pdf';
+import EnthImage from '../assets/images/Enthusiasm makes the difference .jpg';
+import EnthPdf from '../assets/pdfs/Enthusiasm Makes the Differ_ (Z-Library).pdf';
+import FlippedImage from '../assets/images/Flipped.jpg';
+import FlippedPdf from '../assets/pdfs/Flipped (Wendelin Van Draanen) (Z-Library).pdf';
+import PrideandImage from '../assets/images/Pride and Prejudice.jpg';
+import PrideandPdf from '../assets/pdfs/Pride and Prejudice (Jane A_ (Z-Library).pdf';
+import FixherImage from '../assets/images/Fix her up.jpg';
+import FixherPdf from '../assets/pdfs/Fix Her Up (Tessa Bailey) (Z-Library).pdf';
+import ThepoopyImage from '../assets/pdfs/The Poppy War (R. F. Kuang) (Z-Library).pdf';
+import THepoopyPdf from '../assets/pdfs/The Poppy War (R. F. Kuang) (Z-Library).pdf';
+import LookbackinImage from '../assets/images/Look back in anger .jpg';
+import LookbackinPdf from '../assets/pdfs/Look Back in Anger (John Os_ (Z-Library).pdf';
+import DeathofsaleImage from '../assets/images/DeathOfASalesman.jpg';
+import Deathofsalepdf from '../assets/pdfs/Death of a Salesman (Arthur_ (Z-Library).pdf';
 
 
 
@@ -431,6 +447,69 @@ import ThereaperPdf from '../assets/pdfs/The Reaper (RuNyx) (Z-Library).pdf';
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: EnthImage,
+    title: 'Enthusiasiasm Makes The Difference',
+    author: 'Norman Vincent',
+    genre: "Self Help",
+    availability: true,
+    read:EnthPdf,
+    Download: require('../assets/pdfs/Enthusiasm Makes the Differ_ (Z-Library).pdf')
+  },
+  {
+    picture: DeathofsaleImage,
+    title: 'Death of a Salesman',
+    author: 'Arthur Miller',
+    genre: "Drama",
+    availability: true,
+    read:Deathofsalepdf,
+    Download: require('../assets/pdfs/Death of a Salesman (Arthur_ (Z-Library).pdf')
+  },
+  {
+    picture: FlippedImage,
+    title:'Flipped',
+    author: 'Van Draanen',
+    genre: "Romance",
+    availability: true,
+    read:FlippedPdf,
+    Download: require('../assets/pdfs/Flipped (Wendelin Van Draanen) (Z-Library).pdf')
+  },
+  {
+    picture: PrideandImage,
+    title: 'Pride and Prejudice',
+    author: 'Jane Austen',
+    genre: "Satire",
+    availability: true,
+    read:PrideandPdf,
+    Download: require('../assets/pdfs/Pride and Prejudice (Jane A_ (Z-Library).pdf')
+  },
+  {
+    picture: LookbackinImage,
+    title: 'Look Back In Anger',
+    author: 'John Ostrander',
+    genre: "Realist Play",
+    availability: true,
+    read:LookbackinPdf,
+    Download: require('../assets/pdfs/Look Back in Anger (John Os_ (Z-Library).pdf')
+  },
+  {
+    picture: FixherImage,
+    title: 'Fix Her Up',
+    author: 'Tessa Bailey',
+    genre: "Humor",
+    availability: true,
+    read:FixherPdf,
+    Download: require('../assets/pdfs/Fix Her Up (Tessa Bailey) (Z-Library).pdf')
+  },
+  {
+    picture: ThepoopyImage,
+    title: 'The Poppy War',
+    author: 'R.F. Kuang',
+    genre: "Fantasy Fiction",
+    availability: true,
+    read:THepoopyPdf,
+    Download: require('../assets/pdfs/The Poppy War (R. F. Kuang) (Z-Library).pdf')
+  },
   {
     picture: ThereaperImage,
     title: 'The Reaper',
@@ -448,6 +527,15 @@ const books = [
     availability: true,
     read:ShattermePdf,
     Download: require('../assets/pdfs/Shatter Me (Tahereh Mafi) (Z-Library).pdf')
+  },
+  {
+    picture: TheonethingImage,
+    title: 'The One Thing',
+    author: 'Gary Heller',
+    genre: "Self Help",
+    availability: true,
+    read:TheonethingPdf,
+    Download: require('../assets/pdfs/The ONE Thing (Gary Keller) (Z-Library).pdf')
   },
   {
     picture: ThedealImage,
@@ -1175,7 +1263,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read: WorkingemoPdf,
-    Download: require('../assets/pdfs/Why you act the way you do by Tim LaHaye ( PDFDrive ).pdf')
+    Download: require('../assets/pdfs/Working With Emotional Inte_ (Z-Library).pdf')
   },
   {
     picture: KindworthImage,
