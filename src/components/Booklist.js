@@ -458,7 +458,7 @@ const books = [
   },
   {
     picture: DeathofsaleImage,
-    title: 'Death of a Salesman',
+    title: 'Death Of A Salesman',
     author: 'Arthur Miller',
     genre: "Drama",
     availability: true,
