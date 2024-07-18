@@ -443,6 +443,8 @@ import ReasonstayaliveImage from '../assets/images/Reason to stay alive.jpg';
 import ReasonstayalivePdf from '../assets/pdfs/Reasons to Stay Alive (Kisa_ (Z-Library).pdf';
 import ExactlyImage from '../assets/images/Exactly what to say.jpg';
 import ExactlyPdf from '../assets/pdfs/Exactly What to Say (PREMIU_ (Z-Library).pdf';
+import MiniImage from '../assets/images/MInimalism.jpg';
+import MiniPdf from '../assets/pdfs/MiniPdf';
 
 
 
@@ -454,6 +456,15 @@ import ExactlyPdf from '../assets/pdfs/Exactly What to Say (PREMIU_ (Z-Library).
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: MiniImage,
+    title: 'Minimalism',
+    author: 'K Hammond',
+    genre: "Self Help",
+    availability: true,
+    read:MiniPdf,
+    Download: require('../assets/pdfs/Minimalism for Living, Fami_ (Z-Library).pdf')
+  },
   {
     picture: ReasonstayaliveImage,
     title: 'Reasons To Stay Alive',
