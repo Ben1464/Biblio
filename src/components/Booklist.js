@@ -437,6 +437,13 @@ import LookbackinImage from '../assets/images/Look back in anger .jpg';
 import LookbackinPdf from '../assets/pdfs/Look Back in Anger (John Os_ (Z-Library).pdf';
 import DeathofsaleImage from '../assets/images/DeathOfASalesman.jpg';
 import Deathofsalepdf from '../assets/pdfs/Death of a Salesman (Arthur_ (Z-Library).pdf';
+import LightwecanIMage from '../assets/images/All_the_Light_We_Cannot_See_(Doerr_novel).jpg';
+import LightwecanPdf from '../assets/pdfs/All the Light We Cannot See_ (Z-Library).pdf';
+import ReasonstayaliveImage from '../assets/images/Reason to stay alive.jpg';
+import ReasonstayalivePdf from '../assets/pdfs/Reasons to Stay Alive (Kisa_ (Z-Library).pdf';
+import ExactlyImage from '../assets/images/Exactly what to say.jpg';
+import ExactlyPdf from '../assets/pdfs/Exactly What to Say (PREMIU_ (Z-Library).pdf';
+
 
 
 
@@ -447,6 +454,25 @@ import Deathofsalepdf from '../assets/pdfs/Death of a Salesman (Arthur_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ReasonstayaliveImage,
+    title: 'Reasons To Stay Alive',
+    author: 'Matt Haig',
+    genre: "Self Help",
+    availability: true,
+    read:ReasonstayalivePdf,
+    Download: require('../assets/pdfs/Reasons to Stay Alive (Kisa_ (Z-Library).pdf')
+  },
+
+  {
+    picture: LightwecanIMage,
+    title: 'All The Light We Cannot See',
+    author: 'Antony Doerr',
+    genre: "Self Help",
+    availability: true,
+    read:LightwecanPdf,
+    Download: require('../assets/pdfs/All the Light We Cannot See_ (Z-Library).pdf')
+  },
   {
     picture: EnthImage,
     title: 'Enthusiasiasm Makes The Difference',
@@ -473,6 +499,15 @@ const books = [
     availability: true,
     read:FlippedPdf,
     Download: require('../assets/pdfs/Flipped (Wendelin Van Draanen) (Z-Library).pdf')
+  },
+  {
+    picture: ExactlyImage,
+    title: 'Exactly What To Say',
+    author: 'Phil Johnes',
+    genre: "Self Help",
+    availability: true,
+    read:ExactlyPdf,
+    Download: require('../assets/pdfs/Exactly What to Say (PREMIU_ (Z-Library).pdf')
   },
   {
     picture: PrideandImage,
