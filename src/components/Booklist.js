@@ -455,6 +455,12 @@ import SubImage from '../assets/images/The power of your subconcious mind.jpeg';
 import SubPdf from '../assets/pdfs/The Power of Your Subconsci_ (Z-Library).pdf';
 import PythondataImage from '../assets/images/PYTHON FOR DATA ANAL.jpg';
 import PythondataPdf from '../assets/pdfs/Python for Data Analysis, 2_ (Z-Library).pdf';
+import DigitalImage from '../assets/images/digital minimalism.jpg';
+import DigitalPdf from '../assets/pdfs/Digital Minimalism choosing_ (Z-Library).pdf';
+import ImaginemeImage from '../assets/images/Imagine me.jpeg';
+import ImaginemePdf from '../assets/pdfs/Imagine Me (Tahereh Mafi) (Z-Library).pdf';
+import Manipulation2Image from '../assets/images/Manipulation.jpg';
+import Manipulation2Pdf from '../assets/pdfs/Manipulation (Arthur Horn [_ (Z-Library).pdf';
 
 
 
@@ -466,6 +472,33 @@ import PythondataPdf from '../assets/pdfs/Python for Data Analysis, 2_ (Z-Librar
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: DigitalImage,
+    title: 'Digital Minimalism',
+    author: 'Cal Newpoint',
+    genre: "Self Help",
+    availability: true,
+    read:DigitalPdf,
+    Download: require('../assets/pdfs/Digital Minimalism choosing_ (Z-Library).pdf')
+  },
+  {
+    picture: ImaginemeImage,
+    title: 'Imagine Me',
+    author: 'Tahereh Mafi',
+    genre: "Science fiction",
+    availability: true,
+    read:ImaginemePdf,
+    Download: require('../assets/pdfs/Python for Data Analysis, 2_ (Z-Library).pdf')
+  },
+  {
+    picture: Manipulation2Image,
+    title: 'Manipulation',
+    author: 'Arthur Horn',
+    genre: "Human Nature",
+    availability: true,
+    read:Manipulation2Pdf,
+    Download: require('../assets/pdfs/Manipulation (Arthur Horn [_ (Z-Library).pdf')
+  },
   {
     picture: PythondataImage,
     title: 'Python For Data Analysis',
