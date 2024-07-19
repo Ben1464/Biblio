@@ -445,6 +445,16 @@ import ExactlyImage from '../assets/images/Exactly what to say.jpg';
 import ExactlyPdf from '../assets/pdfs/Exactly What to Say (PREMIU_ (Z-Library).pdf';
 import MiniImage from '../assets/images/MInimalism.jpg';
 import MiniPdf from '../assets/pdfs/Minimalism for Living, Fami_ (Z-Library).pdf';
+import DaysImage from '../assets/images/30 Days market .jpg';
+import DaysPdf from '../assets/pdfs/30 Days to Market Mastery A_ (Z-Library).pdf';
+import HowtosayImage from '../assets/images/How to say it.jpg';
+import HowtosayPdf from '../assets/pdfs/How to Say It Choice Words,_ (Z-Library).pdf';
+import GrammarImage from '../assets/images/Grammar for everyone.jpg';
+import GrammarPdf from '../assets/pdfs/Grammar for Everyone Practi_ (Z-Library).pdf';
+import SubImage from '../assets/images/The power of your subconcious mind.jpeg';
+import SubPdf from '../assets/pdfs/The Power of Your Subconsci_ (Z-Library).pdf';
+import PythondataImage from '../assets/images/PYTHON FOR DATA ANAL.jpg';
+import PythondataPdf from '../assets/pdfs/Python for Data Analysis, 2_ (Z-Library).pdf';
 
 
 
@@ -456,6 +466,53 @@ import MiniPdf from '../assets/pdfs/Minimalism for Living, Fami_ (Z-Library).pdf
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: PythondataImage,
+    title: 'Python For Data Analysis',
+    author: 'Wes McKinney',
+    genre: "Engineering",
+    availability: true,
+    read:PythondataPdf,
+    Download: require('../assets/pdfs/Python for Data Analysis, 2_ (Z-Library).pdf')
+  },
+  {
+    picture: SubImage,
+    title: 'The Power Of Your Subconcious Mind',
+    author: 'Joseph Murphy',
+    genre: "Self Help",
+    availability: true,
+    read:SubPdf,
+    Download: require('../assets/pdfs/The Power of Your Subconsci_ (Z-Library).pdf')
+  },
+
+  {
+    picture: GrammarImage,
+    title: 'Grammar for Everyone',
+    author: 'Barbara Dykes',
+    genre: "Self Help",
+    availability: true,
+    read:GrammarPdf,
+    Download: require('../assets/pdfs/Grammar for Everyone Practi_ (Z-Library).pdf')
+  },
+  {
+    picture: HowtosayImage,
+    title: 'How To Say It',
+    author: 'Rosalie Maggio',
+    genre: "Self Help",
+    availability: true,
+    read:HowtosayPdf,
+    Download: require('../assets/pdfs/How to Say It Choice Words,_ (Z-Library).pdf')
+  },
+  {
+    picture: DaysImage,
+    title: '30 Days To Market Mastery',
+    author: 'Jacob Bernstein',
+    genre: "Business",
+    availability: true,
+    read:DaysPdf,
+    Download: require('../assets/pdfs/30 Days to Market Mastery A_ (Z-Library).pdf')
+  },
+
   {
     picture: MiniImage,
     title: 'Minimalism',
