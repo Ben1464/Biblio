@@ -30,6 +30,7 @@ import AlpaImage from '../assets/images/Alphamale.jpg';
 import BuddhiImage from '../assets/images/buddhasim.jpg';
 import ComeImage from '../assets/images/Come as you are.jpg';
 import PunImage from '../assets/images/crime and punshment.webp';
+import PunPdf from '../assets/pdfs/Crime and Punishment (Barne_ (Z-Library).pdf'
 import CrimeImage from '../assets/images/Mylife in crime.jpg';
 import WallImage from '../assets/images/the wall speaks.jpg';
 import MammthImage from '../assets/images/mamoth.jpg';
@@ -91,7 +92,7 @@ import PriestPdf from '../assets/pdfs/Priest.pdf';
 import FortyPdf from '../assets/pdfs/The_Forty_Rules_of_Love_A_Novel_of_Rumi_MALIK_MUHAMMAD_PDFDrive_.pdf';
 import LawsPdf from '../assets/pdfs/The-48-Laws-of-Power-Robert-Greene.pdf';
 import MammothPdf from '../assets/pdfs/The_Mammoth_Book_of_Cover_Ups_The_100_Most_Terrifying_Conspiracies.pdf';
-import PunPdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
+// import PunPdf from '../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf';
 import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_Grown_Ups_by_Allen_Jayne.pdf';
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
 import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
@@ -1776,9 +1777,9 @@ const books = [
     title: 'Crime And Punshment',
     author: 'George Gibian',
     genre: "Psychological Fiction",
-    availability: false,
+    availability: true,
     read:PunPdf,
-    Download: require('../assets/pdfs/my-life-in-crime---john-kiriamiti-190337.pdf')
+    Download: require('../assets/pdfs/Crime and Punishment (Barne_ (Z-Library).pdf')
   },
   {
     picture: TopImage,
