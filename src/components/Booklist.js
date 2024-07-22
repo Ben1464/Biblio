@@ -466,6 +466,10 @@ import NolongerImage from '../assets/images/No longer human.webp';
 import NolongerPdf from '../assets/pdfs/No Longer Human (人間失格, Ning_ (Z-Library).pdf';
 import AddictedafterImage from '../assets/images/Addicted after all.jpg';
 import AddictedafterPdf from '../assets/pdfs/Addicted After All (Krista_ (Z-Library).pdf';
+import ThecousinsImage from '../assets/images/The cousins.jpg';
+import ThecousinsPdf from '../assets/pdfs/The Cousins (Karen M. McManus) (Z-Library).pdf'
+import FineprintImage from '../assets/images/The fine print.jpg';
+import FineprintPdf from '../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf'
 
 
 
@@ -477,6 +481,24 @@ import AddictedafterPdf from '../assets/pdfs/Addicted After All (Krista_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThecousinsImage,
+    title: 'The Cousins',
+    author: 'Karen McManus',
+    genre: "Thriller",
+    availability: true,
+    read:ThecousinsPdf,
+    Download: require('../assets/pdfs/The Cousins (Karen M. McManus) (Z-Library).pdf')
+  },
+  {
+    picture: FineprintImage,
+    title: 'The Fine Print',
+    author: 'Lauren Asher',
+    genre: "Romance",
+    availability: true,
+    read:FineprintPdf,
+    Download: require('../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf')
+  },
   {
     picture: NolongerImage,
     title: 'No Longer Human',
