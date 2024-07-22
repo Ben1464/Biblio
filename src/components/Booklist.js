@@ -462,6 +462,10 @@ import ImaginemeImage from '../assets/images/Imagine me.jpeg';
 import ImaginemePdf from '../assets/pdfs/Imagine Me (Tahereh Mafi) (Z-Library).pdf';
 import Manipulation2Image from '../assets/images/Manipulation.jpg';
 import Manipulation2Pdf from '../assets/pdfs/Manipulation (Arthur Horn [_ (Z-Library).pdf';
+import NolongerImage from '../assets/images/No longer human.webp';
+import NolongerPdf from '../assets/pdfs/No Longer Human (人間失格, Ning_ (Z-Library).pdf';
+import AddictedafterImage from '../assets/images/Addicted after all.jpg';
+import AddictedafterPdf from '../assets/pdfs/Addicted After All (Krista_ (Z-Library).pdf';
 
 
 
@@ -473,6 +477,25 @@ import Manipulation2Pdf from '../assets/pdfs/Manipulation (Arthur Horn [_ (Z-Lib
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: NolongerImage,
+    title: 'No Longer Human',
+    author: 'Osumu Dazai',
+    genre: "Fiction",
+    availability: true,
+    read:NolongerPdf,
+    Download: require('../assets/pdfs/No Longer Human (人間失格, Ning_ (Z-Library).pdf')
+  },
+  {
+    picture: AddictedafterImage,
+    title: 'Addicted After All',
+    author: 'Krista Becca',
+    genre: "Romance",
+    availability: true,
+    read:AddictedafterPdf,
+    Download: require('../assets/pdfs/Addicted After All (Krista_ (Z-Library).pdf')
+  },
+
   {
     picture: DigitalImage,
     title: 'Digital Minimalism',
