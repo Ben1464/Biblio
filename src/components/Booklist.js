@@ -470,6 +470,17 @@ import ThecousinsImage from '../assets/images/The cousins.jpg';
 import ThecousinsPdf from '../assets/pdfs/The Cousins (Karen M. McManus) (Z-Library).pdf'
 import FineprintImage from '../assets/images/The fine print.jpg';
 import FineprintPdf from '../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf'
+import LimitlessImage from '../assets/images/Limitless.jpg';
+import LimitlessPdf from '../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf';
+import WorldwarImage from '../assets/images/WOrld war 2.png';
+import WorldwarPdf from '../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf';
+import GoodtogreateImage from '../assets/images/Good to great.jpg';
+import GoodtogreatePdf from '../assets/pdfs/Good to Great Why Some Comp_ (Z-Library).pdf';
+import SuperfuelImage from '../assets/images/Super fuel.jpg';
+import SuperfuelPdf from '../assets/pdfs/Superfuel (Dr. James DiNico_ (Z-Library).pdf';
+import HowtogrowgreatImage from '../assets/images/How to grow great kids.jpg';
+import HowtogrowgreatPdf from '../assets/pdfs/How to Grow Great Kids The_ (Z-Library).pdf';
+
 
 
 
@@ -481,6 +492,53 @@ import FineprintPdf from '../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library
 
 // Updated books array with correct paths to PDF files
 const books = [
+
+  {
+    picture: LimitlessImage,
+    title: 'Limitless',
+    author: 'Jim Kwik',
+    genre: "Self Help",
+    availability: true,
+    read:LimitlessPdf,
+    Download: require('../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf')
+  },
+  {
+    picture: WorldwarImage,
+    title: 'World War II',
+    author: 'Sturgeon, Ali',
+    genre: "History",
+    availability: true,
+    read:WorldwarPdf,
+    Download: require('../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf')
+  },
+  {
+    picture: GoodtogreateImage,
+    title: 'Good to Great',
+    author: 'Jim Collins',
+    genre: "Self Help",
+    availability: true,
+    read:GoodtogreatePdf,
+    Download: require('../assets/pdfs/Good to Great Why Some Comp_ (Z-Library).pdf')
+  },
+  {
+    picture: SuperfuelImage,
+    title: 'Super Fuel',
+    author: 'DR. Joseph Mercola',
+    genre: "Health",
+    availability: true,
+    read:SuperfuelPdf,
+    Download: require('../assets/pdfs/Superfuel (Dr. James DiNico_ (Z-Library).pdf')
+  },
+  {
+    picture: HowtogrowgreatImage,
+    title: 'How To Grow Great Kids',
+    author: 'Allison Lee',
+    genre: "Parenting",
+    availability: true,
+    read:HowtogrowgreatPdf,
+    Download: require('../assets/pdfs/How to Grow Great Kids The_ (Z-Library).pdf')
+  },
+
   {
     picture: ThecousinsImage,
     title: 'The Cousins',
