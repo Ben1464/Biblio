@@ -472,8 +472,8 @@ import FineprintImage from '../assets/images/The fine print.jpg';
 import FineprintPdf from '../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf'
 import LimitlessImage from '../assets/images/Limitless.jpg';
 import LimitlessPdf from '../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf';
-import WorldwarImage from '../assets/images/WOrld war 2.png';
-import WorldwarPdf from '../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf';
+// import WorldwarImage from '../assets/images/WOrld war 2.png';
+// import WorldwarPdf from '../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf';
 import GoodtogreateImage from '../assets/images/Good to great.jpg';
 import GoodtogreatePdf from '../assets/pdfs/Good to Great Why Some Comp_ (Z-Library).pdf';
 import SuperfuelImage from '../assets/images/Super fuel.jpg';
@@ -502,15 +502,15 @@ const books = [
     read:LimitlessPdf,
     Download: require('../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf')
   },
-  {
-    picture: WorldwarImage,
-    title: 'World War II',
-    author: 'Sturgeon, Ali',
-    genre: "History",
-    availability: true,
-    read:WorldwarPdf,
-    Download: require('../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf')
-  },
+  // {
+  //   picture: WorldwarImage,
+  //   title: 'World War II',
+  //   author: 'Sturgeon, Ali',
+  //   genre: "History",
+  //   availability: true,
+  //   read:WorldwarPdf,
+  //   Download: require('../assets/pdfs/World War II (Sturgeon, Ali_ (Z-Library).pdf')
+  // },
   {
     picture: GoodtogreateImage,
     title: 'Good to Great',
