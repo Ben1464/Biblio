@@ -479,6 +479,14 @@ import SuperfuelImage from '../assets/images/Super fuel.jpg';
 import SuperfuelPdf from '../assets/pdfs/Superfuel (Dr. James DiNico_ (Z-Library).pdf';
 import HowtogrowgreatImage from '../assets/images/How to grow great kids.jpg';
 import HowtogrowgreatPdf from '../assets/pdfs/How to Grow Great Kids The_ (Z-Library).pdf';
+import CrucialImage from '../assets/images/Crucial conversations.jpg';
+import CrucialPdf from '../assets/pdfs/Crucial Conversations Tools_ (Z-Library).pdf';
+import DoittodayImage from '../assets/images/Do it today.jpg';
+import DoittodayPdf from '../assets/pdfs/Do It Today  Overcome Procr_ (Z-Library).pdf';
+import FinishevrythingImage from '../assets/images/Finish everything you start.jpg';
+import FinishevrythingPdf from '../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf';
+import HowtobecomeaImage from '../assets/images/How to become a peoples magnet.jpg';
+import HowtobecomePdf from '../assets/pdfs/How to Become a People Magn_ (Z-Library).pdf';
 
 
 
@@ -501,7 +509,7 @@ const books = [
     read:LimitlessPdf,
     Download: require('../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf')
   },
-  // {
+  
  
   {
     picture: GoodtogreateImage,
@@ -530,7 +538,15 @@ const books = [
     read:HowtogrowgreatPdf,
     Download: require('../assets/pdfs/How to Grow Great Kids The_ (Z-Library).pdf')
   },
-
+  {
+    picture: CrucialImage,
+    title: 'Crucial Conversations',
+    author: 'Joseph Grenny',
+    genre: "Self Help",
+    availability: true,
+    read:CrucialPdf,
+    Download: require('../assets/pdfs/Crucial Conversations Tools_ (Z-Library).pdf')
+  },
   {
     picture: ThecousinsImage,
     title: 'The Cousins',
@@ -541,6 +557,15 @@ const books = [
     Download: require('../assets/pdfs/The Cousins (Karen M. McManus) (Z-Library).pdf')
   },
   {
+    picture: DoittodayImage,
+    title: 'Do It Today',
+    author: 'Darius Foroux',
+    genre: "Self Help",
+    availability: true,
+    read:DoittodayPdf,
+    Download: require('../assets/pdfs/Do It Today  Overcome Procr_ (Z-Library).pdf')
+  },
+  {
     picture: FineprintImage,
     title: 'The Fine Print',
     author: 'Lauren Asher',
@@ -548,6 +573,15 @@ const books = [
     availability: true,
     read:FineprintPdf,
     Download: require('../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf')
+  },
+  {
+    picture: FinishevrythingImage,
+    title: 'Finish Everything You Start',
+    author: 'Jan Yager',
+    genre: "Self Help",
+    availability: true,
+    read:FinishevrythingPdf,
+    Download: require('../assets/pdfs/How to Finish Everything Yo_ (Z-Library).pdf')
   },
   {
     picture: NolongerImage,
@@ -585,6 +619,15 @@ const books = [
     availability: true,
     read:ImaginemePdf,
     Download: require('../assets/pdfs/Python for Data Analysis, 2_ (Z-Library).pdf')
+  },
+  {
+    picture: HowtobecomeaImage,
+    title: 'How To Became A Peoples Magnet',
+    author: 'Marc Reklau',
+    genre: "Self Help",
+    availability: true,
+    read:HowtobecomePdf,
+    Download: require('../assets/pdfs/How to Become a People Magn_ (Z-Library).pdf')
   },
   {
     picture: Manipulation2Image,
