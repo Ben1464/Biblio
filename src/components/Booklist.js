@@ -487,6 +487,11 @@ import FinishevrythingImage from '../assets/images/Finish everything you start.j
 import FinishevrythingPdf from '../assets/pdfs/Finish What You Start The A_ (Z-Library).pdf';
 import HowtobecomeaImage from '../assets/images/How to become a peoples magnet.jpg';
 import HowtobecomePdf from '../assets/pdfs/How to Become a People Magn_ (Z-Library).pdf';
+import LongwayImage from '../assets/images/Long way Down.jpeg';
+import LongwayPdf from '../assets/pdfs/Long Way Down (Calloway 4)_ (Z-Library).pdf';
+import TheglasscageImage from '../assets/images/The glass cage .png';
+import TheglasscagePdf from '../assets/pdfs/the glass cage.automation a_ (Z-Library).pdf';
+
 
 
 
@@ -499,6 +504,15 @@ import HowtobecomePdf from '../assets/pdfs/How to Become a People Magn_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: TheglasscageImage,
+    title: 'The Glass Cage',
+    author: 'Nicholas Carr',
+    genre: "Novel",
+    availability: true,
+    read:TheglasscagePdf,
+    Download: require('../assets/pdfs/the glass cage.automation a_ (Z-Library).pdf')
+  },
 
   {
     picture: LimitlessImage,
@@ -509,7 +523,15 @@ const books = [
     read:LimitlessPdf,
     Download: require('../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf')
   },
-  
+  {
+    picture: LongwayImage,
+    title: 'Long Way Down',
+    author: 'Krista Becca',
+    genre: "Romance",
+    availability: true,
+    read:LongwayPdf,
+    Download: require('../assets/pdfs/Long Way Down (Calloway 4)_ (Z-Library).pdf')
+  },
  
   {
     picture: GoodtogreateImage,
