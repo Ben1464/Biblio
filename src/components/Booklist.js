@@ -491,6 +491,12 @@ import LongwayImage from '../assets/images/Long way Down.jpeg';
 import LongwayPdf from '../assets/pdfs/Long Way Down (Calloway 4)_ (Z-Library).pdf';
 import TheglasscageImage from '../assets/images/The glass cage .png';
 import TheglasscagePdf from '../assets/pdfs/the glass cage.automation a_ (Z-Library).pdf';
+import PersonalMbaImage from '../assets/images/Personal MBA.jpg';
+import PersonalMbaPdf from '../assets/pdfs/The Personal MBA A World-Cl_ (Z-Library).pdf';
+import DiscplinedestImage from '../assets/images/Displine is destiney.jpg';
+import DiscplinedestPdf from '../assets/pdfs/Discipline Is Destiny The P_ (Z-Library).pdf';
+import TheidentityImage from '../assets/images/The identity trap.png';
+import TheidentityPdf from '../assets/pdfs/The Identity Trap (Yascha M_ (Z-Library).pdf';
 
 
 
@@ -504,6 +510,35 @@ import TheglasscagePdf from '../assets/pdfs/the glass cage.automation a_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: PersonalMbaImage,
+    title: 'The Personal MBA',
+    author: 'Josh Kaufman',
+    genre: "Business",
+    availability: true,
+    read:PersonalMbaPdf,
+    Download: require('../assets/pdfs/The Personal MBA A World-Cl_ (Z-Library).pdf')
+  },
+  {
+    picture: DiscplinedestImage,
+    title: 'Discipline Is Destiny',
+    author: 'Ryan Holiday',
+    genre: "Self help",
+    availability: true,
+    read:DiscplinedestPdf,
+    Download: require('../assets/pdfs/Discipline Is Destiny The P_ (Z-Library).pdf')
+  },
+  {
+    picture: TheidentityImage,
+    title: 'The Identity Trap',
+    author: 'Yascha Mounk',
+    genre: "Self help",
+    availability: true,
+    read:TheidentityPdf,
+    Download: require('../assets/pdfs/The Identity Trap (Yascha M_ (Z-Library).pdf')
+  },
+
+
   {
     picture: TheglasscageImage,
     title: 'The Glass Cage',
