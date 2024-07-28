@@ -497,6 +497,16 @@ import DiscplinedestImage from '../assets/images/Displine is destiney.jpg';
 import DiscplinedestPdf from '../assets/pdfs/Discipline Is Destiny The P_ (Z-Library).pdf';
 import TheidentityImage from '../assets/images/The identity trap.png';
 import TheidentityPdf from '../assets/pdfs/The Identity Trap (Yascha M_ (Z-Library).pdf';
+import TheriseofrobotsImage from '../assets/images/The rise of the robots.webp';
+import TheriseofrobotsPdf from '../assets/pdfs/The Rise of the Robots Tech_ (Z-Library).pdf';
+import UnlimitedmemoryImage from '../assets/images/Unlimited memory.jpg';
+import UnlimitedmemoryPdf from '../assets/pdfs/Unlimited Memory How to Use_ (Z-Library).pdf';
+import DigitalEnterImage from '../assets/images/The digital enterpise.jpg';
+import DigitalEnterPdf from '../assets/pdfs/The digital enterprise  how_ (Z-Library).pdf';
+import MetabolicautoImage from '../assets/images/Metabolic autophapy.jpg';
+import MetabolicautoPdf from '../assets/pdfs/Metabolic Autophagy Practic_ (Z-Library).pdf';
+import ImmunityfixImage from '../assets/images/The immunity fix.jpg';
+import ImmunityfixPdf from '../assets/pdfs/The Immunity Fix-Strengthen_ (Z-Library).pdf';
 
 
 
@@ -510,6 +520,51 @@ import TheidentityPdf from '../assets/pdfs/The Identity Trap (Yascha M_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: TheriseofrobotsImage,
+    title: 'The Rise Of The Robots',
+    author: 'Martin Ford',
+    genre: "Technology",
+    availability: true,
+    read:TheriseofrobotsPdf,
+    Download: require('../assets/pdfs/The Rise of the Robots Tech_ (Z-Library).pdf')
+  },
+  {
+    picture: UnlimitedmemoryImage,
+    title: 'Unlimited Memory',
+    author: 'Kelvin Horsley',
+    genre: "Self Help",
+    availability: true,
+    read:UnlimitedmemoryPdf,
+    Download: require('../assets/pdfs/Unlimited Memory How to Use_ (Z-Library).pdf')
+  },
+  {
+    picture: DigitalEnterImage,
+    title: 'The Digital Enterprise',
+    author: 'Nicholas Carr',
+    genre: "Business",
+    availability: true,
+    read:DigitalEnterPdf,
+    Download: require('../assets/pdfs/The digital enterprise  how_ (Z-Library).pdf')
+  },
+  {
+    picture: MetabolicautoImage,
+    title: 'Metabolic Autophagy',
+    author: 'Siim Land',
+    genre: "Health",
+    availability: true,
+    read:MetabolicautoPdf,
+    Download: require('../assets/pdfs/Metabolic Autophagy Practic_ (Z-Library).pdf')
+  },
+  {
+    picture: ImmunityfixImage,
+    title: 'The Immunity Fix',
+    author: 'Siim Land',
+    genre: "Health",
+    availability: true,
+    read:ImmunityfixPdf,
+    Download: require('../assets/pdfs/The Immunity Fix-Strengthen_ (Z-Library).pdf')
+  },
   {
     picture: PersonalMbaImage,
     title: 'The Personal MBA',
