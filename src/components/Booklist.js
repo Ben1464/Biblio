@@ -507,6 +507,12 @@ import MetabolicautoImage from '../assets/images/Metabolic autophapy.jpg';
 import MetabolicautoPdf from '../assets/pdfs/Metabolic Autophagy Practic_ (Z-Library).pdf';
 import ImmunityfixImage from '../assets/images/The immunity fix.jpg';
 import ImmunityfixPdf from '../assets/pdfs/The Immunity Fix-Strengthen_ (Z-Library).pdf';
+import PassiveincomeImage from '../assets/images/Passive income.jpeg';
+import PassiveincomePdf from '../assets/pdfs/PASSIVE INCOME Stop working_ (Z-Library).pdf';
+import FuelthefireImage from '../assets/images/Fuel the fire.jpeg';
+import FuelthefirePdf from '../assets/pdfs/Fuel the Fire (Krista Ritch_ (Z-Library).pdf';
+import $100startupIMage from '../assets/images/THe $100 startup.jpg';
+import $100startupPdf from '../assets/pdfs/The 100 Startup Reinvent th_ (Z-Library).pdf';
 
 
 
@@ -557,6 +563,15 @@ const books = [
     Download: require('../assets/pdfs/Metabolic Autophagy Practic_ (Z-Library).pdf')
   },
   {
+    picture: PassiveincomeImage,
+    title: 'Paassive Income',
+    author: 'Ralph Waters',
+    genre: "Business",
+    availability: true,
+    read:PassiveincomePdf,
+    Download: require('../assets/pdfs/PASSIVE INCOME Stop working_ (Z-Library).pdf')
+  },
+  {
     picture: ImmunityfixImage,
     title: 'The Immunity Fix',
     author: 'Siim Land',
@@ -584,6 +599,15 @@ const books = [
     Download: require('../assets/pdfs/Discipline Is Destiny The P_ (Z-Library).pdf')
   },
   {
+    picture: FuelthefireImage,
+    title: 'Fuel The Fire',
+    author: 'Krista Ritch',
+    genre: "Self Help",
+    availability: true,
+    read:FuelthefirePdf,
+    Download: require('../assets/pdfs/Fuel the Fire (Krista Ritch_ (Z-Library).pdf')
+  },
+  {
     picture: TheidentityImage,
     title: 'The Identity Trap',
     author: 'Yascha Mounk',
@@ -592,7 +616,15 @@ const books = [
     read:TheidentityPdf,
     Download: require('../assets/pdfs/The Identity Trap (Yascha M_ (Z-Library).pdf')
   },
-
+  {
+    picture: $100startupIMage,
+    title: 'The $100 Startup',
+    author: 'Chris Guillebeau',
+    genre: "Business",
+    availability: true,
+    read:$100startupPdf,
+    Download: require('../assets/pdfs/The 100 Startup Reinvent th_ (Z-Library).pdf')
+  },
 
   {
     picture: TheglasscageImage,
