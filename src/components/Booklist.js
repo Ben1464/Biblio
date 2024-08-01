@@ -516,7 +516,7 @@ import $100startupPdf from '../assets/pdfs/The 100 Startup Reinvent th_ (Z-Libra
 import WeightfassImage from '../assets/images/Weight loss through fasting.jpg';
 import WeightfassPdf from '../assets/pdfs/Weight Loss Through Fasting_ (Z-Library).pdf';
 import BuysignalImage from '../assets/images/Buy signal sell signnal.jpg';
-import BuysignalPdf from '../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf ';
+import BuysignalPdf from '../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf';
 import Thegreatdevorce from '../assets/images/CSLewis_TheGreatDivorce.jpg'
 import ThegreatdevorcePdf from '../assets/pdfs/The Great Divorce (Lewis, C_ (Z-Library).pdf';
 
