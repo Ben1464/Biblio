@@ -513,6 +513,12 @@ import FuelthefireImage from '../assets/images/Fuel the fire.jpeg';
 import FuelthefirePdf from '../assets/pdfs/Fuel the Fire (Krista Ritch_ (Z-Library).pdf';
 import $100startupIMage from '../assets/images/THe $100 startup.jpg';
 import $100startupPdf from '../assets/pdfs/The 100 Startup Reinvent th_ (Z-Library).pdf';
+import WeightfassImage from '../assets/images/Weight loss through fasting.jpg';
+import WeightfassPdf from '../assets/pdfs/Weight Loss Through Fasting_ (Z-Library).pdf';
+import BuysignalImage from '../assets/images/Buy signal sell signnal.jpg';
+import BuysignalPdf from '../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf ';
+import Thegreatdevorce from '../assets/images/CSLewis_TheGreatDivorce.jpg'
+import ThegreatdevorcePdf from '../assets/pdfs/The Great Divorce (Lewis, C_ (Z-Library).pdf';
 
 
 
@@ -526,6 +532,15 @@ import $100startupPdf from '../assets/pdfs/The 100 Startup Reinvent th_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: Thegreatdevorce,
+    title: 'The Great Divorce',
+    author: 'CS Lewis',
+    genre: "Fantasy",
+    availability: true,
+    read:ThegreatdevorcePdf,
+    Download: require('../assets/pdfs/The Great Divorce (Lewis, C_ (Z-Library).pdf')
+  },
   {
     picture: TheriseofrobotsImage,
     title: 'The Rise Of The Robots',
@@ -543,6 +558,15 @@ const books = [
     availability: true,
     read:UnlimitedmemoryPdf,
     Download: require('../assets/pdfs/Unlimited Memory How to Use_ (Z-Library).pdf')
+  },
+  {
+    picture: WeightfassImage,
+    title: 'Weight Loss Through Fasting',
+    author: 'Jason Tiller',
+    genre: "Health",
+    availability: true,
+    read:WeightfassPdf,
+    Download: require('../assets/pdfs/Weight Loss Through Fasting_ (Z-Library).pdf')
   },
   {
     picture: DigitalEnterImage,
@@ -588,6 +612,15 @@ const books = [
     availability: true,
     read:PersonalMbaPdf,
     Download: require('../assets/pdfs/The Personal MBA A World-Cl_ (Z-Library).pdf')
+  },
+  {
+    picture: BuysignalImage,
+    title: 'Buy Signals Sell Signals',
+    author: 'Steve Burns',
+    genre: "Business",
+    availability: true,
+    read:BuysignalPdf,
+    Download: require('../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf')
   },
   {
     picture: DiscplinedestImage,
