@@ -33,16 +33,16 @@ body {
 
 @keyframes gradientChange {
   0% {
-    background: linear-gradient(to right, #eb7399, #8cd9f3);
+    background: linear-gradient(to right, #eb7399, #8cd9f3); /* Pink to light blue */
   }
   33% {
-    background: linear-gradient(to right, #93A5CF, #E4EfE9);
+    background: linear-gradient(to right, #f8c68c, #f0699b); /* Orange to pink */
   }
   66% {
-    background: linear-gradient(to right, #e95a87, #6fcdec);
+    background: linear-gradient(to right, #95b9f3, #c2e9fb); /* Light blue to light pink */
   }
   100% {
-    background: linear-gradient(to right, #eb7399, #8cd9f3);
+    background: linear-gradient(to right, #ec97b2, #7ccce7); /* Pink to light blue */
   }
 }
 
