@@ -519,7 +519,16 @@ import BuysignalImage from '../assets/images/Buy signal sell signnal.jpg';
 import BuysignalPdf from '../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf';
 import Thegreatdevorce from '../assets/images/CSLewis_TheGreatDivorce.jpg'
 import ThegreatdevorcePdf from '../assets/pdfs/The Great Divorce (Lewis, C_ (Z-Library).pdf';
-
+import BadhabitImage from '../assets/images/Bad habit.jpg';
+import BadhabitPdf from '../assets/pdfs/Bad Habit (Charleigh Rose) (Z-Library).pdf';
+import AllrhodesImage from '../assets/images/All rhodes leads here.jpg';
+import  AllrhodesPdf from '../assets/pdfs/All Rhodes Lead Here (Maria_ (Z-Library).pdf';
+import TheguestlistImage from '../assets/images/The guest list.jpg';
+import TheguestlistPdf from '../assets/pdfs/The Guest List (Lucy Foley) (Z-Library).pdf';
+import JumpstartImage from '../assets/images/jump-start-ketosis-9781612438351_hr.jpg';
+import JumpstartPdf from '../assets/pdfs/Jump_Start_Ketosis-eBook.in_ (Z-Library).pdf';
+import ThebigswitchImage from '../assets/images/THe big switch.jpg';
+import ThebigswitchPdf from '../assets/pdfs/The Big Switch Rewiring the_ (Z-Library).pdf';
 
 
 
@@ -587,6 +596,15 @@ const books = [
     Download: require('../assets/pdfs/Metabolic Autophagy Practic_ (Z-Library).pdf')
   },
   {
+    picture: BadhabitImage,
+    title: 'Bad Habit',
+    author: 'Charleigh Rose',
+    genre: "Adult Novel",
+    availability: true,
+    read:BadhabitPdf,
+    Download: require('../assets/pdfs/Bad Habit (Charleigh Rose) (Z-Library).pdf')
+  },
+  {
     picture: PassiveincomeImage,
     title: 'Paassive Income',
     author: 'Ralph Waters',
@@ -594,6 +612,15 @@ const books = [
     availability: true,
     read:PassiveincomePdf,
     Download: require('../assets/pdfs/PASSIVE INCOME Stop working_ (Z-Library).pdf')
+  },
+  {
+    picture: AllrhodesImage,
+    title: 'All Rhodes Lead Here',
+    author: 'Mariana Zapata',
+    genre: "Romance",
+    availability: true,
+    read:AllrhodesPdf,
+    Download: require('../assets/pdfs/All Rhodes Lead Here (Maria_ (Z-Library).pdf')
   },
   {
     picture: ImmunityfixImage,
@@ -605,6 +632,15 @@ const books = [
     Download: require('../assets/pdfs/The Immunity Fix-Strengthen_ (Z-Library).pdf')
   },
   {
+    picture: TheguestlistImage,
+    title: 'The Guest List',
+    author: 'Lucy Foley',
+    genre: "Thriller",
+    availability: true,
+    read:TheguestlistPdf,
+    Download: require('../assets/pdfs/The Guest List (Lucy Foley) (Z-Library).pdf')
+  },
+  {
     picture: PersonalMbaImage,
     title: 'The Personal MBA',
     author: 'Josh Kaufman',
@@ -614,6 +650,15 @@ const books = [
     Download: require('../assets/pdfs/The Personal MBA A World-Cl_ (Z-Library).pdf')
   },
   {
+    picture: JumpstartImage,
+    title: 'Jump Start Ketosis',
+    author: 'Kristen Mancinelli',
+    genre: "Health",
+    availability: true,
+    read:JumpstartPdf,
+    Download: require('../assets/pdfs/Jump_Start_Ketosis-eBook.in_ (Z-Library).pdf')
+  },
+  {
     picture: BuysignalImage,
     title: 'Buy Signals Sell Signals',
     author: 'Steve Burns',
@@ -621,6 +666,15 @@ const books = [
     availability: true,
     read:BuysignalPdf,
     Download: require('../assets/pdfs/Buy Signals Sell Signals St_ (Z-Library).pdf')
+  },
+  {
+    picture: ThebigswitchImage,
+    title: 'The Big Switch',
+    author: 'Nicholas Carr',
+    genre: "Non Fiction",
+    availability: true,
+    read:ThebigswitchPdf,
+    Download: require('../assets/pdfs/The Big Switch Rewiring the_ (Z-Library).pdf')
   },
   {
     picture: DiscplinedestImage,
