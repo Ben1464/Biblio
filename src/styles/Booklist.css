@@ -42,7 +42,7 @@ body {
     background: linear-gradient(to right, #95b9f3, #c2e9fb); /* Light blue to light pink */
   }
   100% {
-    background: linear-gradient(to right, #ec97b2, #7ccce7); /* Pink to light blue */
+    background: linear-gradient(to right, #ec97b2, #588999); /* Pink to light blue */
   }
 }
 
