@@ -2921,6 +2921,9 @@ const books = [
     Download: require('../assets/pdfs/Rules for My Unborn Son   ( PDFDrive ).pdf')
   },
 ];
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
 
 function Booklist() {
   const { theme } = useContext(ThemeContext);
@@ -2932,7 +2935,12 @@ function Booklist() {
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false);
   const [currentReviewBook, setCurrentReviewBook] = useState(null);
   const [reviewText, setReviewText] = useState('');
+  const [shuffledBooks, setShuffledBooks] = useState([]);
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
+  useEffect(() => {
+    setShuffledBooks(shuffleArray([...books]));
+  }, []);
 
   useEffect(() => {
     if (selectedBook) {
@@ -3002,7 +3010,7 @@ function Booklist() {
     }
   };
 
-  const filteredBooks = books.filter(book =>
+  const filteredBooks = shuffledBooks.filter(book =>
     book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
     book.author.toLowerCase().includes(searchQuery.toLowerCase())
   );
