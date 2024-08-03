@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo4.jpg",
+      "src": "../src/assets/images/book reading 1.avif",
       "type": "image/png",
       "sizes": "512x512",
       "Message":"Welcome to Biblio"
