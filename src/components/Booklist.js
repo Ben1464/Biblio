@@ -529,7 +529,26 @@ import JumpstartImage from '../assets/images/jump-start-ketosis-9781612438351_hr
 import JumpstartPdf from '../assets/pdfs/Jump_Start_Ketosis-eBook.in_ (Z-Library).pdf';
 import ThebigswitchImage from '../assets/images/THe big switch.jpg';
 import ThebigswitchPdf from '../assets/pdfs/The Big Switch Rewiring the_ (Z-Library).pdf';
-
+import EveryurgumentImage from '../assets/images/How to win every urgument.jpg';
+import EveryurgumentPdf from '../assets/pdfs/How to Win Every Argument T_ (Z-Library).pdf';
+import TheartofINtermiImage from '../assets/images/The art of interminted fasting.jpg';
+import TheartofINtermiPdf from '../assets/pdfs/The Art of Intermittent Fas_ (Z-Library).pdf';
+import ThehurtingpartyImage from '../assets/images/The hunting party.jpeg';
+import ThehurtingpartyPdf from '../assets/pdfs/The Hunting Party (Lucy Foley) (Z-Library).pdf';
+import HandsdownImage from '../assets/images/Hands down.jpg';
+import HandsdownPdf from '../assets/pdfs/Hands Down (Mariana Zapata) (Z-Library).pdf';
+import WaitforitImage from '../assets/images/Wait for it.jpg';
+import WaitforitPdf from '../assets/pdfs/Wait for It (Mariana Zapata) (Z-Library).pdf';
+import ThefaultinourImage from '../assets/images/The fault in our scars.jpeg';
+import ThefaultinourPdf from '../assets/pdfs/The Fault in Our Stars (Joh_ (Z-Library).pdf';
+import UnderlockeImage from '../assets/images/Uner locke.jpg'
+import UnderlockePdf from '../assets/pdfs/Under locke (Mariana Zapata) (Z-Library).pdf';
+import ThefakemateImage from '../assets/images/THe fake mate.jpg';
+import ThefakematePdf from '../assets/pdfs/The Fake Mate (Lana Ferguson) (Z-Library).pdf';
+import ThecouplenextdoorImage from '../assets/images/The-Couple-Next-Door-nuriakenya-1.jpg';
+import ThecouplenextdoorPdf from '../assets/pdfs/The Couple Next Door (Shari_ (Z-Library).pdf';
+import MunderontheImage from '../assets/images/Murder on the orient.jpeg';
+import MunderonthePdf from '../assets/pdfs/Murder on the Orient Expres_ (Z-Library).pdf';
 
 
 
@@ -541,6 +560,96 @@ import ThebigswitchPdf from '../assets/pdfs/The Big Switch Rewiring the_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThecouplenextdoorImage,
+    title: 'The Couple Next Door',
+    author: 'Shari Lapena',
+    genre: "Thriller",
+    availability: true,
+    read:ThecouplenextdoorPdf,
+    Download: require('../assets/pdfs/The Couple Next Door (Shari_ (Z-Library).pdf')
+  },
+  {
+    picture: MunderontheImage,
+    title: 'Murder On The Orient Express',
+    author: 'Agatha Christie',
+    genre: "Thriller",
+    availability: true,
+    read:MunderonthePdf,
+    Download: require('../assets/pdfs/Murder on the Orient Expres_ (Z-Library).pdf')
+  },
+  {
+    picture: ThefakemateImage,
+    title: 'The Fake Mate',
+    author: 'Lana Ferguson',
+    genre: "Thriller",
+    availability: true,
+    read:ThefakematePdf,
+    Download: require('../assets/pdfs/The Fake Mate (Lana Ferguson) (Z-Library).pdf')
+  },
+  {
+    picture: UnderlockeImage,
+    title: 'Underlocke',
+    author: 'Mariana Zapata',
+    genre: "Romance",
+    availability: true,
+    read:UnderlockePdf,
+    Download: require('../assets/pdfs/Under locke (Mariana Zapata) (Z-Library).pdf')
+  },
+  {
+    picture: WaitforitImage,
+    title: 'Wait For It',
+    author: 'Mariana Zapata',
+    genre: "Thriller",
+    availability: true,
+    read:WaitforitPdf,
+    Download: require('../assets/pdfs/Wait for It (Mariana Zapata) (Z-Library).pdf')
+  },
+  {
+    picture: ThefaultinourImage,
+    title: 'The Fault in Our Stars',
+    author: 'John Green',
+    genre: "Self Help",
+    availability: true,
+    read:ThefaultinourPdf,
+    Download: require('../assets/pdfs/The Fault in Our Stars (Joh_ (Z-Library).pdf')
+  },
+  {
+    picture: TheartofINtermiImage,
+    title: 'The Art of Intermittent Fasting',
+    author: 'Connor Thompson',
+    genre: "Health",
+    availability: true,
+    read:TheartofINtermiPdf,
+    Download: require('../assets/pdfs/The Art of Intermittent Fas_ (Z-Library).pdf')
+  },
+  {
+    picture: HandsdownImage,
+    title: 'Hands Down',
+    author: 'Mariana Zapata',
+    genre: "Romance",
+    availability: true,
+    read:HandsdownPdf,
+    Download: require('../assets/pdfs/Hands Down (Mariana Zapata) (Z-Library).pdf')
+  },
+  {
+    picture: ThehurtingpartyImage,
+    title: 'The Hunting Party',
+    author: 'Lucy Foley',
+    genre: "Thriller",
+    availability: true,
+    read:ThehurtingpartyPdf,
+    Download: require('../assets/pdfs/The Hunting Party (Lucy Foley) (Z-Library).pdf')
+  },
+  {
+    picture: EveryurgumentImage,
+    title: 'How To Win Every Urgument',
+    author: 'Madsen Pirie',
+    genre: "Self Help",
+    availability: true,
+    read:EveryurgumentPdf,
+    Download: require('../assets/pdfs/How to Win Every Argument T_ (Z-Library).pdf')
+  },
   {
     picture: Thegreatdevorce,
     title: 'The Great Divorce',
