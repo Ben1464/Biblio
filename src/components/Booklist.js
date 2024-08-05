@@ -549,7 +549,26 @@ import ThecouplenextdoorImage from '../assets/images/The-Couple-Next-Door-nuriak
 import ThecouplenextdoorPdf from '../assets/pdfs/The Couple Next Door (Shari_ (Z-Library).pdf';
 import MunderontheImage from '../assets/images/Murder on the orient.jpeg';
 import MunderonthePdf from '../assets/pdfs/Murder on the Orient Expres_ (Z-Library).pdf';
-
+import ThegirlonthetrainImage from '../assets/images/The girl on the train.jpg';
+import ThegirlonthetrainPdf from '../assets/pdfs/The Girl on the Train (Paul_ (Z-Library).pdf';
+import AlonetogetherImage from '../assets/images/Alone together.jpeg';
+import AlonetogetherPdf from '../assets/pdfs/Alone Together Why We Expec_ (Z-Library).pdf';
+import ThecultoftheamaImage from '../assets/images/The cult of the ameture.jpeg';
+import ThecultoftheamaPdf from '../assets/pdfs/The Cult of the Amateur How_ (Z-Library).pdf';
+import ANdthentherewerenonImage from '../assets/images/And then here were non.jpg';
+import ANdthentherewerenonPdf from '../assets/pdfs/And Then There Were None (A_ (Z-Library).pdf';
+import TheabcmurdersImage from '../assets/images/abc-murders-book.jpg';
+import TheabcmurdersPdf from '../assets/pdfs/The ABC Murders (Agatha Chr_ (Z-Library).pdf';
+import YourenotagadgetImage from '../assets/images/You are not a gadget.jpg';
+import YourenotagadgetPdf from '../assets/pdfs/You Are Not a Gadget A Mani_ (Z-Library).pdf';
+import TheshallowsImage from '../assets/images/The shallows.jpg';
+import TheshallowsPdf from '../assets/pdfs/The Shallows - What the Int_ (Z-Library).pdf';
+import BlacktiesImage from '../assets/images/Black ties and white liesjpg';
+import BlacktiesPdf from '../assets/pdfs/Black Ties and White Lies (_ (Z-Library).pdf';
+import AwakeningtheImage from '../assets/images/Awakening of the third eye.jpg';
+import AwakeningthePdf from '../assets/pdfs/Awakening the Third Eye (Sa_ (Z-Library).pdf';
+import ThelinuxcommandImage from '../assets/images/Linux command line.jpg';
+import ThelinuxcommandPdf from '../assets/pdfs/The Linux Command Line A Co_ (Z-Library).pdf';
 
 
 
@@ -560,6 +579,98 @@ import MunderonthePdf from '../assets/pdfs/Murder on the Orient Expres_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: TheshallowsImage,
+    title: 'The shallows',
+    author: 'Nicholars Carr',
+    genre: "Human Nature",
+    availability: true,
+    read:TheshallowsPdf,
+    Download: require('../assets/pdfs/The Shallows - What the Int_ (Z-Library).pdf')
+  },
+  {
+    picture: BlacktiesImage,
+    title: 'Black ties and white lies',
+    author: 'Kat Singleton',
+    genre: "Fiction",
+    availability: true,
+    read:BlacktiesPdf,
+    Download: require('../assets/pdfs/Black Ties and White Lies (_ (Z-Library).pdf')
+  },
+  {
+    picture: AwakeningtheImage,
+    title: 'Awakening Of The Third Eye',
+    author: 'Samuel Sagan',
+    genre: "Fiction",
+    availability: true,
+    read:AwakeningthePdf,
+    Download: require('../assets/pdfs/Awakening the Third Eye (Sa_ (Z-Library).pdf')
+  },
+
+  {
+    picture: TheabcmurdersImage,
+    title: 'The ABC Murders',
+    author: 'Agatha Christie',
+    genre: "Mystery",
+    availability: true,
+    read:TheabcmurdersPdf,
+    Download: require('../assets/pdfs/The ABC Murders (Agatha Chr_ (Z-Library).pdf')
+  },
+  {
+    picture:YourenotagadgetImage,
+    title: 'You are not a gadget',
+    author: 'Alfred Knopf',
+    genre: "Non-fiction",
+    availability: true,
+    read:YourenotagadgetPdf,
+    Download: require('../assets/pdfs/You Are Not a Gadget A Mani_ (Z-Library).pdfv')
+  },
+  {
+    picture: ThelinuxcommandImage,
+    title: 'The Linux Command Line',
+    author: 'WIlliam Shotts',
+    genre: "Engineering",
+    availability: true,
+    read:ThelinuxcommandPdf,
+    Download: require('../assets/pdfs/The Linux Command Line A Co_ (Z-Library).pdf')
+  },
+  {
+    picture: ANdthentherewerenonImage,
+    title: 'And Then There Were None',
+    author: 'Agatha Christie',
+    genre: "Crime-fiction",
+    availability: true,
+    read:ANdthentherewerenonPdf,
+    Download: require('../assets/pdfs/And Then There Were None (A_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecultoftheamaImage,
+    title: 'The Cult Of The Amateur',
+    author: 'Andrew Keen',
+    genre: "Non-fiction",
+    availability: true,
+    read:ThecultoftheamaPdf,
+    Download: require('../assets/pdfs/The Cult of the Amateur How_ (Z-Library).pdf')
+  },
+  {
+    picture: ThegirlonthetrainImage,
+    title: 'The Girl on the Train',
+    author: 'Paula Hawkins',
+    genre: "Thriller",
+    availability: true,
+    read:ThegirlonthetrainPdf,
+    Download: require('../assets/pdfs/The Girl on the Train (Paul_ (Z-Library).pdf')
+  },
+  {
+    picture: AlonetogetherImage,
+    title: 'Alone Together',
+    author: 'Sherry Turkle',
+    genre: "Psychological Thriller",
+    availability: true,
+    read:AlonetogetherPdf,
+    Download: require('../assets/pdfs/Alone Together Why We Expec_ (Z-Library).pdf')
+  },
+
   {
     picture: ThecouplenextdoorImage,
     title: 'The Couple Next Door',
