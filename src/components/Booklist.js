@@ -623,7 +623,7 @@ const books = [
     genre: "Non-fiction",
     availability: true,
     read:YourenotagadgetPdf,
-    Download: require('../assets/pdfs/You Are Not a Gadget A Mani_ (Z-Library).pdfv')
+    Download: require('../assets/pdfs/You Are Not a Gadget A Mani_ (Z-Library).pdf')
   },
   {
     picture: ThelinuxcommandImage,
