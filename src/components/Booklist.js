@@ -472,7 +472,6 @@ import FineprintImage from '../assets/images/The fine print.jpg';
 import FineprintPdf from '../assets/pdfs/The Fine Print (Dreamland B_ (Z-Library).pdf'
 import LimitlessImage from '../assets/images/Limitless.jpg';
 import LimitlessPdf from '../assets/pdfs/Limitless (Jim Kwik) (Z-Library).pdf';
-
 import GoodtogreateImage from '../assets/images/Good to great.jpg';
 import GoodtogreatePdf from '../assets/pdfs/Good to Great Why Some Comp_ (Z-Library).pdf';
 import SuperfuelImage from '../assets/images/Super fuel.jpg';
@@ -569,6 +568,16 @@ import AwakeningtheImage from '../assets/images/Awakening of the third eye.jpg';
 import AwakeningthePdf from '../assets/pdfs/Awakening the Third Eye (Sa_ (Z-Library).pdf';
 import ThelinuxcommandImage from '../assets/images/Linux command line.jpg';
 import ThelinuxcommandPdf from '../assets/pdfs/The Linux Command Line A Co_ (Z-Library).pdf';
+import FallingforscienceImage from '../assets/images/Falling for science.jpg';
+import FallingforsciencePdf from '../assets/pdfs/Falling for Science Objects_ (Z-Library).pdf';
+import ThemunderofrodgerImage from '../assets/images/The murder of Rodger.jpg';
+import ThemunderofrodgerPdf from '../assets/pdfs/The Murder of Roger Ackroyd_ (Z-Library).pdf';
+import theintelectuallifeImage from '../assets/images/THe intelectual life.jpeg';
+import theintelectuallifePdf from '../assets/pdfs/The Intellectual Life Its S_ (Z-Library).pdf';
+import thenetdelusionImage from '../assets/images/THe net delusion.jpg';
+import thenetdelusionPdf from '../assets/pdfs/The net delusion the dark s_ (Z-Library).pdf';
+import BlackcoffeeImage from '../assets/images/The black cofffe.jpg';
+import BlackcoffeePdf from '../assets/pdfs/Black Coffee (Charles Osborne) (Z-Library).pdf';
 
 
 
@@ -579,6 +588,52 @@ import ThelinuxcommandPdf from '../assets/pdfs/The Linux Command Line A Co_ (Z-L
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: BlackcoffeeImage,
+    title: 'The black cofffe',
+    author: 'Charles Osborne',
+    genre: "Crime-Fiction",
+    availability: true,
+    read:BlackcoffeePdf,
+    Download: require('../assets/pdfs/Black Coffee (Charles Osborne) (Z-Library).pdf')
+  },
+  {
+    picture: thenetdelusionImage,
+    title: 'The Net Delusion',
+    author: 'Evgeny Morozov',
+    genre: "Non-Fiction",
+    availability: true,
+    read:thenetdelusionPdf,
+    Download: require('../assets/pdfs/The net delusion the dark s_ (Z-Library).pdf')
+  },
+  {
+    picture: ThemunderofrodgerImage,
+    title: 'The murder of Rodger Ackroyd',
+    author: 'Agatha Christie',
+    genre: "Misery",
+    availability: true,
+    read:ThemunderofrodgerPdf,
+    Download: require('../assets/pdfs/The Murder of Roger Ackroyd_ (Z-Library).pdf')
+  },
+  {
+    picture: theintelectuallifeImage,
+    title: 'The Intellectual Life',
+    author: 'A.D Sertillanges',
+    genre: "Self Help",
+    availability: true,
+    read:theintelectuallifePdf,
+    Download: require('../assets/pdfs/The Intellectual Life Its S_ (Z-Library).pdf')
+  },
+  {
+    picture: FallingforscienceImage,
+    title: 'Falling for science',
+    author: 'Sherry Turkle',
+    genre: "Science",
+    availability: true,
+    read:FallingforsciencePdf,
+    Download: require('../assets/pdfs/Falling for Science Objects_ (Z-Library).pdf')
+  },
+
   {
     picture: TheshallowsImage,
     title: 'The shallows',
