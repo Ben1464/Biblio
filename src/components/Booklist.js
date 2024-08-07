@@ -578,7 +578,16 @@ import thenetdelusionImage from '../assets/images/THe net delusion.jpg';
 import thenetdelusionPdf from '../assets/pdfs/The net delusion the dark s_ (Z-Library).pdf';
 import BlackcoffeeImage from '../assets/images/The black cofffe.jpg';
 import BlackcoffeePdf from '../assets/pdfs/Black Coffee (Charles Osborne) (Z-Library).pdf';
-
+import ThecuncubineImage from '../assets/images/THe concubine.jpg';
+import ThecuncubinePdf from '../assets/pdfs/The concubine (Elechi Amadi) (Z-Library).pdf';
+import SparklingImage from '../assets/images/THe sparkling cynanide.jpg';
+import SparklingPdf from '../assets/pdfs/Sparkling Cyanide (Agatha C_ (Z-Library).pdf';
+import Wealthofnetworks from '../assets/images/The wealth of networks.jpeg';
+import WealthofnetworksPdf from '../assets/pdfs/The Wealth of Networks How_ (Z-Library).pdf';
+import ThefilterbubbleImage from '../assets/images/THe filter bubble.jpeg';
+import ThefilterbubblePdf from '../assets/pdfs/The Filter Bubble What the_ (Z-Library).pdf';
+import SCienceofyogaImage from '../assets/images/THe science of yoga.jpg';
+import SCienceofyogaPdf from '../assets/pdfs/Science of Yoga Understand_ (Z-Library).pdf';
 
 
 
@@ -589,8 +598,54 @@ import BlackcoffeePdf from '../assets/pdfs/Black Coffee (Charles Osborne) (Z-Lib
 // Updated books array with correct paths to PDF files
 const books = [
   {
+    picture: ThefilterbubbleImage,
+    title: 'The Filter Bubble',
+    author: 'Eli Pariser',
+    genre: "Human Nature",
+    availability: true,
+    read:ThefilterbubblePdf,
+    Download: require('../assets/pdfs/The Filter Bubble What the_ (Z-Library).pdf')
+  },
+  {
+    picture: SCienceofyogaImage,
+    title: 'Science Of Yoga',
+    author: 'Ann Swanson',
+    genre: "Health",
+    availability: true,
+    read:SCienceofyogaPdf,
+    Download: require('../assets/pdfs/Science of Yoga Understand_ (Z-Library).pdf')
+  },
+  {
+    picture: Wealthofnetworks,
+    title: 'The Wealth Of Networks',
+    author: 'Yochai Benkler',
+    genre: "Non-Fiction",
+    availability: true,
+    read:WealthofnetworksPdf,
+    Download: require('../assets/pdfs/The Wealth of Networks How_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecuncubineImage,
+    title: 'The Concubine',
+    author: 'Elechi Amadi',
+    genre: "Fiction",
+    availability: true,
+    read:ThecuncubinePdf,
+    Download: require('../assets/pdfs/The concubine (Elechi Amadi) (Z-Library).pdf')
+  },
+  {
+    picture: SparklingImage,
+    title: 'The Sparkling Cyanide',
+    author: 'Agatha Christie',
+    genre: "Fiction",
+    availability: true,
+    read:SparklingPdf,
+    Download: require('../assets/pdfs/Sparkling Cyanide (Agatha C_ (Z-Library).pdf')
+  },
+
+  {
     picture: BlackcoffeeImage,
-    title: 'The black cofffe',
+    title: 'The Black Coffee',
     author: 'Charles Osborne',
     genre: "Crime-Fiction",
     availability: true,
