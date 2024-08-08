@@ -603,7 +603,7 @@ import ThecultureofconPdf from '../assets/pdfs/The culture of connectivity_ (Z-L
 import TorandthedarkImage from '../assets/images/Tor and the dark net.jpg';
 import TorandthedarkPdf from '../assets/pdfs/Tor and The Dark Net Remain_ (Z-Library).pdf';
 import ThemissinforImage from '../assets/images/The misinformation age .jpg';
-import ThemissinforPdf from '../assets/pdfs/The Missing Information Age. _ (Z-Library).pdf';
+import ThemissinforPdf from '../assets/pdfs/The Misinformation Age How_ (Z-Library).pdf';
 import GiveandtakeImage from '../assets/images/Give and take.jpg';
 import GiveandtakePdf from '../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf';
 import ThetippingpointImage from '../assets/images/The tipping point.jpg';
@@ -634,7 +634,7 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:GiveandtakePdf,
-    Download: require('../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf ')
+    Download: require('../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf')
   },
   {
     picture: ThemissinforImage,
