@@ -588,6 +588,26 @@ import ThefilterbubbleImage from '../assets/images/THe filter bubble.jpeg';
 import ThefilterbubblePdf from '../assets/pdfs/The Filter Bubble What the_ (Z-Library).pdf';
 import SCienceofyogaImage from '../assets/images/THe science of yoga.jpg';
 import SCienceofyogaPdf from '../assets/pdfs/Science of Yoga Understand_ (Z-Library).pdf';
+import ThetalentcodeImage from '../assets/images/The talent code.jpg';
+import ThetalentcodePdf from '../assets/pdfs/The Talent Code (Daniel Coyle) (Z-Library).pdf';
+import MurderinImage from '../assets/images/Murder in Mesopotamia.jpg';
+import MurderinPdf from '../assets/pdfs/Murder in Mesopotamia (Agat_ (Z-Library).pdf';
+import Thefutureofideas from '../assets/images/The future of ideas.jpg';
+import ThefutureofideasPdf from '../assets/pdfs/The Future of Ideas - The F_ (Z-Library).pdf';
+import ThebigfourIMage from '../assets/images/THe big four.jpg';
+import ThebigfourPdf from '../assets/pdfs/The Big Four. (Agatha Chris_ (Z-Library).pdf';
+import SemenmonkmodeImage from '../assets/images/Semen monk mode.jpg';
+import SemenmonkmodePdf from '../assets/pdfs/Semen Retention Monk Mode M_ (Z-Library).pdf';
+import ThecultureofconImage from '../assets/images/THe culture of conectivity.jpg';
+import ThecultureofconPdf from '../assets/pdfs/The culture of connectivity_ (Z-Library).pdf';
+import TorandthedarkImage from '../assets/images/Tor and the dark net.jpg';
+import TorandthedarkPdf from '../assets/pdfs/Tor and The Dark Net Remain_ (Z-Library).pdf';
+import ThemissinforImage from '../assets/images/The misinformation age .jpg';
+import ThemissinforPdf from '../assets/pdfs/The Missing Information Age. _ (Z-Library).pdf';
+import GiveandtakeImage from '../assets/images/Give and take.jpg';
+import GiveandtakePdf from '../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf';
+import ThetippingpointImage from '../assets/images/The tipping point.jpg';
+import ThetippingpointPdf from '../assets/pdfs/The Tipping Point (Malcolm_ (Z-Library).pdf';
 
 
 
@@ -597,6 +617,97 @@ import SCienceofyogaPdf from '../assets/pdfs/Science of Yoga Understand_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+
+  {
+    picture: ThetippingpointImage,
+    title: 'The Tipping Point',
+    author: 'Malcolm Gladwell',
+    genre: "Self Help",
+    availability: true,
+    read:ThetippingpointPdf,
+    Download: require('../assets/pdfs/The Tipping Point (Malcolm_ (Z-Library).pdf')
+  },
+  {
+    picture: GiveandtakeImage,
+    title: 'Give and Take A Revolution',
+    author: 'Adam Grant',
+    genre: "Self Help",
+    availability: true,
+    read:GiveandtakePdf,
+    Download: require('../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf ')
+  },
+  {
+    picture: ThemissinforImage,
+    title: 'The Missing Information Age',
+    author: 'Cailling O\'Connor',
+    genre: "Non-Fiction",
+    availability: true,
+    read:ThemissinforPdf,
+    Download: require('../assets/pdfs/The Misinformation Age How_ (Z-Library).pdf')
+  },
+  {
+    picture: TorandthedarkImage,
+    title: 'Tor And The Dark Net',
+    author: 'James Smith',
+    genre: "Technology",
+    availability: true,
+    read:TorandthedarkPdf,
+    Download: require('../assets/pdfs/Tor and The Dark Net Remain_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecultureofconImage,
+    title: 'The Culture of Connectivity',
+    author: 'Jose Van Dijck',
+    genre: "Self Help",
+    availability: true,
+    read:ThecultureofconPdf,
+    Download: require('../assets/pdfs/The culture of connectivity_ (Z-Library).pdf')
+  },
+  {
+    picture:SemenmonkmodeImage,
+    title: 'Semen Retention Monk Mode',
+    author: 'Prana Man',
+    genre: "Masculinity",
+    availability: true,
+    read:SemenmonkmodePdf,
+    Download: require('../assets/pdfs/Semen Retention Monk Mode M_ (Z-Library).pdf')
+  },
+{
+    picture: ThebigfourIMage,
+    title: 'The Big Four',
+    author: 'Agatha Christie',
+    genre: "Misery",
+    availability: true,
+    read:ThebigfourPdf,
+    Download: require('../assets/pdfs/The Big Four. (Agatha Chris_ (Z-Library).pdf')
+  },
+{
+    picture: Thefutureofideas,
+    title: 'The Future Of Ideas',
+    author: 'Lawrence Lessing',
+    genre: "Self Help",
+    availability: true,
+    read:ThefutureofideasPdf,
+    Download: require('../assets/pdfs/The Future of Ideas - The F_ (Z-Library).pdf')
+  },
+  {
+    picture: MurderinImage,
+    title: 'Murder in Mesopotamia',
+    author: 'Agatha Christie',
+    genre: "Fiction",
+    availability: true,
+    read:MurderinPdf,
+    Download: require('../assets/pdfs/Murder in Mesopotamia (Agat_ (Z-Library).pdf')
+  },
+  {
+    picture: ThetalentcodeImage,
+    title: 'The Talent Code',
+    author: 'Daniel Coyle',
+    genre: "Self Help",
+    availability: true,
+    read:ThetalentcodePdf,
+    Download: require('../assets/pdfs/The Talent Code (Daniel Coyle) (Z-Library).pdf')
+  },
   {
     picture: ThefilterbubbleImage,
     title: 'The Filter Bubble',
