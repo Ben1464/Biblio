@@ -839,7 +839,7 @@ const books = [
   },
   {
     picture:YourenotagadgetImage,
-    title: 'You are not a gadget',
+    title: 'You Are Not A Gadget',
     author: 'Alfred Knopf',
     genre: "Non-fiction",
     availability: true,
