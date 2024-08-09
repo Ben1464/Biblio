@@ -608,6 +608,12 @@ import GiveandtakeImage from '../assets/images/Give and take.jpg';
 import GiveandtakePdf from '../assets/pdfs/Give and Take A Revolutiona_ (Z-Library).pdf';
 import ThetippingpointImage from '../assets/images/The tipping point.jpg';
 import ThetippingpointPdf from '../assets/pdfs/The Tipping Point (Malcolm_ (Z-Library).pdf';
+import FreecultureImage from '../assets/images/Free culture.jpg';
+import FreeculturePdf from '../assets/pdfs/Free Culture How Big Media_ (Z-Library).pdf';
+import GhostinImage from '../assets/images/Ghost in the wires';
+import GhostinPdf from '../assets/pdfs/Ghost in the Wires My Adven_ (Z-Library).pdf';
+import DumbwitImage from '../assets/images/Dumb witness.jpg';
+import DumbwitPdf from '../assets/pdfs/Dumb Witness (Christie Agatha) (Z-Library).pdf';
 
 
 
@@ -617,6 +623,33 @@ import ThetippingpointPdf from '../assets/pdfs/The Tipping Point (Malcolm_ (Z-Li
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: DumbwitImage,
+    title: 'Dumb Witness',
+    author: 'Agatha Christie',
+    genre: "Mystery",
+    availability: true,
+    read:DumbwitPdf,
+    Download: require('../assets/pdfs/Dumb Witness (Christie Agatha) (Z-Library).pdf')
+  },
+  {
+    picture: GhostinImage,
+    title: 'Ghost In The Wires',
+    author: 'Wiliam L Simon',
+    genre: "Biography",
+    availability: true,
+    read:GhostinPdf,
+    Download: require('../assets/pdfs/Ghost in the Wires My Adven_ (Z-Library).pdf')
+  },
+  {
+    picture: FreecultureImage,
+    title: 'Free Culture',
+    author: 'Lawrence Lessing',
+    genre: "Non-Fiction",
+    availability: true,
+    read:FreeculturePdf,
+    Download: require('../assets/pdfs/Free Culture How Big Media_ (Z-Library).pdf')
+  },
 
   {
     picture: ThetippingpointImage,
