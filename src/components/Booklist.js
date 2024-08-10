@@ -97,7 +97,7 @@ import BlackPdf from '../assets/pdfs/Black_Girls_Must_Die_Exhausted_A_Novel_for_
 import AlphaPdf from '../assets/pdfs/The Unplugged Alpha ... by Unknown  Cooper  Ric....pdf';
 import LovePdf from '../assets/pdfs/Love In The Afternoon (Kate Speck [Speck, Kate]) (z-lib.org) (2).pdf';
 import EmoPdf from '../assets/pdfs/Emotional_Intelligence_For_Dummies_Steven_J_Stein_z_lib_org.pdf';
-import AlchemistPdf from '../assets/pdfs/Atomic-Habits-.pdf';
+import AlchemistPdf from '../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf';
 import WarPdf from '../assets/pdfs/The_33_Strategies_of_War.pdf';
 import ZigPdf from '../assets/pdfs/Ziglar_on_Selling_The_Ultimate_Handbook_for_the_Complete_Sales_Professional.pdf';
 import BreathPdf from '../assets/pdfs/When_Breath_Become.pdf';
@@ -614,6 +614,25 @@ import GhostinImage from '../assets/images/Ghost in the wires';
 import GhostinPdf from '../assets/pdfs/Ghost in the Wires My Adven_ (Z-Library).pdf';
 import DumbwitImage from '../assets/images/Dumb witness.jpg';
 import DumbwitPdf from '../assets/pdfs/Dumb Witness (Christie Agatha) (Z-Library).pdf';
+import BrainrulesImage from '../assets/images/brain-rules-for-aging-well-cover-1568x2352.jpg';
+import BrainrulesPdf from '../assets/pdfs/Brain Rules (John Medina) (Z-Library).pdf';
+import ThepoliticsofImage from '../assets/images/THe politics of misinformationjpeg';
+import THepoliticsofPdf from '../assets/pdfs/The Politics of Misinformat_ (Z-Library).pdf'
+import ReworkImage from '../assets/images/Rework.jpg';
+import ReworkPdf from '../assets/pdfs/Rework (Jason Fried, David_ (Z-Library).pdf';
+import PosttruthImage from '../assets/images/POst truth.jpeg';
+import PosttruthPdf from '../assets/pdfs/Post-Truth (Lee McIntyre) (Z-Library).pdf';
+import NevereataloneImage from '../assets/images/Never eat alone.jpeg';
+import NevereatalonePdf from '../assets/pdfs/Never Eat Alone, Expanded a_ (Z-Library).pdf';
+import ResearchmethodsImages from '../assets/images/Research Methods.jpg';
+import ResearchmethodsPdf from '../assets/pdfs/Introduction to Research Me_ (Z-Library).pdf';
+import UsefulwordsImage from '../assets/images/1000 useful words.jpg';
+import UsefulwoldsPdf from '../assets/pdfs/1000 Useful Words - Build V_ (Z-Library).pdf';
+import MaketimeImage from '../assets/images/Mkae time.jpg';
+import MaketimePdf from '../assets/pdfs/Make Time  How to Focus on_ (Z-Library).pdf';
+import SadgirlsImage from '../assets/images/Sad girls.jpg';
+import SadgirlsPdf from '../assets/pdfs/Sad Girls (Lang Leav [Leav,_ (Z-Library).pdf';
+
 
 
 
@@ -623,6 +642,87 @@ import DumbwitPdf from '../assets/pdfs/Dumb Witness (Christie Agatha) (Z-Library
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: SadgirlsImage,
+    title: 'Sad Girls',
+    author: 'Lang Leav',
+    genre: "Romance",
+    availability: true,
+    read:SadgirlsPdf,
+    Download: require('../assets/pdfs/Sad Girls (Lang Leav [Leav,_ (Z-Library).pdf')
+  },
+  {
+    picture: MaketimeImage,
+    title: 'Make Time',
+    author: 'Jake Knapp',
+    genre: "Self Help",
+    availability: true,
+    read:MaketimePdf,
+    Download: require('../assets/pdfs/Make Time  How to Focus on_ (Z-Library).pdf')
+  },
+  {
+    picture: UsefulwordsImage,
+    title: '1000 Useful Words',
+    author: 'Anthony Lewis',
+    genre: "Kids Book",
+    availability: true,
+    read:UsefulwoldsPdf,
+    Download: require('../assets/pdfs/1000 Useful Words - Build V_ (Z-Library).pdf')
+  },
+  {
+    picture: ResearchmethodsImages,
+    title: 'Research Methods',
+    author: 'Dr Catherine Dawson',
+    genre: "Science",
+    availability: true,
+    read:ResearchmethodsPdf,
+    Download: require('../assets/pdfs/Introduction to Research Me_ (Z-Library).pdf')
+  },
+  {
+    picture: NevereataloneImage,
+    title: 'Never Eat Alone',
+    author: 'Keith Ferrazzi',
+    genre: "Self help",
+    availability: true,
+    read:NevereatalonePdf,
+    Download: require('../assets/pdfs/Never Eat Alone, Expanded a_ (Z-Library).pdf')
+  },
+  {
+    picture: PosttruthImage,
+    title: 'Post Truth',
+    author: 'Lee McIntyre',
+    genre: "Philosopy",
+    availability: true,
+    read:PosttruthPdf,
+    Download: require('../assets/pdfs/Post-Truth (Lee McIntyre) (Z-Library).pdf')
+  },
+  {
+    picture: ReworkImage,
+    title: 'Rework',
+    author: 'Jason Fried, David',
+    genre: "Self-Help",
+    availability: true,
+    read:ReworkPdf,
+    Download: require('../assets/pdfs/Rework (Jason Fried, David_ (Z-Library).pdf')
+  },
+  {
+    picture: ThepoliticsofImage,
+    title: 'The Politicians of Misinformation',
+    author: 'Murray Edelman',
+    genre: "Politics",
+    availability: true,
+    read:THepoliticsofPdf,
+    Download: require('../assets/pdfs/The Politics of Misinformat_ (Z-Library).pdf')
+  },
+  {
+    picture: BrainrulesImage,
+    title: 'Brain Rules',
+    author: 'John Medina',
+    genre: "Self-Help",
+    availability: true,
+    read:BrainrulesPdf,
+    Download: require('../assets/pdfs/Brain Rules (John Medina) (Z-Library).pdf')
+  },
   {
     picture: DumbwitImage,
     title: 'Dumb Witness',
@@ -2800,9 +2900,9 @@ const books = [
     title: 'The Alchemist',
     author: 'Paulo Coelho',
     genre: "Fantasy/Adventure",
-    availability: false,
+    availability: true,
     raed:AlchemistPdf,
-    Download: require('../assets/pdfs/Atomic-Habits-.pdf')
+    Download: require('../assets/pdfs/The Alchemist (Paulo Coelho_ (Z-Library).pdf')
   },
   {
     picture: StraImage,
