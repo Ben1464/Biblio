@@ -21,7 +21,7 @@ function App() {
       <main>
         <SignedOut>
           <div className="login-prompt">
-            <h2>Please sign in to access free books.</h2>
+            <h2>Please sign in to access free e-books.</h2>
             <SignInButton />
           </div>
         </SignedOut>

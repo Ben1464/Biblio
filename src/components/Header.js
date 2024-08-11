@@ -13,22 +13,18 @@ function Header() {
       <div className="header-container">
         <h1 className="header-title">Biblio</h1>
         <ThemeToggle /> {/* Theme toggle button */}
+        <div className="auth-buttons">
+          <SignedOut>
+            <SignInButton className="sign-in-button" />
+          </SignedOut>
+          <SignedIn>
+            <UserButton className="user-button" />
+          </SignedIn>
+        </div>
         <nav className="header-nav">
           <ul className="nav-list">
-            {/* <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
-            <li className="nav-item"><a href="#books" className="nav-link">Books</a></li>
-            <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
-            <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li> */}
             <li className="nav-item">
               <button onClick={scrollToTop} className="nav-link back-to-top-button">Back to Top</button>
-            </li>
-            <li className="nav-item">
-              <SignedOut>
-                <SignInButton />
-              </SignedOut>
-              <SignedIn>
-                <UserButton />
-              </SignedIn>
             </li>
           </ul>
         </nav>
