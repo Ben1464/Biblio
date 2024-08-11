@@ -632,6 +632,27 @@ import MaketimeImage from '../assets/images/Mkae time.jpg';
 import MaketimePdf from '../assets/pdfs/Make Time  How to Focus on_ (Z-Library).pdf';
 import SadgirlsImage from '../assets/images/Sad girls.jpg';
 import SadgirlsPdf from '../assets/pdfs/Sad Girls (Lang Leav [Leav,_ (Z-Library).pdf';
+import FarmbizImage from '../assets/images/Farm analysis.jpg';
+import FarmbizPdf from '../assets/pdfs/Farm Business Management An_ (Z-Library).pdf';
+import FarmmanImage from '../assets/images/Farm business management core skills.jpeg';
+import FarmmanPdf from '../assets/pdfs/Farm Business Management Th_ (Z-Library).pdf';
+import FoundationofcogImage from '../assets/images/Cognitive psychologyu.jpeg';
+import FoundationofcogPdf from '../assets/pdfs/Foundations of Cognitive Ps_ (Z-Library).pdf';
+import RemoteImage from '../assets/images/Remote.jpeg';
+import RemotePdf from '../assets/pdfs/Remote Office Not Required_ (Z-Library).pdf';
+import MemesImage from '../assets/images/Memes in digital culture.jpg';
+import MemesPdf from '../assets/pdfs/Memes in Digital Culture (S_ (Z-Library).pdf';
+import ToolsoftitanImage from '../assets/images/Tools of titans.jpg';
+import ToolsoftitanPdf from '../assets/pdfs/Tools of Titans The Tactics_ (Z-Library).pdf';
+import DatscienceImage from '../assets/images/Data science.png';
+import DatasciencePdf from '../assets/pdfs/Data science (Kelleher, Joh_ (Z-Library).pdf';
+import TheartofinvisibilityImage from '../assets/images/The art of invisibility.jpg';
+import TheartofinvisibilityPdf from '../assets/pdfs/The Art of Invisibility The_ (Z-Library).pdf';
+import DiewithzeroImage from '../assets/images/The art of invisibility.jpg';
+import DiewithzeroPdf from '../assets/pdfs/Die with Zero (Bill Perkins) (Z-Library).pdf';
+import SteallikeImage from '../assets/images/Steal like an artist.jpeg';
+import SteallikePdf from '../assets/pdfs/Steal Like an Artist 10 Thi_ (Z-Library).pdf';
+
 
 
 
@@ -642,6 +663,96 @@ import SadgirlsPdf from '../assets/pdfs/Sad Girls (Lang Leav [Leav,_ (Z-Library)
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: SteallikeImage,
+    title: 'Steal Like An Artist',
+    author: 'Austin Kleon',
+    genre: "Self Help",
+    availability: true,
+    read:SteallikePdf,
+    Download: require('../assets/pdfs/Steal Like an Artist 10 Thi_ (Z-Library).pdf')
+  },
+  {
+    picture: DiewithzeroImage,
+    title: 'Die With Zero',
+    author: 'Bill Perkins',
+    genre: "Self Help",
+    availability: true,
+    read:DiewithzeroPdf,
+    Download: require('../assets/pdfs/Die with Zero (Bill Perkins) (Z-Library).pdf')
+  },
+  {
+    picture: TheartofinvisibilityImage,
+    title: 'The Art of Invisibility',
+    author: 'Kelvin D. Mitnick',
+    genre: "Self Help",
+    availability: true,
+    read:TheartofinvisibilityPdf,
+    Download: require('../assets/pdfs/The Art of Invisibility The_ (Z-Library).pdf')
+  },
+  {
+    picture: DatscienceImage,
+    title: 'Data Science',
+    author: 'John D. Kelleher',
+    genre: "Science",
+    availability: true,
+    read:DatasciencePdf,
+    Download: require('../assets/pdfs/Data science (Kelleher, Joh_ (Z-Library).pdf')
+  },
+  {
+    picture: ToolsoftitanImage,
+    title: 'Tools Of Titan',
+    author: 'Tim Ferriss',
+    genre: "Self Help",
+    availability: true,
+    read:ToolsoftitanPdf,
+    Download: require('../assets/pdfs/Tools of Titans The Tactics_ (Z-Library).pdf')
+  },
+  {
+    picture: MemesImage,
+    title: 'Memes In Digital Culture',
+    author: 'Limor Shifman',
+    genre: "Non-Fiction",
+    availability: true,
+    read:MemesPdf,
+    Download: require('../assets/pdfs/Memes in Digital Culture (S_ (Z-Library).pdf')
+  },
+  {
+    picture: RemoteImage,
+    title: 'Remote Office Not Required',
+    author: 'Jason Fried',
+    genre: "Non-Fiction",
+    availability: true,
+    read:RemotePdf,
+    Download: require('../assets/pdfs/Remote Office Not Required_ (Z-Library).pdf')
+  },
+  {
+    picture: FoundationofcogImage,
+    title: 'Foundation of Cognitive Psychology',
+    author: 'Daniel J.Levitin',
+    genre: "Pschology",
+    availability: true,
+    read:FoundationofcogPdf,
+    Download: require('../assets/pdfs/Foundations of Cognitive Ps_ (Z-Library).pdf')
+  },
+  {
+    picture:FarmmanImage,
+    title: 'Farm Business Management Core Skills',
+    author: 'Peter L. Nuthall',
+    genre: "Farming",
+    availability: true,
+    read:FarmmanPdf,
+    Download: require('../assets/pdfs/Farm Business Management Th_ (Z-Library).pdf')
+  },
+  {
+    picture: FarmbizImage,
+    title: 'Farm Business Management',
+    author: 'Peter L. Nuthall',
+    genre: "Farming",
+    availability: true,
+    read:FarmbizPdf,
+    Download: require('../assets/pdfs/Farm Business Management An_ (Z-Library).pdf')
+  },
   {
     picture: SadgirlsImage,
     title: 'Sad Girls',
