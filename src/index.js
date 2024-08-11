@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import AppWithProvider from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-// import AppWithProvider from './App';
+import { ClerkProvider } from '@clerk/clerk-react';
+
+// Import your publishable key from environment variables
+const REACT_APP_CLERK_PUBLISHABLE_KEY = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
+
+if (!REACT_APP_CLERK_PUBLISHABLE_KEY) {
+  throw new Error("Missing Publishable Key");
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppWithProvider />
+    <ClerkProvider publishableKey={REACT_APP_CLERK_PUBLISHABLE_KEY} afterSignOutUrl="/">
+      <AppWithProvider />
+    </ClerkProvider>
   </React.StrictMode>
 );
 
