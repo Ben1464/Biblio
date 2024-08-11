@@ -23,3 +23,29 @@ body.dark {
   background-color: #333;
   color: #fff;
 }
+.login-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.login-prompt h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-prompt button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-prompt button:hover {
+  background-color: #0056b3;
+}
