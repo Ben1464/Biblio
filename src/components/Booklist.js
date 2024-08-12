@@ -652,6 +652,27 @@ import DiewithzeroImage from '../assets/images/The art of invisibility.jpg';
 import DiewithzeroPdf from '../assets/pdfs/Die with Zero (Bill Perkins) (Z-Library).pdf';
 import SteallikeImage from '../assets/images/Steal like an artist.jpeg';
 import SteallikePdf from '../assets/pdfs/Steal Like an Artist 10 Thi_ (Z-Library).pdf';
+import BrainaliveImage from '../assets/images/Keep your brain alive.jpg';
+import BrainalivePdf from '../assets/pdfs/Keep Your Brain Alive 83 Ne_ (Z-Library).pdf';
+import SoilessentialsImage from '../assets/images/Soil esentials.jpeg';
+import SoilessentialsPdf from '../assets/pdfs/Soil Essentials Managing Yo_ (Z-Library).pdf';
+import MeatsgoatsImage from '../assets/images/Farming goat meat.jpg';
+import MeatgoatsPdf from '../assets/pdfs/Farming Meat Goats Breeding_ (Z-Library).pdf';
+import LivestockImage from '../assets/images/Livestock housing.png';
+import LivestockPdf from '../assets/pdfs/Livestock housing Modern ma_ (Z-Library).pdf';
+import StartyourfarmImage from '../assets/images/Start your farm.jpg';
+import StartyourfarmPdf from '../assets/pdfs/Start Your Farm The Authori_ (Z-Library).pdf';
+import FreshwaterIMage from '../assets/images/Fresh water fish.jpg';
+import FreshwaterPdf from '../assets/pdfs/Ken Schultzs Field Guide to_ (Z-Library).pdf' ;
+import BusinessanaylsisImage from '../assets/images/Business analysis.jpeg';
+import BusinessanaylsisPdf from '../assets/pdfs/Business Analysis Methodolo_ (Z-Library).pdf';
+import ThriveaddImage from '../assets/images/THrive an addicted novel.jpg';
+import ThriveaddPdf from '../assets/pdfs/Thrive - Addicted, Book 6 (_ (Z-Library).pdf';
+import NothereImage from '../assets/images/Not here to be liked.jpeg';
+import NotherePdf from '../assets/pdfs/Not Here to Be Liked (Miche_ (Z-Library).pdf';
+import MaliburisingImage from '../assets/images/Malibu rising.jpg';
+import MaliburisingPdf from '../assets/pdfs/Malibu Rising By Taylor Jen_ (Z-Library).pdf';
+
 
 
 
@@ -663,6 +684,96 @@ import SteallikePdf from '../assets/pdfs/Steal Like an Artist 10 Thi_ (Z-Library
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: MaliburisingImage,
+    title: 'Malibu Rising',
+    author: 'Taylor Jenks',
+    genre: "Fiction",
+    availability: true,
+    read:MaliburisingPdf,
+    Download: require('../assets/pdfs/Malibu Rising By Taylor Jen_ (Z-Library).pdf')
+  },
+  {
+    picture: NothereImage,
+    title: 'Not Here To Be Liked',
+    author: 'Michele Quach',
+    genre: "Literature",
+    availability: true,
+    read:NotherePdf,
+    Download: require('../assets/pdfs/Not Here to Be Liked (Miche_ (Z-Library).pdf')
+  },
+  {
+    picture:ThriveaddImage,
+    title: 'Thrive An Addicted Novel',
+    author: 'Krista Becca',
+    genre: "Romance",
+    availability: true,
+    read:ThriveaddPdf,
+    Download: require('../assets/pdfs/Thrive - Addicted, Book 6 (_ (Z-Library).pdf')
+  },
+  {
+    picture: BusinessanaylsisImage,
+    title: 'Business Anaylsis',
+    author: 'Emrah Yayici',
+    genre: "Business",
+    availability: true,
+    read:BusinessanaylsisPdf,
+    Download: require('../assets/pdfs/Business Analysis Methodolo_ (Z-Library).pdf')
+  },
+  {
+    picture: FreshwaterIMage,
+    title: 'Freshwater Fish',
+    author: 'Ken Schultz',
+    genre: "Agriculture",
+    availability: true,
+    read:FreshwaterPdf,
+    Download: require('../assets/pdfs/Ken Schultzs Field Guide to_ (Z-Library).pdf')
+  },
+  {
+    picture: StartyourfarmImage,
+    title: 'Start Your Farm',
+    author: 'Ellen Polishuk',
+    genre: "Agriculture",
+    availability: true,
+    read:StartyourfarmPdf,
+    Download: require('../assets/pdfs/Start Your Farm The Authori_ (Z-Library).pdf')
+  },
+  {
+    picture: LivestockImage,
+    title: 'Livestock Housing',
+    author: 'Adres Aland',
+    genre: "Agriculture",
+    availability: true,
+    read:LivestockPdf,
+    Download: require('../assets/pdfs/Livestock housing Modern ma_ (Z-Library).pdf')
+  },
+  {
+    picture: MeatsgoatsImage,
+    title: 'Farming Meat Goats',
+    author: 'Barba Vincent',
+    genre: "Agriculture",
+    availability: true,
+    read:MeatgoatsPdf,
+    Download: require('../assets/pdfs/Farming Meat Goats Breeding_ (Z-Library).pdf')
+  },
+  {
+    picture: SoilessentialsImage,
+    title: 'Soil Essentials',
+    author: 'Roger Hall',
+    genre: "Agriculture",
+    availability: true,
+    read:SoilessentialsPdf,
+    Download: require('../assets/pdfs/Soil Essentials Managing Yo_ (Z-Library).pdf')
+  },
+  {
+    picture: BrainaliveImage,
+    title: 'Keep Your Brain Alive',
+    author: 'Lawrence Katz',
+    genre: "Self Help",
+    availability: true,
+    read:BrainalivePdf,
+    Download: require('../assets/pdfs/Keep Your Brain Alive 83 Ne_ (Z-Library).pdf')
+  },
   {
     picture: SteallikeImage,
     title: 'Steal Like An Artist',
