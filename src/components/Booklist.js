@@ -672,7 +672,24 @@ import NothereImage from '../assets/images/Not here to be liked.jpeg';
 import NotherePdf from '../assets/pdfs/Not Here to Be Liked (Miche_ (Z-Library).pdf';
 import MaliburisingImage from '../assets/images/Malibu rising.jpg';
 import MaliburisingPdf from '../assets/pdfs/Malibu Rising By Taylor Jen_ (Z-Library).pdf';
-
+import EconomicindImage from '../assets/images/Guide to economic indicators.jpg';
+import EconomicindPdf from '../assets/pdfs/The Economist Guide to Econ_ (Z-Library).pdf';
+import MediacontrolImage from '../assets/images/Media control.jpg';
+import MediacontrolPdf from '../assets/pdfs/Media Control The Spectacul_ (Z-Library).pdf';
+import HackingImage from '../assets/images/Haking the art of exploitation.jpg';
+import HackingPdf from '../assets/pdfs/Hacking The Art of Exploita_ (Z-Library).pdf';
+import TheelementsofstyleImage from '../assets/images/Elements_of_Style_cover.jpg';
+import TheelementsofstylePdf from '../assets/pdfs/The Elements of Style, 2011_ (Z-Library).pdf';
+import TheonehourtradeImage from '../assets/images/THe one hour trade.jpg';
+import TheonehourtradePdf from '../assets/pdfs/The 1 Hour Trade Make Money_ (Z-Library).pdf';
+import PracticlesqlImage from '../assets/images/Practicle SQL.jpg';
+import PracticlesqlPdf from '../assets/pdfs/Practical SQL A Beginner’s_ (Z-Library).pdf';
+import AfterImage from '../assets/images/After.jpeg';
+import AfterPdf from '../assets/pdfs/After (Anna Todd) (Z-Library).pdf';
+import ThegoalImage from '../assets/images/The goal.jpeg';
+import ThegoalPdf from '../assets/pdfs/The Goal (Elle Kennedy) (Z-Library).pdf';
+import ThescoreImage from '../assets/images/THe score.jpg';
+import ThescorePdf from '../assets/pdfs/The Score (Elle Kennedy) (Z-Library).pdf';
 
 
 
@@ -684,6 +701,87 @@ import MaliburisingPdf from '../assets/pdfs/Malibu Rising By Taylor Jen_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThescoreImage,
+    title: 'The Score',
+    author: 'Elle Kennedy',
+    genre: "Romance",
+    availability: true,
+    read:ThescorePdf,
+    Download: require('../assets/pdfs/The Score (Elle Kennedy) (Z-Library).pdf')
+  },
+  {
+    picture: ThegoalImage,
+    title: 'The Goal',
+    author: 'Elle Kennedy',
+    genre: "Romance",
+    availability: true,
+    read:ThegoalPdf,
+    Download: require('../assets/pdfs/The Goal (Elle Kennedy) (Z-Library).pdf')
+  },
+  {
+    picture: AfterImage,
+    title: 'After',
+    author: 'Anna Todd',
+    genre: "Romance",
+    availability: true,
+    read:AfterPdf,
+    Download: require('../assets/pdfs/After (Anna Todd) (Z-Library).pdf')
+  },
+  {
+    picture: PracticlesqlImage,
+    title: 'Practicle SQL',
+    author: 'Anthony Debarros',
+    genre: "Engineering",
+    availability: true,
+    read:PracticlesqlPdf,
+    Download: require('../assets/pdfs/Practical SQL A Beginner’s_ (Z-Library).pdf')
+  },
+  {
+    picture: TheonehourtradeImage,
+    title: 'The One Hour Trade',
+    author: 'Brian Anderson',
+    genre: "Trading",
+    availability: true,
+    read:TheonehourtradePdf,
+    Download: require('../assets/pdfs/The 1 Hour Trade Make Money_ (Z-Library).pdf')
+  },
+  {
+    picture: TheelementsofstyleImage,
+    title: 'The Elements Of Style',
+    author: 'William Strunk',
+    genre: "Non-Fiction",
+    availability: true,
+    read:TheelementsofstylePdf,
+    Download: require('../assets/pdfs/The Elements of Style, 2011_ (Z-Library).pdf')
+  },
+  {
+    picture: HackingImage,
+    title: 'Hacking the Art of Exploitation',
+    author: 'Jon Erickson',
+    genre: "Technology",
+    availability: true,
+    read:HackingPdf,
+    Download: require('../assets/pdfs/Hacking The Art of Exploita_ (Z-Library).pdf')
+  },
+  {
+    picture: MediacontrolImage,
+    title: 'Media Control',
+    author: 'Noam Chomsky',
+    genre: "Non-Fiction",
+    availability: true,
+    read:MediacontrolPdf,
+    Download: require('../assets/pdfs/Media Control The Spectacul_ (Z-Library).pdf')
+  },
+  {
+    picture: EconomicindImage,
+    title: 'Guide to Economic Indicators',
+    author: 'The Economist',
+    genre: "Economics",
+    availability: true,
+    read:EconomicindPdf,
+    Download: require('../assets/pdfs/The Economist Guide to Econ_ (Z-Library).pdf')
+  },
   {
     picture: MaliburisingImage,
     title: 'Malibu Rising',
