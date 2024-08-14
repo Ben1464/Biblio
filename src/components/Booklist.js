@@ -690,6 +690,26 @@ import ThegoalImage from '../assets/images/The goal.jpeg';
 import ThegoalPdf from '../assets/pdfs/The Goal (Elle Kennedy) (Z-Library).pdf';
 import ThescoreImage from '../assets/images/THe score.jpg';
 import ThescorePdf from '../assets/pdfs/The Score (Elle Kennedy) (Z-Library).pdf';
+import BirdsoftheImage from '../assets/images/Birds of the world.jpg';
+import BirdsofthePdf from '../assets/pdfs/Birds of the World (Dorling_ (Z-Library).pdf';
+import PowerbrainImage from '../assets/images/POwer brain.jpeg';
+import POwerbrainPdf from '../assets/pdfs/Brain Training Power Brain_ (Z-Library).pdf';
+import ManufacturingconImage from '../assets/images/Manufacturing consent.jpg';
+import ManufacturingconPdf from '../assets/pdfs/Manufacturing Consent The P_ (Z-Library).pdf';
+import XoxoImage from '../assets/images/Xoxo.jpeg';
+import XoxoPdf from '../assets/pdfs/Xoxo (Axie oh) (Z-Library).pdf';
+import AfterwefellImage from '../assets/images/After we fell.jpg';
+import Afterwefellpdf from '../assets/pdfs/After We Fell (Anna Todd) (Z-Library).pdf';
+import ThegrahamImage from '../assets/images/THe graham effect.jpg';
+import ThegrahamPdf from '../assets/pdfs/The Graham Effect (Elle Ken_ (Z-Library).pdf';
+import IllgiveyouImage from '../assets/images/Ill give you the sun.jpg';
+import IllgiveyouPdf from '../assets/pdfs/Ill Give You The Sun (Jandy_ (Z-Library).pdf';
+import TwistedemotionsImage from '../assets/images/Twisted emotions.jpg';
+import TwistedemotionsPdf from '../assets/pdfs/Twisted Emotions (The Camor_ (Z-Library).pdf';
+import EnemiesIMage from '../assets/images/Enemies.jpg';
+import EnemiesPdf from '../assets/pdfs/Enemies (Tijan [Tijan]) (Z-Library).pdf';
+import ThegreenwitchImage from '../assets/images/THe green witch.jpg';
+import THegreenwitchPdf from '../assets/images/THe green witch.jpg';
 
 
 
@@ -701,6 +721,96 @@ import ThescorePdf from '../assets/pdfs/The Score (Elle Kennedy) (Z-Library).pdf
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThegreenwitchImage,
+    title: 'The Green Witch',
+    author: 'Arin Murphy',
+    genre: "Diet book",
+    availability: true,
+    read:THegreenwitchPdf,
+    Download: require('../assets/pdfs/The Green Witch (Arin Murph_ (Z-Library).pdf')
+  },
+  {
+    picture: EnemiesIMage,
+    title: 'Enemies',
+    author: 'Tijan',
+    genre: "Romance",
+    availability: true,
+    read:EnemiesPdf,
+    Download: require('../assets/pdfs/Enemies (Tijan [Tijan]) (Z-Library).pdf')
+  },
+  {
+    picture: TwistedemotionsImage,
+    title: 'Twisted Emotions',
+    author: 'Cora Reilly',
+    genre: "Romance",
+    availability: true,
+    read:TwistedemotionsPdf,
+    Download: require('../assets/pdfs/Twisted Emotions (The Camor_ (Z-Library).pdf')
+  },
+  {
+    picture: IllgiveyouImage,
+    title: 'Ill Give You The Sun',
+    author: 'Jandy Nelson',
+    genre: "Romance",
+    availability: true,
+    read:IllgiveyouPdf,
+    Download: require('../assets/pdfs/Ill Give You The Sun (Jandy_ (Z-Library).pdf')
+  },
+  {
+    picture: ThegrahamImage,
+    title: 'The Graham Effect',
+    author: 'Elle Kennedy',
+    genre: "Romance",
+    availability: true,
+    read:ThegrahamPdf,
+    Download: require('../assets/pdfs/The Graham Effect (Elle Ken_ (Z-Library).pdf')
+  },
+  {
+    picture: AfterwefellImage,
+    title: 'After We Fell',
+    author: 'Anna Todd',
+    genre: "Romance",
+    availability: true,
+    read:Afterwefellpdf,
+    Download: require('../assets/pdfs/After We Fell (Anna Todd) (Z-Library).pdf')
+  },
+  {
+    picture: XoxoImage,
+    title: 'Xoxo',
+    author: 'Axie Oh',
+    genre: "Romance",
+    availability: true,
+    read:XoxoPdf,
+    Download: require('../assets/pdfs/Xoxo (Axie oh) (Z-Library).pdf')
+  },
+  {
+    picture: ManufacturingconImage,
+    title: 'Manufacturing Consent',
+    author: 'Edward Herman',
+    genre: "Non Fiction",
+    availability: true,
+    read:ManufacturingconPdf,
+    Download: require('../assets/pdfs/Manufacturing Consent The P_ (Z-Library).pdf')
+  },
+  {
+    picture: PowerbrainImage,
+    title: 'Power Brain',
+    author: 'Robert Capital',
+    genre: "Self Help",
+    availability: true,
+    read:POwerbrainPdf,
+    Download: require('../assets/pdfs/Brain Training Power Brain_ (Z-Library).pdf')
+  },
+  {
+    picture: BirdsoftheImage,
+    title: 'Birds Of The World',
+    author: 'Collin Harrison',
+    genre: "Nature",
+    availability: true,
+    read:BirdsofthePdf,
+    Download: require('../assets/pdfs/Birds of the World (Dorling_ (Z-Library).pdf')
+  },
   {
     picture: ThescoreImage,
     title: 'The Score',
