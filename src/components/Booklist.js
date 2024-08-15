@@ -710,6 +710,12 @@ import EnemiesIMage from '../assets/images/Enemies.jpg';
 import EnemiesPdf from '../assets/pdfs/Enemies (Tijan [Tijan]) (Z-Library).pdf';
 import ThegreenwitchImage from '../assets/images/THe green witch.jpg';
 import THegreenwitchPdf from '../assets/images/THe green witch.jpg';
+import ThewordmadeImage from '../assets/images/Word power made easy.jpg';
+import ThewordmadePdf from '../assets/pdfs/Word Power Made Easy (Norma_ (Z-Library).pdf';
+import PenetrationImage from '../assets/images/penetration testing.jpg';
+import PenetrationPdf from '../assets/pdfs/Penetration Testing A Hands_ (Z-Library).pdf';
+import ThedogencImage from '../assets/images/The dog encyclopidia.jpg';
+import THedogencImage from '../assets/images/The dog encyclopidia.jpg'
 
 
 
@@ -721,6 +727,33 @@ import THegreenwitchPdf from '../assets/images/THe green witch.jpg';
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThedogencImage,
+    title: 'The Dog Encyclopedia',
+    author: 'D.K Johns',
+    genre: "Encyclopedia",
+    availability: true,
+    read:THedogencImage,
+    Download: require('../assets/pdfs/The Green Witch (Arin Murph_ (Z-Library).pdf')
+  },
+  {
+    picture: PenetrationImage,
+    title: 'Penetration Testing',
+    author: 'Georgia Weidman',
+    genre: "Cyber SEcurity",
+    availability: true,
+    read:PenetrationPdf,
+    Download: require('../assets/pdfs/Penetration Testing A Hands_ (Z-Library).pdf')
+  },
+  {
+    picture: ThewordmadeImage,
+    title: 'Word Power Made Easy',
+    author: 'Norman Lewis',
+    genre:"Self-Help",
+    availability: true,
+    read:ThewordmadePdf,
+    Download: require('../assets/pdfs/Word Power Made Easy (Norma_ (Z-Library).pdf')
+  },
   {
     picture: ThegreenwitchImage,
     title: 'The Green Witch',
