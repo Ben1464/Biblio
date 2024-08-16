@@ -715,7 +715,29 @@ import ThewordmadePdf from '../assets/pdfs/Word Power Made Easy (Norma_ (Z-Libra
 import PenetrationImage from '../assets/images/penetration testing.jpg';
 import PenetrationPdf from '../assets/pdfs/Penetration Testing A Hands_ (Z-Library).pdf';
 import ThedogencImage from '../assets/images/The dog encyclopidia.jpg';
-import THedogencImage from '../assets/images/The dog encyclopidia.jpg'
+import THedogencImage from '../assets/images/The dog encyclopidia.jpg';
+import GoodvibegoodlifeImage from '../assets/images/Good vive good life.jpg';
+import GoodvibegoodlifePdf from '../assets/pdfs/Good Vibes, Good Life (Vex_ (Z-Library).pdf';
+import TalkliketedImage from '../assets/images/Talk like ted.jpg';
+import TalkliketedPdf from '../assets/pdfs/Talk Like TED (Carmine Gallo) (Z-Library).pdf';
+import FreedomfromtheunknownIMage from '../assets/images/Freedom from the known.jpg';
+import FreedomfromtheunkownPdf from '../assets/pdfs/Freedom from the Known (Jid_ (Z-Library).pdf';
+import ThetopfiveregretsImage from '../assets/images/THe top five regrets of the fying.jpeg';
+import ThetopfiveregretsPdf from '../assets/pdfs/The Top Five Regrets of the_ (Z-Library).pdf';
+import GamespeopleImage from '../assets/images/Games people play.jpg';
+import GamespeoplePdf from '../assets/pdfs/Games People Play (Berne Eric) (Z-Library).pdf';
+import WhateverybodyImage from '../assets/images/What everybody is saying.jpg';
+import WhateverybodyPdf from '../assets/pdfs/What Every BODY is Saying (_ (Z-Library).pdf'
+import DontbelieveImage from '../assets/images/Dont believe everything you think.jpg';
+import DontbelievePdf from '../assets/pdfs/Dont Believe Everything You_ (Z-Library).pdf';
+import ThebigquestionImage from '../assets/images/THe big questrion of life .jpg';
+import ThebigquestionPdf from '../assets/pdfs/The Big Questions of Life (_ (Z-Library).pdf';
+import IkigaidietImage from '../assets/images/Ikigai diet.jpg';
+import IkigaidietPdf from '../assets/pdfs/Ikigai Diet The Secret of J_ (Z-Library).pdf';
+import HowtoikigaiImage from '../assets/images/How to Ikigai.jpg';
+import HowtoikigaiPdf from '../assets/pdfs/How to Ikigai (Tim Tamashiro) (Z-Library).pdf';
+
+
 
 
 
@@ -727,6 +749,97 @@ import THedogencImage from '../assets/images/The dog encyclopidia.jpg'
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: HowtoikigaiImage,
+    title: 'How To Ikigai',
+    author: 'Tim Tamashiro',
+    genre: "Self Help",
+    availability: true,
+    read:HowtoikigaiPdf,
+    Download: require('../assets/pdfs/How to Ikigai (Tim Tamashiro) (Z-Library).pdf')
+  },
+  {
+    picture: IkigaidietImage,
+    title: 'Ikigai Diet',
+    author: 'Sachiaki Takamiya',
+    genre: "Diet",
+    availability: true,
+    read:IkigaidietPdf,
+    Download: require('../assets/pdfs/Ikigai Diet The Secret of J_ (Z-Library).pdf')
+  },
+  {
+    picture: ThebigquestionImage,
+    title: 'The Big Question Of Life',
+    author: 'Om Swami',
+    genre: "Self Help",
+    availability: true,
+    read:ThebigquestionPdf,
+    Download: require('../assets/pdfs/The Big Questions of Life (_ (Z-Library).pdf')
+  },
+  {
+    picture: DontbelieveImage,
+    title: 'Dont Believe Everything You Think',
+    author: 'Joseph Nguyen',
+    genre: "Self Help",
+    availability: true,
+    read:DontbelievePdf,
+    Download: require('../assets/pdfs/Dont Believe Everything You_ (Z-Library).pdf')
+  },
+  {
+    picture: WhateverybodyImage,
+    title: 'What Everybody Is Saying',
+    author: 'Joe Navarro',
+    genre: "Self Help",
+    availability: true,
+    read:WhateverybodyPdf,
+    Download: require('../assets/pdfs/What Every BODY is Saying (_ (Z-Library).pdf')
+  },
+  {
+    picture: GamespeopleImage,
+    title: 'Games People Play',
+    author: 'Berne Eric',
+    genre: "Psychology",
+    availability: true,
+    read:GamespeoplePdf,
+    Download: require('../assets/pdfs/Games People Play (Berne Eric) (Z-Library).pdf')
+  },
+  {
+    picture: ThetopfiveregretsImage,
+    title: 'The Top Five Regrets Of The Dying',
+    author: 'Bronnie Ware',
+    genre: "Self Help",
+    availability: true,
+    read:ThetopfiveregretsPdf,
+    Download: require('../assets/pdfs/The Top Five Regrets of the_ (Z-Library).pdf')
+  },
+  
+  {
+    picture: FreedomfromtheunknownIMage,
+    title: 'Freedom From The Known',
+    author: 'Krishnamurti:',
+    genre: "Self Help",
+    availability: true,
+    read:FreedomfromtheunkownPdf,
+    Download: require('../assets/pdfs/Freedom from the Known (Jid_ (Z-Library).pdf')
+  },
+  {
+    picture: TalkliketedImage,
+    title: 'Talk Like Ted',
+    author: 'Carmine Gallo',
+    genre: "Self Help",
+    availability: true,
+    read:TalkliketedPdf,
+    Download: require('../assets/pdfs/Talk Like TED (Carmine Gallo) (Z-Library).pdf')
+  },
+  {
+    picture: GoodvibegoodlifeImage,
+    title: 'Good Vibes, Good Life',
+    author: 'Vex King',
+    genre: "Self Help",
+    availability: true,
+    read:GoodvibegoodlifePdf,
+    Download: require('../assets/pdfs/Good Vibes, Good Life (Vex_ (Z-Library).pdf')
+  },
   {
     picture: ThedogencImage,
     title: 'The Dog Encyclopedia',
