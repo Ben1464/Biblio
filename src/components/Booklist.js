@@ -736,7 +736,24 @@ import IkigaidietImage from '../assets/images/Ikigai diet.jpg';
 import IkigaidietPdf from '../assets/pdfs/Ikigai Diet The Secret of J_ (Z-Library).pdf';
 import HowtoikigaiImage from '../assets/images/How to Ikigai.jpg';
 import HowtoikigaiPdf from '../assets/pdfs/How to Ikigai (Tim Tamashiro) (Z-Library).pdf';
-
+import ThelimitsImage from '../assets/images/The limits of thoughts.jpg';
+import ThelimitsPdf from '../assets/pdfs/The Limits of Thought Discu_ (Z-Library).pdf';
+import YouareaweImage from '../assets/images/You are positively awesome.webp';
+import YouareawePdf from '../assets/pdfs/You Are Positively Awesome_ (Z-Library).pdf';
+import HealingistheIMage from '../assets/images/Healing is the new high.jpeg';
+import HealingisthePdf from '../assets/pdfs/Healing Is the New High (Ve_ (Z-Library).pdf';
+import AmillionthoughtImage from '../assets/images/A million thoughtsjpg';
+import AmillionthoughtPdf from '../assets/pdfs/A Million Thoughts Learn Al_ (Z-Library).pdf';
+import ThefirstminuteImage from '../assets/images/THe first minute.jpg';
+import ThefirstminutePdf from '../assets/pdfs/The First Minute How to Sta_ (Z-Library).pdf';
+import IkigaiImage from '../assets/images/Ikigai.jpeg';
+import IkigaiPdf from '../assets/pdfs/Ikigai (Héctor García, Fran_ (Z-Library).pdf';
+import MindfulltoImage from '../assets/images/Mind to mindful.jpg';
+import MindfulltoPdf from '../assets/pdfs/Mind Full to Mindful Zen Wi_ (Z-Library).pdf';
+import ThevocabbuildImage from '../assets/images/The vocabulary builder.jpg';
+import ThevocabbuildPdf from '../assets/pdfs/The Vocabulary Builder The_ (Z-Library).pdf';
+import LegendImage from '../assets/images/Legend.jpeg';
+import LegendPdf from '../assets/pdfs/Legend (Marie Lu) (Z-Library).pdf';
 
 
 
@@ -749,6 +766,90 @@ import HowtoikigaiPdf from '../assets/pdfs/How to Ikigai (Tim Tamashiro) (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: LegendImage,
+    title: 'Legend',
+    author: 'Marie Lu',
+    genre: "Science Fiction",
+    availability: true,
+    read:LegendPdf,
+    Download: require('../assets/pdfs/Legend (Marie Lu) (Z-Library).pdf')
+  },
+  {
+    picture: ThevocabbuildImage,
+    title: 'The Vocabulary Builder',
+    author: 'Judi Kesselman',
+    genre: "Self Help",
+    availability: true,
+    read:ThevocabbuildPdf,
+    Download: require('../assets/pdfs/The Vocabulary Builder The_ (Z-Library).pdf')
+  },
+  {
+    picture: MindfulltoImage,
+    title: 'Mind To Mindful',
+    author: 'Om Swami',
+    genre: "Self Help",
+    availability: true,
+    read:MindfulltoPdf,
+    Download: require('../assets/pdfs/Mind Full to Mindful Zen Wi_ (Z-Library).pdf')
+  },
+  {
+    picture: IkigaiImage,
+    title: 'Ikigai',
+    author: 'Hector Garcia',
+    genre: "Self Help",
+    availability: true,
+    read:IkigaiPdf,
+    Download: require('../assets/pdfs/Ikigai (Héctor García, Fran_ (Z-Library).pdf')
+  },
+  {
+    picture: ThefirstminuteImage,
+    title: 'The First Minute',
+    author: 'Chris Fenning',
+    genre: "Self Help",
+    availability: true,
+    read:ThefirstminutePdf,
+    Download: require('../assets/pdfs/The First Minute How to Sta_ (Z-Library).pdf')
+  },
+  {
+    picture: AmillionthoughtImage,
+    title: 'A Million Thoughts',
+    author: 'Om Swami',
+    genre: "Self Help",
+    availability: true,
+    read:AmillionthoughtPdf,
+    Download: require('../assets/pdfs/A Million Thoughts Learn Al_ (Z-Library).pdf')
+  },
+  {
+    picture: HealingistheIMage,
+    title: 'Healing Is The New High',
+    author: 'Vex KIng',
+    genre: "Self Help",
+    availability: true,
+    read:HealingisthePdf,
+    Download: require('../assets/pdfs/Healing Is the New High (Ve_ (Z-Library).pdf')
+  },
+
+  {
+    picture: YouareaweImage,
+    title: 'You Are Positively Awesome',
+    author: 'Stacie Swift',
+    genre: "Self Help",
+    availability: true,
+    read:YouareawePdf,
+    Download: require('../assets/pdfs/You Are Positively Awesome_ (Z-Library).pdf')
+  },
+
+  {
+    picture: ThelimitsImage,
+    title: 'The Limits of Thought',
+    author: 'David Bohm',
+    genre: "Self Help",
+    availability: true,
+    read:ThelimitsPdf,
+    Download: require('../assets/pdfs/The Limits of Thought Discu_ (Z-Library).pdf')
+  },
+
   {
     picture: HowtoikigaiImage,
     title: 'How To Ikigai',
