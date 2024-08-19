@@ -754,6 +754,26 @@ import ThevocabbuildImage from '../assets/images/The vocabulary builder.jpg';
 import ThevocabbuildPdf from '../assets/pdfs/The Vocabulary Builder The_ (Z-Library).pdf';
 import LegendImage from '../assets/images/Legend.jpeg';
 import LegendPdf from '../assets/pdfs/Legend (Marie Lu) (Z-Library).pdf';
+import BlueoceanIMage from '../assets/images/Blue ocean strategy.jpeg';
+import BlueoceanPdf from '../assets/pdfs/Blue Ocean Strategy (Unknown) (Z-Library).pdf';
+import CreativeincImage from '../assets/images/Creative inc.jpeg';
+import CreativeincPdf from '../assets/pdfs/Creativity, Inc. Overcoming_ (Z-Library).pdf';
+import GoodstrategyImage from '../assets/images/Good startegy bad strategy.jpg';
+import GoodstrategyPdf from '../assets/pdfs/Good Strategy Bad Strategy_ (Z-Library).pdf';
+import ThehardthingsabImage from '../assets/images/THe hard things about the hard things.jpg';
+import ThehardthingsabPdf from '../assets/pdfs/The Hard Thing About Hard T_ (Z-Library).pdf';
+import SidehustleImage from '../assets/images/side hustle.jpg';
+import SidehustlePdf from '../assets/pdfs/Side Hustle (Chris Guillebeau) (Z-Library).pdf';
+import ShoedogImage from '../assets/images/Shoe dog.jpeg';
+import ShoedogPdf from '../assets/pdfs/Shoe Dog (Phil Knight) (Z-Library).pdf';
+import ThecompoundeffectImage from '../assets/images/THe compound effect.jpeg';
+import ThecompoundeffectPdf from '../assets/pdfs/The Compound Effect (Darren_ (Z-Library).pdf';
+import TheasifprincipalImage from '../assets/images/THe as if principal.jpg';
+import TheasifprincipalPdf from '../assets/pdfs/The As If Principle The Rad_ (Z-Library).pdf';
+import HoldmetightImage from '../assets/images/Hold me tight.jpeg';
+import HoldmetightPdf from '../assets/pdfs/Hold Me Tight Seven Convers_ (Z-Library).pdf';
+import AwakenthegiantImage from '../assets/images/Awaken the giant within.jpeg';
+import AwakenthegiantPdf from '../assets/pdfs/Awaken the Giant Within How_ (Z-Library).pdf';
 
 
 
@@ -766,6 +786,96 @@ import LegendPdf from '../assets/pdfs/Legend (Marie Lu) (Z-Library).pdf';
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: AwakenthegiantImage,
+    title: 'Awaken The Giant Within',
+    author: 'Anthony Robbins',
+    genre: "Self Help",
+    availability: true,
+    read:AwakenthegiantPdf,
+    Download: require('../assets/pdfs/Awaken the Giant Within How_ (Z-Library).pdf')
+  },
+  {
+    picture: HoldmetightImage,
+    title: 'Hold Me Tight',
+    author: 'Dr. Sue Jahnson',
+    genre: "Self Help",
+    availability: true,
+    read:HoldmetightPdf,
+    Download: require('../assets/pdfs/Hold Me Tight Seven Convers_ (Z-Library).pdf')
+  },
+  {
+    picture: TheasifprincipalImage,
+    title: 'The As If Principle',
+    author: 'Richard Wiseman',
+    genre: "Self Help",
+    availability: true,
+    read:TheasifprincipalPdf,
+    Download: require('../assets/pdfs/The As If Principle The Rad_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecompoundeffectImage,
+    title: 'The Compound Effect',
+    author: 'Darren Hardy',
+    genre: "Self Help",
+    availability: true,
+    read:ThecompoundeffectPdf,
+    Download: require('../assets/pdfs/The Compound Effect (Darren_ (Z-Library).pdf')
+  },
+  {
+    picture: ShoedogImage,
+    title: 'Shoe Dog',
+    author: 'Phil Knight',
+    genre: "Autobiography",
+    availability: true,
+    read:ShoedogPdf,
+    Download: require('../assets/pdfs/Shoe Dog (Phil Knight) (Z-Library).pdf')
+  },
+  {
+    picture: SidehustleImage,
+    title: 'Side Hustle',
+    author: 'Chris Guillebeau',
+    genre: "Self Help",
+    availability: true,
+    read:SidehustlePdf,
+    Download: require('../assets/pdfs/Side Hustle (Chris Guillebeau) (Z-Library).pdf')
+  },
+  {
+    picture: ThehardthingsabImage,
+    title: 'The Hard Things About Hard Things',
+    author: 'Ben Horowitz',
+    genre: "Self Help",
+    availability: true,
+    read:ThehardthingsabPdf,
+    Download: require('../assets/pdfs/The Hard Thing About Hard T_ (Z-Library).pdf')
+  },
+  {
+    picture: GoodstrategyImage,
+    title: 'Good Strategy Bad Strategy',
+    author: 'Richard Rumelt',
+    genre: "Self Help",
+    availability: true,
+    read:GoodstrategyPdf,
+    Download: require('../assets/pdfs/Good Strategy Bad Strategy_ (Z-Library).pdf')
+  },
+  {
+    picture: CreativeincImage,
+    title: 'Creative Inc',
+    author: 'Ed Catmull',
+    genre: "Self Help",
+    availability: true,
+    read:CreativeincPdf,
+    Download: require('../assets/pdfs/Creativity, Inc. Overcoming_ (Z-Library).pdf')
+  },
+  {
+    picture: BlueoceanIMage,
+    title: 'Blue Ocean Strategy',
+    author: 'W.Chan Kim',
+    genre: "Business",
+    availability: true,
+    read:BlueoceanPdf,
+    Download: require('../assets/pdfs/Blue Ocean Strategy (Unknown) (Z-Library).pdf')
+  },
   {
     picture: LegendImage,
     title: 'Legend',
