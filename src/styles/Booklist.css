@@ -33,16 +33,16 @@ body {
 
 @keyframes gradientChange {
   0% {
-    background: linear-gradient(to right, #eb7399, #8cd9f3); /* Pink to light blue */
+    background: linear-gradient(to right, #f36480, #FFC1CC); 
   }
   33% {
-    background: linear-gradient(to right, #f8c68c, #f0699b); /* Orange to pink */
+    background: linear-gradient(to right, #afc0cc, #4682B4); 
   }
   66% {
-    background: linear-gradient(to right, #95b9f3, #c2e9fb); /* Light blue to light pink */
+    background: linear-gradient(to right, #95b9f3, #c2e9fb); 
   }
   100% {
-    background: linear-gradient(to right, #ec97b2, #588999); /* Pink to light blue */
+    background: linear-gradient(to right, #50C878, #fce358 ); 
   }
 }
 
@@ -56,7 +56,7 @@ body {
   width: 90%;
   max-width: 800px;
   transition: transform 0.2s, box-shadow 0.2s;
-  animation: gradientChange 30s infinite;
+  animation: gradientChange 180s infinite;
 }
 
 .book-item:hover {
