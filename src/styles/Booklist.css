@@ -33,7 +33,7 @@ body {
 
 @keyframes gradientChange {
   0% {
-    background: linear-gradient(to right, #f36480, #FFC1CC); 
+    background: linear-gradient(to right, #e4e425, #9de773); 
   }
   33% {
     background: linear-gradient(to right, #afc0cc, #4682B4); 
