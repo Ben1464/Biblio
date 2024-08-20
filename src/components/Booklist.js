@@ -774,6 +774,26 @@ import HoldmetightImage from '../assets/images/Hold me tight.jpeg';
 import HoldmetightPdf from '../assets/pdfs/Hold Me Tight Seven Convers_ (Z-Library).pdf';
 import AwakenthegiantImage from '../assets/images/Awaken the giant within.jpeg';
 import AwakenthegiantPdf from '../assets/pdfs/Awaken the Giant Within How_ (Z-Library).pdf';
+import DesiningthemindIMage from '../assets/images/designing the mind.jpg';
+import DesiningthemindPdf from '../assets/pdfs/Designing the Mind The Prin_ (Z-Library).pdf';
+import YoucanifyouthinkImage from '../assets/images/You can if you think you can.jpg';
+import YoucanifyouthinkPdf from '../assets/pdfs/You Can If You Think You Ca_ (Z-Library).pdf';
+import SixthinkinghatsImage from '../assets/images/SIx thinking hats.jpg';
+import SixthinkinghatsPdf from '../assets/pdfs/Six Thinking Hats (Edward D_ (Z-Library).pdf';
+import TheorganisedmindImage from '../assets/images/The orgaanised mind.jpg';
+import TheorganisedmindPdf from '../assets/pdfs/The Organized Mind Thinking_ (Z-Library).pdf';
+import ElonmuskImage from '../assets/images/ELon musk.jpg';
+import ElonmuskPdf from '../assets/pdfs/Elon Musk The Greatest Less_ (Z-Library).pdf';
+import LostconnectionsImage from '../assets/images/Lost connections.jpg';
+import LostconnectionsPdf from '../assets/pdfs/Lost Connections Uncovering_ (Z-Library).pdf';
+import FooledbyrandomnessImage from '../assets/images/Fooled by Randomness.jpg';
+import FooledbyrandomnessPdf from '../assets/pdfs/Fooled by Randomness The Hi_ (Z-Library).pdf';
+import JustmercyImage from '../assets/images/Just mercy.jpg';
+import JustmercyPdf from '../assets/pdfs/Just Mercy (Bryan Stevenson) (Z-Library).pdf';
+import ClinchitsImage from '../assets/images/Clinch it.jpeg';
+import ClinchitsPdf from '../assets/pdfs/Clinch it How to Convert an_ (Z-Library).pdf';
+import BeinittowinImage from '../assets/images/Be in to win.jpg';
+import BeinittowinPdf from '../assets/pdfs/Be In It to Win Strategies_ (Z-Library).pdf';
 
 
 
@@ -786,6 +806,97 @@ import AwakenthegiantPdf from '../assets/pdfs/Awaken the Giant Within How_ (Z-Li
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: BeinittowinImage,
+    title: 'Be In It To Win',
+    author: 'Gerhard Gschwandtner',
+    genre: "Self Help",
+    availability: true,
+    read:BeinittowinPdf,
+    Download: require('../assets/pdfs/Be In It to Win Strategies_ (Z-Library).pdf')
+  },
+  {
+    picture: ClinchitsImage,
+    title: 'Clinch It',
+    author: 'Cyrus Lakdawala',
+    genre: "Self Help",
+    availability: true,
+    read:ClinchitsPdf,
+    Download: require('../assets/pdfs/Clinch it How to Convert an_ (Z-Library).pdf')
+  },
+  {
+    picture: JustmercyImage,
+    title: 'Just Mercy',
+    author: 'Bryan Stevenson',
+    genre: "Self Help",
+    availability: true,
+    read:JustmercyPdf,
+    Download: require('../assets/pdfs/Just Mercy (Bryan Stevenson) (Z-Library).pdf')
+  },
+  {
+    picture: FooledbyrandomnessImage,
+    title: 'Fooled By Randomness',
+    author: 'Nassim Nicholas',
+    genre: "Self Help",
+    availability: true,
+    read:FooledbyrandomnessPdf,
+    Download: require('../assets/pdfs/Fooled by Randomness The Hi_ (Z-Library).pdf')
+  },
+  {
+    picture: LostconnectionsImage,
+    title: 'Lost Connections',
+    author: 'Johann Hari',
+    genre: "Self Help",
+    availability: true,
+    read:LostconnectionsPdf,
+    Download: require('../assets/pdfs/Lost Connections Uncovering_ (Z-Library).pdf')
+  },
+  {
+    picture: ElonmuskImage,
+    title: 'Elon Musk',
+    author: 'Evander Watson',
+    genre: "Self Help",
+    availability: true,
+    read:ElonmuskPdf,
+    Download: require('../assets/pdfs/Elon Musk The Greatest Less_ (Z-Library).pdf')
+  },
+
+  {
+    picture: TheorganisedmindImage,
+    title: 'The Organised Mind',
+    author: 'Daniel Levintin',
+    genre: "Self Help",
+    availability: true,
+    read:TheorganisedmindPdf,
+    Download: require('../assets/pdfs/The Organized Mind Thinking_ (Z-Library).pdf')
+  },
+  {
+    picture: SixthinkinghatsImage,
+    title: 'Six Thinking Hats',
+    author: 'Edward De Bono',
+    genre: "Self Help",
+    availability: true,
+    read:SixthinkinghatsPdf,
+    Download: require('../assets/pdfs/Six Thinking Hats (Edward D_ (Z-Library).pdf')
+  },
+  {
+    picture: YoucanifyouthinkImage,
+    title: 'You Can If You Think You Can',
+    author: 'Norman Vincent',
+    genre: "Self Help",
+    availability: true,
+    read:YoucanifyouthinkPdf,
+    Download: require('../assets/pdfs/You Can If You Think You Ca_ (Z-Library).pdf')
+  },
+  {
+    picture: DesiningthemindIMage,
+    title: 'Designing The Mind',
+    author: 'Ryan Bush',
+    genre: "Self Help",
+    availability: true,
+    read:DesiningthemindPdf,
+    Download: require('../assets/pdfs/Designing the Mind The Prin_ (Z-Library).pdf')
+  },
   {
     picture: AwakenthegiantImage,
     title: 'Awaken The Giant Within',
