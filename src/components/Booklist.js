@@ -794,6 +794,8 @@ import ClinchitsImage from '../assets/images/Clinch it.jpeg';
 import ClinchitsPdf from '../assets/pdfs/Clinch it How to Convert an_ (Z-Library).pdf';
 import BeinittowinImage from '../assets/images/Be in to win.jpg';
 import BeinittowinPdf from '../assets/pdfs/Be In It to Win Strategies_ (Z-Library).pdf';
+import ThegreatnessguideImage from '../assets/images/The-Greatness-Guide-Book-One-by-Robin-Sharma.jpg';
+import ThegreatnessguidePdf from '../assets/pdfs/The Greatness Guide (Robin_ (Z-Library).pdf';
 
 
 
@@ -806,6 +808,15 @@ import BeinittowinPdf from '../assets/pdfs/Be In It to Win Strategies_ (Z-Librar
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThegreatnessguideImage,
+    title: 'The Greatness Guide',
+    author: 'Robin Sharma',
+    genre: "Self Help",
+    availability: true,
+    read:ThegreatnessguidePdf,
+    Download: require('../assets/pdfs/The Greatness Guide (Robin_ (Z-Library).pdf')
+  },
   {
     picture: BeinittowinImage,
     title: 'Be In It To Win',
