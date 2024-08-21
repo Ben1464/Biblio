@@ -4472,7 +4472,6 @@ function Booklist() {
       if (navigator.share) {
         await navigator.share(shareData);
       } else {
-        // Fallback for browsers that do not support the Web Share API
         const shareLink = `${window.location.href}?book=${encodeURIComponent(book.title)}`;
         navigator.clipboard.writeText(shareLink);
         alert('Link copied to clipboard');
@@ -4482,9 +4481,11 @@ function Booklist() {
     }
   };
 
+  // Update the filtering logic to include genre in the search.
   const filteredBooks = shuffledBooks.filter(book =>
     book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    book.author.toLowerCase().includes(searchQuery.toLowerCase())
+    book.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    book.genre.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
@@ -4492,7 +4493,7 @@ function Booklist() {
       <div className="search">
         <input
           type="text"
-          placeholder="Search by title or author..."
+          placeholder="Search by title, author, or genre..."
           value={searchQuery}
           onChange={handleSearchChange}
           className="search-input"
@@ -4562,5 +4563,3 @@ function Booklist() {
     </>
   );
 }
-
-export default Booklist;
