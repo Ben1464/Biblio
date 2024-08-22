@@ -810,6 +810,14 @@ import MrrightnowIMage from '../assets/images/Mr right now.jpeg';
 import MrrightnowPdf from '../assets/pdfs/Mr. Right Now (Annabeth Alb_ (Z-Library).pdf';
 import BeyondgoodandevilImage from '../assets/images/beyond-good-and-evil-9781625586100_hr.jpg';
 import BeyondgoodandevilPdf from '../assets/pdfs/Beyond Good and Evil (Prelu_ (Z-Library).pdf';
+import PracticallyShameImage from '../assets/images/Practically shameless.jpg';
+import PracticallyShamePdf from '../assets/pdfs/Practically Shameless, How_ (Z-Library).pdf';
+import ThemonkImage from '../assets/images/The monk who sold his ferrari.jpg';
+import ThemonkPdf from '../assets/pdfs/The Monk Who Sold His Ferra_ (Z-Library).pdf';
+import WhowillImage from '../assets/images/Who will cry when you die.jpeg';
+import WhowillPdf from '../assets/pdfs/Who Will Cry When You Die L_ (Z-Library).pdf';
+import ThewayofmenImage from '../assets/images/The way of men.jpeg';
+import ThewayofmenPdf from '../assets/pdfs/The Way of Men (Jack Donovan) (Z-Library).pdf';
 
 
 
@@ -823,6 +831,42 @@ import BeyondgoodandevilPdf from '../assets/pdfs/Beyond Good and Evil (Prelu_ (Z
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThewayofmenImage,
+    title: 'The Way Of Men',
+    author: 'Jack Donnivier',
+    genre: "Masculinity",
+    availability: true,
+    read:ThewayofmenPdf,
+    Download: require('../assets/pdfs/The Way of Men (Jack Donovan) (Z-Library).pdf')
+  },
+  {
+    picture: WhowillImage,
+    title: 'Who Will Cry When You Die',
+    author: 'Robin Sharma',
+    genre: "Self Help",
+    availability: true,
+    read:WhowillPdf,
+    Download: require('../assets/pdfs/Who Will Cry When You Die L_ (Z-Library).pdf')
+  },
+  {
+    picture: ThemonkImage,
+    title: 'The Monk Who Sold His Ferrari',
+    author: 'Robin Sharma',
+    genre: "Self Help",
+    availability: true,
+    read:ThemonkPdf,
+    Download: require('../assets/pdfs/The Monk Who Sold His Ferra_ (Z-Library).pdf')
+  },
+  {
+    picture: PracticallyShameImage,
+    title: 'Practically Shameless',
+    author: 'Alyce Barry',
+    genre: "Self Help",
+    availability: true,
+    read:PracticallyShamePdf,
+    Download: require('../assets/pdfs/Practically Shameless, How_ (Z-Library).pdf')
+  },
   {
     picture: BeyondgoodandevilImage,
     title: 'Beyond Good And Evil',
