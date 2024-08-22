@@ -796,6 +796,21 @@ import BeinittowinImage from '../assets/images/Be in to win.jpg';
 import BeinittowinPdf from '../assets/pdfs/Be In It to Win Strategies_ (Z-Library).pdf';
 import ThegreatnessguideImage from '../assets/images/The-Greatness-Guide-Book-One-by-Robin-Sharma.jpg';
 import ThegreatnessguidePdf from '../assets/pdfs/The Greatness Guide (Robin_ (Z-Library).pdf';
+import BoundariesImage from '../assets/images/Boundaries.jpeg';
+import BoundariesPdf from '../assets/pdfs/Boundaries When to Say Yes,_ (Z-Library).pdf';
+import WomenwhorunImage from '../assets/images/women who run with the wolves.jpeg';
+import WomenwhorunPdf from '../assets/pdfs/women who run with wolves.pdf';
+import ThinkstraightImage from '../assets/images/Think staright.jpg';
+import ThinkstraightPdf from '../assets/pdfs/THINK STRAIGHT Change Your_ (Z-Library).pdf';
+import ForsuchatimeImage from '../assets/images/For such a time as this .jpg';
+import ForsuchatimePdf from '../assets/pdfs/For Such a Time as ThisMy F_ (Z-Library).pdf';
+import PhilosophyinfleshImage from '../assets/images/Philosopy in the flesh.jpeg';
+import PhilosophyinfleshPdf from '../assets/pdfs/Philosophy In The Flesh The_ (Z-Library).pdf';
+import MrrightnowIMage from '../assets/images/Mr right now.jpeg';
+import MrrightnowPdf from '../assets/pdfs/Mr. Right Now (Annabeth Alb_ (Z-Library).pdf';
+import BeyondgoodandevilImage from '../assets/images/beyond-good-and-evil-9781625586100_hr.jpg';
+import BeyondgoodandevilPdf from '../assets/pdfs/Beyond Good and Evil (Prelu_ (Z-Library).pdf';
+
 
 
 
@@ -808,6 +823,69 @@ import ThegreatnessguidePdf from '../assets/pdfs/The Greatness Guide (Robin_ (Z-
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: BeyondgoodandevilImage,
+    title: 'Beyond Good And Evil',
+    author: 'Walter Kaufmann',
+    genre: "Philosophy",
+    availability: true,
+    read:BeyondgoodandevilPdf,
+    Download: require('../assets/pdfs/Beyond Good and Evil (Prelu_ (Z-Library).pdf')
+  },
+  {
+    picture: MrrightnowIMage,
+    title: 'Mr. Right Now',
+    author: 'Annabeth Albright',
+    genre: "Romance",
+    availability: true,
+    read:MrrightnowPdf,
+    Download: require('../assets/pdfs/Mr. Right Now (Annabeth Alb_ (Z-Library).pdf')
+  },
+  {
+    picture: PhilosophyinfleshImage,
+    title: 'Philosophy In The Flesh',
+    author: 'George Lakoff',
+    genre: "Philosophy",
+    availability: true,
+    read:PhilosophyinfleshPdf,
+    Download: require('../assets/pdfs/Philosophy In The Flesh The_ (Z-Library).pdf')
+  },
+  {
+    picture: ForsuchatimeImage,
+    title: 'For Such A Time As This',
+    author: 'Kayleigh McEnany',
+    genre: "Short Stories",
+    availability: true,
+    read:ForsuchatimePdf,
+    Download: require('../assets/pdfs/For Such a Time as ThisMy F_ (Z-Library).pdf')
+  },
+  {
+    picture: ThinkstraightImage,
+    title: 'Think Straight',
+    author: 'Darius Foroux',
+    genre: "Self Help",
+    availability: true,
+    read:ThinkstraightPdf,
+    Download: require('../assets/pdfs/THINK STRAIGHT Change Your_ (Z-Library).pdf')
+  },
+  {
+    picture: WomenwhorunImage,
+    title: 'Women Who Run With The Wolves',
+    author: 'Clarissa Pinkola',
+    genre: "Self Help",
+    availability: true,
+    read:WomenwhorunPdf,
+    Download: require('../assets/pdfs/women who run with wolves.pdf')
+  },
+  {
+    picture: BoundariesImage,
+    title: 'Boundaries',
+    author: 'Dr. Henry Cloud',
+    genre: "Self Help",
+    availability: true,
+    read:BoundariesPdf,
+    Download: require('../assets/pdfs/Boundaries When to Say Yes,_ (Z-Library).pdf')
+  },
   {
     picture: ThegreatnessguideImage,
     title: 'The Greatness Guide',
