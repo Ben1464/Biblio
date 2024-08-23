@@ -818,6 +818,27 @@ import WhowillImage from '../assets/images/Who will cry when you die.jpeg';
 import WhowillPdf from '../assets/pdfs/Who Will Cry When You Die L_ (Z-Library).pdf';
 import ThewayofmenImage from '../assets/images/The way of men.jpeg';
 import ThewayofmenPdf from '../assets/pdfs/The Way of Men (Jack Donovan) (Z-Library).pdf';
+import ThemanualImage from '../assets/images/The manual.png';
+import ThemanualPdf from '../assets/pdfs/The Manual - A Guide to the_ (Z-Library).pdf';
+import UseyourmemoryImage from '../assets/images/Use your memory.jpg';
+import UseyourmemoryPdf from '../assets/pdfs/Use Your Memory (Tony Buzan) (Z-Library).pdf';
+import MemorymanImage from '../assets/images/Memory man.jpeg';
+import MemorymanPdf from '../assets/pdfs/Memory Man (Memory Man seri_ (Z-Library).pdf';
+import CosmicmemoryImage from '../assets/images/Cosmic memory.jpg';
+import CosmicmemoryPdf from '../assets/pdfs/Cosmic Memory. (Rudolf Stei_ (Z-Library).pdf';
+import FindyourpeopleImage from '../assets/images/Find your people.jpg';
+import FindyourpeoplePdf from '../assets/pdfs/Find Your People (Jennie Al_ (Z-Library).pdf';
+import TheadvicetrapImage from '../assets/images/THe advice trap.jpg';
+import TheadvicetrapPdf from '../assets/pdfs/The Advice Trap Be Humble,_ (Z-Library).pdf';
+import OfbiysandmenImage from '../assets/images/Of boys and men.png';
+import OfbiysandmenPdf from '../assets/pdfs/Of Boys And Men An Enemies_ (Z-Library).pdf';
+import BoundbyhatredImage from '../assets/images/bound by hatred.jpg';
+import BoundbyhatredPdf from '../assets/pdfs/Bound by Hatred (Cora Reill_ (Z-Library).pdf';
+import Thefourthindustrial from '../assets/images/THe fouth industrial revolution.jpg';
+import ThefourthindustrialPdf from '../assets/pdfs/The Fourth Industrial Revol_ (Z-Library).pdf';
+import TheblackswanImage from '../assets/images/Black swan.jpg';
+import TheblackswanPdf from '../assets/pdfs/The Black Swan  The Impact_ (Z-Library).pdf';
+
 
 
 
@@ -831,6 +852,96 @@ import ThewayofmenPdf from '../assets/pdfs/The Way of Men (Jack Donovan) (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: TheblackswanImage,
+    title: 'The Black Swan',
+    author: 'Nassim Nicholas Taleb',
+    genre: "Non Fiction",
+    availability: true,
+    read:TheblackswanPdf,
+    Download: require('../assets/pdfs/The Black Swan  The Impact_ (Z-Library).pdf')
+  },
+  {
+    picture: Thefourthindustrial,
+    title: 'The Fourth Industrial Revolution',
+    author: 'Klaus Schwab',
+    genre: "Revolution",
+    availability: true,
+    read:ThefourthindustrialPdf,
+    Download: require('../assets/pdfs/The Fourth Industrial Revol_ (Z-Library).pdf')
+  },
+  {
+    picture: BoundbyhatredImage,
+    title: 'Bound By Hatred',
+    author: 'Cora Reilly',
+    genre: "Romance",
+    availability: true,
+    read:BoundbyhatredPdf,
+    Download: require('../assets/pdfs/Bound by Hatred (Cora Reill_ (Z-Library).pdf')
+  },
+  {
+    picture: OfbiysandmenImage,
+    title: 'Of Boys And Men',
+    author: 'Renee Harless',
+    genre: "Masculinity",
+    availability: true,
+    read:OfbiysandmenPdf,
+    Download: require('../assets/pdfs/Of Boys And Men An Enemies_ (Z-Library).pdf')
+  },
+  {
+    picture: TheadvicetrapImage,
+    title: 'The Advice Trap',
+    author: 'Micheal Bungay',
+    genre: "Self Help",
+    availability: true,
+    read:TheadvicetrapPdf,
+    Download: require('../assets/pdfs/The Advice Trap Be Humble,_ (Z-Library).pdf')
+  },
+  {
+    picture: FindyourpeopleImage,
+    title: 'Find Your People',
+    author: 'Jennie Almeida',
+    genre: "Christian Literature",
+    availability: true,
+    read:FindyourpeoplePdf,
+    Download: require('../assets/pdfs/Find Your People (Jennie Al_ (Z-Library).pdf')
+  },
+  {
+    picture: CosmicmemoryImage,
+    title: 'Cosmic Memory',
+    author: 'Rudolf Steinhardt',
+    genre: "Acient Wisdom",
+    availability: true,
+    read:CosmicmemoryPdf,
+    Download: require('../assets/pdfs/Cosmic Memory. (Rudolf Stei_ (Z-Library).pdf')
+  },
+  {
+    picture: MemorymanImage,
+    title: 'Memory Man',
+    author: 'David Baldacci',
+    genre: "Thirrler",
+    availability: true,
+    read:MemorymanPdf,
+    Download: require('../assets/pdfs/Memory Man (Memory Man seri_ (Z-Library).pdf')
+  },
+  {
+    picture: UseyourmemoryImage,
+    title: 'Use Your Memory',
+    author: 'Tony Buzan',
+    genre: "Self Help",
+    availability: true,
+    read:UseyourmemoryPdf,
+    Download: require('../assets/pdfs/Use Your Memory (Tony Buzan) (Z-Library).pdf')
+  },
+  {
+    picture:ThemanualImage,
+    title: 'The Manual',
+    author: 'Rod Bremer',
+    genre: "Self Help",
+    availability: true,
+    read:ThemanualPdf,
+    Download: require('../assets/pdfs/The Manual - A Guide to the_ (Z-Library).pdf')
+  },
   {
     picture: ThewayofmenImage,
     title: 'The Way Of Men',
