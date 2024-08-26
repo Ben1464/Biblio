@@ -1,4 +1,4 @@
-/* Header base styles */
+/* General Styles */
 .header {
   background-image: url('../assets/images/book\ reading\ 3.avif');
   background-size: cover;
@@ -68,7 +68,6 @@
   top: 8px;
 }
 
-/* Open Hamburger Animation */
 .open .hamburger-icon {
   transform: rotate(45deg);
 }
@@ -152,7 +151,7 @@
   }
 
   .header-nav.open {
-    max-height: 300px; /* Adjust based on the number of menu items */
+    max-height: 300px;
   }
 
   .nav-list {
@@ -162,6 +161,19 @@
 
   .nav-item {
     margin: 10px 0;
+  }
+
+  .auth-item {
+    margin: 10px 0;
+  }
+
+  .auth-buttons {
+    display: none; /* Hide on mobile */
+  }
+
+  .sign-in-button, .user-button {
+    color: white;
+    font-size: 16px;
   }
 
   .back-to-top-button {
