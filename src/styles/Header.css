@@ -2,6 +2,7 @@
 .header {
   background-image: url('../assets/images/book\ reading\ 3.avif');
   background-size: cover;
+  background-position: center;
   color: white;
   padding: 0px 0;
   position: fixed;
@@ -141,17 +142,19 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.9);
     max-height: 0;
     overflow: hidden;
     width: 100%;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     transition: max-height 0.3s ease;
+    background-image: url('../assets/images/book\ reading\ 3.avif'); /* Use the same background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
   }
 
   .header-nav.open {
-    max-height: 300px;
+    max-height: 400px; /* Adjust based on the content */
   }
 
   .nav-list {
