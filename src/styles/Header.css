@@ -1,8 +1,6 @@
-/* General Styles */
 .header {
-  background-image: url('../assets/images/book\ reading\ 3.avif');
+  background-image: url('../assets/images/book\ reading\ 3.avif'); /* Default background image */
   background-size: cover;
-  background-position: center;
   color: white;
   padding: 0px 0;
   position: fixed;
@@ -11,14 +9,14 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 150s infinite;
+  animation: backgroundAnimation 150s infinite; /* 30s duration for ten images */
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -28,66 +26,27 @@
   font-size: 28px;
   font-weight: bold;
   margin: 0;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Orbitron', sans-serif; /* A futuristic font */
   text-transform: uppercase;
 }
 
-/* Hamburger Menu */
-.hamburger-menu {
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: none;
-  padding: 10px;
-}
-
-.hamburger-icon {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  display: block;
-  position: relative;
-  transition: transform 0.3s ease;
-}
-
-.hamburger-icon::before,
-.hamburger-icon::after {
-  content: '';
-  width: 25px;
-  height: 3px;
-  background-color: white;
+.auth-buttons {
   position: absolute;
-  left: 0;
-  transition: transform 0.3s ease;
+  top: 10px;
+  right: 10px;
 }
 
-.hamburger-icon::before {
-  top: -8px;
-}
+/* .sign-in-button { */
+  /* Adjust styles for SignInButton */
+/* } */
 
-.hamburger-icon::after {
-  top: 8px;
-}
+/* .user-button { */
+  /* Adjust styles for UserButton */
+/* } */
 
-.open .hamburger-icon {
-  transform: rotate(45deg);
-}
-
-.open .hamburger-icon::before {
-  transform: rotate(90deg);
-  top: 0;
-}
-
-.open .hamburger-icon::after {
-  transform: rotate(90deg);
-  top: 0;
-}
-
-/* Navigation Menu */
 .header-nav {
   display: flex;
   align-items: center;
-  transition: max-height 0.3s ease;
 }
 
 .nav-list {
@@ -130,56 +89,44 @@
   width: 100%;
 }
 
-/* Mobile View */
+.back-to-top-button {
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+.back-to-top-button:hover {
+  background-color: #45a049;
+}
+
 @media (max-width: 768px) {
-  .hamburger-menu {
-    display: block;
+  .header-container {
+    flex-direction: column;
   }
-
+  
   .header-nav {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    max-height: 0;
-    overflow: hidden;
-    width: 100%;
-    padding: 20px;
-    transition: max-height 0.3s ease;
-    background-image: url('../assets/images/book\ reading\ 3.avif'); /* Use the same background image */
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+    margin-top: 10px;
   }
-
-  .header-nav.open {
-    max-height: 400px; /* Adjust based on the content */
-  }
-
-  .nav-list {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
+  
   .nav-item {
-    margin: 10px 0;
-  }
-
-  .auth-item {
-    margin: 10px 0;
-  }
-
-  .auth-buttons {
-    display: none; /* Hide on mobile */
-  }
-
-  .sign-in-button, .user-button {
-    color: white;
-    font-size: 16px;
+    margin-left: 0;
+    margin-top: 10px;
   }
 
   .back-to-top-button {
-    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 }
