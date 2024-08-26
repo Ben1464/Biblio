@@ -1,5 +1,6 @@
+/* Header base styles */
 .header {
-  background-image: url('../assets/images/book\ reading\ 3.avif'); /* Default background image */
+  background-image: url('../assets/images/book\ reading\ 3.avif');
   background-size: cover;
   color: white;
   padding: 0px 0;
@@ -9,14 +10,14 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: backgroundAnimation 150s infinite; /* 30s duration for ten images */
+  animation: backgroundAnimation 150s infinite;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 400px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
@@ -26,27 +27,67 @@
   font-size: 28px;
   font-weight: bold;
   margin: 0;
-  font-family: 'Orbitron', sans-serif; /* A futuristic font */
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
 }
 
-.auth-buttons {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+/* Hamburger Menu */
+.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding: 10px;
 }
 
-/* .sign-in-button { */
-  /* Adjust styles for SignInButton */
-/* } */
+.hamburger-icon {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  position: relative;
+  transition: transform 0.3s ease;
+}
 
-/* .user-button { */
-  /* Adjust styles for UserButton */
-/* } */
+.hamburger-icon::before,
+.hamburger-icon::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease;
+}
 
+.hamburger-icon::before {
+  top: -8px;
+}
+
+.hamburger-icon::after {
+  top: 8px;
+}
+
+/* Open Hamburger Animation */
+.open .hamburger-icon {
+  transform: rotate(45deg);
+}
+
+.open .hamburger-icon::before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.open .hamburger-icon::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+/* Navigation Menu */
 .header-nav {
   display: flex;
   align-items: center;
+  transition: max-height 0.3s ease;
 }
 
 .nav-list {
@@ -89,44 +130,41 @@
   width: 100%;
 }
 
-.back-to-top-button {
-  color: black;
-  border: none;
-  padding: 5px 10px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 2px 1px;
-  cursor: pointer;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 2px;
-  margin-right: 5px;
-}
-
-.back-to-top-button:hover {
-  background-color: #45a049;
-}
-
+/* Mobile View */
 @media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
+  .hamburger-menu {
+    display: block;
   }
-  
+
   .header-nav {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    transition: max-height 0.3s ease;
   }
-  
+
+  .header-nav.open {
+    max-height: 300px; /* Adjust based on the number of menu items */
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .nav-item {
-    margin-left: 0;
-    margin-top: 10px;
+    margin: 10px 0;
   }
 
   .back-to-top-button {
-    margin-bottom: 20px;
-    margin-left: 20px;
+    color: white;
   }
 }
