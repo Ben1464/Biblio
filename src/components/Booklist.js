@@ -838,6 +838,26 @@ import Thefourthindustrial from '../assets/images/THe fouth industrial revolutio
 import ThefourthindustrialPdf from '../assets/pdfs/The Fourth Industrial Revol_ (Z-Library).pdf';
 import TheblackswanImage from '../assets/images/Black swan.jpg';
 import TheblackswanPdf from '../assets/pdfs/The Black Swan  The Impact_ (Z-Library).pdf';
+import ThecomingwaveImage from '../assets/images/The coming wave.jpg';
+import ThecomingwavePdf from '../assets/pdfs/The Coming Wave Or, The Hid_ (Z-Library).pdf';
+import ViraltherapyImage from '../assets/images/Viral therapy of cancer.jpg';
+import ViraltherapyPdf from '../assets/pdfs/Viral Therapy of Cancer (K._ (Z-Library).pdf';
+import ThemasterandhisImage from '../assets/images/The master and his emissary.jpg';
+import ThemasterandhisPdf from '../assets/pdfs/The Master and His Emissary_ (Z-Library).pdf';
+import GetoutofmyheadImage from '../assets/images/Get out of my head.jpg';
+import GetoutofmyheadPdf from '../assets/images/Get out of my head.jpg';
+import StartwithwhyImage from '../assets/images/Start with why.jpg';
+import StartwithwhyPdf from '../assets/pdfs/Start With Why (Simon Sinek) (Z-Library).pdf';
+import ReasontostayaliveImage from '../assets/images/Reason to stay alive.jpg';
+import ReasontostayalivePdf from '../assets/pdfs/Reasons to Stay Alive (Kisa_ (Z-Library).pdf';
+import OntheshortnessoflifeImage from '../assets/images/On the shortness of live.jpg';
+import OntheshortnessoflifePdf from '../assets/pdfs/On the Shortness of Life (S_ (Z-Library).pdf';
+import ModernphilosophersImages from '../assets/images/12 modern philosophers.jpg';
+import ModernPhilosophersPdfs from '../assets/pdfs/12 Modern Philosophers (Chr_ (Z-Library).pdf';
+import LetterfromastoicImage from '../assets/images/letters-from-a-stoic-2.jpg';
+import LetterfromastoicPdf from '../assets/pdfs/Letters from a Stoic (Luciu_ (Z-Library).pdf';
+import MiraclemoriningImage from '../assets/images/Miracle morning.jpg';
+import MiraclemoriningPdf from '../assets/pdfs/Miracle Morning Millionaire_ (Z-Library).pdf';
 
 
 
@@ -852,6 +872,97 @@ import TheblackswanPdf from '../assets/pdfs/The Black Swan  The Impact_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: MiraclemoriningImage,
+    title: 'Miracle Morning Millionaires',
+    author: 'Hal Elrod',
+    genre: "Self help",
+    availability: true,
+    read:MiraclemoriningPdf,
+    Download: require('../assets/pdfs/Miracle Morning Millionaire_ (Z-Library).pdf')
+  },
+{
+    picture: LetterfromastoicImage,
+    title: 'Letter From A Stoic',
+    author: 'Senaca',
+    genre: "Stoicism",
+    availability: true,
+    read:LetterfromastoicPdf,
+    Download: require('../assets/pdfs/Letters from a Stoic (Luciu_ (Z-Library).pdf')
+  },
+  {
+    picture: ModernphilosophersImages,
+    title: '12 Modern Philosophers',
+    author: 'Christopher Belshaw',
+    genre: "Philosophy",
+    availability: true,
+    read:ModernPhilosophersPdfs,
+    Download: require('../assets/pdfs/12 Modern Philosophers (Chr_ (Z-Library).pdf')
+  },
+  {
+    picture: OntheshortnessoflifeImage,
+    title: 'On The Shortness Of Life',
+    author:'Seneca',
+    genre: "Philosophy",
+    availability: true,
+    read:OntheshortnessoflifePdf,
+    Download: require('../assets/pdfs/On the Shortness of Life (S_ (Z-Library).pdf')
+  },
+
+  {
+    picture: ReasontostayaliveImage,
+    title: 'Reasons To Stay Alive',
+    author: 'Matt Haig',
+    genre:"Self help",
+    availability: true,
+    read:ReasontostayalivePdf,
+    Download: require('../assets/pdfs/Reasons to Stay Alive (Kisa_ (Z-Library).pdf')
+  },
+  {
+    picture: StartwithwhyImage,
+    title: 'Start With Why',
+    author: 'Simon Sinek',
+    genre: "Self help",
+    availability: true,
+    read:StartwithwhyPdf,
+    Download: require('../assets/pdfs/Start With Why (Simon Sinek) (Z-Library).pdf')
+  },
+  {
+    picture: GetoutofmyheadImage,
+    title: 'Get Out Of My Head',
+    author: 'Meredith Arthur',
+    genre: "Self  help",
+    availability: true,
+    read:GetoutofmyheadPdf,
+    Download: require('../assets/pdfs/Get Out of My Head (Meredit_ (Z-Library).pdf')
+  },
+  {
+    picture: ThemasterandhisImage,
+    title: 'The Master And His Emissary',
+    author: 'Iain McGilchrist',
+    genre: "Psychology",
+    availability: true,
+    read:ThemasterandhisPdf,
+    Download: require('../assets/pdfs/The Master and His Emissary_ (Z-Library).pdf')
+  },
+  {
+    picture: ViraltherapyImage,
+    title: 'Viral Therapy',
+    author: 'Kelvin Harrington',
+    genre: "Health",
+    availability: true,
+    read:ViraltherapyPdf,
+    Download: require('../assets/pdfs/Viral Therapy of Cancer (K._ (Z-Library).pdf')
+  },
+  {
+    picture: ThecomingwaveImage,
+    title: 'The Coming Wave',
+    author: 'Oliver Optic',
+    genre: "Science",
+    availability: true,
+    read:ThecomingwavePdf,
+    Download: require('../assets/pdfs/The Coming Wave Or, The Hid_ (Z-Library).pdf')
+  },
   {
     picture: TheblackswanImage,
     title: 'The Black Swan',
