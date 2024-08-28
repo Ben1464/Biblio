@@ -858,6 +858,25 @@ import LetterfromastoicImage from '../assets/images/letters-from-a-stoic-2.jpg';
 import LetterfromastoicPdf from '../assets/pdfs/Letters from a Stoic (Luciu_ (Z-Library).pdf';
 import MiraclemoriningImage from '../assets/images/Miracle morning.jpg';
 import MiraclemoriningPdf from '../assets/pdfs/Miracle Morning Millionaire_ (Z-Library).pdf';
+import YouaretoogoodImage from '../assets/images/You are too goood to feel this bad.jpg';
+import YouaretoogoodPdf from '../assets/pdfs/Youre Too Good to Feel This_ (Z-Library).pdf';
+import NeverBingeIMage from '../assets/images/Never BInge again.jpg';
+import NeverBingePdf from '../assets/pdfs/Never Binge Again(tm) Repro_ (Z-Library).pdf';
+import ScheduleyourtimeImage from '../assets/images/Schedule your day.jpg';
+import ScheduleyourtimePdf from '../assets/pdfs/Schedule Your Day 3-in-1 Bu_ (Z-Library).pdf';
+import THinkinginbetImage from '../assets/images/THinking in bets.jpg';
+import ThinkinginbetsPdf from '../assets/pdfs/Thinking in Bets Making Sma_ (Z-Library).pdf';
+import HowtechworksImage from '../assets/images/How technology works.jpeg';
+import HowtechworksPdf from '../assets/pdfs/How Technology Works (DK Pu_ (Z-Library).pdf';
+import InsearchofwisdomImage from '../assets/images/In search of wisdom.jpg';
+import InsearchofwisdomPdf from '../assets/pdfs/In Search of Wisdom (Joyce_ (Z-Library).pdf';
+import TurningproImage from '../assets/images/Turning pro.jpg';
+import TurningproPdf from '../assets/pdfs/Turning Pro Tap Your Inner_ (Z-Library).pdf';
+import GritImage from '../assets/images/Grit.jpg';
+import GritPdf from '../assets/pdfs/Grit How to keep going when_ (Z-Library).pdf';
+import FragileliveImage from '../assets/images/Fragile lives.jpeg';
+import FragilelivesPdf from '../assets/pdfs/Fragile Lives Violence, Pow_ (Z-Library).pdf';
+
 
 
 
@@ -872,6 +891,87 @@ import MiraclemoriningPdf from '../assets/pdfs/Miracle Morning Millionaire_ (Z-L
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: FragileliveImage,
+    title: 'Fragile Lives',
+    author: 'Arlette Farge',
+    genre: "Non Fiction",
+    availability: true,
+    read:FragilelivesPdf,
+    Download: require('../assets/pdfs/Miracle Morning Millionaire_ (Z-Library).pdf')
+  },
+  {
+    picture: GritImage,
+    title: 'Grit',
+    author: 'Martin Meadows',
+    genre: "Self help",
+    availability: true,
+    read:GritPdf,
+    Download: require('../assets/pdfs/Grit How to keep going when_ (Z-Library).pdf')
+  },
+  {
+    picture: TurningproImage,
+    title: 'Turning Pro',
+    author: 'Steven Pressfield',
+    genre: "Self help",
+    availability: true,
+    read:TurningproPdf,
+    Download: require('../assets/pdfs/Turning Pro Tap Your Inner_ (Z-Library).pdf')
+  },
+  {
+    picture: InsearchofwisdomImage,
+    title: 'In Search Of Wisdom',
+    author: 'Joyce Meyer',
+    genre: "Self help",
+    availability: true,
+    read:InsearchofwisdomPdf,
+    Download: require('../assets/pdfs/In Search of Wisdom (Joyce_ (Z-Library).pdf')
+  },
+  {
+    picture:HowtechworksImage,
+    title: 'How Technology Works',
+    author: 'D K',
+    genre: "Technology",
+    availability: true,
+    read:HowtechworksPdf,
+    Download: require('../assets/pdfs/How Technology Works (DK Pu_ (Z-Library).pdf')
+  },
+  {
+    picture: THinkinginbetImage,
+    title: 'Thinking In Bets',
+    author: 'Annie Duke',
+    genre: "Self help",
+    availability: true,
+    read:ThinkinginbetsPdf,
+    Download: require('../assets/pdfs/Thinking in Bets Making Sma_ (Z-Library).pdf')
+  },
+  {
+    picture: ScheduleyourtimeImage,
+    title: 'Schedule Your Day',
+    author: 'Miles Toole',
+    genre: "Self help",
+    availability: true,
+    read:ScheduleyourtimePdf,
+    Download: require('../assets/pdfs/Schedule Your Day 3-in-1 Bu_ (Z-Library).pdf')
+  },
+  {
+    picture: NeverBingeIMage,
+    title: 'Never Binge Again',
+    author: 'Glenn Livingston',
+    genre: "Self help",
+    availability: true,
+    read:NeverBingePdf,
+    Download: require('../assets/pdfs/Never Binge Again(tm) Repro_ (Z-Library).pdf')
+  },
+  {
+    picture: YouaretoogoodImage,
+    title: 'You Are Too Good To Feel This Bad',
+    author: 'Nate Dallas',
+    genre: "Self help",
+    availability: true,
+    read:YouaretoogoodPdf,
+    Download: require('../assets/pdfs/Youre Too Good to Feel This_ (Z-Library).pdf')
+  },
   {
     picture: MiraclemoriningImage,
     title: 'Miracle Morning Millionaires',
