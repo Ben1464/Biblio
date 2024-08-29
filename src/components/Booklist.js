@@ -876,6 +876,19 @@ import GritImage from '../assets/images/Grit.jpg';
 import GritPdf from '../assets/pdfs/Grit How to keep going when_ (Z-Library).pdf';
 import FragileliveImage from '../assets/images/Fragile lives.jpeg';
 import FragilelivesPdf from '../assets/pdfs/Fragile Lives Violence, Pow_ (Z-Library).pdf';
+import SolitaryImage from '../assets/images/Solitary sinners.jpg';
+import SolitaryPdf from '../assets/pdfs/Solitary Sinners (Saint Vie_ (Z-Library).pdf';
+// import BravingthewildernesImage from '../assets/images/Braving the wildernes.jpg';
+// import BravingthewildernesPdf from '../assets/images/Braving the wildernes.jpg';
+// import ThebigleapImage from '../assets/images/THe big leap.jpg';
+// import ThebigleapPdf from '../assets/pdfs/The big leap conquer your h_ (Z-Library).pdf';
+// import Thebodykeeps from '../assets/images/THe body keeps the score.jpg';
+// import ThebodykeepsPdf from '../assets/pdfs/The Body Keeps the Score Br_ (Z-Library).pdf';
+// import StopdoingthatIMage from '../assets/images/Stop doning that shit.jpeg';
+// import StopdoingthatPdf from '../assets/pdfs/Stop Doing That Sht (Gary J_ (Z-Library).pdf';
+// import BuildIMage from '../assets/images/Built.jpg';
+// import BuildPdf from '../assets/pdfs/BUILT  The Mountain Mans Ba_ (Z-Library).pdf';
+
 
 
 
@@ -891,6 +904,15 @@ import FragilelivesPdf from '../assets/pdfs/Fragile Lives Violence, Pow_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: SolitaryImage,
+    title: 'Solitary Sinners',
+    author: 'Elle Thotpe',
+    genre: "Romance",
+    availability: true,
+    read:SolitaryPdf,
+    Download: require('../assets/pdfs/Solitary Sinners (Saint Vie_ (Z-Library).pdf')
+  },
   {
     picture: FragileliveImage,
     title: 'Fragile Lives',
