@@ -878,16 +878,22 @@ import FragileliveImage from '../assets/images/Fragile lives.jpeg';
 import FragilelivesPdf from '../assets/pdfs/Fragile Lives Violence, Pow_ (Z-Library).pdf';
 import SolitaryImage from '../assets/images/Solitary sinners.jpg';
 import SolitaryPdf from '../assets/pdfs/Solitary Sinners (Saint Vie_ (Z-Library).pdf';
-// import BravingthewildernesImage from '../assets/images/Braving the wildernes.jpg';
-// import BravingthewildernesPdf from '../assets/images/Braving the wildernes.jpg';
-// import ThebigleapImage from '../assets/images/THe big leap.jpg';
-// import ThebigleapPdf from '../assets/pdfs/The big leap conquer your h_ (Z-Library).pdf';
-// import Thebodykeeps from '../assets/images/THe body keeps the score.jpg';
-// import ThebodykeepsPdf from '../assets/pdfs/The Body Keeps the Score Br_ (Z-Library).pdf';
-// import StopdoingthatIMage from '../assets/images/Stop doning that shit.jpeg';
-// import StopdoingthatPdf from '../assets/pdfs/Stop Doing That Sht (Gary J_ (Z-Library).pdf';
-// import BuildIMage from '../assets/images/Built.jpg';
-// import BuildPdf from '../assets/pdfs/BUILT  The Mountain Mans Ba_ (Z-Library).pdf';
+import BravingthewildernesImage from '../assets/images/Braving the wildernes.jpg';
+import BravingthewildernesPdf from '../assets/images/Braving the wildernes.jpg';
+import ThebigleapImage from '../assets/images/THe big leap.jpg';
+import ThebigleapPdf from '../assets/pdfs/The big leap conquer your h_ (Z-Library).pdf';
+import ThebodykeepsImages from '../assets/images/THe body keeps the score.jpg';
+import ThebodykeepsPdf from '../assets/pdfs/The Body Keeps the Score Br_ (Z-Library).pdf';
+import StopdoingthatIMage from '../assets/images/Stop doning that shit.jpeg';
+import StopdoingthatPdf from '../assets/pdfs/Stop Doing That Sht (Gary J_ (Z-Library).pdf';
+import BuildIMage from '../assets/images/Built.jpg';
+import BuildPdf from '../assets/pdfs/BUILT  The Mountain Mans Ba_ (Z-Library).pdf';
+import YouarenotenoughImage from '../assets/images/You are not enough.jpg';
+import YouarenotenoughPdf from '../assets/pdfs/Youre Not Enough (And Thats_ (Z-Library).pdf';
+import ThecommunistmanifestoImage from '../assets/images/Communinst manifesto.jpg';
+import ThecommunistmanifestoPdf from '../assets/pdfs/Communist Manifesto (Karl M_ (Z-Library).pdf';
+import BetheoutlierImage from '../assets/images/Be the outlier.jpg';
+import BetheoutlierPdf from '../assets/pdfs/Be the Outlier  How to Ace_ (Z-Library).pdf';
 
 
 
@@ -904,6 +910,78 @@ import SolitaryPdf from '../assets/pdfs/Solitary Sinners (Saint Vie_ (Z-Library)
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: BetheoutlierImage,
+    title: 'Be The Outlier',
+    author: 'Shrilata Murthy',
+    genre: "Data Science",
+    availability: true,
+    read:BetheoutlierPdf,
+    Download: require('../assets/pdfs/Be the Outlier  How to Ace_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecommunistmanifestoImage,
+    title: 'The Communist Manifesto',
+    author: 'Karl Max',
+    genre: "Philosopy",
+    availability: true,
+    read:ThecommunistmanifestoPdf,
+    Download: require('../assets/pdfs/Communist Manifesto (Karl M_ (Z-Library).pdf')
+  },
+  {
+    picture: YouarenotenoughImage,
+    title: 'You Are Not Enough',
+    author: 'Allie Beth',
+    genre: "Self help",
+    availability: true,
+    read:YouarenotenoughPdf,
+    Download: require('../assets/pdfs/Youre Not Enough (And Thats_ (Z-Library).pdf')
+  },
+  {
+    picture: BuildIMage,
+    title: 'Built',
+    author: 'Frankie Love',
+    genre: "Self help",
+    availability: true,
+    read:BuildPdf,
+    Download: require('../assets/pdfs/BUILT  The Mountain Mans Ba_ (Z-Library).pdf')
+  },
+  {
+    picture: StopdoingthatIMage,
+    title: 'Stop Doing That Shit',
+    author: 'Gary John',
+    genre: "Self help",
+    availability: true,
+    read:StopdoingthatPdf,
+    Download: require('../assets/pdfs/Stop Doing That Sht (Gary J_ (Z-Library).pdf')
+  },
+  {
+    picture: ThebodykeepsImages,
+    title: 'The Body Keeps The Score',
+    author: 'Bessel Van Der',
+    genre: "Self help",
+    availability: true,
+    read:ThebodykeepsPdf,
+    Download: require('../assets/pdfs/The Body Keeps the Score Br_ (Z-Library).pdf')
+  },
+  {
+    picture: ThebigleapImage,
+    title: 'The Big Leap',
+    author: 'Gay Hendricks',
+    genre: "Self help",
+    availability: true,
+    read:ThebigleapPdf,
+    Download: require('../assets/pdfs/The big leap conquer your h_ (Z-Library).pdf')
+  },
+  {
+    picture: BravingthewildernesImage,
+    title: 'Grit',
+    author: 'Brene Brown',
+    genre: "Self help",
+    availability: true,
+    read:BravingthewildernesPdf,
+    Download: require('../assets/pdfs/Braving the Wilderness The_ (Z-Library).pdf')
+  },
   {
     picture: SolitaryImage,
     title: 'Solitary Sinners',
