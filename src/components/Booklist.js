@@ -894,6 +894,21 @@ import ThecommunistmanifestoImage from '../assets/images/Communinst manifesto.jp
 import ThecommunistmanifestoPdf from '../assets/pdfs/Communist Manifesto (Karl M_ (Z-Library).pdf';
 import BetheoutlierImage from '../assets/images/Be the outlier.jpg';
 import BetheoutlierPdf from '../assets/pdfs/Be the Outlier  How to Ace_ (Z-Library).pdf';
+import FinancialstatementsImage from '../assets/images/Financial statements.jpg';
+import FinancialstatementsPdf from '../assets/pdfs/The Interpretation of Finan_ (Z-Library).pdf';
+import TheworriorsethosImage from '../assets/images/The warrirs ethos.jpg';
+import TheworriorsethosPdf from '../assets/pdfs/The Warrior Ethos (Steven P_ (Z-Library).pdf';
+import ThegiftofimperfectionImage from '../assets/images/The gifts of imperfection.jpg';
+import ThegiftofimperfectionPdf from '../assets/pdfs/The Gifts of Imperfection L_ (Z-Library).pdf';
+import DotheworkIMage from '../assets/images/Do the work.jpg';
+import DotheworkPdf from '../assets/pdfs/Do the Work (Steven Pressfi_ (Z-Library).pdf';
+import IthoughtitwasImage from '../assets/images/I thought it was just me.jpg';
+import IthoughtitwasPdf from '../assets/pdfs/I Thought It Was Just Me -_ (Z-Library).pdf';
+import TheartistImage from '../assets/images/The artist journey.jpg';
+import TheartistPdf from '../assets/pdfs/The Artists Journey (Steven_ (Z-Library).pdf';
+import DaringgreatlyImage from '../assets/images/Daring greatly.jpg';
+import DaringgreatlyPdf from '../assets/pdfs/Daring Greatly How the Cour_ (Z-Library).pdf';
+
 
 
 
@@ -910,6 +925,69 @@ import BetheoutlierPdf from '../assets/pdfs/Be the Outlier  How to Ace_ (Z-Libra
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: DaringgreatlyImage,
+    title: 'Daring GReatly',
+    author: 'Brene Brown',
+    genre: "Self Help",
+    availability: true,
+    read:DaringgreatlyPdf,
+    Download: require('../assets/pdfs/Daring Greatly How the Cour_ (Z-Library).pdf')
+  },
+  {
+    picture: TheartistImage,
+    title: 'The Artist Journey',
+    author: 'Steven Pressfield',
+    genre: "Self Help",
+    availability: true,
+    read:TheartistPdf,
+    Download: require('../assets/pdfs/The Artists Journey (Steven_ (Z-Library).pdf')
+  },
+  {
+    picture: IthoughtitwasImage,
+    title: 'I Thought It Was Just Me',
+    author: 'Brene Brown',
+    genre: "Self Help",
+    availability: true,
+    read:IthoughtitwasPdf,
+    Download: require('../assets/pdfs/I Thought It Was Just Me -_ (Z-Library).pdf')
+  },
+  {
+    picture:DotheworkIMage,
+    title: 'Do The Work',
+    author: 'Steven Pressfield',
+    genre: "Self Help",
+    availability: true,
+    read:DotheworkPdf,
+    Download: require('../assets/pdfs/Do the Work (Steven Pressfi_ (Z-Library).pdf')
+  },
+  {
+    picture: ThegiftofimperfectionImage,
+    title: 'The Gifts Of Imperfection',
+    author: 'Brene Brown',
+    genre: "Self Help",
+    availability: true,
+    read:ThegiftofimperfectionPdf,
+    Download: require('../assets/pdfs/The Gifts of Imperfection L_ (Z-Library).pdf')
+  },
+  {
+    picture: TheworriorsethosImage,
+    title: 'The Warrior Ethos',
+    author: 'Steven Pressfield',
+    genre: "Non Fiction",
+    availability: true,
+    read:TheworriorsethosPdf,
+    Download: require('../assets/pdfs/The Warrior Ethos (Steven P_ (Z-Library).pdf')
+  },
+  {
+    picture: FinancialstatementsImage,
+    title: 'The Interpretation Of Financial Statements',
+    author: 'Benjamin Graham',
+    genre: "Finance",
+    availability: true,
+    read:FinancialstatementsPdf,
+    Download: require('../assets/pdfs/The Interpretation of Finan_ (Z-Library).pdf')
+  },
   {
     picture: BetheoutlierImage,
     title: 'Be The Outlier',
