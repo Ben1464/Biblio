@@ -908,6 +908,26 @@ import TheartistImage from '../assets/images/The artist journey.jpg';
 import TheartistPdf from '../assets/pdfs/The Artists Journey (Steven_ (Z-Library).pdf';
 import DaringgreatlyImage from '../assets/images/Daring greatly.jpg';
 import DaringgreatlyPdf from '../assets/pdfs/Daring Greatly How the Cour_ (Z-Library).pdf';
+import PaletoprincipalImage from '../assets/images/paleto  your life.jpg';
+import PaletoprincipalPdf from '../assets/pdfs/8020 Your Life How To Get M_ (Z-Library).pdf';
+import LevelsofenergyImage from '../assets/images/Levels of energy.jpg';
+import LevelsofenergyPdf from '../assets/pdfs/Levels of Energy (Frederick_ (Z-Library).pdf';
+import AttachmentImage from '../assets/images/Attachments.jpg';
+import AttachmentPdf from '../assets/pdfs/Attachments (Rainbow Rowell) (Z-Library).pdf';
+import AmongthethugsImage from '../assets/images/Among the thugs.jpg';
+import AmongthethugsPdf from '../assets/pdfs/Among the Thugs (Bill Buford) (Z-Library).pdf';
+import MoralanimalImage from '../assets/images/Moral animal.jpg';
+import MoralanimalPdf from '../assets/pdfs/The Moral Animal Why We Are_ (Z-Library).pdf';
+import HowtolistenwithImage from '../assets/images/How to listen with intention.jpg';
+import HowtolistenwithPdf from '../assets/pdfs/How to Listen with Intentio_ (Z-Library).pdf';
+import PredictabilityirraImage from '../assets/images/Predictability and irrational.jpg';
+import PredictabilityirraPdf from '../assets/pdfs/Predictably Irrational The_ (Z-Library).pdf';
+import ThepschologyofshameImage from '../assets/images/The pschology of shame.jpg';
+import ThepschologyofshamePdf from '../assets/pdfs/The Psychology of Shame The_ (Z-Library).pdf';
+import FourthousandImage from '../assets/images/Four THOUSAND WEEKS.jpg'
+import FourthousandPdf from '../assets/pdfs/Four Thousand Weeks (Oliver_ (Z-Library).pdf'
+import NothingchangesImage from '../assets/images/Nothing changes untill you.jpg';
+import NothingchangesPdf from '../assets/pdfs/Nothing Changes Until You D_ (Z-Library).pdf';
 
 
 
@@ -925,6 +945,96 @@ import DaringgreatlyPdf from '../assets/pdfs/Daring Greatly How the Cour_ (Z-Lib
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: NothingchangesImage,
+    title: 'Nothing Changes Until You Do',
+    author: 'Mike Robbins',
+    genre: "Self Help",
+    availability: true,
+    read:NothingchangesPdf,
+    Download: require('../assets/pdfs/Nothing Changes Until You D_ (Z-Library).pdf')
+  },
+  {
+    picture: FourthousandImage,
+    title: 'Four Thousand Weeks',
+    author: 'Oliver Burkeman',
+    genre: "Self Help",
+    availability: true,
+    read:FourthousandPdf,
+    Download: require('../assets/pdfs/Four Thousand Weeks (Oliver_ (Z-Library).pdf')
+  },
+  {
+    picture: ThepschologyofshameImage,
+    title: 'The Psychology Of Shame',
+    author: 'Gershen Kaufman',
+    genre: "Psychology",
+    availability: true,
+    read:ThepschologyofshamePdf,
+    Download: require('../assets/pdfs/The Psychology of Shame The_ (Z-Library).pdf')
+  },
+  {
+    picture: PredictabilityirraImage,
+    title: 'Predictability And Irrational',
+    author: 'Dan Ariely',
+    genre: "Self Help",
+    availability: true,
+    read:PredictabilityirraPdf,
+    Download: require('../assets/pdfs/Predictably Irrational The_ (Z-Library).pdf')
+  },
+  {
+    picture:HowtolistenwithImage,
+    title: 'How To Listen With Intention',
+    author: 'Patrick King',
+    genre: "Self Help",
+    availability: true,
+    read:HowtolistenwithPdf,
+    Download: require('../assets/pdfs/How to Listen with Intentio_ (Z-Library).pdf')
+  },
+  {
+    picture: MoralanimalImage,
+    title: 'The Moral Animal',
+    author: 'Robert Wright',
+    genre: "Psychology",
+    availability: true,
+    read:MoralanimalPdf,
+    Download: require('../assets/pdfs/The Moral Animal Why We Are_ (Z-Library).pdf')
+  },
+  {
+    picture: AmongthethugsImage,
+    title: 'Among The Thugs',
+    author: 'Bill Buford',
+    genre: "Crime",
+    availability: true,
+    read:AmongthethugsPdf,
+    Download: require('../assets/pdfs/Among the Thugs (Bill Buford) (Z-Library).pdf')
+  },
+  {
+    picture: AttachmentImage,
+    title: 'Attachments',
+    author: 'Rainbow Rowell',
+    genre: "Self Help",
+    availability: true,
+    read:AttachmentPdf,
+    Download: require('../assets/pdfs/Attachments (Rainbow Rowell) (Z-Library).pdf')
+  },
+  {
+    picture: LevelsofenergyImage,
+    title: 'Levels Of Energy',
+    author: 'Frederick Dodson',
+    genre: "Self Help",
+    availability: true,
+    read:LevelsofenergyPdf,
+    Download: require('../assets/pdfs/Levels of Energy (Frederick_ (Z-Library).pdf')
+  },
+  {
+    picture: PaletoprincipalImage,
+    title: '80/20 Your Life',
+    author: 'Damon Zahariades',
+    genre: "Self Help",
+    availability: true,
+    read:PaletoprincipalPdf,
+    Download: require('../assets/pdfs/8020 Your Life How To Get M_ (Z-Library).pdf')
+  },
   {
     picture: DaringgreatlyImage,
     title: 'Daring GReatly',
