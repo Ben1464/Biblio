@@ -928,6 +928,24 @@ import FourthousandImage from '../assets/images/Four THOUSAND WEEKS.jpg'
 import FourthousandPdf from '../assets/pdfs/Four Thousand Weeks (Oliver_ (Z-Library).pdf'
 import NothingchangesImage from '../assets/images/Nothing changes untill you.jpg';
 import NothingchangesPdf from '../assets/pdfs/Nothing Changes Until You D_ (Z-Library).pdf';
+import TheprocrastinationImage from '../assets/images/THe procrastination .jpg';
+import TheprocrastinationPdf from '../assets/pdfs/The Procrastination Workboo_ (Z-Library).pdf';
+import EvolutionaryguideImage from '../assets/images/Evolutionary psch.jpg';
+import EvolutionaryguidePdf from '../assets/pdfs/Beginners Guides - Evolutio_ (Z-Library).pdf';
+import HelpImage from '../assets/images/Help.jpg';
+import HelpPdf from '../assets/pdfs/Help (Oliver Burkeman) (Z-Library).pdf';
+import RightkindImage from '../assets/images/right-kind-of-wrong-9781982195069_hr.jpg';
+import RightkindPdf from '../assets/pdfs/Right Kind of Wrong The Sci_ (Z-Library).pdf';
+import DeeplearningImage from '../assets/images/Deep learning.jpg';
+import DeeplearningPdf from '../assets/pdfs/Deep Learning (Ian Goodfell_ (Z-Library).pdf';
+import QuantummechImage from '../assets/images/Quantam mechanics.jpg';
+import QuantammechPdf from '../assets/pdfs/Introduction to Quantum Mec_ (Z-Library).pdf';
+import ThecrystalbibbleImage from '../assets/images/The crystall bibble.jpg';
+import ThecrystalbibblePdf from '../assets/pdfs/The Crystal Bible (Judy Hall) (Z-Library).pdf'
+import TraumaandrecoveryImage from '../assets/images/TRauma and recovery.jpeg';
+import TraumanadreciveryPdf from '../assets/pdfs/Trauma and Recovery The Aft_ (Z-Library).pdf';
+import TheantidotehapImage from '../assets/images/The antidote.jpg';
+import TheantidotehapPdf from '../assets/pdfs/The Antidote Happiness for_ (Z-Library).pdf';
 
 
 
@@ -945,6 +963,87 @@ import NothingchangesPdf from '../assets/pdfs/Nothing Changes Until You D_ (Z-Li
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: TheantidotehapImage,
+    title: 'The Antidote',
+    author: 'OLiver Burkeman',
+    genre: "Self Help",
+    availability: true,
+    read:TheantidotehapPdf,
+    Download: require('../assets/pdfs/The Antidote Happiness for_ (Z-Library).pdf')
+  },
+  {
+    picture: TraumaandrecoveryImage,
+    title: 'Trauma And Recovery',
+    author: 'Mike Robbins',
+    genre: "Self Help",
+    availability: true,
+    read:TraumanadreciveryPdf,
+    Download: require('../assets/pdfs/Trauma and Recovery The Aft_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecrystalbibbleImage,
+    title: 'The Crystal Bibble',
+    author: 'Judy Hall',
+    genre: "Self Help",
+    availability: true,
+    read:ThecrystalbibblePdf,
+    Download: require('../assets/pdfs/The Crystal Bible (Judy Hall) (Z-Library).pdf')
+  },
+  {
+    picture: QuantammechPdf,
+    title: 'Quantum Mechanics',
+    author: 'David Griffiths',
+    genre: "Engineering",
+    availability: true,
+    read:QuantummechImage,
+    Download: require('../assets/pdfs/Introduction to Quantum Mec_ (Z-Library).pdf')
+  },
+  {
+    picture: DeeplearningImage,
+    title: 'Deep Learning',
+    author: 'Ian Goodfell',
+    genre: "Self Help",
+    availability: true,
+    read:DeeplearningPdf,
+    Download: require('../assets/pdfs/Deep Learning (Ian Goodfell_ (Z-Library).pdf')
+  },
+  {
+    picture: RightkindImage,
+    title: 'Right Kind Of Wrong',
+    author: 'Amy Edmondson',
+    genre: "Romance",
+    availability: true,
+    read:RightkindPdf,
+    Download: require('../assets/pdfs/Right Kind of Wrong The Sci_ (Z-Library).pdf')
+  },
+  {
+    picture: HelpImage,
+    title: 'Help',
+    author: 'Oliver Burkeman',
+    genre: "Self Help",
+    availability: true,
+    read:HelpPdf,
+    Download: require('../assets/pdfs/Help (Oliver Burkeman) (Z-Library).pdf')
+  },
+  {
+    picture: EvolutionaryguideImage,
+    title: 'Evolutionary Pschology',
+    author: 'Robin Dunbar',
+    genre: "Evolution",
+    availability: true,
+    read:EvolutionaryguidePdf,
+    Download: require('../assets/pdfs/Beginners Guides - Evolutio_ (Z-Library).pdf')
+  },
+  {
+    picture: TheprocrastinationImage,
+    title: 'The Procrastination Workbook',
+    author: 'William Knaus',
+    genre: "Self Help",
+    availability: true,
+    read:TheprocrastinationPdf,
+    Download: require('../assets/pdfs/The Procrastination Workboo_ (Z-Library).pdf')
+  },
   {
     picture: NothingchangesImage,
     title: 'Nothing Changes Until You Do',
