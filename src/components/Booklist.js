@@ -946,6 +946,27 @@ import TraumaandrecoveryImage from '../assets/images/TRauma and recovery.jpeg';
 import TraumanadreciveryPdf from '../assets/pdfs/Trauma and Recovery The Aft_ (Z-Library).pdf';
 import TheantidotehapImage from '../assets/images/The antidote.jpg';
 import TheantidotehapPdf from '../assets/pdfs/The Antidote Happiness for_ (Z-Library).pdf';
+import ThematingmindImage from '../assets/images/The mating mind.jpeg';
+import ThematingmindPdf from '../assets/pdfs/The Mating Mind How Sexual_ (Z-Library).pdf';
+import SelfandothersImage from '../assets/images/Self and other.jpg';
+import SelfandotherPdf from '../assets/pdfs/Self and Other Exploring Su_ (Z-Library).pdf';
+import InpraiseofslownessImage from '../assets/images/In praise of slowness.jpg';
+import InpraiseofslownessPdf from '../assets/pdfs/In Praise of Slowness (Carl_ (Z-Library).pdf';
+import SparthistoryImage from '../assets/images/Sparta.jpeg';
+import SparthistoryPdf from '../assets/pdfs/Sparta History, Greek Spart_ (Z-Library).pdf';
+import ThecharmanImage from '../assets/images/The charismatic man.jpg';
+import ThecharmanPdf from '../assets/pdfs/The Charismatic Man The 3 E_ (Z-Library).pdf';
+import ThenowhabitsImage from '../assets/images/The nowq habit.jpg';
+import ThenowhabitPdf from '../assets/pdfs/The now habit a strategic p_ (Z-Library).pdf';
+import THeartofgatheiringImage from '../assets/images/The art of Gathering.jpeg';
+import THeartofgatheiringPdf from '../assets/pdfs/The Art of Gathering How We_ (Z-Library).pdf';
+import HowtoknowapersonImage from '../assets/images/How to know a person.jpg';
+import HowtoknowapersonPdf from '../assets/pdfs/How to Know a Person The Ar_ (Z-Library).pdf';
+import AwitchesbibleImage from '../assets/images/A witches bible.jpg';
+import AwitchesbiblePdf from '../assets/pdfs/A Witches Bible Principles,_ (Z-Library).pdf';
+import ThesevenhusbandsImage from '../assets/images/THe 7 husbands of everlyn hugo.jpeg';
+import ThesevenhusbandsPdf from '../assets/pdfs/The Seven Husbands of Evely_ (Z-Library).pdf';
+
 
 
 
@@ -963,6 +984,96 @@ import TheantidotehapPdf from '../assets/pdfs/The Antidote Happiness for_ (Z-Lib
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: ThesevenhusbandsImage,
+    title: 'The 7 Husbands Of Everlyn Hugo',
+    author: 'Taylor Jenkins',
+    genre: "Romance",
+    availability: true,
+    read:ThesevenhusbandsPdf,
+    Download: require('../assets/pdfs/The Seven Husbands of Evely_ (Z-Library).pdf')
+  },
+  {
+    picture: AwitchesbibleImage,
+    title: 'A Witches Bible',
+    author: 'Janet Farrar',
+    genre: "Sorcery",
+    availability: true,
+    read:AwitchesbiblePdf,
+    Download: require('../assets/pdfs/A Witches Bible Principles,_ (Z-Library).pdf')
+  },
+  {
+    picture: HowtoknowapersonImage,
+    title: 'How To Know A Person',
+    author: 'David Brooks',
+    genre: "Self Help",
+    availability: true,
+    read:HowtoknowapersonPdf,
+    Download: require('../assets/pdfs/How to Know a Person The Ar_ (Z-Library).pdf')
+  },
+  {
+    picture: THeartofgatheiringImage,
+    title: 'The Art Of Gathering',
+    author: 'Priya Parker',
+    genre: "Self Help",
+    availability: true,
+    read:THeartofgatheiringPdf,
+    Download: require('../assets/pdfs/The Art of Gathering How We_ (Z-Library).pdf')
+  },
+  {
+    picture: ThenowhabitsImage,
+    title: 'The Now Habit',
+    author: 'Neil Fiore',
+    genre: "Self Help",
+    availability: true,
+    read:ThenowhabitPdf,
+    Download: require('../assets/pdfs/The now habit a strategic p_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecharmanImage,
+    title: 'The Charismatic Man',
+    author: 'John Galsworthy',
+    genre: "Self Help",
+    availability: true,
+    read:ThecharmanPdf,
+    Download: require('../assets/pdfs/The Charismatic Man The 3 E_ (Z-Library).pdf')
+  },
+  {
+    picture: SparthistoryImage,
+    title: 'Sparta History',
+    author: 'Thomas Beckett',
+    genre: "History",
+    availability: true,
+    read:SparthistoryPdf,
+    Download: require('../assets/pdfs/Sparta History, Greek Spart_ (Z-Library).pdf')
+  },
+  {
+    picture: InpraiseofslownessImage,
+    title: 'In Praise Of Slowness',
+    author: 'Carl Honore',
+    genre: "Self Help",
+    availability: true,
+    read:InpraiseofslownessPdf,
+    Download: require('../assets/pdfs/In Praise of Slowness (Carl_ (Z-Library).pdf')
+  },
+  {
+    picture: SelfandothersImage,
+    title: 'Self And Other',
+    author: 'Dan Zahavi',
+    genre: "Self Help",
+    availability: true,
+    read:SelfandotherPdf,
+    Download: require('../assets/pdfs/Self and Other Exploring Su_ (Z-Library).pdf')
+  },
+  {
+    picture: ThematingmindImage,
+    title: 'The Mating Mind',
+    author: 'Geoffrey Miller',
+    genre: "Evolution",
+    availability: true,
+    read:ThematingmindPdf,
+    Download: require('../assets/pdfs/The Mating Mind How Sexual_ (Z-Library).pdf')
+  },
   {
     picture: TheantidotehapImage,
     title: 'The Antidote',
