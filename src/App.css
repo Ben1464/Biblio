@@ -5,6 +5,9 @@ body{
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right, #B0E0E6  ,  #E6E6FA);
+  background-image: url(../src/assets/images/book\ reading\ 1.avif); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center; 
   /* background-image: url(../src/assets/images/background1.jpeg); */
 
 }

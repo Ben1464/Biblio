@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react';
-import Booklist from './components/Booklist'; // Adjust the path if your folder structure is different
-import './App.css'; // If you have any styles specific to App.js
+import Booklist from './components/Booklist'; 
+import './App.css'; 
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { ThemeProvider, ThemeContext } from './context/ThemeContext'; // Adjust the path if necessary
+import { ThemeProvider, ThemeContext } from './context/ThemeContext'; 
 import { SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
 
 function App() {
