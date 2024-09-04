@@ -8,6 +8,7 @@ body{
   background-image: url(../src/assets/images/book\ reading\ 1.avif); /* Ensure the path is correct */
   background-size: cover;
   background-position: center; 
+  background-repeat: no-repeat;
   /* background-image: url(../src/assets/images/background1.jpeg); */
 
 }
