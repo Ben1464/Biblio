@@ -966,6 +966,26 @@ import AwitchesbibleImage from '../assets/images/A witches bible.jpg';
 import AwitchesbiblePdf from '../assets/pdfs/A Witches Bible Principles,_ (Z-Library).pdf';
 import ThesevenhusbandsImage from '../assets/images/THe 7 husbands of everlyn hugo.jpeg';
 import ThesevenhusbandsPdf from '../assets/pdfs/The Seven Husbands of Evely_ (Z-Library).pdf';
+import ThecodeofamanImage from '../assets/images/THe code of man.jpg';
+import ThecodeofamanPdf from '../assets/pdfs/The Code of Man Love Courag_ (Z-Library).pdf';
+import ShameImage from '../assets/images/Shame.jpg';
+import ShamePdf from '../assets/pdfs/Shame. (Paul Gilbert, Berni_ (Z-Library).pdf';
+import ShameandtheImahe from '../assets/images/Shame and the origin of self esteem.jpeg'
+import ShameandtheImahePdf from '../assets/pdfs/Shame and the Origins of Se_ (Z-Library).pdf';
+import HowtobeagentlemanImage from '../assets/images/How to be a gentle man.jpg';
+import HowtobeagentlemanPdf from '../assets/pdfs/How to Be a Gentleman A Tim_ (Z-Library).pdf';
+import ExploringselfImage from '../assets/images/Exploring the self.jpg';
+import ExploringselfPdf from '../assets/pdfs/Exploring the Self Philosop_ (Z-Library).pdf';
+import ArtofmanlnessImage from '../assets/images/Manliness.jpeg';
+import ArtofmanlnessPdf from '../assets/pdfs/The Illustrated Art of Manl_ (Z-Library).pdf';
+import DaystobeabettermanImage from '../assets/images/30 days to be a better man.jpg';
+import DaystobeabettermanPdf from '../assets/pdfs/30 Days to a Better Man (Br_ (Z-Library).pdf';
+import AllthelightImage from '../assets/images/All the light we can not see.jpg';
+import AllthelightPdf from '../assets/pdfs/All the Light We Cannot See_ (Z-Library).pdf';
+import PhenomenologyImage from '../assets/images/Phenomenology.jpeg';
+import PhenomenologyPdf from '../assets/pdfs/Phenomenology The Basics (D_ (Z-Library).pdf';
+import ThesongofachImage from '../assets/images/The songs of achilles.jpg';
+import ThesongofachPdf from '../assets/pdfs/The Song Of Achilles (Madel_ (Z-Library).pdf';
 
 
 
@@ -984,6 +1004,98 @@ import ThesevenhusbandsPdf from '../assets/pdfs/The Seven Husbands of Evely_ (Z-
 
 // Updated books array with correct paths to PDF files
 const books = [
+
+
+  {
+    picture: ThesongofachImage,
+    title: 'The Songs Of Achilles',
+    author: 'Madeline Miller',
+    genre:"Fiction",
+    availability: true,
+    read:ThesongofachPdf,
+    Download: require('../assets/pdfs/The Song Of Achilles (Madel_ (Z-Library).pdf')
+  },
+  {
+    picture: PhenomenologyImage,
+    title: 'Phenomenology',
+    author: 'Dan Zahavi',
+    genre: "Philosophy",
+    availability: true,
+    read:PhenomenologyPdf,
+    Download: require('../assets/pdfs/Phenomenology The Basics (D_ (Z-Library).pdf')
+  },
+  {
+    picture: AllthelightImage,
+    title: 'All The Light We Can Not See',
+    author: 'Anthony Doerr',
+    genre: "Self Help",
+    availability: true,
+    read:AllthelightPdf,
+    Download: require('../assets/pdfs/All the Light We Cannot See_ (Z-Library).pdf')
+  },
+  {
+    picture: DaystobeabettermanImage,
+    title: '30 Days To Be A Better Man',
+    author: 'Brett Mckay',
+    genre: "Masculinity",
+    availability: true,
+    read:DaystobeabettermanPdf,
+    Download: require('../assets/pdfs/30 Days to a Better Man (Br_ (Z-Library).pdf')
+  },
+  {
+    picture: ArtofmanlnessImage,
+    title: 'The Art Of Manliness',
+    author: 'Brett Mckay',
+    genre: "Masculinity",
+    availability: true,
+    read:ArtofmanlnessPdf,
+    Download: require('../assets/pdfs/The Illustrated Art of Manl_ (Z-Library).pdf')
+  },
+  {
+    picture: ExploringselfImage,
+    title: 'Exploring The Self',
+    author: 'Dan Zahavi',
+    genre: "Self Help",
+    availability: true,
+    read:ExploringselfPdf,
+    Download: require('../assets/pdfs/Exploring the Self Philosop_ (Z-Library).pdf')
+  },
+  {
+    picture: HowtobeagentlemanImage,
+    title: 'How To Be A Gentleman',
+    author: 'John Bridges',
+    genre: "Masculinity",
+    availability: true,
+    read:HowtobeagentlemanPdf,
+    Download: require('../assets/pdfs/How to Be a Gentleman A Tim_ (Z-Library).pdf')
+  },
+  {
+    picture: ShameandtheImahe,
+    title: 'Shame And The Origin Of Self-Esteem',
+    author: 'Mario Jacoby',
+    genre: "Self Help",
+    availability: true,
+    read:ShameandtheImahePdf,
+    Download: require('../assets/pdfs/Shame and the Origins of Se_ (Z-Library).pdf')
+  },
+  {
+    picture: ShameImage,
+    title: 'Shame',
+    author: 'Paul Gilbert',
+    genre: "Self Help",
+    availability: true,
+    read:ShamePdf,
+    Download: require('../assets/pdfs/Shame. (Paul Gilbert, Berni_ (Z-Library).pdf')
+  },
+  {
+    picture: ThecodeofamanImage,
+    title: 'The Code Of Man',
+    author: 'Waller Newell',
+    genre: "Masculinity",
+    availability: true,
+    read:ThecodeofamanPdf,
+    Download: require('../assets/pdfs/The Code of Man Love Courag_ (Z-Library).pdf')
+  },
   {
     picture: ThesevenhusbandsImage,
     title: 'The 7 Husbands Of Everlyn Hugo',
