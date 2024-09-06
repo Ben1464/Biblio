@@ -986,6 +986,23 @@ import PhenomenologyImage from '../assets/images/Phenomenology.jpeg';
 import PhenomenologyPdf from '../assets/pdfs/Phenomenology The Basics (D_ (Z-Library).pdf';
 import ThesongofachImage from '../assets/images/The songs of achilles.jpg';
 import ThesongofachPdf from '../assets/pdfs/The Song Of Achilles (Madel_ (Z-Library).pdf';
+import BeyondthecultureImage from '../assets/images/Beyond the cultural turn.jpeg';
+import BeyondtheculturePdf from '../assets/pdfs/Beyond the Cultural Turn Ne_ (Z-Library).pdf';
+import AlterityImage from '../assets/images/alterity and facticity.png';
+import AlterityPdf from '../assets/pdfs/Alterity and Facticity New_ (Z-Library).pdf';
+import MentoboysImage from '../assets/images/Men to boys.jpg';
+import MentoboysPdf from '../assets/pdfs/Men to Boys The Making of M_ (Z-Library).pdf';
+import KingofrathImage from '../assets/images/King of warth.jpg';
+import KingofwrathPdf from '../assets/pdfs/King of Wrath from the best_ (Z-Library).pdf';
+import InfectiousgenImage from '../assets/images/Infectious generocity.jpeg';
+import infectiousgenPdf from '../assets/pdfs/Infectious Generosity The U_ (Z-Library).pdf';
+import SelfawarenessImage from '../assets/images/selfawareness and alterity.jpeg';
+import SelfawarenessPdf from '../assets/pdfs/Self-Awareness and Alterity_ (Z-Library).pdf';
+import ThesilentpatientImage from '../assets/images/THe silent patient.jpeg';
+import ThesilentpatientPdf from '../assets/pdfs/The Silent Patient (Alex Mi_ (Z-Library).pdf';
+import MakeitstickImage from '../assets/images/Cover+Make+it+Stick.jpg';
+import MakeitstickPdf from '../assets/pdfs/Make It Stick, The Science_ (Z-Library).pdf';
+
 
 
 
@@ -1004,8 +1021,78 @@ import ThesongofachPdf from '../assets/pdfs/The Song Of Achilles (Madel_ (Z-Libr
 
 // Updated books array with correct paths to PDF files
 const books = [
-
-
+  {
+    picture: MakeitstickImage,
+    title: 'Make It Stick',
+    author: 'Peter Brown',
+    genre: "Self Help",
+    availability: true,
+    read:MakeitstickPdf,
+    Download: require('../assets/pdfs/Make It Stick, The Science_ (Z-Library).pdf')
+  },
+  {
+    picture: ThesilentpatientImage,
+    title: 'The Silent Patient',
+    author: 'Alex Michaelides',
+    genre: "Thriller",
+    availability: true,
+    read:ThesilentpatientPdf,
+    Download: require('../assets/pdfs/The Silent Patient (Alex Mi_ (Z-Library).pdf')
+  },
+  {
+    picture: SelfawarenessImage,
+    title: 'Self-Awareness And Alterity',
+    author: 'Dan Zahavi',
+    genre: "Self Help",
+    availability: true,
+    read:SelfawarenessPdf,
+    Download: require('../assets/pdfs/Self-Awareness and Alterity_ (Z-Library).pdf')
+  },
+  {
+    picture: InfectiousgenImage,
+    title: 'Infectious Generosity',
+    author: 'Chris Andersson',
+    genre: "Self Help",
+    availability: true,
+    read:infectiousgenPdf,
+    Download: require('../assets/pdfs/Infectious Generosity The U_ (Z-Library).pdf')
+  },
+  {
+    picture:KingofrathImage,
+    title: 'King Of Wrath',
+    author: 'Ana Huang',
+    genre: "Romance",
+    availability: true,
+    read:KingofwrathPdf,
+    Download: require('../assets/pdfs/King of Wrath from the best_ (Z-Library).pdf')
+  },
+  {
+    picture: MentoboysImage,
+    title: 'Men To Boys',
+    author: 'Gary Cross',
+    genre: "Masculinity",
+    availability: true,
+    read:MentoboysPdf,
+    Download: require('../assets/pdfs/Men to Boys The Making of M_ (Z-Library).pdf')
+  },
+  {
+    picture: AlterityImage,
+    title: 'Alterity And Facticity',
+    author: 'N. Depraz',
+    genre: "Self Help",
+    availability: true,
+    read:AlterityPdf,
+    Download: require('../assets/pdfs/Alterity and Facticity New_ (Z-Library).pdf')
+  },
+  {
+    picture: BeyondthecultureImage,
+    title: 'Beyond The Culture Turn',
+    author: 'Caroline Byunum',
+    genre: "Culture",
+    availability: true,
+    read:BeyondtheculturePdf,
+    Download: require('../assets/pdfs/Beyond the Cultural Turn Ne_ (Z-Library).pdf')
+  },
   {
     picture: ThesongofachImage,
     title: 'The Songs Of Achilles',
