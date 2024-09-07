@@ -1002,6 +1002,24 @@ import ThesilentpatientImage from '../assets/images/THe silent patient.jpeg';
 import ThesilentpatientPdf from '../assets/pdfs/The Silent Patient (Alex Mi_ (Z-Library).pdf';
 import MakeitstickImage from '../assets/images/Cover+Make+it+Stick.jpg';
 import MakeitstickPdf from '../assets/pdfs/Make It Stick, The Science_ (Z-Library).pdf';
+import EroticismImage from '../assets/images/Erotism and body politics .jpeg';
+import EroticismPdf from '../assets/pdfs/Eroticism and the Body Poli_ (Z-Library).pdf';
+import PortfolioImage from '../assets/images/Portfolio selection.jpeg';
+import PortfolioPdf from '../assets/pdfs/Portfolio Selection Efficie_ (Z-Library).pdf';
+import WildatheartImage from '../assets/images/Wild at heart.jpeg';
+import WildatheartPdf from '../assets/pdfs/Wild at Heart (Revised and_ (Z-Library).pdf';
+import WritinghistoryinImage from '../assets/images/Writing history in the global erra.jpeg';
+import WritinghistoryPdf from '../assets/pdfs/Writing History in the Glob_ (Z-Library).pdf';
+import TedtalksImage from '../assets/images/Ted talks.jpg';
+import TedtalksPdf from '../assets/pdfs/TED Talks (Chris Anderson [_ (Z-Library).pdf';
+import ThekingwithinImage from '../assets/images/King within.jpg';
+import ThekingwithinPdf from '../assets/pdfs/The King Within Accessing t_ (Z-Library).pdf';
+import MoonwalkingImage from '../assets/images/Moonwalking.jpg';
+import MoonwalkingPdf from '../assets/pdfs/Moonwalking With Einstein (_ (Z-Library).pdf';
+import TwilightImage from '../assets/images/Twilight.jpeg';
+import TwilightPdf from '../assets/pdfs/Twilight (Stephenie Meyer) (Z-Library).pdf';
+import EverylastwordImage from '../assets/images/Every last word.jpg';
+import EverylastwordPdf from '../assets/pdfs/Every Last Word (Tamara Ire_ (Z-Library).pdf';
 
 
 
@@ -1021,6 +1039,87 @@ import MakeitstickPdf from '../assets/pdfs/Make It Stick, The Science_ (Z-Librar
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture: EverylastwordImage,
+    title: 'Every Last Word',
+    author: 'Tamara Ireland',
+    genre: "Fiction",
+    availability: true,
+    read:EverylastwordPdf,
+    Download: require('../assets/pdfs/Make It Stick, The Science_ (Z-Library).pdf')
+  },
+  {
+    picture: TwilightImage,
+    title: 'Twilight',
+    author: 'Stephenie Meyer',
+    genre: "Thriller",
+    availability: true,
+    read:TwilightPdf,
+    Download: require('../assets/pdfs/Twilight (Stephenie Meyer) (Z-Library).pdf')
+  },
+  {
+    picture: MoonwalkingImage,
+    title: 'Moonwaking With Einstein',
+    author: 'Joshua Foer',
+    genre: "Non-Fiction",
+    availability: true,
+    read:MoonwalkingPdf,
+    Download: require('../assets/pdfs/Moonwalking With Einstein (_ (Z-Library).pdf')
+  },
+  {
+    picture: ThekingwithinImage,
+    title: 'THe King Within',
+    author: 'Robert Mooore',
+    genre: "Self Help",
+    availability: true,
+    read:ThekingwithinPdf,
+    Download: require('../assets/pdfs/The King Within Accessing t_ (Z-Library).pdf')
+  },
+  {
+    picture: TedtalksImage,
+    title: 'Ted Talks',
+    author: 'Chris Anderson',
+    genre: "Self Help",
+    availability: true,
+    read:TedtalksPdf,
+    Download: require('../assets/pdfs/TED Talks (Chris Anderson [_ (Z-Library).pdf')
+  },
+  {
+    picture: WritinghistoryinImage,
+    title: 'Writing History In The Global Era',
+    author: 'Lynn Hunt',
+    genre: "History",
+    availability: true,
+    read:WritinghistoryPdf,
+    Download: require('../assets/pdfs/Writing History in the Glob_ (Z-Library).pdf')
+  },
+  {
+    picture: WildatheartImage,
+    title: 'Wilt At Heart',
+    author: 'John Eldredge',
+    genre: "Self Help",
+    availability: true,
+    read:WildatheartPdf,
+    Download: require('../assets/pdfs/Wild at Heart (Revised and_ (Z-Library).pdf')
+  },
+  {
+    picture: PortfolioImage,
+    title: 'Portifolio Selection',
+    author: 'Harry Markowitz',
+    genre: "Business",
+    availability: true,
+    read:PortfolioPdf,
+    Download: require('../assets/pdfs/Portfolio Selection Efficie_ (Z-Library).pdf')
+  },
+  {
+    picture: EroticismImage,
+    title: 'Eroticism And Body Politics',
+    author: 'Lynn Hunt',
+    genre: "Romance ",
+    availability: true,
+    read:EroticismPdf,
+    Download: require('../assets/pdfs/Eroticism and the Body Poli_ (Z-Library).pdf')
+  },
   {
     picture: MakeitstickImage,
     title: 'Make It Stick',
