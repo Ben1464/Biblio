@@ -1020,6 +1020,14 @@ import TwilightImage from '../assets/images/Twilight.jpeg';
 import TwilightPdf from '../assets/pdfs/Twilight (Stephenie Meyer) (Z-Library).pdf';
 import EverylastwordImage from '../assets/images/Every last word.jpg';
 import EverylastwordPdf from '../assets/pdfs/Every Last Word (Tamara Ire_ (Z-Library).pdf';
+import GodsisineverymanImage from '../assets/images/Gods is in everyman.jpg';
+import GodsisineverymanPdf from '../assets/pdfs/Gods In Everyman A New Psyc_ (Z-Library).pdf';
+import PeakIMage from '../assets/images/Peak.jpg';
+import PeakPdf from '../assets/pdfs/Peak Secrets from the New S_ (Z-Library).pdf';
+import ThememeorybookImage from '../assets/images/THe memory book.jpg';
+import ThememorybookPdf from '../assets/pdfs/The Memory Book (Harry Lora_ (Z-Library).pdf';
+import SpeakwithnoImage from '../assets/images/Speak with no fear.jpg';
+import SpeakwithnoPdf from '../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf'
 
 
 
@@ -1039,6 +1047,42 @@ import EverylastwordPdf from '../assets/pdfs/Every Last Word (Tamara Ire_ (Z-Lib
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture:SpeakwithnoImage,
+    title: 'Speak With No Fear',
+    author: 'Dale Carnegie',
+    genre: "Self Help",
+    availability: true,
+    read:SpeakwithnoPdf,
+    Download: require('../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf')
+  },
+  {
+    picture: ThememeorybookImage,
+    title: 'The Memory Book',
+    author: 'Jerry Lucas',
+    genre: "Fiction",
+    availability: true,
+    read:ThememorybookPdf,
+    Download: require('../assets/pdfs/The Memory Book (Harry Lora_ (Z-Library).pdf')
+  },
+  {
+    picture: PeakIMage,
+    title: 'Peak',
+    author: 'Anders Ericsson',
+    genre: "Self Help",
+    availability: true,
+    read:PeakPdf,
+    Download: require('../assets/pdfs/Peak Secrets from the New S_ (Z-Library).pdf')
+  },
+  {
+    picture: GodsisineverymanImage,
+    title: 'Gods Is In Everyman',
+    author: 'Jean Shinoda',
+    genre: "Self Help",
+    availability: true,
+    read:GodsisineverymanPdf,
+    Download: require('../assets/pdfs/Gods In Everyman A New Psyc_ (Z-Library).pdf')
+  },
   {
     picture: EverylastwordImage,
     title: 'Every Last Word',
