@@ -1,3 +1,4 @@
+/* General body styling */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f0f2f5;
@@ -5,6 +6,7 @@ body {
   padding: 0;
 }
 
+/* Search bar styling */
 .search {
   display: flex;
   justify-content: center;
@@ -22,6 +24,7 @@ body {
   margin-bottom: 10px;
 }
 
+/* Book list container */
 .book-list {
   display: flex;
   flex-direction: column;
@@ -31,6 +34,7 @@ body {
   margin: 0;
 }
 
+/* Animation for the book card background gradient */
 @keyframes gradientChange {
   0% {
     background: linear-gradient(to right, #e4e425, #9de773); 
@@ -42,10 +46,11 @@ body {
     background: linear-gradient(to right, #95b9f3, #c2e9fb); 
   }
   100% {
-    background: linear-gradient(to right, #50C878, #fce358 ); 
+    background: linear-gradient(to right, #50C878, #fce358); 
   }
 }
 
+/* Styling for each book item */
 .book-item {
   display: flex;
   align-items: center;
@@ -64,6 +69,7 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Book image styling */
 .book-image {
   width: 100px;
   height: 150px;
@@ -73,6 +79,7 @@ body {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+/* Book info section */
 .book-info {
   display: flex;
   flex-direction: column;
@@ -90,19 +97,15 @@ body {
   margin: 5px 0;
 }
 
-.book-availability {
-  font-size: 14px;
-  margin: 5px 0;
-}
-
-.genre {
-  margin: 0px;
-}
-
 .book-genre {
   font-size: 14px;
   color: #555;
-  margin: 0px;
+  margin: 0;
+}
+
+.book-availability {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 .book-availability.available {
@@ -113,23 +116,30 @@ body {
   color: red;
 }
 
+/* Link styling */
 .book-link {
   font-size: 14px;
   color: #007BFF;
   text-decoration: none;
 }
 
+/* Read button styling */
 .read {
-  color: black;
-  font: bold;
   background: linear-gradient(to right, #e95a87, #6fcdec);
   border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .read:hover {
   color: black;
 }
 
+/* Light and dark mode styling */
 body.light {
   background-color: #f5f5f5;
   color: black;
@@ -145,43 +155,61 @@ body.dark {
   color: var(--text-color);
 }
 
-.book-item.dark-mode .book-info {
-  color: white;
-}
-
+/* Back button styling */
 .back {
   background: linear-gradient(to right, #93A5CF, #E4EfE9);
   color: black;
   border-radius: 6px;
   height: 34px;
+  padding: 5px 10px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
+  cursor: pointer;
   font-size: 16px;
 }
 
+/* Icons for like, comment, and share actions */
 .book-icons {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 10px;
+  color: #f7f7f7;
 }
 
+/* Icon interaction styling */
+.heart-icon,
+.comment-icon,
+.share-icon {
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin: 0 10px;
+}
+
+/* Heart icon (like) specific styling */
 .heart-icon {
-  font-size: 18px;
-  cursor: pointer;
-  transition: color 0.3s ease;
   color: #f5f5f5;
 }
 
-.comment-icon {
-  font-size: 18px;
-  cursor: pointer;
-  transition: color 0.3s ease;
-  color: #f5f5f5;
-  margin-left: 10px;
+.heart-icon:hover {
+  color: #e0245e; /* Twitter-like red for like */
 }
 
+.heart-icon.active {
+  color: #e0245e;
+}
+
+/* Comment icon */
+.comment-icon:hover {
+  color: #1DA1F2; /* Twitter-like blue for comments */
+}
+
+/* Share icon */
+.share-icon:hover {
+  color: #1DA1F2; /* Twitter-like blue for share */
+}
+
+/* Review modal styling */
 .review-modal {
   position: fixed;
   top: 50%;
@@ -203,10 +231,9 @@ body.dark {
   margin-right: 10px;
 }
 
-.share-icon {
-  font-size: 18px;
-  cursor: pointer;
-  transition: color 0.3s ease;
-  color: #f7f7f7;
-  margin-left: 10px;
+/* Align icon with like count */
+.book-icons span {
+  margin-left: 5px;
+  font-size: 1rem;
+  color: white;
 }

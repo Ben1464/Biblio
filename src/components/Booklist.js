@@ -1054,7 +1054,8 @@ const books = [
     genre: "Self Help",
     availability: true,
     read:SpeakwithnoPdf,
-    Download: require('../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf')
+    Download: require('../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf'),
+    likeCount: 0,
   },
   {
     picture: ThememeorybookImage,
@@ -5698,6 +5699,7 @@ function Booklist() {
   const [selectedBook, setSelectedBook] = useState(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [likedBooks, setLikedBooks] = useState({});
+  const [likeCount, setLikeCount] = useState({});
   const [reviews, setReviews] = useState({});
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false);
   const [currentReviewBook, setCurrentReviewBook] = useState(null);
@@ -5705,10 +5707,12 @@ function Booklist() {
   const [shuffledBooks, setShuffledBooks] = useState([]);
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
+  // Shuffle the books when the component mounts
   useEffect(() => {
     setShuffledBooks(shuffleArray([...books]));
   }, []);
 
+  // Load the current page of the selected book from localStorage
   useEffect(() => {
     if (selectedBook) {
       const savedPage = localStorage.getItem(`bookmark-${selectedBook.title}`);
@@ -5717,6 +5721,15 @@ function Booklist() {
       }
     }
   }, [selectedBook]);
+
+  // Initialize the like count for all books when the component mounts
+  useEffect(() => {
+    const initialLikeCounts = {};
+    books.forEach((book) => {
+      initialLikeCounts[book.title] = 0; // Initialize each book's like count to 0
+    });
+    setLikeCount(initialLikeCounts);
+  }, []);
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
@@ -5735,19 +5748,27 @@ function Booklist() {
     }
   };
 
+  // Handle like button click
   const handleLikeClick = (book) => {
     setLikedBooks((prev) => ({
       ...prev,
-      [book.title]: !prev[book.title]
+      [book.title]: !prev[book.title], // Toggle like status
+    }));
+
+    setLikeCount((prev) => ({
+      ...prev,
+      [book.title]: likedBooks[book.title] ? prev[book.title] - 1 : (prev[book.title] || 0) + 1,
     }));
   };
 
+  // Handle opening of review modal
   const handleReviewClick = (book) => {
     setCurrentReviewBook(book);
     setIsReviewModalOpen(true);
     setReviewText(reviews[book.title] || '');
   };
 
+  // Handle submission of a review
   const handleReviewSubmit = () => {
     setReviews((prev) => ({
       ...prev,
@@ -5756,11 +5777,12 @@ function Booklist() {
     setIsReviewModalOpen(false);
   };
 
+  // Handle sharing of a book
   const handleShareClick = async (book) => {
     const shareData = {
       title: book.title,
       text: `Check out this book: ${book.title} by ${book.author}`,
-      url: window.location.href
+      url: window.location.href,
     };
 
     try {
@@ -5776,11 +5798,12 @@ function Booklist() {
     }
   };
 
-  // Update the filtering logic to include genre in the search.
-  const filteredBooks = shuffledBooks.filter(book =>
-    book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    book.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    book.genre.toLowerCase().includes(searchQuery.toLowerCase())
+  // Filter books based on search query (title, author, or genre)
+  const filteredBooks = shuffledBooks.filter(
+    (book) =>
+      book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      book.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      book.genre.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
@@ -5794,9 +5817,12 @@ function Booklist() {
           className="search-input"
         />
       </div>
+
       {selectedBook ? (
         <div className="pdf-viewer">
-          <button className="back" onClick={() => setSelectedBook(null)}>Back to List</button>
+          <button className="back" onClick={() => setSelectedBook(null)}>
+            Back to List
+          </button>
           <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.6.172/build/pdf.worker.min.js`}>
             <Viewer
               fileUrl={selectedBook.read}
@@ -5813,30 +5839,32 @@ function Booklist() {
               <li key={index} className={`book-item ${theme}`}>
                 <img src={book.picture} alt={book.title} className="book-image" />
                 <div className="book-info">
-                  <h3 className="book-title"><i>{book.title}</i></h3>
+                  <h3 className="book-title">
+                    <i>{book.title}</i>
+                  </h3>
                   <p className="book-author">{book.author}</p>
-                  <h4 className='genre'><i>Genre</i></h4>
-                  <p className='book-genre'>{book.genre}</p>
+                  <h4 className="genre">
+                    <i>Genre</i>
+                  </h4>
+                  <p className="book-genre">{book.genre}</p>
                   <p className={`book-availability ${book.availability ? 'available' : 'unavailable'}`}>
                     {book.availability ? 'Available' : 'Unavailable'}
                   </p>
-                  <a href={book.Download} target="_blank" rel="noopener noreferrer" className="book-link">Download</a>
-                  <button onClick={(event) => handleBookClick(book, event)} className="read">Read</button>
+                  <a href={book.download} target="_blank" rel="noopener noreferrer" className="book-link">
+                    Download
+                  </a>
+                  <button onClick={(event) => handleBookClick(book, event)} className="read">
+                    Read
+                  </button>
+
                   <div className="book-icons">
                     <FaHeart
-                      className="heart-icon"
+                      className={`heart-icon ${likedBooks[book.title] ? 'active' : ''}`}
                       onClick={() => handleLikeClick(book)}
-                      style={{ color: likedBooks[book.title] ? 'red' : 'white' }}
                     />
-                    <FaComment
-                      className="comment-icon"
-                      onClick={() => handleReviewClick(book)}
-                      style={{ color: reviews[book.title] ? 'blue' : 'white' }}
-                    />
-                    <FaShareAlt
-                      className="share-icon"
-                      onClick={() => handleShareClick(book)}
-                    />
+                    <span>{likeCount[book.title] || 0}</span>
+                    <FaComment className="comment-icon" onClick={() => handleReviewClick(book)} />
+                    <FaShareAlt className="share-icon" onClick={() => handleShareClick(book)} />
                   </div>
                 </div>
               </li>
@@ -5844,6 +5872,7 @@ function Booklist() {
           </ol>
         </div>
       )}
+
       {isReviewModalOpen && (
         <div className="review-modal">
           <textarea
