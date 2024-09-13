@@ -1027,7 +1027,17 @@ import PeakPdf from '../assets/pdfs/Peak Secrets from the New S_ (Z-Library).pdf
 import ThememeorybookImage from '../assets/images/THe memory book.jpg';
 import ThememorybookPdf from '../assets/pdfs/The Memory Book (Harry Lora_ (Z-Library).pdf';
 import SpeakwithnoImage from '../assets/images/Speak with no fear.jpg';
-import SpeakwithnoPdf from '../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf'
+import SpeakwithnoPdf from '../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf';
+import ThingsweImage from '../assets/images/Things we never git over .jpg';
+import ThingswePdf from '../assets/pdfs/Things We Never Got Over (L_ (Z-Library).pdf';
+import IfellinloveImage from '../assets/images/I fell in love with hope.jpg';
+import IfellinlovePdf from '../assets/pdfs/I Fell in Love with Hope (L_ (Z-Library).pdf';
+import SuicidenotesImage from '../assets/images/Suicide notes.jpg';
+import SuicidenotesPdf from '../assets/pdfs/Suicide Notes (Michael Thom_ (Z-Library).pdf';
+import NewmoonImage from '../assets/images/New moon.jpg';
+import NewmoonPdf from '../assets/pdfs/New Moon (The Twilight Saga_ (Z-Library).pdf';
+import BothdieatImage from '../assets/images/They both die at the end .jpg';
+import BothdieatPdf from '../assets/pdfs/They Both Die at the End (A_ (Z-Library).pdf';
 
 
 
@@ -1048,6 +1058,55 @@ import SpeakwithnoPdf from '../assets/pdfs/Speak With No Fear Go from_ (Z-Librar
 // Updated books array with correct paths to PDF files
 const books = [
   {
+    picture:BothdieatImage,
+    title: 'They Both Die At The End',
+    author: 'Adam Silvera',
+    genre: "Romance",
+    availability: true,
+    read:BothdieatPdf,
+    Download: require('../assets/pdfs/They Both Die at the End (A_ (Z-Library).pdf'),
+    
+  },
+  {
+    picture:NewmoonImage,
+    title: 'New Moon',
+    author: 'Stephenie Meyer',
+    genre: "Romance ",
+    availability: true,
+    read:NewmoonPdf,
+    Download: require('../assets/pdfs/New Moon (The Twilight Saga_ (Z-Library).pdf'),
+    
+  },
+  {
+    picture:SuicidenotesImage,
+    title: 'Suicide Notes',
+    author: 'Michael Thomas',
+    genre: "Self Help",
+    availability: true,
+    read:SuicidenotesPdf,
+    Download: require('../assets/pdfs/Suicide Notes (Michael Thom_ (Z-Library).pdf'),
+    
+  },
+  {
+    picture:IfellinloveImage,
+    title: 'I Fell In Love With Hope',
+    author: 'Lancali',
+    genre: "Self Help",
+    availability: true,
+    read:IfellinlovePdf,
+    Download: require('../assets/pdfs/I Fell in Love with Hope (L_ (Z-Library).pdf'),
+  },
+  {
+    picture: ThingsweImage,
+    title: 'Things We Never Got Over',
+    author: 'Lucy Score',
+    genre: "Thriller",
+    availability: true,
+    read:ThingswePdf,
+    Download: require('../assets/pdfs/Things We Never Got Over (L_ (Z-Library).pdf'),
+    
+  },
+  {
     picture:SpeakwithnoImage,
     title: 'Speak With No Fear',
     author: 'Dale Carnegie',
@@ -1055,7 +1114,7 @@ const books = [
     availability: true,
     read:SpeakwithnoPdf,
     Download: require('../assets/pdfs/Speak With No Fear Go from_ (Z-Library).pdf'),
-    likeCount: 0,
+  
   },
   {
     picture: ThememeorybookImage,
