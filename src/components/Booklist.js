@@ -1038,6 +1038,12 @@ import NewmoonImage from '../assets/images/New moon.jpg';
 import NewmoonPdf from '../assets/pdfs/New Moon (The Twilight Saga_ (Z-Library).pdf';
 import BothdieatImage from '../assets/images/They both die at the end .jpg';
 import BothdieatPdf from '../assets/pdfs/They Both Die at the End (A_ (Z-Library).pdf';
+import THelightwecarryImage from '../assets/images/the-light-we-carry.jpg';
+import THelightwecarryPdf from '../assets/pdfs/The Light We Carry Overcomi_ (Z-Library).pdf';
+import ThediaryofaceoImage from '../assets/images/hediary of aceo.jpg';
+import ThediaryofaceoPdf from '../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf';
+import BuldingasecondImage from '../assets/images/Building a second brain.jpg';
+import BuldingasecondPdf from '../assets/pdfs/Building a Second Brain A P_ (Z-Library).pdf';
 
 
 
@@ -1057,6 +1063,36 @@ import BothdieatPdf from '../assets/pdfs/They Both Die at the End (A_ (Z-Library
 
 // Updated books array with correct paths to PDF files
 const books = [
+  {
+    picture:BuldingasecondImage,
+    title: 'Bulding A Second Brain',
+    author: 'Tiago Forte',
+    genre: "Self Help",
+    availability: true,
+    read:BuldingasecondPdf,
+    Download: require('../assets/pdfs/Building a Second Brain A P_ (Z-Library).pdf'),
+    
+  },
+  {
+    picture:ThediaryofaceoImage,
+    title: 'The Diary Of A CEO',
+    author: 'Steven Bartlett',
+    genre: "Self Help",
+    availability: true,
+    read:ThediaryofaceoPdf,
+    Download: require('../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf'),
+    
+  },
+  {
+    picture:THelightwecarryImage,
+    title: 'The Light We Carry',
+    author: 'Michelle Obama',
+    genre: "Self Help",
+    availability: true,
+    read:THelightwecarryPdf,
+    Download: require('../assets/pdfs/The Light We Carry Overcomi_ (Z-Library).pdf'),
+    
+  },
   {
     picture:BothdieatImage,
     title: 'They Both Die At The End',
