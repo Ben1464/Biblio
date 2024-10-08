@@ -1040,8 +1040,8 @@ import BothdieatImage from '../assets/images/They both die at the end .jpg';
 import BothdieatPdf from '../assets/pdfs/They Both Die at the End (A_ (Z-Library).pdf';
 import THelightwecarryImage from '../assets/images/the-light-we-carry.jpg';
 import THelightwecarryPdf from '../assets/pdfs/The Light We Carry Overcomi_ (Z-Library).pdf';
-import ThediaryofaceoImage from '../assets/images/hediary of aceo.jpg';
-import ThediaryofaceoPdf from '../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf';
+// import ThediaryofaceoImage from '../assets/images'
+// import ThediaryofaceoPdf from '../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf';
 import BuldingasecondImage from '../assets/images/Building a second brain.jpg';
 import BuldingasecondPdf from '../assets/pdfs/Building a Second Brain A P_ (Z-Library).pdf';
 
@@ -1073,16 +1073,16 @@ const books = [
     Download: require('../assets/pdfs/Building a Second Brain A P_ (Z-Library).pdf'),
     
   },
-  {
-    picture:ThediaryofaceoImage,
-    title: 'The Diary Of A CEO',
-    author: 'Steven Bartlett',
-    genre: "Self Help",
-    availability: true,
-    read:ThediaryofaceoPdf,
-    Download: require('../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf'),
+  // {
+  //   picture:ThediaryofaceoImage,
+  //   title: 'The Diary Of A CEO',
+  //   author: 'Steven Bartlett',
+  //   genre: "Self Help",
+  //   availability: true,
+  //   read:ThediaryofaceoPdf,
+  //   Download: require('../assets/pdfs/The Diary of a CEO  The 33_ (Z-Library).pdf'),
     
-  },
+  // },
   {
     picture:THelightwecarryImage,
     title: 'The Light We Carry',
